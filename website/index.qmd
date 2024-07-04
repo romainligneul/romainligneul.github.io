@@ -1,5 +1,7 @@
 ---
 title: "Romain Ligneul (FR)"
+aliases:
+  - en/index.html
 ---
 
-Main cannot be reached
+Main should not be reached
