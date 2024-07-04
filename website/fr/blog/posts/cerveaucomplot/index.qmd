@@ -1,6 +1,6 @@
 ---
 title: "Théories du complot : pourquoi le cerveau s’emmêle quand il s’en mêle ?"
-author: "Neuro89"
+author: "RL, Neuro89"
 date: "03-01-16"
 categories: [neuro89, terrorisme, sciences cognitives, complotisme]
 image: "arretetonchar.jpg"
@@ -25,9 +25,9 @@ Que tous les mensonges proférés ne soient pas pieux est une évidence, mais pe
 
 Par définition, un pieux mensonge soumet l’idéal de Vérité à la quête du Bien et si nous subissons ce type de mensonge, cela signifie que des personnes ayant accès à la « vérité » jugent que cette dernière est contraire au « bien » de ceux qui n’y ont pas accès, d’où résulte un double problème.
 
--   D’une part, d’où provient cette idée selon laquelle le peuple serait incapable de comprendre et accepter les motifs réels d’une décision politique ou d’une guerre ?
+- D’une part, d’où provient cette idée selon laquelle le peuple serait incapable de comprendre et accepter les motifs réels d’une décision politique ou d’une guerre ?
 
--   D’autre part, d’où provient ce « bien » poursuivi par ceux qui mentent si pieusement ?
+- D’autre part, d’où provient ce « bien » poursuivi par ceux qui mentent si pieusement ?
 
 Autrement dit, le pieux mensonge repose de facto sur la distinction de deux classes sociales : l’une, éclairée et informée, décidant pour une autre, confuse et désinformée. D’ailleurs, dans cette interview édifiante datant de 2009, François Hollande lui-même dénonçait la logique perverse du mensonge d’Etat proféré au nom de la lutte contre le terrorisme.
 
@@ -45,11 +45,11 @@ Sauf à sombrer dans un angélisme mystificateur consistant à croire que le gou
 
 A cette question, de nombreuses réponses sont possibles, mais on peut distinguer trois causes principales à l’émergence de telles théories.
 
--   D’une part, les conspirations et les complots ont existé et existent encore, de sorte qu’il peut parfois être justifié d’envisager cette hypothèse – avec toutes les précautions que cela suppose.
+- D’une part, les conspirations et les complots ont existé et existent encore, de sorte qu’il peut parfois être justifié d’envisager cette hypothèse – avec toutes les précautions que cela suppose.
 
--   D’autre part, en tant que discours, le conspirationnisme peut servir à défendre des intérêts ou à promouvoir des idéologies bien précises. Par exemple, les sites Panamza ou Egalité et réconciliation se distinguent clairement par leur antisionisme, de sorte que la recherche systématique de connexions entre l’Etat d’Israël et les attentats commis en France apparaît plus comme un fonds de commerce que comme du journalisme d’investigation.
+- D’autre part, en tant que discours, le conspirationnisme peut servir à défendre des intérêts ou à promouvoir des idéologies bien précises. Par exemple, les sites Panamza ou Egalité et réconciliation se distinguent clairement par leur antisionisme, de sorte que la recherche systématique de connexions entre l’Etat d’Israël et les attentats commis en France apparaît plus comme un fonds de commerce que comme du journalisme d’investigation.
 
--   Enfin, comme cela est très bien expliqué (entre autres choses) dans [le numéro spécial de la revue d’histoire Agone](http://agone.org/revueagone/agone47/enligne) paru en janvier 2012, le qualificatif même de « théorie du complot » est parfois utilisé pour décrédibiliser activement certains discours non conformes et certaines formes de journalisme d’investigation.
+- Enfin, comme cela est très bien expliqué (entre autres choses) dans [le numéro spécial de la revue d’histoire Agone](http://agone.org/revueagone/agone47/enligne) paru en janvier 2012, le qualificatif même de « théorie du complot » est parfois utilisé pour décrédibiliser activement certains discours non conformes et certaines formes de journalisme d’investigation.
 
 Si l’on peut donc comprendre pourquoi les théories du complot émergent dans le débat public, ces explications ne nous disent cependant pas pourquoi elles séduisent parfois de façon si déraisonnable leur audience. C’est ici que les (neuro)sciences cognitives peuvent aider.
 

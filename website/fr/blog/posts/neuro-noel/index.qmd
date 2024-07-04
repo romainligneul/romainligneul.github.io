@@ -1,6 +1,6 @@
 ---
 title: "Les neurosciences du Père Noël, ou ce qui nous pousse à la générosité"
-author: "Neuro89"
+author: "RL, Neuro89"
 date: "2015-12-15"
 categories: [neuro89, neuroscience, génétique, léger]
 image: "neuronoel.webp"
