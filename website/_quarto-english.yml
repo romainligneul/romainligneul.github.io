@@ -5,7 +5,6 @@ project:
   render:
   - "./en/"
   - "!./fr/"
-  - "index.qmd"
 
 website:
   body-header: |
