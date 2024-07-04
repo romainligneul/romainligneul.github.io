@@ -7,14 +7,14 @@ project:
 website:
   navbar:
     left:
-      - href: en/index.qmd
+      - href: ./en/index.qmd
         text: Home
       - href: en/codes.qmd
         text: Code
     right:
-      - href: index.qmd
+      - href: ./en/index.qmd
         text: EN
-      - href: fr/index.qmd
+      - href: ./en/fr/index.qmd
       - text: FR
         
 format:
