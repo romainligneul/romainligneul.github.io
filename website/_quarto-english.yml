@@ -1,6 +1,6 @@
 project:
   title: "Romain Ligneul | Personal page"
-  output-dir: ./docs/en
+  output-dir: ./docs/en/en
   render:
   - "./en/"
   - "!index.qmd"
