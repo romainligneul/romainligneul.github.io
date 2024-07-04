@@ -1,9 +1,8 @@
 project:
   title: "Romain Ligneul | Personal page"
-  output-dir: ./docs/en/en
+  output-dir: ./docs/
   render:
   - "./en/"
-  - "!index.qmd"
 
 website:
   body-header: |
