@@ -1,6 +1,6 @@
 project:
   title: "Romain Ligneul | Page personnelle"
-  output-dir: ./_site/fr
+  output-dir: ./docs/fr
 
 website:
   body-header: |
