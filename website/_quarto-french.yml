@@ -1,22 +1,22 @@
 project:
-  title: "Romain Ligneul | Page personnelle"
+  title: "RL | "
   output-dir: ./docs/en
   render:
   - "./fr/"
 
 website:
-  body-header: |
-    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css><button onclick="window.location = location.href.replace('/en/','/fr/');" class="btn"><i class="fa fa-language"></i> EN </button>
   navbar:
     left:
       - href: fr/index.qmd
         text: Accueil
+      - href: fr/blog/
+        text: Blog
       - href: fr/work.qmd
         text: Travail
     right:
       - href: en/index.qmd
         text: EN
-      - href: en/fr/index.qmd
+      - href: ../fr/index.qmd
       - text: FR
 
 format:

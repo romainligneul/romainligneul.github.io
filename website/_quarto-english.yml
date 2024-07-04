@@ -1,12 +1,10 @@
 project:
-  title: "Romain Ligneul | Personal page"
+  title: "RL | "
   output-dir: ./docs/
   render:
   - "./en/"
 
 website:
-  body-header: |
-    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css><button onclick="window.location = location.href.replace('/fr/','/en/');" class="btn"><i class="fa fa-language"></i> FR </button>
   navbar:
     left:
       - href: en/index.qmd
@@ -14,9 +12,9 @@ website:
       - href: en/codes.qmd
         text: Code
     right:
-      - href: en/index.qmd
+      - href: index.qmd
         text: EN
-      - href: en/fr/index.qmd
+      - href: fr/index.qmd
       - text: FR
         
 format:
