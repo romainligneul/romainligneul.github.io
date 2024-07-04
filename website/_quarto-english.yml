@@ -11,6 +11,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: code.qmd
+        text: Code
         
 format:
   html:

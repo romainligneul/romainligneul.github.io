@@ -4,7 +4,7 @@
     "href": "en/index.html",
     "title": "Romain Ligneul (EN)",
     "section": "",
-    "text": "FR Page EN"
+    "text": "FR Main landing page"
   },
   {
     "objectID": "index.html",
@@ -12,5 +12,12 @@
     "title": "Romain Ligneul (FR)",
     "section": "",
     "text": "FR Main should not be reached"
+  },
+  {
+    "objectID": "en/codes.html",
+    "href": "en/codes.html",
+    "title": "Romain Ligneul (EN)",
+    "section": "",
+    "text": "FR Here I have some codes"
   }
 ]
