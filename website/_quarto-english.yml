@@ -4,7 +4,6 @@ project:
   output-dir: ./docs/en
   render:
   - "./en/"
-  - "!./fr/"
 
 website:
   body-header: |
