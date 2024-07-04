@@ -3,6 +3,8 @@ project:
   output-dir: ./docs/en
   render:
   - "./fr/"
+  - "!index.qmd"
+
 
 website:
   body-header: |
