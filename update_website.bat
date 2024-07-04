@@ -1,5 +1,4 @@
 cd website
-rm -rf "website/docs" website/docs
 quarto render --profile english
 quarto render --profile french
 cd ..
