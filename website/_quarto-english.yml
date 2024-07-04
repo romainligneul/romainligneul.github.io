@@ -9,7 +9,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: en/index.qmd
+      - href: ./en/index.qmd
         text: Biography
         
 lang: en-US
