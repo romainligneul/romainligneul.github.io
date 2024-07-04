@@ -1,40 +1,6 @@
 project:
   type: website
-  output-dir: docs
-execute:
-  freeze: auto
 
-website:
-  title: "Cophy Project"
-  navbar:
-    background: dark
-    left:
-      - text: "Get started"
-        file: getstarted.qmd
-      - text: "Main tutorial"
-        file: tutorial.qmd        
-      - text: "Other tutorials"
-        menu:
-          - text: "Github"
-            file: help_github.qmd
-          - text: "SSH in VS code"
-            file: help_ssh.qmd
-          - text: "Interactive Jupyter over SSH"
-            file: help_ssh_jupyter.qmd
-          - text: "Quarto without Sudo"
-            file: help_quartonosudo.qmd
-          - text: "BetterBibTex and Zotero"
-            file: help_zotero.qmd
-          - text: "Edit this website"
-            file: "edit_this_website.qmd"
-  
-    right:
-      - text: "About"
-        file: about.qmd
-
-format:
-  html:
-    theme: 
-      - cerulean
-      - custom.scss
-    toc: true
+profile:
+  default: english
+  group: [english, german]

@@ -1,0 +1,23 @@
+project:
+  title: "Romain Ligneul | Personal page"
+  output-dir: ./_site/en
+
+website:
+  navbar:
+    left:
+      - href: about.qmd
+        text: Bio
+    right:
+      - href: ../fr
+        text: French
+      - href: ../en
+        text: English
+
+lang: en
+
+format:
+  html:
+    theme: morph
+    css: styles.css
+    toc: true
+
