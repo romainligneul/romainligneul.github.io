@@ -1,7 +1,6 @@
 project:
   title: "Romain Ligneul | Page personnelle"
-  output-dir: ./docs/fr
-  type: website
+  output-dir: ./docs/en
   render:
   - "./fr/"
 
@@ -14,8 +13,6 @@ website:
         text: Accueil
       - href: index.qmd
         text: Travail
-
-lang: fr-FR
 
 format:
   html:
