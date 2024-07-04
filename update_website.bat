@@ -7,4 +7,4 @@ git add .
 git commit -m "auto"
 git push
 cd website
-quarto publish gh-pages --no-render
+quarto publish gh-pages --no-render --profile english,french
