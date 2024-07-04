@@ -1,0 +1,42 @@
+---
+title: Main tutorial for Cophy Project
+toc: true
+execute: 
+  echo: true
+  freeze: true
+---
+
+<!--To start, we learn how to write down a :blush: smiley. Top priority-->
+You can use this template (and Quarto) in multiple ways. Obviously, you can use it on your personal computer(s), but you can also use directly on a shared server like the CRNL cluster (see the dedicated tuto). 
+One of the main advantages of Quarto for collaborative writing is that it is perfectly integrated with Visual Code (other IDEs also have their neat extensions, like JupyterLab, Rstudio or Neovim) and Zotero. Another big advantage is to facilitate **a lot** the integration of data processing and figure generation with the writing process. It can even use methods to automatically rewrite your statistics in the main text, each time you re-run an analysis. :blush:
+
+<!--Here you see how to make an h2 title :) other title sizes are # ## ### #### ##### ######. By the way, you might have noticed that Markdown comments are totally ignored: you won't even see empty lines in place of them in the rendered version. How convenient to exchange diverse feedback, ideas and references with colleagues, without cluttering the output!-->
+## Introduction
+
+This tutorial is obviously more complex than just logging in Google and opening a Google Doc, but it guides and explains you each step and it might still be of interest for those who want a more modern and efficient, privacy-conscious workflow, enabling real-time collaborative writing. 
+Carefully implemented, this template might be particularly useful to any researcher who wishes to make a big step forward in collaborative / open science without losing functionality (in fact, they will gain functionality). Let's not forget that careers and labs last for decades and that good workflows can save you from weeks or months of (cumulative) suboptimal procedures. 
+
+<!--Here, the markup for bold fonts-->
+Last but not least, it relies entirely on **free, open-source** software! 
+
+<!--Here, you can see how an external URL can be linked in a Markdown file. In between the brackets [], you find the text which will be rendered and in parentheses () you see the actual URL that will be opened after clicking -->
+Markdown is at the heart of our approach. It is *the* markup language that allows extremely quick and reproducible writing. Markdown is mostly defined by its syntax, where different symbols activate different functions. For example, the symbol # can be used to create titles of different size. # Will produce a huge title, whereas #### will produce a much smaller title. Symbols like \*, \_ , \~ or \^ allow to write bold, italics, subscript or superscript characters. Messaging apps like What's App also use some of these syntactic shortcuts, but Markdown goes much farther and allows to create citations, URL links, tables, lists, figures, etc using a similar approach. The [Markdown website](https://www.markdownguide.org/) is a good place to get started. Note that Github and many other Web development tools apps use Markdown routinely. Furthermore, Markdown allows formatting using in-line HTML (very potent) and templating like conventional word processors (i.e. choice of fonts, font style, color, etc.) using a .css style file and other methods.
+
+<!--Here, you can see how easy it is to generate a numbered list in Markdown! The leading 1. 2. etc are sufficient! -->
+However, as efficient as it can be, Markdown alone is not sufficient for academic writing.
+1. First, we should install and configure some tool to manage citations and bibliographies. For this, we will use [Zotero](https://www.zotero.org/) which has also an excellent support and great extensions.
+2. Third, we may want to set up a pipeline to collaborate efficiently using Github and the LiveShare extension of Visual Code in order to allow real-time collaborative writing (the same approach also allows real-time collaborative coding). It is very well maintained by Microsoft and it is free.
+3. Along the way, we may install other optional software such as [MikTex](https://miktex.org/) to facilitate the writing of equation and export to PDF, or [Mermaid](https://mermaid.js.org/) to write down graphs in Markdown.
+
+<!--Here you can see an example of strong italic font (in between the *** *** symbols)=-->
+If you open the file used to render the content you're reading using an IDE (like Visual Code), you'll find a lot of comments that explain how Markdown was used to write it. You'll find examples for most markup techniques. If you've clone the repository (as indicated in the installation step), you will find the source file at website/tutorial.qmd.
+
+## Citations
+
+The first thing we want to learn is to cite a paper. There are many ways to do so, but you'll probably often use the amazing tool provided by Quarto.
+
+To activate Quarto's citation picker, just type Ctrl+Shift+F8. Otherwise, if you are in the Visual Mode, you can use the menu: Insert --\> Citation.
+
+Once you've cited an item, it will appear as an unformatted citation key [@WATSON1953] in the file. Don't worry, the principle of Markdown is to decouple writing from rendering text. This is why is it so fast and fluid, but also why you may see peculiar markup, even when using the Visual Mode.
+
+In principle, Quarto automatically detects your local Zotero database and gives your the possibility of picking your own articles. However, if you are using Quarto through the VScodeSSH methods, it won't find your Zotero that runs on a different system (your local computer). It is unlikely that you'll be often using Quarto in this way to write because this connection mode is mostly useful whenever you want to run demanding computations on the server using the VScodeSSH-Jupyter approach. There are ways to go around this limitations, but it is a bit too advanced for now.

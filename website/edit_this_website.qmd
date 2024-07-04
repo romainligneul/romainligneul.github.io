@@ -1,0 +1,36 @@
+---
+title: How to edit this website
+toc: true
+execute: 
+  echo: true
+  freeze: true
+---
+
+To modify this website you'll have to:
+
+1. Join the [cophyteam](https://github.com/cophyteam) organisation on Github. If you have not already been added, please share your Github account in the dedicated channel on Cophy Mattermost (i.e. ⚒️ Git - Github).
+
+2. Still on Mattermost, ask Mathilde or Romain to add you as a collaborator to the [project-template](https://github.com/cophyteam/project-template) repository.
+
+3. Log into Github and make sure your command line is connected to (see the [Github help](/help_github.html) if needed)
+
+4. Clone the [project-template](https://github.com/cophyteam/project-template) repository.
+
+5. Make the change you want to do in the `website` folder. 
+
+6. Make your you've `cd` in the website-specific folder and type `quarto render`
+
+::: {.alert .alert-dismissible .alert-warning} 
+Please only edit the .qmd files within the "website" folder. 
+If you want to add a new .qmd web page, then you'll have to update the file .website/_quarto.yml (website: navbar: zone).
+In principle, you should not need to changes other file. You may play with the .scss file if you know what you are doing.
+:::
+
+7. Return to the main folder `cd ..`
+
+8. Add, commit and push to the main branch. 
+
+9. Return to the website folder `cd website` and type `quarto publish gh-pages`. This should automatically trigger and update of the [website](https://cophyteam.github.io/project-template) after a few minutes (you can check the deployment process [here](https://github.com/cophyteam/project-template/actions))
+
+
+Simple, isn't it?

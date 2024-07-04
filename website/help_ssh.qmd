@@ -1,0 +1,94 @@
+---
+title: Connecting to the CRNL server over SSH in Visual Code
+toc: true
+execute: 
+  echo: true
+  freeze: true
+---
+
+Visual Code has a great [Remote
+SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+extension that can be used to connect remotely to the CRNL server,
+without having to constantly enter your password. Except for using
+Matlab (it may change soon), working on the server from VScode has only
+advantages, starting with **speed** (as compared to laggy VNC
+connections). Since the connection process can be a bit tedious, here
+are the steps to follow. You have only to follow them once. It is
+assumed that you use Windows, but it should be similar on other
+platforms.
+
+## Set up the VPN of INSERM (if you are outside the CRNL premises)
+
+To access the CRNL servers from outside, following this tutorial.
+
+<https://wiki.crnl.fr/doku.php?id=wiki:informatique:services:vpn>
+
+You need your CRNL identifiers to access this page. Essentially, besides
+installing the software, **you have to fill the PDF "fiche"**
+([here](https://wiki.crnl.fr/doku.php?id=wiki:informatique:services:vpn))
+and send it to [pe.aguera\@inserm.fr](pe.aguera@inserm.fr). Then, it
+will be a matter of days before you can access the CRNL infrastructure
+remotely. You'll be noticed by email.
+
+If you don't have an INSERM email, you can ask one if you work at CRNL
+(even if you are affiliated to CNRS or UCBL).
+
+## Connect with username and password
+
+In Visual Code, first click on the bottom left icon of the Remote SSH
+extension.
+
+![](images/paste-1.png)
+
+-   Type, connect to host and enter: `ssh yourusername@10.69.168.62`
+
+-   Then, you'll be asked to enter your password.
+
+-   Open your */home/yourusername* folder (it will ask your password a
+    2nd time)
+
+-   Create a .ssh folder (*/home/yourusername/.ssh*) and inside that
+    folder, create a file named *authorized_keys* (without any
+    extension)
+
+-   Open this file
+
+Leave open this Visual Code session that we will call the *server
+session*, to open and create the pair of keys.
+
+## Create a pair of keys and configure them
+
+1.  Open VS code a second time on your local computer. We will call this
+    one the *local session*
+2.  Open a terminal in this local session.
+3.  `cd` to the folder of your choice (that's where the SSH keys will be
+    stored, so there should be **no space** in the path)
+4.  Type `ssh-keygen -t ed25519` and chose whatever name you like for
+    the key. You don't have to set a password. If ssh-keygen is throwing
+    an error, see
+    [here](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui#install-openssh-for-windows).
+5.  Two files are created, open the file ending with a .pub extension
+    using VS code or any text editor.
+6.  Copy its content and paste it in the *authorized_keys* file that
+    should be opened in your VS code *server session* (the one we used
+    first)
+7.  Now, return to your *local session* and click again on the blue icon
+    of the Remote SSH extension (bottom left).
+8.  Click *Connect to host*
+9.  Click *Configure SSH Hosts*
+10. Click on the line displaying C:\\Users\\UserName\\.ssh\\config and
+    make sure it looks as follow:
+
+```         
+Host 10.69.168.62
+  HostName 10.69.168.62
+  ForwardX11 yes
+  User firstname.lastname
+  IdentityFile C:\pathofyourkeyfile\yourkeyfile
+```
+
+Of course, change the User and IdentityFile fields for your own username
+and path to the key (do not include the .pub extension)
+
+That's it. In principle, the next time you click on *Connect to host* in
+Visual Code, you won't have to enter any password.

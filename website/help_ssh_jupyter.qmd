@@ -1,0 +1,132 @@
+---
+title: Using Interactive Jupyter over SSH
+toc: true
+execute: 
+  echo: true
+  freeze: false
+---
+
+Visual Code over SSH is great but it is limited in its ability to run interactive Jupyter notebooks unless X11 forwarding is properly configured.
+Another way to go is to run a persistent Jupyter lab session on your remote SSH server and forward it through a tunnel.
+
+## Extend your .bashrc file
+
+To do so, we need to edit our .bashrc file (in /home/username/.bashrc) and add the following lines at the end.
+
+```{bash}
+# >>> Jupyterlab Remote >>>
+function jlremote {
+    echo $(hostname) > ~/.jupyternode.txt
+    cd /crnldata/cophy/
+    XDG_RUNTIME_DIR= jupyter lab --no-browser --port=9753 --ip=$(hostname)
+}
+# <<< Jupyterlab end config <<<
+```
+
+Note that the --port variable can be changed to your preference.
+
+Thanks to this piece of code, each time a terminal will open, the function jlremote will be added to the path.
+
+## Launch the Jupyter session
+
+Most remote linux servers will offer the opportunity to run tmux, that allows opening a persistent shell session.
+
+In your remote terminal, type `tmux`. The tmux session will open. That is where we wll run our Jupyter notebook.
+
+Then, type `srun --mem=4G --pty bash`. This will associate your tmux session with a compute node on the remote server.
+You can adjust the memory you need for your notebooks.
+
+Then, type `jlremote`. This will launch your Jupyter lab session. It might take a bit of time before displaying a message like this one
+
+```{bash}
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+```
+
+Copy the token value (after = sign) and keep it somewhere.
+
+## Set up the SSH tunnel
+
+### Windows
+
+On your local Windows compute, create a .bat file
+
+```{bat}
+@echo off
+setlocal
+:: the port you've chosen in the function jlremote 
+set port=9753
+:: your username on the remote server
+set remote_username=firstname.lastname
+:: your machine IP
+set remote_hostname=10.69.168.62 
+
+for /f "tokens=* usebackq" %%i in (`powershell -command "ssh %remote_username%@%remote_hostname% 'tail -1 ~/.jupyternode.txt'"`) do set node=%%i
+
+:: Read the node from the temporary file
+set /p node=<node.txt
+
+set url=http://localhost:%port%
+
+:: Construct and run the SSH command
+set cmd=ssh -CNL 8888:%node%:%port% %remote_username%@%remote_hostname%
+echo Running '%cmd%'
+
+:: Delete the temporary file
+del node.txt
+
+%cmd%
+
+endlocal
+```
+
+Run (or double click on) the .bat file.
+
+You should be able to use your notebook by using the address provided earlier.
+
+`http://localhost:8888/?token=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
+
+You may also just use `http://localhost:8888/` and add the token manually. 
+
+You may set a simple password to access the notebook without the token in the future.
+
+
+### Linux
+
+On your local Windows compute, create a .bat file
+
+```{bash}
+function jllocal {
+    port=9753
+    remote_username=USERNAME
+    remote_hostname=HOSTNAME
+    node=$(ssh $remote_username@$remote_hostname 'tail -1 ~/.jupyternode.txt')
+    url="http://localhost:$port"
+    echo "Opening $url"
+    open "$url"
+    cmd="ssh -CNL "8888":"$node":"$port" $remote_username@$remote_hostname"
+    echo "Running '$cmd'"
+    eval "$cmd"
+}
+```
+
+Run (or double click on) the .bat file.
+
+You should be able to use your notebook by using the address provided earlier.
+
+`http://localhost:8888/?token=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`
+
+You may also just use `http://localhost:8888/` and add the token manually .
+
+You may set a simple password to access the notebook without the token in the future.
+
+
+## Credits
+
+
+This tutorial was largely inspired by this one:
+
+https://benjlindsay.com/posts/running-jupyter-lab-remotely/
+

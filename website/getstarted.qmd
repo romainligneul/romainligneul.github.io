@@ -1,0 +1,122 @@
+---
+title: Getting started
+toc: true
+execute: 
+  echo: false
+  freeze: true
+---
+
+## Installation
+
+This template is leveraging modern tools that enable reproducible, open and collaborative science. So, to use it, you will have to install a few things that are very broadly used nowadays.
+
+1.  **An integrated development environment**. By default, we will use [Visual Code](%5Bhttps://code.visualstudio.com/%5D(https://code.visualstudio.com/))) for this tutorial, but you could work also with JupyterLab, Rstudio or Neovim. Other IDEs such as PyCharm or Eclipse are also possible but less recommended.
+2.  **A virtual environment manager**. We will use [Anaconda](https://www.anaconda.com/download) that greatly facilitates the creation and management of virtual environments based on Python (but not only). If asked about by the installer, make sure to tick *Add Anaconda to my PATH environment variable*.
+3.  **A version-control software**. We will use [Git](https://git-scm.com/) and since this repository is on Github, we'll also use the [Github CLI](https://cli.github.com/) (Github command line interface). You don't need to install the Github CLI manually (it is done through Anaconda).
+4.  **An open-source scientific and technical publishing system**. We will use [Quarto](https://quarto.org/docs/download/) to export our productions to various formats. Quarto is a young but very promising and potent framework dedicated to scientific publishing in all its forms (i.e., dashboards, reports, manuscripts, books, websites, presentations). Make sure to download [version 1.4 or above]{style="color:red"}. For now, it is only available from the *Pre-release* tab. Uninstall the previous version beforehand if you had installed one already.
+
+The installation of these tools should not take long (\~5 minutes), since they are all lightweight and that you just have to follow the default installation procedures.
+
+::: {.alert .alert-dismissible .alert-warning} 
+If you install quarto on Linux without sudo access, you might need to follow this [guide](help_quartonosudo.qmd)
+:::
+
+
+## Configuration
+
+The following steps assume that the 5 tools described above have been successfully installed. They should take 10-15 minutes to complete.
+
+### Work from the command line
+
+To use the template and the tools above, you will need to work a little bit from a *Terminal*. If you have Visual Studio Code or any other good IDE, you will be able to open a terminal from inside it.
+
+By default, VS code opens a "Powershell" terminal on windows, but it is better to work from a simple command line, so press *Ctrl+Shit+P* (a little search field will appear at the top), type "terminal select default", press *Enter* and select "Command Prompt".
+
+In VS code you can then open the terminal through the top menu (*Terminal -\> New Terminal*). You could also do *Ctrl+Shift+P,* type "Create New Terminal" and press enter. In general, all actions and settings of VScode can be searched and accessed through *Ctrl+Shift+P.*
+
+### Look for a convenient place on your computer
+
+Any command line interface allows you to `cd` to any place of your computer. On Windows, if you need to move from one drive to another, you'll have first to type the letter of your drive (like this `M:` or `D:`). If you need to create a dir in the current directory, you can use the function `mkdir WhateverNewFolderName`.
+
+::: {.alert .alert-dismissible .alert-warning} 
+1. Never use a path containing **spaces**.
+
+2. Never combine systems like Google Drive or Dropbox with version-controlled folder.
+
+3. The shortest the path the better (for example, something like `C:/Projects/` is great)
+:::
+
+For the rest of this tutorial, we will assume that you work in: `C:/Projects/` but you could work in any other folder.
+So, if we don't have that folder already we can type the following commands.
+
+```{bash}
+C:
+mkdir Projects
+cd Projects
+```
+
+### Log in Github and get the template 
+
+#### Proper method
+
+1. Go on [Github](https://github.com/) and login into your account (create one if you do not have one already).
+
+2. Visit the following page: [https://github.com/cophyteam/project-template](https://github.com/cophyteam/project-template) and click on the green button *Use this template -> Create a new repository*. Give the repository any name you want. Hereafter, we will assume that you named it `mycophyproject`. You can keep it public (if you are ok for anyone to see it) or private.
+
+3. Once it has generated the repository, click on the green button *Code* and copy paste the address of the repository (e.g. `https://github.com/yourgitname/mycophyproject.git) 
+
+4. Return to your command line and type `gh auth login` (this step requires the Github CLI installed). Follows the instructions to connect your command line with your Github account.
+
+5. Finally, type `git clone https://github.com/yourgitname/mycophyproject.git`.
+
+This proper method allows you: (i) to use private repositories and (ii) to edit the repositories. Note that Github CLI (gh) is not strictly necessary here, but it helps.
+
+#### Quick and dirty
+
+Just type `git clone https://github.com/cophyteam/project-template`. Doing so will immediately get you the template repository. You won't even need a Github account or the Gitlab CLI, but it means that you will have to configure your Git by yourself (which may be the way to go if you prefer Gitlab over Git for example)
+
+#### Quicker and dirtier
+
+Just visit [https://github.com/cophyteam/project-template](https://github.com/romainligneul/cophy-project), click the gray button *Code -> Download Zip* and unzip where you want. If you choose this way, you don't even need to install Git. Although, it might be useless to do this tutorial if you don't want to use Git. 
+
+### Finish the configuration
+
+Assuming that you entered in the newly created folder already (e.g. by typing `cd mycophyproject` or `cd C:/Projects/mycophyproject`), there is just a few commands to run to finalize the installation of the template.
+
+1.  depending on your system, type `conda env create --file=quarto-env-windows.yml` or `conda env create --file=quarto-env-linux.yml`
+
+2.  type `conda activate quarto-env`
+
+3.  type `python -m ipykernel install --user --name quarto-env`
+
+4.  type `quarto install tinytex` (optional, to generate PDF documents)
+
+If the conda commands throw an error (it should not if you read carefully the installation guidelines above), check this [troubleshooting](https://bobbyhadz.com/blog/conda-is-not-recognized-as-internal-or-external-command).
+
+That's it! You can now use and modify the template to your needs. Check the corresponding [section](tutorial.qmd) for more guidance on how to use and develop the template together with Quarto.
+
+If you encountered an issue, you can report it [here](https://github.com/romainligneul/cophy-project/issues)
+
+## Bonus steps for VScode users
+
+One strength of Visual Studio Code is its amazing ecosystem of extensions. Getting the right extensions can facilitate your life in many ways. Hereafter, a list of extensions you might want to install:
+
+-  Connect directly to any remote server: [SSH extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+
+- Real-time collaboration tool (great to debug and even write together): [LiveShare](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+
+- Facilitate the use and the understanding of Git: [GitGraph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+
+- Preview any website or HTML within VScode: [VScode browser](https://marketplace.visualstudio.com/items?itemName=Phu1237.vs-browser)
+
+- Use interactive Jupyter notebooks within VScode: [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+
+-  Simplifies working with Quarto: [Quarto](https://marketplace.visualstudio.com/items?itemName=quarto.quarto)
+
+- Get the help of GPT when coding: [GenieAI](https://marketplace.visualstudio.com/items?itemName=genieai.chatgpt-vscode)
+
+- Make almost any code look prettier: [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+- Facilitate the use of Python: [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
+There are many more to explore (see *File -> Extensions*)

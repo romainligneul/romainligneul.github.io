@@ -1,0 +1,126 @@
+---
+title: Manuscript Template
+author:
+  - name: Author One
+    orcid: 0000-0002-0760-5497
+    corresponding: true
+    email: youremail@email.com
+    roles:
+      - Investigation
+      - Project administration
+      - Software
+      - Visualization
+    affiliations:
+      - name: CRNL
+  - name: Author Two
+    orcid: 0000-0002-7859-8394
+    corresponding: false
+    roles: []
+    affiliations:
+      - name: CRNL
+keywords:
+  - quarto
+  - neuroscience
+  - coffee
+toc: true
+toc-depth: 2
+csl: "styles/current-biology.csl"
+execute: 
+  echo: false
+format: docx
+---
+Version: {{< var version >}}
+{{< include functions/_stats_format.qmd >}}
+
+## General Information
+
+This is a template meant to accelerate the adoption of Quarto. It does
+not do much, besides providing an extensively configured header. The
+header contains various fields that provide standard information about
+the paper and some formatting rendering options. Check it out.
+
+## References
+
+It is quite easy to include citations. You can either use Crtl+Shit+F8
+to call the utility of Quarto to add from your local Zotero (and other
+sources), or you can populate manually your references.bib file and
+write down citation keys directly [@abbasi2023]. Look at the end of this
+file to see how the bibliography is inserted.
+
+## Automatic inclusion of statistics
+
+To include statistics automatically, you need to **include** additional
+.qmd files. Here, we include the following file
+`functions/_stats_format.qmd`. This allows us to write down statistics
+in using the following expression: `{python} Ttest("stock")`.
+
+Here is a result based on the output from Matlab's ttest() function,
+displayed automatically: `{python} Ttest("stock")`
+
+Here is another results based on the output from R lm() function:
+`{python} Rlm("example","weight")`
+
+One may also output directly text to display from Matlab, R, Python or Julia:
+`{python} textStat("glmeExample","newprocess")`
+
+`{python} Mcorr("totest","weight", "age")`
+
+## Automatic inclusion of images
+
+There are various ways to include images in a document. At the simplest,
+you just need to reference the image path and possibly add some
+formatting parameters. For example:
+
+But we can also make use of Quarto layouts.
+
+## Bibliography
+
+::: {#refs}
+:::
+
+## Figures
+
+### Insert pre-generated figure
+
+![Example
+Figure](_analyses/figures/writingTime.png){#fig-exampleImported
+fig-align="center" width="50%" fig-cap-location="bottom"}
+
+### Insert Python figure (matplotlib)
+
+::: {width="100%"}
+```{python}
+#| fig-cap: 
+#|   - "Example Python Figure with Caption. (A) Something. (B) Something else. (C) Yet another thing."
+#| 
+import matplotlib.pyplot as plt
+import numpy as np
+
+# example data
+x = np.arange(0.1, 4, 0.1)
+y1 = np.exp(-1.0 * x)
+y2 = np.exp(-0.5 * x)
+
+# example variable error bar values
+y1err = 0.1 + 0.1 * np.sqrt(x)
+y2err = 0.1 + 0.1 * np.sqrt(x/2)
+
+
+fig, (ax0, ax1, ax2) = plt.subplots(nrows=1, ncols=3, sharex=True,
+                                   figsize=(9, 4))
+
+ax0.set_title('A', loc='left')
+ax0.errorbar(x, y1, yerr=y1err)
+ax0.errorbar(x, y2, yerr=y2err)
+
+ax1.set_title('B', loc='left')
+ax1.errorbar(x, y1, yerr=y1err, errorevery=6)
+ax1.errorbar(x, y2, yerr=y2err, errorevery=6)
+
+ax2.set_title('C', loc='left')
+ax2.errorbar(x, y1, yerr=y1err, errorevery=(0, 6))
+ax2.errorbar(x, y2, yerr=y2err, errorevery=(3, 6))
+
+plt.show()
+```
+:::

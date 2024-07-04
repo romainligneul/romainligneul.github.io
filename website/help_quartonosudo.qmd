@@ -1,0 +1,35 @@
+---
+title: Quarto without Sudo rights on Linux
+toc: true
+execute: 
+  echo: true
+  freeze: true
+---
+
+Here are the steps to follow. Open a command line and type:
+```{bash}{ .sourceCode .bash .code-with-copy}
+`wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.504/quarto-1.4.504-linux-amd64.tar.gz`
+```
+```{bash}{ .sourceCode .bash .code-with-copy}
+`mkdir ~/opt`
+```
+```{bash}{ .sourceCode .bash .code-with-copy}
+`tar -C ~/opt -xvzf quarto-1.4.504-linux-amd64.tar.gz`
+```
+```{bash}{ .sourceCode .bash .code-with-copy}
+`mkdir ~/bin`
+```
+```{bash}{ .sourceCode .bash .code-with-copy}
+`ln -s ~/opt/quarto-1.4.504/bin/quarto ~/bin/quarto`
+```
+If you have an error at this step because the symbolic link exists already, type:<br> `rm ~/bin/quarto`
+```{bash}{ .sourceCode .bash .code-with-copy}
+`( echo ""; echo 'export PATH=$PATH:~/bin\n' ; echo "" ) >> ~/.profile`
+```
+```{bash}{ .sourceCode .bash .code-with-copy}
+`source ~/.profile`
+```
+
+```{bash}{ .sourceCode .bash .code-with-copy}
+quarto check
+```

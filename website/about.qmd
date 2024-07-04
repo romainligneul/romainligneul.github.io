@@ -1,0 +1,32 @@
+---
+title: "COPHY Project"
+about:
+  template: jolla
+  image: img/neuron.PNG
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/romainligneul/cophy-project
+    - icon: cup-hot-fill
+      text: Cophy
+      href: https://cophyteam.wixsite.com/website-1
+
+---
+
+This website provides information about the template used for new scientific projects in the COPHY team. Like the template itself, the website may change and grow over time.
+
+## Idea
+
+All scientific project share similar components and they can therefore be integrated within a standard template, provided that the template is flexible enough. Templating does not only facilitate collaborative open science, it can also greatly accelerate the overall scientific process, thanks to a myriad of excellent tools such as Git, Quarto, Jupyter, etc.
+
+## Dissociating writing from rendering content
+
+Academics spend a lot of their time writing papers, proposals, reports and other documents. Many are happy with traditional workflows combining a commercial word processors (e.g. Word) with a bibliography software such as Zotero or Mendeley.
+But academic writing is often collaborative and a lot of researchers actually need to use Google Docs (with some plugins) to do so.
+The problem is that Google Docs offer little guarantees when it comes to privacy, and it is rather limited when it comes to templating, writing equations or simply using it offline. Moreover, Google Docs still constitute one more interface in the daily life of academics (and not the best). By reading step by step the documentation of this website, you may set up an alternative writing workflow using Markdown.
+
+Habits are strong and starting to use Markdown entails a little switch cost, but it should be largely compensated by all the benefits of using it in the context of the proposed template. Check the documentation of this website to know more.
+
+## How to contribute
+
+To contribute to the development and conception of the template, you can write to [romain.ligneul\@inserm.fr](mailto:romain.ligneul@inserm.fr). You'll need a [Github account](github.com). You will also have to join the [Cophy Team organization](https://github.com/cophyteam/). 

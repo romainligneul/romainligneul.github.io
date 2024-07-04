@@ -1,0 +1,17 @@
+project:
+  output-dir: _output
+
+toc: false
+number-sections: false
+bibliography: references.bib  
+
+format:
+  html:
+    theme: 
+      - cerulean
+    html-math-method: katex
+
+  pdf:
+    documentclass: report
+    margin-left: 30mm
+    margin-right: 30mm

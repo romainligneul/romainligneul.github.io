@@ -1,0 +1,34 @@
+---
+title: Optimize Zotero for Markdown citations
+toc: true
+execute: 
+  echo: true
+  freeze: true
+---
+
+::: {.alert .alert-dismissible .alert-info}  
+In principle, if you use the citation utility of Quarto, you don't have to run the following steps as it will automatically detect your local Zotero and create a bibliography file holding all the references you'll insert in your project. They are only useful if your want to manually enter citation keys in your Markdown.
+:::
+
+To what flawlessly with Markdown, Zotero only needs one extension:
+[**Better Bibtext for Zotero**](https://retorque.re/zotero-better-bibtex/) to help keep its librairy updated and available for our Visual Studio / Markdown duo. The installation process is a bit unusual as you need to:
+
+-  Download an .xpi file from [here](https://github.com/retorquere/zotero-better-bibtex/releases/) (you may need to right click and "save the link target") and install it in Zotero (see below)
+
+-  Download a .lua file (possibly still available [here](https://retorque.re/zotero-better-bibtex/exporting/zotero.lua)) as recommended in this [tutorial](https://retorque.re/zotero-better-bibtex/exporting/pandoc/) (which is not very clear, but fortunately, no need to read it for now). Just place it somewhere simple on your computer (e.g. at `C://whateverfoldername/zotero.lua`). Avoid to spaces in the path as spaces make path more annoying in general (e.g.don't put it in G://My Drive/..). 
+
+Make sure to complete the six steps below:  
+
+1. Download the latest version of ZoteroBetterBibTeX (the .xpi file).
+   
+2. Install the .xpi file in Zotero (Tools >> Add-ons >> 'Cogwheel button' >> Install add-on from file).
+   
+3. In Zotero preferences, set the Better BibTeX citation key format to [auth:lower][year].
+   
+4. Select all your references in Zotero, right-click and make a BetterBibTeX refresh (“Refresh BibTeX key”).
+   
+5. Create an auto-updating library of your citation keys: Zotero >> File >> Export Library. Use "Better BibLaTeX" format. Tick “Keep updated”. Remember the folder where you put the library. Again, avoid having spaces in your path. For example, you might name and place the file so as to get it at `C://whateverfoldername/zoteroMyLibrairy.bib`
+   
+6. In Zotero, set Preferences >> Better BibTeX >> Automatic export >> Automatic export: On change. This keeps the .bib file updated with any new references that you add in Zotero.
+
+Essentially, what we've done here is allow Zotero to communicate with Visual Code and Markdown. We have also prepared the process of exporting citations and creating nice bibliographies. 
