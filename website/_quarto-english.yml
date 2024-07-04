@@ -13,6 +13,11 @@ website:
         text: Home
       - href: en/codes.qmd
         text: Code
+    right:
+      - href: en/index.qmd
+        text: EN
+      - href: en/fr/index.qmd
+      - text: FR
         
 format:
   html:
