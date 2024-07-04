@@ -1,15 +1,15 @@
 ---
 title: "Les neurosciences du Père Noël, ou ce qui nous pousse à la générosité"
-author: "Harlow Malloc"
-date: "2015-12-25"
-categories: [neuro89, science légère]
+author: "Neuro89"
+date: "2015-12-15"
+categories: [neuro89, neuroscience, génétique, léger]
 image: "neuronoel.webp"
 description: "La générosité qui caractérise notamment la période des fêtes de Noël constitue un véritable défi pour les sciences du vivant. D’où nous vient cette motivation qui semble s’opposer aux principes de Darwin et à la logique de nos gènes, souvent taxés d’égoïsme ? Éclairage sur l’un des aspects les plus heureux de la nature humaine."
 ---
 
 Dès que leurs ressources sont suffisantes et même parfois lorsqu’elles ne le sont pas, la plupart des êtres humains dépensent de l’énergie, du temps et de l’argent pour faire des cadeaux à leur famille, à leurs amis, à leurs collègues, voire à de parfaits inconnus – par l’intermédiaire d’associations [solidaires](https://web.archive.org/web/20160221231507/http:/www.lescadeauxsolidaires.fr/) et [fraternelles](https://web.archive.org/web/20160221231507/http:/www.chainedelespoir.org/fr).
 
-Si cette inclination existe déjà dans les sociétés humaines les plus primitives, comme l’a montré le sociologue et anthropologue Marcel Mauss dans son [« Essai sur le don »](https://web.archive.org/web/20160221231507/https:/lectures.revues.org/520) (1925), les raisons qui poussent l’être humain à offrir sont longtemps restées problématiques pour la biologie. En effet, puisque toutes les ressources peuvent aider dans la célèbre «  lutte pour la survie et la reproduction  » darwinienne, [l’altruisme](https://web.archive.org/web/20160221231507/https:/fr.wikipedia.org/wiki/Altruisme) humain – dont les cadeaux de Noël constituent un genre particulier – a posé et continue de poser de sérieuses questions scientifiques... et pratiques aussi, puisque mieux comprendre la psychologie du Père Noël est également utile pour qui veut optimiser sa récolte de cadeaux  !
+Si cette inclination existe déjà dans les sociétés humaines les plus primitives, comme l’a montré le sociologue et anthropologue Marcel Mauss dans son [« Essai sur le don »](https://web.archive.org/web/20160221231507/https:/lectures.revues.org/520) (1925), les raisons qui poussent l’être humain à offrir sont longtemps restées problématiques pour la biologie. En effet, puisque toutes les ressources peuvent aider dans la célèbre «  lutte pour la survie et la reproduction  » darwinienne, [l’altruisme](https://web.archive.org/web/20160221231507/https:/fr.wikipedia.org/wiki/Altruisme) humain – dont les cadeaux de Noël constituent un genre particulier – a posé et continue de poser de sérieuses questions scientifiques... et pratiques aussi, puisque mieux comprendre la psychologie du Père Noël est également utile pour qui veut optimiser sa récolte de cadeaux!
 
 **La «  générosité utile  » des animaux**
 
