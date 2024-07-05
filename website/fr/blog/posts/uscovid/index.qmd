@@ -2,7 +2,7 @@
 title: "Covid-19 a-t-il pu naître sur le territoire américain?"
 author: "RL, Libération"
 date: "2020-04-22"
-categories: [liberation, covid19, politique]
+categories: [liberation, covid19, politique, medias]
 image: "covid19map.jpg"
 image-alt: "Répartition des cas confirmés de Covid-19 au 20 avril 2020. Source: Wikimedia Commons"
 description: "Les insinuations de Donald Trump, d'après qui Covid-19 proviendrait d'un laboratoire chinois, font actuellement le tour du monde. Il est donc temps de rappeler que les États-Unis ne sont pas, eux non plus, au delà de tout soupçon."

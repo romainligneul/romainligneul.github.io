@@ -11,7 +11,7 @@ website:
         text: Accueil
       - href: fr/blog/
         text: Blog
-      - href: fr/work.qmd
+      - href: fr/recherche.qmd
         text: Travail
     right:
       - href: "./"
@@ -23,5 +23,5 @@ format:
   html:
     theme: 
       - cerulean
-      - ../custom.scss
+      - ../../custom.scss
     toc: true

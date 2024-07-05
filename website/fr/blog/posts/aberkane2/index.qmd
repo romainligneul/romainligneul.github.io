@@ -2,7 +2,7 @@
 title: "Déconstruction d'un livre qui voulait libérer notre cerveau "
 author: "RL, Libération"
 date: "2016-10-31"
-categories: [liberation, neuroscience, aberkane, livres]
+categories: [liberation, neuroscience, aberkane, livres, medias]
 image: "bibliotheque.jpg"
 description: "Le livre publié récemment par Idriss Aberkane, «Libérez votre cerveau» est à l'image du CV de son auteur: une mystification qu'il s'agit de démonter."
 title-block-banner: "bibliotheque.jpg"

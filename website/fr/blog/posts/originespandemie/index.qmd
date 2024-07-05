@@ -2,7 +2,7 @@
 title: "Origines de la pandémie: pourquoi faut-il s'abstenir d'accabler la Chine?"
 author: "RL, Libération"
 date: "2020-04-17"
-categories: [liberation, covid19, politique]
+categories: [liberation, covid19, politique, medias]
 image: "chauvesouris.jpg"
 image-alt: "Photo NPS, Carlsbad Caverns National Park, New Mexico"
 description: "Le consensus voulait que la pandémie de Covid-19 ait commencé en Chine, sur le marché d’une grande mégalopole industrielle nommée Wuhan. Jusqu'à ce que trois études scientifiques remettent en cause cette hypothèse."

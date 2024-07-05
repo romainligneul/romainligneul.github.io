@@ -4,7 +4,7 @@ author: "RL, Libération"
 date: "2020-03-28"
 categories: [liberation, covid, recherche]
 image: "dore_virus.jpg"
-description: "Alors que le Sénat examine la “loi d’urgence sanitaire” visant à étendre largement les pouvoirs de l’exécutif dans les mois qui viennent, il paraît urgent d’élargir notre connaissance et notre compréhension des conséquences psychologiques et sociales du confinement obligatoire décidé par Emmanuel Macron, dont cette loi constitue la suite logique."
+description: "Un article au vitriol sur Didier Raoult publié à l'époque où les médias et les politiques lui tressaient encore des couronnes de lauriers."
 title-block-banner: "dore_virus.jpg"
 include-in-header:
   - text: |

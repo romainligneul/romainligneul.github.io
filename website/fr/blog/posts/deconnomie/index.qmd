@@ -2,7 +2,7 @@
 title: "La Déconnomie de Jacques Généreux sous la loupe des sciences cognitives "
 author: "RL, Libération"
 date: "2017-01-04"
-categories: [neuro89, sciences cognitives, économie, politique, inégalités]
+categories: [neuro89, sciences cognitives, économie, politique, inégalités, medias]
 image: "dore_greed.jpg"
 description: "Pour qui veut s’armer en vue des joutes politiques à venir en 2017, la lecture du livre de Jacques Généreux est presque incontournable, car cet ouvrage la fois informatif et vindicatif constitue sans doute la trame de fond du programme économique de la France Insoumise pour les prochaines présidentielles."
 title-block-banner: "dore_greed.jpg"

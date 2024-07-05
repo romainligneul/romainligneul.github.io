@@ -2,7 +2,7 @@
 title: "Le « cerveau des attentats » au pied de la lettre"
 author: "RL, Neuro89"
 date: "2016-01-17"
-categories: [neuro89, terrorisme, neuroscience, complotisme]
+categories: [neuro89, terrorisme, neuroscience, complotisme, medias]
 image: "dore_cerveau_attentats.jpg"
 description: "Reprise par la plupart des organes de presse et par de nombreux hommes politiques, le «  cerveau des attentats  » fait partie de ces expressions toutes faites qui traduisent d’abord la difficulté, sinon le renoncement à penser le terrorisme au-delà des lieux communs et des rhétoriques trompeuses."
 title-block-banner: "dore_cerveau_attentats.jpg"
