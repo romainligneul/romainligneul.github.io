@@ -3,13 +3,6 @@ title: "Romain Ligneul"
 about:
   template: jolla
   image: ../images/portrait_bw.png
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/romainligneul/cophy-project
-    - icon: cup-hot-fill
-      text: Cophy
-      href: https://cophyteam.wixsite.com/website-1
 aliases:
   - /fr
 ---
@@ -49,3 +42,25 @@ Une brève description de cette start-up fondée il y a quelques années avec Da
 ::: callout-note
 A venir: Une liste d'événements auxquels j'ai participé et d'articles ou d'ouvrages que j'ai écrits ou co-écrits en français.
 :::
+
+### Pour me contacter:
+
+Email: romain[#dot#]ligneul[&at&]gmail.com
+
+Or laissez moi un message ci-dessous si vous avez un compte Github (2 min à créer)
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="Comments OtherFR"
+        data-category-id="DIC_kwDOMSMTI84Cgltq"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -14,3 +14,34 @@ https://github.com/robustcircuit
 
 It is more oriented towards web experiments using Javascript/jsPsych and some SVG manipulation logics using D3.js
 
+### If you want to reuse this website
+
+The codebase is available here:
+
+https://github.com/romainligneul/romainligneul.github.io
+
+You'll have to install [Quarto](https://quarto.org/).
+
+If you want to deploy it on Github pages, follow this tutorial:
+
+https://quarto.org/docs/publishing/github-pages.html
+
+Quarto is very powerful but also very upsetting, so be prepared.
+
+At some point, I might provide a blank template for this multilingual version of the Quarto website utility, depending on interest. So, please leave a comment below if that's your case.
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="Comments OtherFR"
+        data-category-id="DIC_kwDOMSMTI84Cgltq"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

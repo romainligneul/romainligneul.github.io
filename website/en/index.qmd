@@ -34,3 +34,25 @@ For more information about me, check the following website:
 Alternatively you can check the website of the [startup](https://robustcircuit.eu/) that I founded a few years ago with my partner-in-crime Daniela Domingues, aka [\@neurodaniela](https://x.com/neurodaniela).
 
 You can even click on the links in the footer of this page 😊.
+
+### To contact me:
+
+Email: romain[#dot#]ligneul[&at&]gmail.com
+
+Or leave me a message below (nb: if you don't have a Github account you should get one anyway!)
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="Comments OtherFR"
+        data-category-id="DIC_kwDOMSMTI84Cgltq"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
