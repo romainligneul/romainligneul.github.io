@@ -1,0 +1,138 @@
+---
+title: "Propagande: s'immuniser contre les principes de Goebbels plutôt que fuir le point Godwin"
+author: "RL, Mediapart"
+date: "2015-12-01"
+categories: [mediapart, politique, inégalités]
+image: "godwinpoint.jpg"
+description: "A l'heure où l'on réédite Mein Kampf en France et où l'autoprophétique choc des civilisations commence à tuer un peu partout dans le monde, il peut être utile de redécouvrir aussi ces principes de propande qui ont permis au discours nationaliste, guerrier et xénophobe de s'imposer au XXème siècle - jusqu'à rendre possible l'extermination systématique d'un ennemi préalablement désigné."
+title-block-banner: "godwinpoint.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
+reference-location: document
+---
+
+#### Remarques préliminaires
+
+*Cet article largement inspiré d'une page web universitaire synthétisant la publication de Leonard W. Doob,* [Goebbels' Principles of Propaganda](https://web.archive.org/web/20210121121618/https://www.physics.smu.edu/pseudo/Propaganda/goebbels.html) *(1950).*
+
+-   *Il est important de noter que ces principes ne peuvent pas être directement appliqués pour analyser les événements actuels.*
+
+-   *Destinée à aiguiser l'esprit critique. l*eur diffusion n'est qu'un traitement prophylactique utile, avant la réédition du virus Mein Kampf par les éditions Fayard en 2016.
+
+-   *De plus, il faut noter que la propagande n'est pas née avec Goebbels*[^1] *et qu'elle a surtout été complétée par de nombreuses autres méthodes depuis*[^2]*. Continuellement adaptée aux besoins de l'époque et considérablement raffinée par l'explosion des techniques de l'information ainsi que par le recours généralisé au sondage (explicite ou implicite) de la population, elle est désormais appliquée en bien d'autres circonstances.*
+
+[^1]: Edward Bernays, Propaganda (1928). Disponible gratuitement ici: [http://www.editions-zones.fr/spip.php?page=lyberplayer&id_article=21](https://web.archive.org/web/20210121121618/http://www.editions-zones.fr/spip.php?page=lyberplayer&id_article=21 "http://www.editions-zones.fr/spip.php?page=lyberplayer&id_article=21")
+
+[^2]: Chomsky et Edward Herman, La Fabrique du consentement (1992).\
+    A voir aussi le film [Chomsky, les médias et les illusions nécessaires](https://web.archive.org/web/20210121121618/https://fr.wikipedia.org/wiki/Chomsky,_les_m%C3%A9dias_et_les_illusions_n%C3%A9cessaires).
+
+Le Dr. Joseph Goebbels - en plus d'être un personnage intriguant - était Ministre de la Propagande sous le III^ème^ Reich d'Hitler. Il fut consideré comme un maître de la propagande, après que son travail ait été étudié dans la seconde moitié du XX^ème^ siècle. Goebbels n'a cependant pas pu savourer cette reconnaissance; lui et sa femme se suicidèrent le 1^er^ mai 1945, une semaine avant l'effondrement final du III^ème^ Reich.
+
+Après la guerre, les services américains découvrirent un très long journal dicté par Goebbels et contenant ses principes de propagande. L'article de Leonard Doob paru en 1950 les détaille à partir d'une traduction du journal par Louis Lochner (1948).
+
+## **Les principes basiques d'Hitler**
+
+Ces principes sont dérivés de Jowett & O'Donnel (*in* [Propagation et persuasion](https://web.archive.org/web/20210121121618/http://sttpml.org/wp-content/uploads/2014/07/propaganda-and-persuasion.pdf)).
+
+-   Eviter les idées abstraites, en appeler aux émotions.
+
+-   Répéter constamment un nombre limité d'idées. Utiliser des phrases stéréotypées.
+
+-   Tronquer les argumentations.
+
+-   Critiquer de façon continuelle vos opposants.
+
+-   Désigner un ennemi "spécial" pour une critique spéciale.
+
+![Affiche reproduite dans "Les publicitaires au service de la propagande", 1943. À l'occasion d'une Campagne Anti-Communiste, les Services Techniques de la Propagande du Ministère de l'Information ont conçu et édité cette affiche, dont la réalisation fut confiée à Éric Castel. www.cndp.fr/crdp-creteil](affiche.jpg){fig-align="center" width="389"}
+
+## **Principes de propagande de Goebbels**
+
+Lorsque vous lisez ces principes de propagande, gardez en tête qu'ils furent appliqués en temps de guerre (1939-1945) et qu'ils réfèrent parfois à des situations qui ne se posent pas en dehors de ce contexte. C'est une longue liste, mais Goebbels était confronté à la complexité d'une guerre totale. Lorsque vous les lirez vous réaliserez peut-être que certains de ces principes sont applicables de façon générale et pas seulement en temps de guerre. Certains pourraient être familiers à nos contemporain. Il est intéressant de noter que les principes de Goebbels dérivent des idées d'Hitler lui-même en matière de propagande.\
+
+1.  **Les propagandistes doivent avoir accès aux renseignements pertinents concernant l'opinion publique et les évènements.**
+
+2.  **La propagande doit être mise au point et exécutée pour une autorité unique.**\
+    a. Elle doit délivrer tous les ordres de propagande.\
+    b. Elle doit expliquer les ordres de propagande aux officiels importants et maintenir leur moral.\
+    c. Elle doit surveiller ou superviser les autres entités dont les activités ont des conséquences en termes de propagande.
+
+3.  **Les conséquences d'une action en termes de propagande doivent être considérées lors de la mise au point de cette action.**
+
+4.  **La propagande doit affecter la politique de son ennemi et ses actions.**\
+    a. En supprimant le matériel bénéfique à la propagande mais qui pourrait offrir à l'ennemi un renseignement utile.\
+    b. En disséminant ouvertement une propagande dont les contenus ou le ton amèneraient l'ennemi aux conclusions désirées.\
+    c. En poussant l'ennemi à réveler des informations qui lui sont vitales.\
+    d. En ne faisant aucune référence à une activité désirée chez l'ennemi, lorsque toute reference discréditerait cette activité.
+
+5.  **Des informations déclassifiées et opérationnelles doivent être disponibles pour mettre une campagne de propagande en pratique.**
+
+6.  **Pour être perçue, la propagande doit évoquer l'intérêt d'une audience et doit être transmise par un medium apte à capturer l'attention.**
+
+7.  **Seule sa crédibilité doit déterminer si un élément de propagande doit être présenté comme vrai ou faux.**
+
+8.  **Le but, le contenu et l'efficacité de la propagande ennemie, les avantages et les inconvenients de s'exposer, et la nature des campagnes de propagande actuelles déterminent si la propagande ennemie doit être ignorée ou réfutée.**
+
+9.  **La crédibilité, les renseignements disponibles et les possibles conséquences du fait de communiquer déterminent si des contenus de propagande doivent être censurés.**
+
+10. **Les contenus de la propagande ennemie peuvent être utilisés s'ils peuvent aider à diminuer le prestige de cet ennemi ou offrir un support aux objectif du propagandiste.**
+
+11. **La propagande noire**[^3] **doit être employée en lieu et place de la propagande blanche**[^4] **lorsque la seconde est moins crédible ou risquerait de produire des effets indésirables.**
+
+12. **La propagande doit être facilitée par des leaders ayant du prestige.**
+
+13. **Le timing de la propagande doit être précis.**\
+    a. La communication doit toucher l'audience avant la propagande concurrente.\
+    b. Une campagne de propagande doit commencer au moment optimal.
+
+14. **La propagande doit étiquetter les événements et les individus avec des phrases distinctives ou des slogans.**
+
+15. **La propagande intérieure doit éviter l'essor de faux espoirs qui risqueraient d'être déçus par les événements futurs.**
+
+16. **La propagande intérieure doit créer un niveau d'anxiété optimal.**\
+    a. La propagande doit renforcer l'anxieté concernant les conséquences d'une défaite.\
+    b. La propagande doit diminuer toute anxiété (autre que celle concernant les conséquences d'une défaite) qui serait trop haute pour être gérée par les individus.
+
+17. **La propagande intérieure doit diminuer l'impact de la frustration.**\
+    a. Les frustrations inévitables doivent être anticipées.\
+    b. Les frustrations inévitables doivent être mises en perspective.
+
+18. **La propagande doit faciliter le 'déplacement de l'agression' en spécifiant la cible à hair**[^5]**.**
+
+19. **La propagande ne peut pas immédiatement agir sur les contre-tendances fortes; au lieu de cela, la propagande doit promouvoir une action de type quelconque ou une diversion, ou les deux.**
+
+[^3]: Propagande noire: [https://fr.wikipedia.org/wiki/Propagande_noire](https://web.archive.org/web/20210121121618/https://fr.wikipedia.org/wiki/Propagande_noire "https://fr.wikipedia.org/wiki/Propagande_noire")
+
+[^4]: Propagande blanche: [https://fr.wikipedia.org/wiki/Propagande_blanche](https://web.archive.org/web/20210121121618/https://fr.wikipedia.org/wiki/Propagande_blanche "https://fr.wikipedia.org/wiki/Propagande_blanche")
+
+[^5]: Voir aussi, la théorie du bouc émissaire: [https://fr.wikipedia.org/wiki/Bouc_Emissaire](https://web.archive.org/web/20210121121618/https://fr.wikipedia.org/wiki/Bouc_Emissaire "https://fr.wikipedia.org/wiki/Bouc_Emissaire")
+
+### **Sources principales**
+
+[*https://www.physics.smu.edu/pseudo/Propaganda/goebbels.html*](https://web.archive.org/web/20210121121618/https://www.physics.smu.edu/pseudo/Propaganda/goebbels.html "https://www.physics.smu.edu/pseudo/Propaganda/goebbels.html")
+
+Goebbels' Principles of Propaganda, Leonard W. Doob, Public Opinion Quarterly, Fall 1950 pp. 419-442
+
+Propagation and Persuasion; Jowett & O'Donnell.
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

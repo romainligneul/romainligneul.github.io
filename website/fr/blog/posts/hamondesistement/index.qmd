@@ -1,0 +1,122 @@
+---
+title: "La dernière carte de Benoit Hamon: se désister pour mieux s'imposer"
+author: "RL, Mediapart"
+date: "2017-03-02"
+categories: [mediapart, politique]
+image: vallshamon.png
+description: "Existe-t-il un 'scénario de la dernière chance' qui permette de rassembler la gauche en contournant les 'problèmes d'égos'? En vue d'un éventuel débat public entre Jean-Luc Mélenchon et Benoît Hamon, il semble nécessaire de dépasser une prémisse néfaste de ce débat pour envisager un scénario que les éditorialistes, les instituts de sondage et les grands médias n'aident pas à faire émerger."
+title-block-banner: vallshamon.png
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
+reference-location: document
+---
+
+Depuis la fin des primaires socialistes, le grand débat du rassemblement de la gauche est focalisé sur la question de savoir si Jean-Luc Mélenchon acceptera ou non de se rallier à Benoît Hamon. Étonnamment, l'hypothèse inverse d'un ralliement de Benoit Hamon à Jean-Luc Mélenchon, n'est presque jamais considérée sérieusement. Encore hier, lors du [débat animé par Médiapart](https://web.archive.org/web/20210128063845/https://www.youtube.com/watch?v=5ZKnQgJAVfg), la question de l'union de la gauche fut implicitement discutée sous la seule hypothèse d'un désistement de Mélenchon.
+
+Ce billet, que j'ai voulu le plus synthétique possible, vise à faire avancer la cause progressiste dans cette campagne. Tout d'abord, je montre pourquoi **le ralliement de Hamon à Mélenchon est l'unique option souhaitable.** Ensuite, je décris **les modalités possibles de ce ralliement**, en passant par les investitures aux législatives et la question européenne.
+
+**Une telle alliance pourrait gagner les élections présidentielles**, **non pas une fois, mais deux fois de suite.** Il s'agit donc d'une proposition ambitieuse et réellement "désirable", pour reprendre ce mot cher à Benoît Hamon.
+
+## **Justifications du ralliement de Hamon à Mélenchon**
+
+L'éventail des justifications possibles du ralliement de Hamon à Mélenchon est très large, mais je me concentre ci-dessous sur trois points primordiaux.
+
+### [**Compatibilité des programmes**]{.underline}
+
+On peut reconnaître une chose à Benoît Hamon, et pas des moindres: il ne fait pas de concession sur son programme, et son entente avec Jadot a même accentué la teneur écologique de celui-ci. Cela implique qu'à 2 mois des présidentielles, et contrairement à ce que l'on aurait pu craindre, la position de Hamon n'est pas en train de s'édulcorer: elle reste entièrement compatible avec celle de Jean-Luc Mélenchon. 
+
+Il faut aussi souligner la promixité des conseillers économiques des deux candidats, Thomas Piketty et Jacques Généreux, qui sont tous deux très critiques du dogme néolibéral, convaincus de la nécessité de mener une politique d'investissement ambitieuse en Europe, et soucieux de lutter contre des inégalités sociales contre-productives, à long-terme, pour la croissance. D'ailleurs, l'engagement de Piketty auprès de Hamon a largement modéré la [définition fluctuante du "revenu universel"](https://web.archive.org/web/20210128063845/http://piketty.blog.lemonde.fr/2017/01/25/pour-un-revenu-universel-credible-et-ambitieux/) du candidat, la rendant de fait compatible avec la position de Généreux et Mélenchon sur la nécessité d'augmenter les minimaux sociaux. 
+
+Certes, la compatibilité des programmes n'indique pas en elle-même dans quel sens devrait se faire l'union. Mais il faut tout de même reconnaitre qu'en matière d'écosocialisme et de protectionnisme solidaire, Jean-Luc Mélenchon a plusieurs longueurs d'avance sur Benoit Hamon. En 2012, la question était déjà [au centre de son programme](https://web.archive.org/web/20210128063845/http://www.humanite.fr/melenchon-lecosocialisme-nouvelle-definition-de-la-demarche-socialiste) malgré les réticences de ses alliés communistes. Il a depuis considérablement renforcé cette dimension de son projet politique, au point de dédier des [conférences entières](https://web.archive.org/web/20210128063845/http://melenchon.fr/2017/02/26/intervention-a-journee-de-lecologie-de-france-insoumise/) à cette question. 
+
+### [**Créneau électoral**]{.underline}
+
+Durant la campagne des primaires, Benoît Hamon a plusieurs fois laissé entendre qu'il ne ferait pas de sa candidature un prérequis à l'union de la gauche, ce qui ne fut jamais le cas du côté de Jean-Luc Mélenchon qui a toujours été clair sur sa volonté d'être candidat jusqu'au bout.
+
+Comment réunir toute la gauche derrière un candidat unique ? © France Inter
+
+Compte tenu de son positionnement écosocialiste très proche de celui de la France Insoumise, **n'est-il pas évident que ces déclarations de Benoît Hamon ont joué un rôle majeur dans son élection?** Tous les électeurs de gauche savent depuis longtemps qu'une gauche divisée n'a aucune chance de l'emporter, et nombreux sont les "Insoumis" qui se sont déplacés pour voter à la primaire. 
+
+Bien entendu, le sondage IFOP donnant 17% d'intentions de vote à Hamon contre 10% à Mélenchon au lendemain du second tour des primaires a largement contribué à mettre le premier dans le fauteuil du rassembleur. Fortement critiqué, ce sondage ayant recouru à une méthode d'ajustement aberrante n'a surtout jamais été répliqué: toutes les enquêtes suivantes mettent Hamon et Mélenchon au coude à coude. Il faut donc aller plus loin pour décider qui sera le plus à même de rassembler, en gardant à l'esprit que Hamon est le seul qui ait mis cette idée sur la table.
+
+### [**L'argument des deux gauches irréconciliables**]{.underline}
+
+Émise pour la [première fois par Manuel Valls](https://web.archive.org/web/20210128063845/http://www.liberation.fr/france/2016/02/16/manuel-valls-trace-une-frontiere-a-l-interieur-d-une-gauche-irreconciliable_1433621), l'idée qu'il existerait deux gauches irréconciliables a fait son bout de chemin. Ces dernières semaines, les déclarations menaçantes se multiplient depuis l'aile droite du PS et il faudrait être aveugle pour ne pas comprendre que les apparatchiks ont abandonné l'idée de gagner les élections (du moins, si Benoît Hamon est encore leur candidat). Pour ne prendre quelques exemples, citons dans le désordre:
+
+- [Stéphane Le Foll](https://web.archive.org/web/20210128063845/http://www.lefigaro.fr/elections/presidentielles/2017/02/21/35003-20170221ARTFIG00130-entre-hamon-et-macron-le-coeur-de-le-foll-balance.php), porte-parole du gouvernement, qui a déclaré "ne pas vouloir décider aujourd'hui" pour qui il voterait; à l'image sans doute de François Hollande dont il est le principal relai.
+
+\- [Jean-Jacques Urvoas](https://web.archive.org/web/20210128063845/http://www.europe1.fr/emissions/linterview-politique-de-8h20/jean-jacques-urvoas-je-soutiens-benoit-hamon-meme-si-je-ne-suis-pas-daccord-avec-toutes-ses-propositions-2986760), garde des Sceaux, qui a déclaré avoir "beaucoup de difficulté à se retrouver derrière le candidat" Hamon. 
+
+\- [Myriam El-Khomri](https://web.archive.org/web/20210128063845/https://blogs.mediapart.fr/perso/contributions/blog/billets/672702/d%C3%A9bat%20se%20pose%20entre%20ma%20loyaut%C3%A9%20et%20ma%20coh%C3%A9rence%20politique), ministre du Travail, qui - interrogée sur un possible ralliement à Emmanuel Macron - a déclaré que "le débat se pose entre ma loyauté et ma cohérence politique".
+
+\- [Jean-Marie Le Guen](https://web.archive.org/web/20210128063845/http://www.liberation.fr/elections-presidentielle-legislatives-2017/2017/02/28/gauche-radicalisee-l-element-de-langage-d-une-partie-du-ps-contre-hamon_1551584), encore récemment chargé des relations avec le Parlement, qui a déclaré que Benoît Hamon porte "un programme de gauche radicalisée", avec toute la puissance sémantique que ce mot recouvre.
+
+\- [Marisol Touraine](https://web.archive.org/web/20210128063845/https://blogs.mediapart.fr/perso/contributions/blog/billets/672702/suis%20pas%20reconnue%20dans%20le%20programme%20de%20la%20primaire%20de%20Beno%C3%AEt%20Hamon), ministre de la Santé, qui a déclaré ne pas se reconnaître dans le programme de Benoît Hamon.
+
+\- Et bien sûr, [Manuel Valls](https://web.archive.org/web/20210128063845/http://www.lejdd.fr/Politique/Valls-et-ses-soutiens-veulent-que-la-campagne-de-Hamon-revienne-sur-les-rails-850994) qui, après avoir déclaré vouloir "contribuer à ce que cette campagne revienne sur les rails", vient d'annoncer à presque [150 députés socialistes](https://web.archive.org/web/20210128063845/https://www.marianne.net/politique/inquietude-au-ps-benoit-hamon-fait-il-campagne-pour-l-elysee-ou-pour-solferino) qu'il comprendrait que ces derniers votent Macron, sans cacher son "inquiétude" à propos de l'accord avec Yannick Jadot...
+
+Si l'on ajoute à cette liste non-exhaustive la déclaration des [17 députés socialistes](https://web.archive.org/web/20210128063845/http://www.bfmtv.com/politique/presidentielle-2017-des-deputes-socialistes-menacent-de-ne-pas-soutenir-hamon-1093325.html) clamant "haut et fort un droit de retrait de la campagne présidentielle" et les [autres membres du gouvernement](https://web.archive.org/web/20210128063845/http://www.sudouest.fr/2017/02/28/hamon-ou-macron-pour-qui-voteront-pour-les-membres-du-gouvernement-3235655-6121.php) tentés par Macron (dont Ségolène Royal), il apparait clairement que Benoit Hamon fera face à une extrême adversité dans le cas (fort improbable) où il serait élu.
+
+L'argument des deux gauches irréconciliables est plus valide que jamais: pour qu'une politique comme celle pronée par Benoît Hamon soit réalisable, un schisme au sein du PS semble donc nécessaire. **L'utopie, aujourd'hui, c'est avant tout de croire que l'on parviendra à reconcilier l'irréconciliable**.
+
+Dans le cas (fort probable) où Hamon ne serait pas élu, il risque donc d'être rapidement relegué à sa position minoritaire au sein du parti, forcé de camper 5 années supplémentaires la position ambigüe du frondeur. Et quel que soit le résultat des élections, il y a fort à parier qu'une coalition sera négociée pour les législatives entre l'aile droite du PS et Emmanuel Macron ; coalition qui aura dès lors le champ libre pour poursuivre et accentuer la politique menée par François Hollande et Manuel Valls.\
+
+Aujourd'hui la meilleure carte de Benoit Hamon, non seulement pour donner une chance électorale à la ligne politique qu'il défend, mais aussi pour se donner une chance de devenir réellement majoritaire au sein du parti socialiste, c'est de se rallier à Jean-Luc Mélenchon. L'exode de l'aile droite vers Macron (ou vers toute autre entité nouvelle) aura alors lieu d'elle même, ce qui lui permettra de restructurer enfin le parti. Compte tenu de sa campagne lors des primaires, **il en a le mandat.**
+
+## **Modalités du ralliement de Hamon à Mélenchon**
+
+Les justifications exposées plus haut ne constituent pas en elles-mêmes une solution à l'impasse dans laquelle se trouve la gauche. Elles laissent en suspens le fameux "problème d'ego", que tout le monde appelle à dépasser sans jamais expliquer comment. A ce titre, la pétition mise en ligne il y a quelques jours sur [change.org](https://web.archive.org/web/20210128063845/https://www.change.org/p/beno%C3%AEt-hamon-hamon-m%C3%A9lenchon-le-sc%C3%A9nario-de-la-derni%C3%A8re-chance), proposant d'offrir à Jean-Luc Mélenchon - contre son désistement - le titre tout juste honorifique de président de l'Assemblée Constituante, ressemble plus à une diversion qu'à une proposition crédible.
+
+### [**Mélenchon dernier président de la Vème République, Hamon premier président de la VIème?**]{.underline}
+
+Les observateurs politiques ont de nombreuses fois souligné la convergence des programmes et la divergence des méthodes entre Mélenchon et Hamon.
+
+Que l'on y voie une attitude nécessaire pour convaincre ou un trait de caractère regrettable, il est évident que Mélenchon a du mal à mettre en avant ses collaborateurs. Il incarne l'homme politique au sens fort: autoritaire, souverainiste et étatiste. En somme, l'image très gaullienne de Mélenchon semble en parfaite adéquation avec les institutions de la Vème République qu'il entend dépasser. 
+
+Au contraire, Benoît Hamon - qui fut d'ailleurs un excellent porte-parole - a toujours réussi à faire entendre ses partenaires. Depuis ses premiers combat au sein de l'UNEF et du Nouveau Parti Socialiste, il a souvent cherché a rassembler par la synthèse des positions plutôt que par la force de ses argumentaires. Si certains voient dans cette approche le signe d'un caractère "non-présidentiable", les choses pourraient être tout autre au sein d'une VIème République "démonarchisée", pour laquelle le profil de Benoît Hamon semble idéal.
+
+Pourquoi les négociations n'iraient-elles pas en ce sens? Mélenchon a déjà pris l'engagement solennel de quitter le pouvoir au moment où la VIème République aura été mise sur pied. Il suffit d'ajouter à cet engagement celui de ne pas se représenter ensuite, et de soutenir entièrement Benoît Hamon lors des élections suivantes. D'une part, cela rassurerait les Français vis-à-vis d'un Mélenchon trop souvent caricaturé comme un dictateur en puissance. D'autre part, cela mettrait Benoît Hamon dans d'excellentes conditions pour remporter les premières élections de cette VIème République, qu'il aura oeuvrer à faire naître. 
+
+En se désistant pour 2017, Benoît Hamon démontrerait à toute la gauche - et à tous les français - que l'intérêt de la France passe bel et bien avant le sien, et qu'il appartient réellement à cette catégorie si rare d'hommes politiques capables de garder le contrôle sur la quête de pouvoir qui les animent. 
+
+### [**Le jeu compliqué des législatives**]{.underline}
+
+On le sait bien, quel que soit le résultat de l'élection présidentielle, les législatives constituent un enjeu majeur: sans majorité à gauche, les grandes réformes sociales et écologiques ne passeront pas. Or, en l'état actuel des choses, le scénario le plus probable est l'élection d'Emmanuel Macron, suivie d'une coalition avec l'aile droite du PS et le MoDem, voire l'aile modérée des Républicains. Face à une telle situation, quelles seront les marges de manoeuvre de Benoît Hamon? Comme dit plus haut, le candidat à l'élection présidentielle se retrouvera d'emblée dans cette position du frondeur qu'il connait bien. Tout au plus parviendra-t-il à négocier quelques accords avec les écologistes, voire avec les communistes, dans des circonscriptions difficiles à gagner en raison de la présence de candidats macronistes, France Insoumise, LR et FN.
+
+En d'autres termes, la dilution des voix de gauche promet d'être tout aussi préjudiciable pour les législatives que pour les présidentielles. Ici encore, il semble que seul un désistement de Hamon en faveur de Mélenchon soit à même de faire bouger les lignes. Si c'était le cas, nous observerions alors des alliances naturelles PCF-EELV-FI-PS, plus à même de s'opposer aux candidats d'En Marche, LR et FN. L'aile droite du PS sera alors mise au pied du mur, face à ses contradictions et à son manque flagrant d'appuis au sein d'une gauche refondée autour de l'écosocialisme.
+
+### [**"Good cop, bad cop", bluff  et question européenne**]{.underline}
+
+Toute personne un tant soit peu renseignée sait que Mélenchon n'est pas anti-européen et qu'il aspire d'abord à infléchir la politique européenne d'une manière très sembable à celle préconisée par Hamon, Piketty, et de nombreux autres observateurs. 
+
+Dès lors, pourquoi cette menace de sortir de l'euro, voire de l'UE, en cas de désaccord insoluble avec les allemands? A cette question, on ne peut que rappeler le scénario catastrophique de l'épisode Syriza, où l'absence de "plan B" a oté tout crédit au combat de Yanis Varoufakis. C'est la leçon qu'a tirée Jean-Luc Mélenchon de cet épisode et le point de départ de son positionnement extrêmement ferme face à l'UE. 
+
+Entrer dans les négociations en refusant par principe d'envisager ce "plan B", c'est diminuer de beaucoup nos chances d'aboutir. Que l'intention soit réelle ou non, le bluff est nécessaire et l'adhésion du peuple à cette éventualité, le meilleur des arguments. 
+
+Il faut aussi noter que Mélenchon a annoncé sans ambiguité qu'après ces négociations qu'il entend mener fermement, la décision de quitter l'euro - si elle devait être envisagée - serait soumise à referendum. 
+
+Enfin, si Hamon devient par la suite le premier président de la VIème République, l'accession au pouvoir d'un homme ayant campé une position plus consensuelle vis-à-vis de l'Allemagne sera très utile pour rétablir des liens cordiaux et constructifs après une période où les relations franco-allemandes se seront forcément tendues. Ici encore, la succession de Benoit Hamon à Jean-Luc Mélenchon apparait comme une solution efficace.
+
+Benoît Hamon dispose donc d'une dernière carte: celle d'un désistement qui lui permettra de sortir par la fenêtre d'un PS asphyxié pour entrer dans l'Histoire par la grande porte.
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

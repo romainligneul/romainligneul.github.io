@@ -1,0 +1,117 @@
+---
+title: "Inégalités sociales : le profil cognitif de ceux qui s’en foutent."
+author: "RL, Mediapart"
+date: "2016-08-11"
+categories: [mediapart, politique, inégalités]
+image: "dore_quisenfoutent.jpg"
+image-alt: "Ceux qui s'en foutent. © Antoine Doré @ http://www.antoinedore.com/"
+description: "Les rapports de domination régissant la société française ont été mis à nus au printemps 2016. Quelles leçons en tirer et surtout, que faire? Ce coup de gueule propose quelques élements de réponse inspirés par la recherche en sciences cognitives et sociales."
+title-block-banner: "dore_quisenfoutent.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
+reference-location: document
+---
+
+Comme prévu dans le calendrier gouvernemental, l’Euro 2016, les Jeux Olympiques et le soleil aoûtien auront suffi à reléguer les questions sociales à l’arrière-plan. Force est de constater qu’idéalistes et indignés ont perdu une bataille. Que Nuit Debout ait fini en « eau de boudin », sans doute. Mais faut-il pour autant considérer les occupations de places et les manifestations du printemps comme un énième « coup d’épée dans l’eau » ? La réponse à cette question dépend avant tout de notre capacité à apprendre pour revenir plus forts à l’automne et plus lucides quand l’heure sera venue d’élire un nouveau maître.
+
+Car il y a au moins une chose que de ce grand mouvement social, ponctué par la violence physique du CRS et la violence morale du 49-3, nous a appris : il existe en France un système de domination sociale si puissant et si sûr de son fait que ses représentants ne font même plus l’effort de feindre leur attachement à la démocratie.
+
+Libre à chacun de penser que l’être le plus nuisible à notre patrie s’appelle Mohamed et qu'il conduit des camions frigoriques, ou bien qu'il s’appelle Manuel et que c’est la France qu’il conduit dans l’abîme. Pour un massacre évitable sur la Promenade des Anglais, combien de décès évitables dans les lits de nos hôpitaux sans le sou? 
+
+## **Bas les masques**
+
+De Juncker à Valls en passant par Hollande et Sarkozy, l’indifférence des castes politiques dominantes vis-à-vis des inégalités que la logique ultra-libérale engendre est plus manifeste que jamais. Parce qu’elles sont menées par un gouvernement socialiste pourtant élu pour assumer la politique opposée, les réformes actuelles nous prouvent que cette indifférence n’est pas une question de couleur politique mais qu’elle est en réalité enracinée dans les arcanes mêmes de la V^ème^ République.
+
+Or, même les discours d’un brillant polymathe comme Frédéric Lordon restent ici à la périphérie de certaines questions cruciales. La volonté du citoyen est endiguée par un problème structurel sans doute, mais avant d’être mise en œuvre par des institutions, toute politique est d’abord décidée par des hommes. Dès lors, aux structures institutionnelles chères à Lordon, s’ajoutent les structures psychologiques ou culturelles autrefois chères à Foucault et Lévi-Strauss.
+
+Puisque la politique d’un homme comme Manuel Valls ne repose manisfement ni sur la volonté populaire, ni sur ce ce qu’il a oublié d’apprendre en licence d’[Histoire](https://web.archive.org/web/20170503132158/http://libertes.blog.lemonde.fr/2015/12/05/decheance-de-nationalite-le-precedent-de-vichy/), elle découle sans doute de motivations et d'influences personnelles qu'il nous faut mieux comprendre.
+
+Malheureusement, aussi singulier soit-il, le premier Ministre n’est qu’une incarnation parmi d’autres du mal qui ronge notre société par le haut. Il est un produit de son époque. Un produit à grand succès, certes, mais un produit remplaçable. Coupez lui tête, et il en repoussera cent. Le problème ne vient pas des hommes eux-mêmes mais du système qui les façonne et qui les sélectionne.
+
+Inscrire la lutte pour la démocratie et la justice sociale dans le temps long, par delà les contingences footballistiques et météorologiques, par delà l’incessant remugle médiatique, cela nécessite donc d’appréhender les dynamiques psychologiques propres à la caste dominante.
+
+*« Qui connaît son ennemi comme il se connaît, en cent combats ne sera point défait. Qui se connaît mais ne connaît pas l'ennemi sera victorieux une fois sur deux. Qui ne connaît ni son ennemi ni lui-même est toujours en danger. »* Sun Tzu, L’Art de la guerre
+
+## **Les gaulois sont-ils encore irréductibles?**
+
+La dominance sociale est un phénomène qui émerge spontanément à travers la compétition entre individus d’une même espèce. Cette compétition est inévitable lorsque les conditions de vie et les ressources se détériorent, et l’humain ne fait certainement pas exception à la règle. Il s’agit d’un principe naturel qui structure depuis toujours les sociétés humaines, et qui a façonné en profondeur la manière dont nos cerveaux et nos corps fonctionnent. Chez l’humain, on constate même que la soif de dominance se poursuit bien au-delà de la satisfaction des besoins biologiques, d’où la popularité du proverbe antique « l’homme est un loup pour l’homme ».
+
+Pour autant, les hiérarchies de dominance ne sont jamais jamais irrémédiables. Comme Étienne de la Boétie l’a écrit dans son immortel *Discours de la servitude volontair*e, il y a bientôt cinq siècles, elles n’existent que dans la mesure où les hommes tolèrent d’être maintenus dans la subordination. Et les grands primatologues contemporains tels que Bernstein ou Rowell lui emboitent le pas en considérant qu’une relation de dominance n’est établie que lorsque qu’un individu ou un groupe d’individus cesse de défendre ses droits ou de poursuivre ses aspirations après avoir été « défait » par un autre individu ou groupe.
+
+En d’autres termes, les dynamiques psychologiques à l’œuvre dans les classes moyennes voire défavorisées jouent un rôle tout aussi important dans le maintien du *statut quo* que nous déplorons. Bien que leurs symptômes diffèrent, Manuel et Mohamed sont victimes ensemble d'une même logique aliénante et mortifère: celle de la dominance et de la subordination qu'il faut bien distinguer d'autres constructions hiérarchiques comme le prestige ou le leadership.
+
+## **La désir de domination et sa justification**
+
+Aujourd’hui professeur à Harvard, [Jim Sidanius](https://web.archive.org/web/20170503132158/http://scholar.harvard.edu/sidanius/home) fut à l’origine d’un renouveau des recherches sur la dominance sociale chez l’être humain, à l’aube des années 2000. Dans son ouvrage le plus cité, *Social dominance : an intergroup theory of social hierarchy and oppression,* il décrit comment les sociétés humaines se structurent autour du problème de la domination, c’est-à-dire comment s’articulent les comportements et croyances de ceux qui renforcent la domination ou cherchent à la légitimer, face à ceux qui cherchent à la combattre et à la déconstruire. Ses conclusions reposent en partie sur l’analyse de l’échelle SDO (pour *Social Dominance Orientation*) qui permet de mesurer la propension à justifier les inégalités sociales et à désirer le maintien d’un ordre hiérarchique stable. Pour les milliers d'individus sondés, il s'agit d’indiquer à quel point (de 1, pas du tout, à 7, complètement) ils sont d'accord une quinzaine d’affirmations telles que:
+
+·        Certaines personnes sont tout simplement inférieures à d’autres.
+
+·        Pour avancer dans la vie, il est parfois nécessaire de marcher sur les autres.
+
+·        Le pays gagnerait à moins se préoccuper des inégalités sociales.
+
+·        C’est sûrement une bonne chose que certains groupes soient en haut et d’autres en bas.
+
+·        Les groupes inférieurs devraient rester à leur place.
+
+Etc, etc. ([PDF](https://web.archive.org/web/20170503132158/https://dash.harvard.edu/bitstream/handle/1/3207711/Sidanius_SocialDominanceOrientation.pdf?sequence=))
+
+Au cours de mes propres recherches sur les rapports entre hiérarchies sociales et cerveau ([PDF](https://web.archive.org/web/20170503132158/https://drive.google.com/file/d/0Bw7SZPk0IiJjQnJXc3FxcmpKWW8/view?usp=sharing)), j’ai été stupéfait par les résultats de jeunes étudiants français et suisses à ce questionnaire, ainsi que par les scores extrêmement hauts observés chez certains. Ma naïveté en a pris un coup, mon optimisme aussi, et cette prise de conscience a suscité de nombreuses lectures et réflexions.
+
+Historiquement, l’échelle SDO s’apparente à « l’[échelle F](https://web.archive.org/web/20170503132158/https://www.cairn.info/revue-tumultes-2004-2-page-99.htm) », mise au point en 1947 par le philosophe Theodor Adorno pour mesurer l’aspiration au fascisme dans les sociétés occidentales. Si de nos jours, l’échelle F n’est plus très utilisée, la litérature scientifique sur le SDO s’élargit quant à elle chaque année (environ [6000 articles](https://web.archive.org/web/20170503132158/https://scholar.google.fr/scholar?q=%22social+dominance+orientation%22&hl=fr&as_sdt=0&as_vis=1&oi=scholart&sa=X&ved=0ahUKEwilvI_IrKLNAhUCPhQKHdrGAwAQgQMIHDAA) y réfèrent). 
+
+## **Un tableau clinique mêlant racisme, sexisme, absence d’empathie et indifférence environnementale**
+
+Tout d’abord, les individus scorant haut sur l’échelle SDO sont en moyenne plus racistes et plus sexistes que les autres ([PDF](https://web.archive.org/web/20170503132158/https://dash.harvard.edu/bitstream/handle/1/3207711/Sidanius_SocialDominanceOrientation.pdf?sequence=)). Et le lien entre SDO et racisme se maintient chez les individus appartenant aux ethnies minoritaires, tout comme le lien entre SDO et sexisme se maintient chez les femmes. Ainsi, même si les hommes blancs scorent généralement plus haut que les autres (c’est l’hypothèse dite d’*invariance* ; [PDF](https://web.archive.org/web/20170503132158/http://s3.amazonaws.com/academia.edu.documents/41512921/Social_Dominance_Orientation_and_the_Pol20160124-27414-zmunsg.pdf?AWSAccessKeyId=AKIAJ56TQJRTWSMTNPEA&Expires=1470907083&Signature=8wOHffs8CCzmVm9BXZrfnxRiqz0%3D&response-content-disposition=inline%3B%20filename%3DSocial_dominance_orientation_and_the_pol.pdf)), les mécanismes psychologiques de la dominance sont actifs chez tous les membres de notre société.
+
+D’ailleurs, Sandra Duarte, Michel Dambrun et Serge Guimond – chercheurs français spécialistes du SDO – ont montré que cette relation entre légitimation des hiérarchies sociales et préjugés sexistes ou racistes persiste encore lorsque l’on corrige les analyses pour le positionnement politique gauche-droite ([PDF](https://web.archive.org/web/20170503132158/https://www.researchgate.net/profile/Michael_Dambrun/publication/278327481_La_dominance_sociale_et_les_mythes_legitimateurs_validation_d%27une_version_francaise_de_l%27echelle_d%27orientation_a_la_dominance_sociale/links/5583ce5408ae8bf4ba6fa976.pdf?origin=publication_detail)). Autrement dit, l’outil capture un phénomène qui dépasse nos catégories politiques traditionnelles.
+
+Plus intéressant encore, les individus ayant un fort SDO ont également tendance à éprouver moins d’empathie, définie comme « l’aptitude à se mettre à la place d’autrui et à percevoir ce qu’il ressent ». Ceci est particulièrement vrai lorsqu’autrui appartient à un groupe social distinct du leur (on parle dans ce cas d’exogroupe ; [PDF](https://web.archive.org/web/20170503132158/http://s3.amazonaws.com/academia.edu.documents/31217565/JOP_2013_Empathy_and_SDO.pdf?AWSAccessKeyId=AKIAJ56TQJRTWSMTNPEA&Expires=1470908419&Signature=aRCxMJ6WZoNPwS0hJSREMFuqkxs%3D&response-content-disposition=inline%3B%20filename%3DYoure_Inferior_and_Not_Worth_Our_Concern.pdf)). Comme l’absence d’empathie et le SDO se renforcent mutuellement au cours du temps ([PDF](https://web.archive.org/web/20170503132158/http://s3.amazonaws.com/academia.edu.documents/31217565/JOP_2013_Empathy_and_SDO.pdf?AWSAccessKeyId=AKIAJ56TQJRTWSMTNPEA&Expires=1470908419&Signature=aRCxMJ6WZoNPwS0hJSREMFuqkxs%3D&response-content-disposition=inline%3B%20filename%3DYoure_Inferior_and_Not_Worth_Our_Concern.pdf)), on ne peut s’empêcher de penser aux conséquences des propos de Manuel Valls martelant il y a peu qu’« [expliquer le jihadisme, c’est déjà vouloir un peu l’excuser ](https://web.archive.org/web/20170503132158/http://www.liberation.fr/debats/2016/01/12/culture-de-l-excuse-les-sociologues-repondent-a-valls_1425855*)».
+
+Enfin, il a récemment été démontré que ceux qui légitiment les rapports de domination entre individus et groupes d’individus sont également plus enclins à légitimer la domination des êtres humains vis-à-vis des autres espèces vivantes. En témoigne cette large [étude](https://web.archive.org/web/20170503132158/http://psp.sagepub.com/content/early/2013/06/19/0146167213490805) de 2013 qui montre que le SDO corrèle clairement avec de nombreuses « attititudes environnementales » : les individus ou les populations qui scorent haut sur cette échelle croient par exemple moins facilement au changement climatique d’origine humaine et ils promeuvent un rapport plus utilitaire à la nature. Si Donald Trump en sait [quelque chose](https://web.archive.org/web/20170503132158/http://www.lemonde.fr/elections-americaines/article/2016/05/27/etats-unis-donald-trump-promet-d-annuler-l-accord-de-paris-sur-le-climat-une-fois-elu_4927353_829254.html), les socialistes qui nous gouvernent ne sont pas en reste, comme en attestent la mort de Rémi Fraisse au barrage de Sievens ou leur obstination dans le dossier Notre-Dame des Landes.
+
+## **Les « mythes légitimateurs »**
+
+Les effets évoqués ici ne sont pas exhaustifs, mais ils permettent déjà de comprendre pourquoi sexisme, racisme, absence d’empathie et indifférence environnementale vont souvent de pair: c’est qu’il existe une croyance sous-jacente à toutes ces attitudes, selon laquelle les inégalités sociales et les rapports de dominance en place sont *naturels* voire *désirables*. On parle alors de mythes légitimateurs.
+
+De nos jours, le plus puissant de ces mythes est sans doute celui de la méritocratie qui stipule que les dominants « méritent » leur position de pouvoir et les avantages qui vont avec, nonobstant le [délitement de l’ascenseur social](https://web.archive.org/web/20170503132158/http://www.inegalites.fr/spip.php?article648) . Mais il en existe d’autres, plus sournois, tels que l’adhésion au darwinisme social (idée que la société s’améliorera si les plus forts ont le pouvoir), la naturalisation des hiérarchies sociales (idée que certains sont génétiquement programmés pour dominer et d’autres pour obéir), ou encore des représentations culturelles comme « la religiosité est une attitude plus primitive que l’athéisme », « l’égalitarisme est une utopie », « la vraie démocratie est impossible dans le monde actuel », « le peuple est con », etc, etc.
+
+À l’échelle sociétale et à long terme, la fréquence et l’intensité des signes de SDO élevé parmi nos dirigeants devrait peut-être nous alerter quant à la très faible diversité idéologique et intellectuelle de la classe politique. Cette uniformisation est avant tout le résultat de l’endogamie au sein des castes dirigeantes (voir les *Ghettos du Gotha*, de Monique Pinçon-Charlot et Michel Pinçon ; [PDF](https://web.archive.org/web/20170503132158/http://inventin.lautre.net/livres/Les-ghettos-du-Gotha-Pincon.pdf)). Malheureusement, faute de révolution renouvelant la classe politique dans son ensemble, seule l’éducation républicaine et l’évolution des mentalités peuvent lutter contre ce cercle vicieux.
+
+## **Que faire ?**
+
+Pour avancer, il faut donc tout d’abord cesser de se détourner de la politique au motif que les hommes politiques actuels ne nous représentent plus. Comme l’écrit le philosophe Herbert Marcuse « le fait de pouvoir élire librement des maîtres ne supprime ni les maîtres ni les esclaves », mais s’abstenir de voter et balayer d’un revers de main ce problème qui nous concerne tous, c’est laisser la voie libre aux maîtres les plus médiocres et tendre les bras à la [kakistocratie](https://web.archive.org/web/20170503132158/https://fr.wiktionary.org/wiki/kakistocratie).
+
+Prendre conscience et faire prendre conscience de l’importance des facteurs environnementaux et développementaux qui renforcent les hiérarchies sociales existantes et/ou qui facilitent la soumission sociale est également crucial. En effet, une étude menée en France a démontré le lien existant entre le SDO et la croyance dans le déterminisme génétique des comportements, tandis que la compréhension des principes élémentaires de sociologie peut diminuer les scores obtenus ([PDF](https://web.archive.org/web/20170503132158/https://www.researchgate.net/profile/Michael_Dambrun/publication/229641177_Why_Does_Social_Dominance_Orientation_Decrease_with_University_Exposure_to_the_Social_Sciences_The_Impact_of_Institutional_Socialization_and_the_Mediating_Role_of_Geneticism/links/5581ae0108aeab1e4666daa5.pdf)). Pour combler ces lacunes, on recommandera chaudement la lecture des ouvrages de Jared Diamond tels que [*De l’inégalité parmi les sociétés*](https://web.archive.org/web/20170503132158/http://www.gallimard.fr/Catalogue/GALLIMARD/NRF-Essais/De-l-inegalite-parmi-les-societes) (Guns, Germs and Steel en anglais, prix Pullitzer 1998) ou bien celle – plus courte – du magnifique essai d’Henri Laborit [*l’Eloge de la fuite*](https://web.archive.org/web/20170503132158/http://inventin.lautre.net/livres/Henri-Laborit-Eloge-de-la-fuite.pdf), qui fut par ailleurs transposé au cinéma dans Mon oncle d’Amérique d’Alain Resnais ([visible](https://web.archive.org/web/20170503132158/https://www.youtube.com/watch?v=FQcC-VB_W-s) gratuitement sur Youtube).
+
+Car les mécanismes psychologiques qui permettent à des fiers-à-bras comme Manuel Valls de séduire la France sont en réalité à l’œuvre chez chacun d’entre nous. Et parmi eux, la célèbre « [dissonance cognitive ](https://web.archive.org/web/20170503132158/https://fr.wikipedia.org/wiki/Dissonance_cognitive#Paradigme_de_la_justification_de_l.27effort)» de Léon Festinger – par laquelle nos croyances s’ajustent *a posteriori* sur les actions que nous effectuons – figure en bonne place. Pour saisir l’essence de l’idée, un exemple concret peut être utile.
+
+Un diplômé d’une grande école méritant et bien intentionné rentre dans une grande entreprise. Après avoir fait ses gammes sur quelques projets sans importance, il monte en grade et se trouve bien vite forcé de prendre des décisions *contraires* à son système de valeurs initial, qu’il s’agisse de garder son emploi ou se donner des perspectives de carrière. Licencier des éléments productifs, spéculer sur les matières premières, échapper à l’impot sur les sociétés, etc : autant de décisions qui – tout en réjouissant ses actionnaires – ne manquent pas de creuser les inégalités sociales qu’il dénonçait peut-être sur les bancs du lycée.
+
+De cette tension – ou dissonance – entre nos valeurs et nos comportements résulte un certain inconfort mental et affectif qui appelle, ou bien la modification des comportements en question (par exemple, en démissionant), ou bien la modification des valeurs qui causent états d’âme et culpabilité. On observe donc fréquemment un glissement dans le rapport à la hiérarchie sociale, quelque part entre 25 et 40 ans, de telle sorte que des rapports de domination autrefois condamnés sont progressivement considérés comme légitimes et naturels. Il y a là un renversement des rapports entre croyance et action que peu d’individus sont enclins à reconnaitre bien que le phénomène soit universellement reconnu par les psychologues et s’applique tout aussi bien à celui qui s’élève dans les sphères politiques, académiques ou financières.
+
+Bien entendu, cette transition ne se fait pas sans quelques doutes, mais étant le plus souvent accompagnée d’un recentrage du milieu social de référence, elle arrive généralement à terme. Force est d'admettre que l’appât du gain et le désir de confort matériel jouent également un rôle primordial, puisqu’ils dédommagent de la soumission au système dans son ensemble.
+
+Lutter pour une société plus juste, c’est donc avoir le courage de s’engueuler avec ceux qui contribuent à l’injustice sans forcément s’en rendre compte. Et c’est avoir ensuite l’intelligence de se réconcilier. Car si l’on veut éviter que les conflits intérieurs suscités par la réussite hiérarchique ne se résolvent systématiquement par la légitimation accrue des rapports de domination en place, il est essentiel de maintenir la communication avec ceux dont les doigts sont pris dans l’engrenage. 
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
