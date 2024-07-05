@@ -2,7 +2,7 @@
 title: "RL | Quiz électoraux 2022"
 execute:
   echo: false
-  echo: false
+  eval: false
   output: false
 freeze: true
 ---

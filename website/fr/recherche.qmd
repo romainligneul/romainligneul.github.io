@@ -37,11 +37,7 @@ Au niveau comportemental, mon groupe s'intéresse plus particulièrement à l'ad
 
 ## Sélection de l'action
 
-Un objectif fondamental des neurosciences est de comprendre pourquoi et comment les organismes agissent d'une manière plutôt qu'une aut
-
-![Techniques et modèles utilisés par mon groupe](/images/methodes.png){fig-align="center" width="638"}
-
-re. Les théories actuelles suggèrent que deux mécanismes de décision distincts, réactif et proactif, interagissent et rivalisent pour guider le comportement. J'utilise des modèles mathématiques pour intégrer l'estimation de la contrôlabilité avec d'autres mécanismes adaptatifs, comme l'apprentissage par renforcement (récompense) et la réduction de l'incertitude (prédiction). Mes travaux récents indiquent que la contrôlabilité perçue influence la répartition des ressources cognitives entre différents systèmes de prise de décision, avec des implications pour les troubles neuropsychiatriques et les traitements personnalisés.
+Un objectif fondamental des neurosciences est de comprendre pourquoi et comment les organismes agissent d'une manière plutôt qu'une autre. Les théories actuelles suggèrent que deux mécanismes de décision distincts, réactif et proactif, interagissent et rivalisent pour guider le comportement. J'utilise des modèles mathématiques pour intégrer l'estimation de la contrôlabilité avec d'autres mécanismes adaptatifs, comme l'apprentissage par renforcement (récompense) et la réduction de l'incertitude (prédiction). Mes travaux récents indiquent que la contrôlabilité perçue influence la répartition des ressources cognitives entre différents systèmes de prise de décision, avec des implications pour les troubles neuropsychiatriques et les traitements personnalisés.
 
 ## En savoir plus
 
