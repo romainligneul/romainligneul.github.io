@@ -8,13 +8,14 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: "../../../images/banner_blog.png"
+title-block-banner: true
 include-in-header:
   - text: |
       <style>
       .quarto-title-block .quarto-title-banner {
         background-position-y: center;
         height: 300px;
+        background-image: url("banner_blog.png")
       }
       </style>
 ---
