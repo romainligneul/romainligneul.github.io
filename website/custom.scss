@@ -215,7 +215,7 @@ div.quarto-about-jolla main {
   border-radius: 15px;
 }
 
-.quarto-title-banner h1 {
+.quarto-title-banner .quarto-title > h1{
 	font-weight: 500;
   font-size: calc(1.1rem + 0.8vw);
 }
@@ -223,8 +223,19 @@ div.quarto-about-jolla main {
 
 div.quarto-about-jolla {
   margin-top: 5%;
+  text-align: justify;
 }
 
 .quarto-title-block {
   background-color: $primary-light;
+}
+
+.nav-link.active {
+  color: $gray-100;
+  font-weight: 200;
+}
+
+.nav-link.active {
+  color: $gray-200;
+  font-weight: 180;
 }
