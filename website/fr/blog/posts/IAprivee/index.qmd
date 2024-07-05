@@ -6,6 +6,15 @@ categories: [liberation, IA, économie, sciences cognitives]
 image: "coverIAprivee.jpg"
 image-alt: "Wiki Commons @mikemacmarketing"
 description: "Le modèle de Bill Gates et Elon Musk à la lumière du réseau de neurones GPT-3."
+title-block-banner: "coverIAprivee.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Si l’alliance entre le fantasque Elon Musk et l’austère Bill Gates a de quoi surprendre, elle vient pourtant de porter ses premiers fruits, et non des moindres. Un an après [l’accord conclu](https://web.archive.org/web/20201205030704/https://www.cnbc.com/2019/07/22/microsoft-invests-1-billion-in-elon-musks-openai.html) entre les entreprises OpenAI et Microsoft, l’algorithme “GPT-3” sortait officiellement du bois le 28 mai 2020 sous la forme d’une publication scientifique (voir [ici](https://web.archive.org/web/20201205030704/https://arxiv.org/pdf/2005.14165.pdf)). S’il ne s’agit pas encore de la super-intelligence dont rêvent les transhumanistes, l’avancée est suffisamment significative pour ouvrir de vraies questions politiques. Présentations.
