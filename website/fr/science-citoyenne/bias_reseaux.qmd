@@ -1,0 +1,28 @@
+---
+title: "RL | Bias Facebook 2017"
+---
+
+
+Pour comprendre le but de cette étude, vous pouvez lire [l'article initialement publié sur Liberation.fr](../blog/posts/bullesdefiltres/). Il répertorie tous les principaux résultats et s'essaie au jeu risqué des interprétations!
+
+Toutes les données et les scripts utilisés pour générer les figures sont disponible ci-dessous ou à cette [adresse](https://figshare.com/articles/dataset/Facebook_French_Presidential_Elections_2017/4815049/1).
+
+<iframe src="https://widgets.figshare.com/articles/4815049/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>
+
+Si quelqu'un en manifeste le besoin, je pourrais éventuellement détailler la procédure. N'hésitez pas à m'écrire ou à commenter ci-dessous!
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="Comments OtherFR"
+        data-category-id="DIC_kwDOMSMTI84Cgltq"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

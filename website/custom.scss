@@ -50,6 +50,7 @@ $navbar-dark-hover-color:       $white !default;
 $body-color: #222 !default;
 $body-bg: #fff !default;
 $primary: #468 !default;
+$primary-light: rgb(88, 111, 134) !default;
 $secondary: #999 !default;
 
 $font-family-sans-serif: sans-serif !default;
@@ -207,13 +208,23 @@ div.quarto-about-jolla main {
 }
 
 .quarto-title-banner .quarto-title {
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.6);
 	padding: 20px;
 	height: fit-content;
-	margin-top: 5%;
+	margin: auto;
   border-radius: 15px;
 }
 
+.quarto-title-banner .quarto-title h1 {
+	font-weight: 500;
+  font-size: calc(1.1rem + 0.8vw);
+}
+
+
 div.quarto-about-jolla {
   margin-top: 5%;
+}
+
+.quarto-title-block {
+  background-color: $primary-light;
 }

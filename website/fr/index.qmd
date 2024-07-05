@@ -1,8 +1,8 @@
 ---
-title: "RL | Accueil"
+title: "Romain Ligneul"
 about:
   template: jolla
-  image: ../img/neuron.PNG
+  image: ../images/portrait_bw.png
   links:
     - icon: github
       text: Github
@@ -21,3 +21,25 @@ Dans ma vie francophone dans laquelle je passe un certain temps à écrire pour,
 #### Blog
 
 Assez conséquent et relativement bien organisé, il répertorie tous les billets que j'ai précédemment publiés sur d'autres plateformes (Rue89, Mediapart, Libération) et de nouveaux billets écrits au fil de l'eau. Il traite de science (principalement cerveau et cognition) mais vous y trouverez aussi beaucoup de réflexions politiques, notamment sur les inégalités socioéconomiques et le terrorisme. C'est une mauvaise manie que j'ai attrapé très jeune.
+
+#### Recherche
+
+Une courte description de mes travaux et quelques publications.
+
+#### Science-citoyenne
+
+Quelques exemple d'application d'une méthode scientifique à des questions *immédiatement* pertinentes pour le grand public.
+
+-- Pour l'analyse des biais présents dans les quiz électoraux du Monde et du Figaro lors de la présidentielle 2022: [**cliquez ici**](/fr/science-citoyenne/quiz_elections)
+
+-- Pour l'analyse des biais et des bulles de filtre sur Facebook lors de la présidentielle 2017: [**cliquez ici**](/fr/science-citoyenne/biais_réseaux)
+
+D'autres études suivront, irrégulièrement.
+
+#### Presse et grand public
+
+Une liste d'événements auxquels j'ai participé et d'articles ou d'ouvrage que j'ai écrits ou co-écrits (en français)
+
+#### RobustCircuit
+
+Une brève description de cette start-up fondée il y a quelques années avec Daniela Domingues aka [\@neurodaniela](https://x.com/neurodaniela).

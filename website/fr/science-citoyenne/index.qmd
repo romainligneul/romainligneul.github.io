@@ -1,0 +1,11 @@
+---
+title: "RL | Science citoyenne"
+---
+
+Par science citoyenne, j'entends l'application d'une méthode scientifique à des questions *immédiatement* pertinentes pour le grand public.
+
+-- Pour l'analyse des biais présents dans les quiz électoraux du Monde et du Figaro lors de la présidentielle 2022: [**cliquez ici**](/fr/science-citoyenne/quiz_elections)
+
+-- Pour l'analyse des biais et des bulles de filtre sur Facebook lors de la présidentielle 2017: [**cliquez ici**](/fr/science-citoyenne/biais_réseaux)
+
+D'autres études suivront, irrégulièrement.

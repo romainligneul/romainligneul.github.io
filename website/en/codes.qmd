@@ -1,15 +1,16 @@
 ---
-title: "Romain Ligneul (EN)"
-about:
-  template: jolla
-  image: ../img/neuron.PNG
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/romainligneul/cophy-project
-    - icon: cup-hot-fill
-      text: Cophy
-      href: https://cophyteam.wixsite.com/website-1
+title: "RL | Codes"
 ---
 
-Here I have some codes
+::: {.callout-warning}
+This page is under construction.
+:::
+
+For now, if you are interested in my code, you can visit my Github account (it's a mess)
+https://github.com/romainligneul
+
+Or the Github account of my start-up RobustCircuit (it's a mess too)
+https://github.com/robustcircuit
+
+It is more oriented towards web experiments using Javascript/jsPsych and some SVG manipulation logics using D3.js
+

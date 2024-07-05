@@ -1,17 +1,30 @@
 ---
-title: "Romain Ligneul (EN)"
+title: "Romain Ligneul"
 about:
   template: jolla
-  image: ../img/neuron.PNG
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/romainligneul/cophy-project
-    - icon: cup-hot-fill
-      text: Cophy
-      href: https://cophyteam.wixsite.com/website-1
+  image: images/portrait_bw.png
 aliases:
   - /
 ---
 
-Main landing page
+::: callout-warning
+This page is under construction.
+:::
+
+For more information about me, check the following website:
+
+My research group: <https://www.adaptivecontrol.org>
+
+The team that hosts my research group: <https://cophyteam.wixsite.com/website-1/>
+
+The institute that hosts my team: <https://www.crnl.fr/en?language=en>
+
+The institution that runs my institute: <https://www.inserm.fr/>
+
+The ministry that run my institution: https://www.enseignementsup-recherche.gouv.fr/fr
+
+The European institution that generously funded my group: <https://erc.europa.eu/homepage>
+
+Alternatively you can check the website of the [startup](https://robustcircuit.eu/) that I founded a few years ago with my partner-in-crime Daniela Domingues, aka [\@neurodaniela](https://x.com/neurodaniela).
+
+You can even click on the links in the footer of this page 😊.

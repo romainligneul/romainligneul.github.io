@@ -16,6 +16,17 @@ website:
         text: EN
       - href: ./en/fr
         text: FR
+  page-footer: 
+    left: "Copyright 2024, Romain Ligneul" 
+    right: 
+      - icon: github
+        href: https://github.com/romainligneul
+      - icon: twitter 
+        href: https://twitter.com/causalself
+      - icon: linkedin 
+        href: https://www.linkedin.com/in/romain-ligneul-b63b46192/
+      - icon: lightbulb 
+        href: https://www.adaptivecontrol.org
         
 format:
   html:

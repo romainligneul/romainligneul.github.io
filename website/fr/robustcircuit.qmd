@@ -1,0 +1,27 @@
+---
+title: "RL | RobustCircuit"
+image: "../images/RC.png"
+description: "Startup"
+title-block-banner: "../images/RC.png"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        width: 100%
+        height: auto;
+      }
+      </style>
+---
+
+RobustCircuit est une jeune entreprise fondée en 2021 par Daniela Domingues (Institut du Cerveau de Paris, France) et moi-même.
+
+Nous développons des tests comportementaux et cognitifs en ligne pour des équipes académiques et des consortiums de recherche à travers le monde, en mettant un fort accent sur la conception de solutions personnalisées. En d'autres termes, nous concevons, programmons et hébergeons des tâches cognitives sur des serveurs dédiés ou dans le cloud, tout en assurant une gestion flexible des bases de données. Étant nous-mêmes neuroscientifiques, nous pouvons également aider avec les analyses et les statistiques.
+
+Nos projets actuels se consacrent à la surveillance des troubles comportementaux et des symptômes dans les maladies neurologiques et psychiatriques. Grâce à notre participation au consortium CONTROL-PD financé par l'UE, nous contribuons à une meilleure compréhension de l'étiologie de la maladie de Parkinson, la deuxième maladie neurodégénérative la plus courante au monde. Nous nous intéressons particulièrement à la détection des symptômes cognitifs prodromiques et précoces dans cette pathologie en utilisant une combinaison de tests cognitifs, d'essais locomoteurs et d'analyse vocale. Parallèlement, nous travaillons sur la dépression majeure et les prédicteurs de la réponse au traitement antidépresseur.
+
+Dans l'avenir, nous aimerions de développer des applications et des produits plus exigeants utilisant du matériel dédié et intégrant les tests cognitifs avec des outils d'apprentissage automatique et d'intelligence artificielle (en ligne ou hors ligne).  Pour l'instant, le gros de notre activité consiste à offrir des solutions intégrées (full-stack) pour des tests cognitifs en ligne, et à organiser des workshops pour diffuser les compétences requises pour cette activité.
+
+Pour plus d'information, visitez le site de notre compagnie: [robustcircuit.eu](https://robustcircuit.eu)
+Faites un tour dans l'onglet "Teaching" pour voire nos activités éducatives.
+

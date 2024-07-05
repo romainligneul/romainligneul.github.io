@@ -1,8 +1,8 @@
 ---
 title: "RL | Recherche"
-image: "recherche_banner.jpg"
+image: "../images/recherche_banner.jpg"
 description: "Côté recherche"
-title-block-banner: "../recherche_banner.png"
+title-block-banner: "../images/recherche_banner.png"
 include-in-header:
   - text: |
       <style>
@@ -43,7 +43,7 @@ re. Les théories actuelles suggèrent que deux mécanismes de décision distinc
 
 ## En savoir plus
 
-Vous pouvez visiter le site web du groupe [Contrôle Adaptatif](https://www.adaptivecontrol.org/){target="_blank"} (uniquement en anglais pour l'instant), le site du [CRNL](https://www.crnl.fr/){target="_blank"}, le site de l'équipe [COPHY](https://cophyteam.wixsite.com/website-1/join-our-lab){target="_blank"} m'héberge mon groupe et avec qui je collabore activement.
+Vous pouvez visiter le site web du groupe [Contrôle Adaptatif](https://www.adaptivecontrol.org/){target="_blank"} (uniquement en anglais pour l'instant), le site du [CRNL](https://www.crnl.fr/){target="_blank"}, le site de l'équipe [COPHY](https://cophyteam.wixsite.com/website-1/){target="_blank"} m'héberge mon groupe et avec qui je collabore activement.
 
 Enfin, vous pouvez jeter un oeil à ma page anglophone ici même (en cours de construction).
 
@@ -132,3 +132,21 @@ Enfin, vous pouvez jeter un oeil à ma page anglophone ici même (en cours de co
   </div>
 </div>
 
+
+## Commentaires? Questions?
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="Comments OtherFR"
+        data-category-id="DIC_kwDOMSMTI84Cgltq"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
