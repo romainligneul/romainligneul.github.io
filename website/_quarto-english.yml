@@ -15,7 +15,7 @@ website:
       - href: ./en
         text: EN
       - href: "./fr"
-      - text: FR
+        text: FR
         
 format:
   html:

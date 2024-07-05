@@ -1,0 +1,142 @@
+---
+title: "La neuroimagerie du LSD : une première mondiale aux frontières de la science"
+author: "RL, Neuro89"
+date: "2016-04-12"
+categories: [neuro89, psychédéliques, neuroscience, psychiatrie]
+image: "innergardens.jpg"
+description: "Article de vulgarisation écrit à l'occasion de la première étude en IRMf impliquant LSD et cobayes humaines."
+---
+
+Ce lundi, un nouveau chapitre [s’est ouvert](http://www.pnas.org/content/early/2016/04/05/1518377113.full) dans l’histoire tumultueuse de l’acide lysergique diéthylamide ([LSD](https://fr.wikipedia.org/wiki/LSD)), dont les effets psychédéliques – « révélateurs de l’âme », en grec – furent découverts en 1943 par le chimiste [Albert Hofmann](https://fr.wikipedia.org/wiki/Albert_Hofmann) (1906-2008).
+
+Bien que les substances psychédéliques comme la [mescaline](https://fr.wikipedia.org/wiki/Mescaline), la [datura](https://fr.wikipedia.org/wiki/Datura) ou la [psilocybine](https://fr.wikipedia.org/wiki/Psilocybine) soient utilisées depuis des millénaires en certains points du globe (Inde, Amérique du Sud), leur mode d’action neurobiologique reste mystérieux et le LSD n’échappe pas à la règle. 
+
+Si l’on sait qu’ils impliquent le système sérotoninergique (comme la [MDMA](https://fr.wikipedia.org/wiki/MDMA) ou les antidépresseurs), le lien entre ces modifications chimiques et les effets cognitifs constatés demeure quasiment inconnu.
+
+Comment de si petites doses (quelques dizaines de microgrammes) peuvent-elles engendrer de telles modifications de la conscience, altérer si profondément le rapport aux couleurs, aux sons et aux autres, ou encore générer ces étranges « révélations » qui s’apparentent parfois à des points de non-retour personnels, professionnels, voire spirituels ?
+
+## Animaux sous LSD
+
+C’est la question à laquelle un groupe de [neuroimageurs](https://fr.wikipedia.org/wiki/Imagerie_c%C3%A9r%C3%A9brale) et de psychiatres britanniques a tenté de répondre, aidé en cela par une campagne de [financement participatif](http://walacea.com/campaigns/lsd/) lancée en 2015.
+
+Depuis le scandale provoqué dans les années 1960 à Harvard par les recherches de [Timothy Leary](http://fr.wikipedia.org/wiki/Timothy_Leary) (héraut du « LSD thérapeutique » [emprisonné](http://www.laviedesidees.fr/LSD-le-retour-de-l-enfant-terrible.html) sous la présidence Nixon), la substance était jusqu’alors presque exclusivement administrée à des animaux (et, occasionnellement, à quelques communistes torturés dans [les laboratoires secrets de la CIA](http://fr.wikipedia.org/wiki/Projet_MK-Ultra)).
+
+Or, chez les animaux, le LSD est typiquement considéré sous un angle pathologique plutôt que thérapeutique – à savoir, comme modèle de « psychose induite » utile pour mimer certains aspects de la schizophrénie.
+
+## Le crowdfunding à la rescousse
+
+Le LSD et les psychédéliques sont donc sortis du périmètre de la psychologie scientifique et clinique pendant presque 50 ans, malgré l’intérêt continu d’intellectuels comme [Sartre](https://bibliobs.nouvelobs.com/essais/20091125.BIB4479/quand-sartre-voyait-des-homards-partout.html), [Foucault](http://www.vacarme.org/article2024.html), Huxley \[[PDF](http://www.eboga.fr/VIP/Aldous-Huxley-Les-portes-de-la-perception.pdf)\] ou Castaneda \[[PDF](http://data0.eklablog.com/ae-editions/perso/bibliotheque%20-%20pdf/carlos%20castaneda%20-%20l-herbe%20du%20diable%20et%20la%20pet.pdf)\], 
+
+![Cosmos - Armelle Boussidan ](cosmos.jpg){fig-align="center" width="432"}
+
+Mais avec l’avènement des neurosciences cognitives et [la découverte](http://www.vidal.fr/actualites/15581/une_meta_analyse_confirme_l_interet_de_la_ketamine_dans_le_traitement_d_urgence_de_la_depression/) du potentiel antidépresseur de la kétamine au début des années 2000, il semblait inévitable que quelques « têtes brûlées » finissent par céder à la curiosité et se décident à passer le LSD sous la loupe des nouveaux outils de neuroimagerie que sont l’IRM et la [magnétoencéphalographie](https://fr.wikipedia.org/wiki/Magn%C3%A9toenc%C3%A9phalographie). 
+
+C’est donc chose faite grâce au crowdfunding [utilisé](http://walacea.com/campaigns/lsd/) par les chercheurs David Nutt, Amanda Feilding et Robin Carhart-Harris pour contourner la frilosité des agences de financement traditionnelles et réaliser la première expérience de neuroimagerie entièrement dédiée au LSD.
+
+## Une vingtaine de testeurs
+
+Psychiatre de renom, David Nutt est connu pour ses prises de position radicales contre la consommation excessive d’alcool au Royaume-Uni, ainsi que pour son discours inhabituel sur certaines drogues comme la [MDMA et le THC](http://rue89.nouvelobs.com/2012/06/29/de-lecstasy-pour-guerir-la-tete-le-combat-dun-chercheur-anglais-233430).
+
+Si sa démarche a suscité d’intenses débats au sein de la [communauté scientifique](http://www.dailymail.co.uk/wires/pa/article-2980208/Brits-controversial-LSD-study.html) et chez certains [consommateurs](https://news.vice.com/fr/article/lsd-recherche-maladies-mentales), son approche vient de porter ses premiers fruits : une publication dans la revue de l’Académie des Sciences américaine ([PNAS](http://www.pnas.org/content/early/2016/04/05/1518377113.full)).
+
+![Un des volontaires, avant son entrée dans le scanner - walacea.com ](lsdstudy.jpg){fig-align="center" width="430"}
+
+Une vingtaine d’individus ont participé à un protocole élaboré combinant IRM (pour la localisation spatiale des activités cérébrales) et magnétoencéphalographie (pour leur caractérisation temporelle).
+
+Afin d’isoler les activités spécifiquement modifiées par le LSD, chaque participant devait passer l’ensemble du protocole deux fois :
+
+-   après avoir ingéré la substance ;
+
+-   après avoir ingéré un placebo inactif biologiquement.
+
+A chaque passation, des périodes de repos alternaient avec l’écoute de musique ou le visionnages de films muets. Pour cette première publication, seules les périodes de repos ont été analysées, mais elles sont déjà riches d’enseignement.
+
+## « Voir » les yeux fermés
+
+-   A des doses très petites (moins de 50 microgrammes), le LSD produit simplement un sentiment d’euphorie, stimule la créativité ou exacerbe la perception, de telle sorte que la réalité paraît plus belle et significative, mais il n’induit pas nécessairement d’hallucinations au sens strict du terme.
+
+-   En revanche, à la dose intermédiaire utilisée dans l’étude (75 microgrammes) les utilisateurs sensibles constatent déjà l’apparition d’une imagerie visuelle complexe, dynamique et colorée, principalement perceptible dans l’obscurité. A quelques déformations près, le monde extérieur défile alors normalement lorsque les yeux sont ouverts, tandis que de riches hallucinations se manifestent dès que les paupières se ferment.
+
+Pour tenter d’expliquer ce phénomène, les chercheurs ont analysé la « connectivité fonctionnelle » de différentes aires cérébrales \[[PDF](http://www.sfnrcongres.net/archivesite/www/2013/pdf/presentations2013/10h45%20Nicolas%20Menjot.pdf)\].
+
+Ils ont ainsi découvert que le couplage des activités entre l’aire visuelle primaire V1 (en rose) et le reste du cerveau (zones rouges-jaunes) était profondément renforcé par le LSD – et ce, d’autant plus que les hallucinations ressenties par les sujets étaient intenses.
+
+![En haut, augmentation de la connectivité entre V1 (en rose) et le reste du cerveau (de rouge à jaune). En bas, corrélation entre cette augmentation et l’intensité des hallucinations visuelles ressenties - Carhart-Harris et al., 2016, PNAS ](reseaux.png){fig-align="center" width="451"}
+
+Ces résultats laissent penser que la substance permettrait en quelque sorte de « voir » ce qu’il se passe dans notre propre cerveau, en désinhibant certaines connexions dites « [réentrantes](http://theses.univ-lyon2.fr/documents/getpart.php?id=lyon2.2006.dirocco_v'amp;part=112158) » via les récepteurs sérotoninergiques de type 5HT2A.
+
+D’après [Robin Carhart-Harris](http://mentalfloss.com/article/78408/neuroimaging-reveals-how-lsd-affects-brain), leader de l’étude :
+
+*« Avec le LSD, les réseaux neuronaux perdent en partie leur intégrité. Les systèmes cérébraux deviennent moins ségrégés, et les différents réseaux commencent à se fondre les uns dans les autres. Globalement, le cerveau devient plus connecté, et il opère de manière plus flexible »*
+
+## De nouveaux horizons
+
+L’analyse des signaux électrophysiologiques (MEG) montre aussi que le LSD induit une diminution générale de la puissance des oscillations électromagnétiques à la surface du scalp, qui se double d’une accélération du rythme [alpha](https://fr.wikipedia.org/wiki/Rythme_alpha).
+
+Or ce dernier est directement lié aux processus attentionnels et une hypothèse très en vogue voudrait qu’il soit impliqué dans le [filtrage](http://www.tandfonline.com/doi/abs/10.4161/cib.22702) des informations traitées par notre cerveau. S’ils sont réplicables et robustes, ces résultats inattendus seront donc abondamment examinés, cités et commentés dans un futur proche.
+
+En filigrane, les travaux de David Nutt et Robin Carhat-Harris donnent une consistance plus scientifique à une hypothèse ancienne formulée par Aldous Huxley dans « les Portes de la perception » \[1954, [PDF](http://www.eboga.fr/VIP/Aldous-Huxley-Les-portes-de-la-perception.pdf)\], ouvrage influent dont Jim Morrison s’inspirera d’ailleurs pour nommer son groupe (« The Doors »).
+
+Selon Huxley (également auteur du « Meilleur des Mondes »), les psychédéliques supprimeraient une tendance tenace de notre cerveau à privilégier le traitement de ce qui peut lui être utile pour la survie et la reproduction, au détriment des innombrables autres sources d’informations qui l’entourent et qui le constituent.
+
+En affaiblissant les multiples filtres qui forcent normalement notre pensée à rester « utilement collée » à la réalité, le LSD ouvrirait donc des horizons désaltérants à la conscience. Parmi ceux-là, figurent évidemment les filtres qui nous dispensent habituellement de « voir » les contenus dynamiques générés par notre propre cerveau ! 
+
+## « Dissoudre l’ego » dans un scanner ? 
+
+Déjà stupéfiante au niveau perceptuel, l’action du LSD ne se borne cependant pas aux hallucinations « yeux fermés », ni même à celles – plus ou moins dérangeantes – qui persistent une fois les yeux ouverts avec des dosages plus conséquents.
+
+Si c’était le cas, la peinture et le cinéma pourraient presque retranscrire l’expérience et permettre au néophyte d’en saisir l’essentiel. Mais, avec de plus hautes doses et dans certains contextes, le LSD et les autres hallucinogènes dits indoliques facilitent l’émergence d’un état impossible à décrire verbalement ou picturalement.
+
+![« Timeless inner garden » - Armelle Boussidan ](innergardens.jpg){fig-align="center" width="530"}
+
+Certains appellent « dissolution de l’ego » cette modification drastique des rapports affectifs, spatiaux et temporels entretenus avec la réalité.
+
+Pour le [Dr Carhart-Harris](http://mentalfloss.com/article/78408/neuroimaging-reveals-how-lsd-affects-brain) :
+
+*« \[Le phénomène\] est souvent accompagné d’intuitions nouvelles à propos de nous-mêmes, de notre parcours, de nos relations avec les autres et avec le monde en général. En fait, cela va main dans la main avec des sentiments de nature spirituelle et mystique. »*
+
+Ces expériences extrêmement intimes [aboutissent](http://leportique.revues.org/155) souvent à une appréhension plus sereine de la mort, ce qui rend le LSD utile pour [soulager](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4086777/) certains patients en fin de vie, et ce sont elles qui justifient l’emploi du terme « [enthéogène](https://fr.wikipedia.org/wiki/Enth%C3%A9og%C3%A8ne) » (qui « rapproche du divin ») pour qualifier l’action des psychédéliques – là où des drogues plus superficielles comme la MDMA sont simplement qualifiées d’empathogènes (qui « rapproche d’autrui »).
+
+## Des ressentis très subjectifs
+
+Bien que la dimension spirituelle du LSD soit a priori étrangère (et quelque peu contraire) aux prémisses du raisonnement scientifique, les auteurs de l’étude ont tout de même voulu savoir si la « dissolution de l’égo » avait une contrepartie neurobiologique dans leurs données.
+
+Pour ce faire, ils ont donc recoupé les questionnaires quantitatifs remplis par les sujets (voir ci-dessous) avec les différents signaux cérébraux récoltés.
+
+![Effets subjectifs de la prise de LSD - Carhart-Harris et al., 2016, PNAS ](asq.png){fig-align="center"}
+
+Les analyses du signal IRM confirment ce qui avait déjà été observé chez les consommateurs d’[ayahuasca](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118143) et de [psilocybine](https://www.pnas.org/content/109/6/2138.full), à savoir qu’il existerait une corrélation entre les sensations de « dissolution de l’égo » et la modification du couplage fonctionnel de trois structures appartenant à un réseau cérébral actif « [par défaut](http://www.lemonde.fr/sciences/article/2013/03/21/que-fait-le-cerveau-quand-il-ne-fait-rien_1852147_1650684.html) », lui-même relié à maintes reprises à la pensée auto-référentielle et au concept de « soi ».
+
+![Diminution (en bleu) de la puissance oscillatoire électromagnétique dans différentes bandes de fréquence, telle qu »induite par le LSD et potentiellement liée au phénomène de « dissolution de l »Ego » d »après les auteurs de l »étude - Carhart-Harris et al., 2016, PNAS ](oscillations.png){fig-align="center" width="462"}
+
+En outre, les données électrophysiologiques suggèrent que cette dissolution s’accompagne d’une désynchronisation à grande échelle des rythmes alpha, ce qui correspond peut-être à la suppression de certains mécanismes inhibiteurs, actifs dans les états de conscience dits « normaux ».
+
+Sans préjuger de la qualité des analyses effectuées, il y a cependant de quoi être légèrement dubitatif quant à la possibilité d’induire (et de quantifier) une authentique « dissolution de l’ego », dans un scanner, avec des doses aussi modérées de LSD.
+
+L’interprétation des résultats est ici sujette à caution, d’autant plus que contrairement aux hallucinations visuelles (éventuellement quantifiables par des tests rigoureux), les ressentis d’ordre spirituel sont très subjectifs et personnels, c’est-à-dire difficilement objectivables par un questionnaire. 
+
+## A la frontière entre science et spiritualité
+
+En conclusion, les recherches sur le LSD possèdent indéniablement un grand potentiel pour les neurosciences fondamentales comme pour la psychiatrie, mais la rationalisation excessive de l’expérience psychédélique comporte aussi un double risque.
+
+-   D’une part, l’association entre états psychédéliques et activités cérébrales peut laisser penser que les premiers sont expliqués par les secondes, ce qui est à la fois faux et illusoire. Il est crucial de rappeler que les chercheurs interprètent ici des corrélations (entre états mentaux et cérébraux) qui ne constituent jamais une démonstration de causalité, et qui n’épuisent en aucun cas la richesse des vécus associés.
+
+-   D’autre part, lorsque la neuroimagerie se penche sur la [méditation](http://www.lesechos.fr/04/09/2015/lesechos.fr/021305306394_la-meditation-validee-par-les-neurosciences.htm), sur la [ferveur religieuse](http://www.lemonde.fr/sciences/article/2013/11/11/dieu-adn-et-depression_3511843_1650684.html) ou sur les psychédéliques, elle donne parfois le sentiment de mélanger les genres et de flouter des frontières qui permettent généralement à la rationalité scientifique et la spiritualité de se protéger l’une de l’autre. La première de ces frontières étant sans doute la démarcation entre la quête de vérité objective et la quête de sens, qui s’opère dans l’espace de la subjectivité.
+
+### Un zeste de prévention
+
+Bien que la toxicité biologique du LSD soit considérée comme quasi-nulle (contrairement à la majeure partie des drogues de synthèse, MDMA comprise), il ne faut pas négliger sa potentielle toxicité psychique. En effet, si le LSD ne détériore ni la santé physique ni la santé mentale à l’échelle de la population (on observe même une tendance [inverse](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0063972)), sa consommation peut causer certains problèmes à l’échelle individuelle.
+
+-   Premièrement, elle peut révéler parfois une schizophrénie latente ou d’autres troubles psychiatriques chez les sujets jeunes \[[PDF](https://wiki.dmt-nexus.me/w/images/7/72/Long_term_effects_of_lsd.pdf)\].
+
+-   Deuxièmement, le LSD est plus fréquemment associé que d’autres psychédéliques à l'apparition de troubles connus sous le nom de [hallucinogen-persisting perception disorders](http://www.cairn.info/revue-psychotropes-2005-1-page-9.htm), incluant une résurgence ponctuelle des symptômes normalement liés à la consommation aiguë (le fameux « flash-back » ou remontée acide), des perturbations visuelles (comme la [diminution](http://www.ncbi.nlm.nih.gov/pubmed/6980680?dopt=Abstract) de la capacité à discriminer les couleurs) et diverses instabilités émotionnelles.
+
+-   Troisièmement, en élargissant momentanément la conscience, l’expérience psychédélique amène parfois l’individu à envisager de nouvelles questions et de nouvelles représentations du soi, du monde et des autres. Actuellement considérés comme [bénéfiques à long terme](http://journals.cambridge.org/action/displayAbstract?fromPage=online'amp;aid=10261226'amp;fileId=S0033291715002901), ces événement peuvent être déroutants à court terme, pour le consommateur et son entourage, en particulier si les hallucinogènes sont mal appréhendés (d'où l'utilité de diffuser les connaissances scientifiques sur le sujet).
+
+Outre que la prise de LSD reste parfaitement illégale, il peut donc lui arriver d'être nocive, en particulier chez les moins de 25 ans, chez les individus sévèrement hypertendus, et plus généralement lorsqu'elle survient dans des contextes émotionnellement négatifs.
+
+L'ingestion simultanée de psychostimulants ou d'alcool en grande quantité est enfin fortement déconseillée (car elle facilite la survenue d'épisodes paranoïaques et à la désinhibition de certains comportements à risque).
+
+**Merci à [Bahar Gholipour](https://twitter.com/BaharGholipour) qui m’a transmis la publication avant sa sortie officielle.**
+
+[**Lien vers l'article original**](https://www.nouvelobs.com/rue89/rue89-neuro89/20160412.RUE2304/la-neuroimagerie-du-lsd-une-premiere-mondiale-aux-frontieres-de-la-science.html)
