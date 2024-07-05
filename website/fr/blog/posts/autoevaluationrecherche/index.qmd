@@ -2,9 +2,18 @@
 title: "Vers l'auto-évaluation et le contrôle horizontal des ressources dans le monde académique? "
 author: "RL, Libération"
 date: "2020-01-23"
-categories: [liberation, neuroscience, économie, inégalités]
+categories: [liberation, neuroscience, économie, recherche]
 image: "autoeval_banner.jpg"
 description: "Critiques du système en place et alternatives possibles."
+title-block-banner: "autoeval_banner.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Récemment, un groupe de chercheurs français a publié une [tribune dans Le Monde](https://web.archive.org/web/20201205023236/https://www.lemonde.fr/idees/article/2020/01/20/nous-chercheurs-voulons-defendre-l-autonomie-de-la-recherche-et-des-formations_6026543_3232.html) annonçant leur intention de candidater collectivement à la présidence de l’HCERES, la plus haute instance publique de régulation et d’orientation de la recherche en France. Très lue et commentée dans les milieux académiques, cette initiative portée notamment par [rogueESR](https://web.archive.org/web/20201205023236/http://rogueesr.fr/) a reçu plus de 5000 soutiens, dont le mien.

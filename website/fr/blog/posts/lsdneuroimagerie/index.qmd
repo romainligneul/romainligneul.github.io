@@ -5,6 +5,15 @@ date: "2016-04-12"
 categories: [neuro89, psychédéliques, neuroscience, psychiatrie]
 image: "innergardens.jpg"
 description: "Article de vulgarisation écrit à l'occasion de la première étude en IRMf impliquant LSD et cobayes humaines."
+title-block-banner: "innergardens.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Ce lundi, un nouveau chapitre [s’est ouvert](http://www.pnas.org/content/early/2016/04/05/1518377113.full) dans l’histoire tumultueuse de l’acide lysergique diéthylamide ([LSD](https://fr.wikipedia.org/wiki/LSD)), dont les effets psychédéliques – « révélateurs de l’âme », en grec – furent découverts en 1943 par le chimiste [Albert Hofmann](https://fr.wikipedia.org/wiki/Albert_Hofmann) (1906-2008).
@@ -140,3 +149,5 @@ L'ingestion simultanée de psychostimulants ou d'alcool en grande quantité est 
 **Merci à [Bahar Gholipour](https://twitter.com/BaharGholipour) qui m’a transmis la publication avant sa sortie officielle.**
 
 [**Lien vers l'article original**](https://www.nouvelobs.com/rue89/rue89-neuro89/20160412.RUE2304/la-neuroimagerie-du-lsd-une-premiere-mondiale-aux-frontieres-de-la-science.html)
+
+<script src="https://giscus.app/client.js"         data-repo="romainligneul/giscus-comments"         data-repo-id="R_kgDOMSMTIw"         data-category="CommentsBlogFR"         data-category-id="DIC_kwDOMSMTI84CglZk"         data-mapping="pathname"         data-strict="0"         data-reactions-enabled="1"         data-emit-metadata="0"         data-input-position="top"         data-theme="preferred_color_scheme"         data-lang="en"         crossorigin="anonymous"         async> </script>

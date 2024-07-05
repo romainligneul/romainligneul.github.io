@@ -4,7 +4,16 @@ author: "RL, Libération"
 date: "2017-01-04"
 categories: [neuro89, sciences cognitives, économie, politique, inégalités]
 image: "dore_greed.jpg"
-description: "Pour qui veut s’armer en vue des joutes politiques à venir en 2017, la lecture du livre de Jacques Généreux est presque incontournable, car cet ouvrage la fois informatif et vindicatif constitue sans doute la trame de fond du programme économique de la France Insoumise pour les prochaines présidentielles. "
+description: "Pour qui veut s’armer en vue des joutes politiques à venir en 2017, la lecture du livre de Jacques Généreux est presque incontournable, car cet ouvrage la fois informatif et vindicatif constitue sans doute la trame de fond du programme économique de la France Insoumise pour les prochaines présidentielles."
+title-block-banner: "dore_greed.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Jacques Généreux avec Jean-Luc Mélenchon l’un des co-fondateurs du Parti de Gauche en 2008 (date à laquelle l’adhésion du Parti Socialiste à l’économie de marché est définitivement actée) et il a animé la construction du programme [l’Avenir en commun](https://web.archive.org/web/20201021013037/http://www.jlm2017.fr/le_projet) sur la plate-forme internet du candidat à la Présidence de la République.

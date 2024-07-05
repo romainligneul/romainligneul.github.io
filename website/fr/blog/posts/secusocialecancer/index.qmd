@@ -3,8 +3,18 @@ title: "Le financement de la sécurité sociale ou le cancer technocratique par 
 author: "RL, Libération"
 date: "2017-10-07"
 categories: [liberation, économie, inégalités, politique]
-image: "homeless.jpg"
+image: "nospeurs_dore.jpg"
+image-alt: "Antoine Doré - Nos peurs"
 description: "L'histoire d'une jeune femme découvrant qu'elle est atteinte d'un cancer dans la France d'Emmanuel Macron."
+title-block-banner: "nospeurs_dore.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Malgré de nombreux articles dans les tuyaux, ce blog est resté muet depuis plusieurs mois suite à l’élection présidentielle et au cancer nouvellement diagnostiqué d’une amie qui m’est chère. Or ce second événement vient éclairer le premier d’une lumière tellement crue qu’il me semble utile d’en faire le récit, à l’heure où le gouvernement rend public [un projet de loi de Finances de la Sécurité sociale (PLFSS) aussi libéral qu’austéritaire](https://web.archive.org/web/20201021014511/https://www.humanite.fr/securite-sociale-salve-de-critiques-contre-le-plfss-642945).

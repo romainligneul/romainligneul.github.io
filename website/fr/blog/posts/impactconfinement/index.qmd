@@ -5,6 +5,15 @@ date: "2020-03-19"
 categories: [liberation, sciences cognitives, santé, psychiatrie]
 image: "confinement.jpg"
 description: "Alors que le Sénat examine la “loi d’urgence sanitaire” visant à étendre largement les pouvoirs de l’exécutif dans les mois qui viennent, il paraît urgent d’élargir notre connaissance et notre compréhension des conséquences psychologiques et sociales du confinement obligatoire décidé par Emmanuel Macron, dont cette loi constitue la suite logique."
+title-block-banner: "confinement.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Dans son édition du 14 mars 2020, le journal médical de référence The Lancet a publié une brève [revue de la littérature](https://web.archive.org/web/20201205022057/https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30460-8/fulltext) portant sur cette question, en réponse à l’appel de l’Organisation Mondiale de la Santé. Analysant 24 études détaillant les conséquence des quarantaines établies pour contenir les virus SARS ou Ebola (entre autres), les auteurs de l’article montrent que l’isolement en période d’épidémie peut être à l’origine de détresses psychologiques importantes, allant jusqu’au syndrome de stress post-traumatique.

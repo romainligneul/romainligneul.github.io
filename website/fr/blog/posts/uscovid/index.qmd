@@ -2,10 +2,19 @@
 title: "Covid-19 a-t-il pu naître sur le territoire américain?"
 author: "RL, Libération"
 date: "2020-04-22"
-categories: [liberation, covid19, santé, politique]
+categories: [liberation, covid19, politique]
 image: "covid19map.jpg"
 image-alt: "Répartition des cas confirmés de Covid-19 au 20 avril 2020. Source: Wikimedia Commons"
 description: "Les insinuations de Donald Trump, d'après qui Covid-19 proviendrait d'un laboratoire chinois, font actuellement le tour du monde. Il est donc temps de rappeler que les États-Unis ne sont pas, eux non plus, au delà de tout soupçon."
+title-block-banner: "covid19map.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 L’hypothèse d’une fuite de laboratoire, qui était il y a encore quelques semaines rangée d’emblée au rang des théories conspirationnistes, est désormais reprise par presque toute la presse comme une piste plausible pour expliquer l’émergence de Covid-19 ([#1](https://web.archive.org/web/20201205023909/https://www.europe1.fr/sante/le-coronavirus-a-t-il-vraiment-pu-sechapper-dun-laboratoire-de-wuhan-3962623), [#2](https://web.archive.org/web/20201205023909/https://www.lexpress.fr/actualite/monde/amerique-nord/le-coronavirus-pourrait-il-provenir-d-un-laboratoire-de-wuhan_2123945.html), [#3](https://web.archive.org/web/20201205023909/https://www.bfmtv.com/international/coronavirus-quel-est-ce-laboratoire-chinois-pointe-du-doigt-par-washington-1895295.html), [#4](https://web.archive.org/web/20201205023909/https://www.francetvinfo.fr/sante/maladie/coronavirus/coronavirus-le-laboratoire-chinois-de-wuhan-pointe-du-doigt-nie-etre-a-l-origine-de-la-pandemie_3923829.html)). Malheureusement, en se focalisant exclusivement sur le laboratoire de Wuhan, les médias français jouent le jeu de l’administration Trump et semblent oublier qu’une telle fuite aurait pu se produire partout dans le monde.

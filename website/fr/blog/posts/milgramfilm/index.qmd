@@ -5,6 +5,15 @@ date: "2016-01-28"
 categories: [neuro89, cinéma, sciences cognitives, dominance]
 image: "milgramexp.png"
 description: "Critique du film Experimenter relatant une partie de la vie de Stanley Milgram"
+title-block-banner: "milgramexp.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Cette semaine, une poignée de cinémas accueille en France la sortie du film « Experimenter » relatant la vie et l’œuvre du socio-psychologue américain Stanley Milgram. En total contraste avec « Une merveilleuse histoire du temps » (dédié au physicien britannique Stephen Hawking), « Experimenter » ne nous donne pas à voir l’existence romancée d’un homme mais le chemin intellectuel plutôt glacial qu’il a poursuivi, notamment en matière d’obéissance à l’autorité.

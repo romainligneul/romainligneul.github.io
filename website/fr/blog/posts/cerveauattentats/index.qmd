@@ -5,6 +5,15 @@ date: "2016-01-17"
 categories: [neuro89, terrorisme, neuroscience, complotisme]
 image: "dore_cerveau_attentats.jpg"
 description: "Reprise par la plupart des organes de presse et par de nombreux hommes politiques, le «  cerveau des attentats  » fait partie de ces expressions toutes faites qui traduisent d’abord la difficulté, sinon le renoncement à penser le terrorisme au-delà des lieux communs et des rhétoriques trompeuses."
+title-block-banner: "dore_cerveau_attentats.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Chaque année, de nouveaux mots et de nouvelles expressions naissent ou renaissent dans un débat public constamment remué par l’évolution des techniques et des sociétés. Or le langage joue une influence considérable – souvent implicite – sur la formation des opinions, d’où résulte l’exigence toujours renouvelée d’en préciser le sens et d’en mesurer la portée.
@@ -67,3 +76,20 @@ En focalisant notre attention sur cet insaisissable « cerveau des attentats » 
 
 
 [**Lien vers l'article original**](https://www.nouvelobs.com/rue89/rue89-neuro89/20160117.RUE2220/le-cerveau-des-attentats-au-pied-de-la-lettre.html)
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+

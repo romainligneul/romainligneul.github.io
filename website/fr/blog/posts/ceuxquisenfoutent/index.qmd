@@ -2,7 +2,7 @@
 title: "Inégalités sociales : le profil cognitif de ceux qui s’en foutent."
 author: "RL, Mediapart"
 date: "2016-08-11"
-categories: [mediapart, politique, inégalités]
+categories: [mediapart, politique, inégalités, psychiatrie, sciences cognitives]
 image: "dore_quisenfoutent.jpg"
 image-alt: "Ceux qui s'en foutent. © Antoine Doré @ http://www.antoinedore.com/"
 description: "Les rapports de domination régissant la société française ont été mis à nus au printemps 2016. Quelles leçons en tirer et surtout, que faire? Ce coup de gueule propose quelques élements de réponse inspirés par la recherche en sciences cognitives et sociales."

@@ -2,9 +2,18 @@
 title: "Présidentielles et bulles de filtres: le référencement politique de Facebook passé au crible "
 author: "RL, Libération"
 date: "2017-04-04"
-categories: [libération, politique, science citoyenne, médias, réseaux sociaux]
+categories: [liberation, politique, science citoyenne, médias, réseaux sociaux]
 image: "bleu_blanc_rouge.jpg"
 description: "Les opinions et les contenus partagés quotidiennement sur Facebook jouent un rôle de plus en plus important dans le processus démocratique. Compte tenu de l’opacité des algorithmes qui contrôlent la transmission de l’information sur le réseau social, seule l’expérimentation citoyenne permet d’évaluer leur neutralité et leur impact sur notre perception du monde politique."
+title-block-banner: "bleu_blanc_rouge.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Avec plus de [30 millions d’inscrits](https://web.archive.org/web/20201021022118/http://www.blogdumoderateur.com/chiffres-facebook/) en France, le mastodonte du web est devenu un outil incontournable aussi bien pour les hommes politiques, que pour les militants et les journalistes qui font l’actualité de notre démocratie. Les informations qui y circulent participent largement à l’évolution (ou à la stagnation) de nos opinions politiques et à l’idée que nous nous faisons des intentions de vote de notre cercle social.
@@ -132,8 +141,26 @@ Pourtant, un certain nombres de facteurs comme l’âge, le sexe, la composition
 
 \- Enfin, tout le monde ne partage l’idée selon laquelle les bulles de filtre sont si néfastes pour le débat démocratique: voir par exemple [la réflexion d’André Gunther](https://web.archive.org/web/20201021022118/http://imagesociale.fr/3666) au lendemain de l’élection de Donald Trump ou [cette étude récente](https://web.archive.org/web/20201021022118/http://www.vox.com/policy-and-politics/2017/3/29/14983026/social-media-polarization-study-nber) suggérant que les bulles de filtre contribuent moins qu’on ne le pense à polariser l’espace politique (ce qui n’est cependant pas l’argument du présent billet).
 
-<br>
+<hr>
 
 Merci à tous les aides-expérimentateurs et à tous les participants qui ont rendu cette étude possible!
 
 [**Article original (Wayback Machine)**](https://web.archive.org/web/20201021022118/http://hemisphere-gauche.blogs.liberation.fr/2017/04/04/presidentielles-et-bulles-de-filtres-le-referencement-politique-de-facebook-passe-au-crible/)
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+

@@ -2,9 +2,18 @@
 title: "Les neurosciences du Père Noël, ou ce qui nous pousse à la générosité"
 author: "RL, Neuro89"
 date: "2015-12-15"
-categories: [neuro89, neuroscience, génétique, léger]
+categories: [neuro89, neuroscience, génétique, sciences cognitives]
 image: "neuronoel.webp"
 description: "La générosité qui caractérise notamment la période des fêtes de Noël constitue un véritable défi pour les sciences du vivant. D’où nous vient cette motivation qui semble s’opposer aux principes de Darwin et à la logique de nos gènes, souvent taxés d’égoïsme ? Éclairage sur l’un des aspects les plus heureux de la nature humaine."
+title-block-banner: "neuronoel.webp"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Dès que leurs ressources sont suffisantes et même parfois lorsqu’elles ne le sont pas, la plupart des êtres humains dépensent de l’énergie, du temps et de l’argent pour faire des cadeaux à leur famille, à leurs amis, à leurs collègues, voire à de parfaits inconnus – par l’intermédiaire d’associations [solidaires](https://web.archive.org/web/20160221231507/http:/www.lescadeauxsolidaires.fr/) et [fraternelles](https://web.archive.org/web/20160221231507/http:/www.chainedelespoir.org/fr).

@@ -5,6 +5,15 @@ date: "2016-02-16"
 categories: [neuro89, neuroscience, futur, inégalités]
 image: "evitement1.jpg"
 description: "Essai un brin ironique sur la quête de vie éternelle, ses miroirs aux alouettes et son coût."
+title-block-banner: "evitement1.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Vous en avez assez de la condition humaine et ras-le-bol du poil dans les oreilles ? Vous ne voyez pas pourquoi votre ego si méritant devrait se dissoudre dans ce grand Rien qu’est le grand Tout ?
@@ -131,3 +140,5 @@ Malheureusement (ou pas), le business de l’immortalité n’a pas encore vraim
 **Merci** à [Antoine Doré](http://www.antoinedore.com/) pour ces illustrations mettant en scène la mort aux prises avec l’heureux bénéficiaire d’une neurocryogénisation.
 
 ([**Lien vers l'article original**](https://www.nouvelobs.com/rue89/rue89-neuro89/20160221.RUE2257/entre-1-euro-et-1-milliard-votre-budget-pour-la-vie-eternelle.html))
+
+<script src="https://giscus.app/client.js"         data-repo="romainligneul/giscus-comments"         data-repo-id="R_kgDOMSMTIw"         data-category="CommentsBlogFR"         data-category-id="DIC_kwDOMSMTI84CglZk"         data-mapping="pathname"         data-strict="0"         data-reactions-enabled="1"         data-emit-metadata="0"         data-input-position="top"         data-theme="preferred_color_scheme"         data-lang="en"         crossorigin="anonymous"         async> </script>

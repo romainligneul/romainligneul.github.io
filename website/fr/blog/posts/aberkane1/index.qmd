@@ -2,9 +2,18 @@
 title: "La science et les médias : ce que révèle le succès litigieux d’Idriss Aberkane"
 author: "RL, Libération"
 date: "2016-10-27"
-categories: [liberation, neuroscience, aberkane, médias]
+categories: [liberation, neuroscience, aberkane, recherche]
 image: "aberkane_poudre.jpg"
 description: "Ce lundi 24 octobre 2016, Le Monde Sciences faisait l’honneur d’un article grand format à un «passionné de neurosciences, biologie, informatique, mathématiques, philosophie et géopolitique», Idriss Aberkane. Honneur qui en a fait bondir plus d'un dans la communauté scientifique."
+title-block-banner: "aberkane_poudre.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Pour ceux qui ne connaissent pas encore le personnage, Idriss Aberkane est un jeune conférencier connu pour sa défense de « [l’économie de la connaissance](https://web.archive.org/web/20200923020135/https://fr.wikipedia.org/wiki/%C3%89conomie_du_savoir)», concept multiforme qui gravite autour de l’idée selon laquelle la connaissance et sa diffusion seront, dans le futur, les deux piliers d’une croissance économique ininterrompue car ne reposant pas sur la transformation et l’échange de bien matériels.
@@ -64,3 +73,20 @@ Ce dernier dépend avant tout de l’éducation, du crédit et du respect accord
 Mais pas n’importe quoi.
 
 [**Article original (Wayback Archive)**](https://web.archive.org/web/20200923020135/http://hemisphere-gauche.blogs.liberation.fr/2016/10/27/la-science-et-les-medias-ce-que-revele-le-succes-litigieux-didriss-aberkane/)
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+

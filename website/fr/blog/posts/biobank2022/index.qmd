@@ -2,9 +2,18 @@
 title: "500 000 cerveaux anglais passés dans l'IRM d'ici 2022, et après?"
 author: "RL, Libération"
 date: "2016-10-26"
-categories: [libération, neuroscience, génétique]
+categories: [liberation, neuroscience, génétique]
 image: "brainwarhol.jpg"
 description: "Les grands programmes de recherche en neurosciences sont indispensables pour lutter contre les maladies neurodégénératives. Mais ils constituent également un enjeu sociétal de type nouveau..."
+title-block-banner: "brainwarhol.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Chaque année, des milliers de publications contribuent ensemble à approfondir notre compréhension du cerveau humain et notre capacité à le guérir, à l’influencer et à le modifier. Ces recherches sont essentielles pour lutter contre les maladies neurologiques et psychiatriques, dont la fréquence croît à mesure que notre espérance de vie s’allonge et que notre environnement s’éloigne du milieu dans lequel nous évoluions encore il y a quelques milliers d’années. Cependant, ces bénéfices ne sont pas intrinsèquement liés au savoir produit par les chercheurs. Au contraire, ils dépendent entièrement de l’utilisation que la société dans son ensemble décide d’en faire.

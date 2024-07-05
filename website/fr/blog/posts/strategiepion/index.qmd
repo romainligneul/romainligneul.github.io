@@ -2,7 +2,7 @@
 title: "La stratégie du pion: voter Valls (en se pinçant le nez) pour faire gagner la gauche"
 author: "RL, Mediapart"
 date: "2017-01-10"
-categories: [mediapart, politique, inégalités]
+categories: [mediapart, politique]
 image: "pions.jpg"
 description: "Poutou, Mélenchon, Jadot et peut-être bientôt Montebourg ou Hamon… Réunies au sein d’un seul et même mouvement, ces quatre forces parviendraient sans peine au second tour de l’élection présidentielle. Divisées, elles ont en revanche l’assurance d’échouer. Mais la partie n’est pas jouée, pour peu que les électeurs de la France Insoumise fassent preuve de stratégie."
 title-block-banner: "pions.jpg"
@@ -36,20 +36,3 @@ Seul un pion anonyme et non encarté peut donc se permettre un tel appel à ses 
 Dans le cas improbable où cette "stratégie du pion" fonctionnerait, je m'excuse platement auprès d'Arnaud Montebourg et Benoît Hamon pour ce mauvais tour. Mais compte tenu de leurs erreurs passées - qui ont contribué à l'élection scélérate de François Hollande ainsi qu'à l'accession de Manuel Valls au poste de premier Ministre - leur défaite ne m'empêchera pas de dormir. Et ce, malgré tout le respect que j'ai pour leur combat politique.
 
 A bon entendeur, salut.
-
-
-<script src="https://giscus.app/client.js"
-        data-repo="romainligneul/giscus-comments"
-        data-repo-id="R_kgDOMSMTIw"
-        data-category="CommentsBlogFR"
-        data-category-id="DIC_kwDOMSMTI84CglZk"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>

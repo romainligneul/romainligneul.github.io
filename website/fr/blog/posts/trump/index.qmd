@@ -5,6 +5,15 @@ date: "2016-11-09"
 categories: [neuro89, sciences cognitives, politique, inégalités]
 image: "trump.jpg"
 description: "Dans quelle mesure l’intelligence des électeurs a-t-elle déterminé l’issue des présidentielles américaines ? Une étude scientifique parue le 3 novembre 2016 s'est penchée sur la question."
+title-block-banner: "trump.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Intitulé «Capacité cognitive et autoritarisme : comprendre le soutien pour Trump et Clinton», [l’article](https://web.archive.org/web/20200831015721/http://www.sciencedirect.com/science/article/pii/S0191886916310911) de Becky Choma et Yaniv Hanoch décrit le rapport complexe existant entre capacité cognitive et soutien au nouveau président américain, Donald Trump.
@@ -41,3 +50,19 @@ Mettre cet *humain* au premier plan et montrer toute la difficulté d’établir
 
 
 [**Article original (Wayback Machine)**](https://web.archive.org/web/20200831015721/http://hemisphere-gauche.blogs.liberation.fr/2016/11/09/victoire-de-trump-une-defaite-de-lintelligence/)
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

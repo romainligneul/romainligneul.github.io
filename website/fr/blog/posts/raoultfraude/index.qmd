@@ -2,9 +2,18 @@
 title: "Didier Raoult accusé de fraude scientifique: que faut-il croire?"
 author: "RL, Libération"
 date: "2020-03-28"
-categories: [liberation, covid, santé, psychiatrie]
+categories: [liberation, covid, recherche]
 image: "dore_virus.jpg"
 description: "Alors que le Sénat examine la “loi d’urgence sanitaire” visant à étendre largement les pouvoirs de l’exécutif dans les mois qui viennent, il paraît urgent d’élargir notre connaissance et notre compréhension des conséquences psychologiques et sociales du confinement obligatoire décidé par Emmanuel Macron, dont cette loi constitue la suite logique."
+title-block-banner: "dore_virus.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Depuis le début de la crise du Covid-19, le professeur Didier Raoult s’est imposé comme une figure incontournable du débat public à grands renforts de déclarations péremptoires et d’interviews fleuves.

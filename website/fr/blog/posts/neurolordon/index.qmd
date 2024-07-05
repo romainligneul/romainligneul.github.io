@@ -2,9 +2,18 @@
 title: "Neurosciences contre sciences sociales : l’erreur de Frédéric Lordon"
 author: "RL, Libération"
 date: "2017-10-14"
-categories: [liberation, économie, inégalités, politique, neuroscience]
+categories: [liberation, économie, inégalités, politique, neuroscience, recherche]
 image: "lordon.jpg"
 description: "A l’occasion du prix Nobel d’Économie remis à Richard Thaler, Frédéric Lordon – directeur de recherche à l’EHESS et collaborateur régulier du Monde Diplomatique – s’est fendu d’un long billet de blog dans lequel il dénonce les méfaits du rapprochement entre neurosciences et sciences sociales, entendues au sens large."
+title-block-banner: "lordon.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Certes, faire la critique et souligner les dangers inhérents à cette tendance récente est essentiel. Certes, on peut s’inquiéter de voir le prix Nobel remis au président d’un 	[fond d’investissement](https://web.archive.org/web/20201205014632/https://www.fullerthaler.com/) qui défend l’avènement d’un paternalisme libéral reposant sur l’utilisation généralisée des techniques de «[manipulation douce](https://web.archive.org/web/20201205014632/https://www.sciencesetavenir.fr/sante/cerveau-et-psy/nobel-d-economie-pour-richard-thaler-theoriser-la-manipulation-bienveillante_117202)». Mais la manière dont Frédéric Lordon aborde le problème tend à dépeindre les neuroscientifiques au mieux comme les idiots utiles, au pire comme les alliés naturels de l’idéologie néolibérale contemporaine. Cette vision décevante de la part d’une des grandes figures de Nuit Debout appelle une réponse qui – je l’espère – permettra d’éviter un conflit larvé entre deux champs disciplinaires qui gagneraient plus à se comprendre qu’à se détester, dans la perspective des luttes qui nous attendent.

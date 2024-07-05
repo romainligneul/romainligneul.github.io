@@ -5,6 +5,15 @@ date: "2016-10-31"
 categories: [liberation, neuroscience, aberkane, livres]
 image: "bibliotheque.jpg"
 description: "Le livre publié récemment par Idriss Aberkane, «Libérez votre cerveau» est à l'image du CV de son auteur: une mystification qu'il s'agit de démonter."
+title-block-banner: "bibliotheque.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Pour reprendre les mots d’Idriss Aberkane, extraits de son livre [«Libérez votre cerveau»,](https://web.archive.org/web/20201011073024/http://www.laffont.fr/site/liberez_votre_cerveau_&100&9782221187586.html) j’appartiens à la «caste consanguine» des chercheurs qui se sont «soumis» aux exigences du système académique. Dans un récent billet ([La science et les médias : ce que révèle le succès litigieux d’Idriss Aberkane](https://web.archive.org/web/20201011073024/http://hemisphere-gauche.blogs.liberation.fr/2016/10/27/la-science-et-les-medias-ce-que-revele-le-succes-litigieux-didriss-aberkane/ "La science et les médias : ce que révèle le succès litigieux d’Idriss Aberkane")), j’ai critiqué son *curriculum vitae* et notamment son prétendu parcours académique au Cogmaster de l’ENS Ulm, auquel il fut bien inscrit en 2005 mais qu’il ne poursuivit pas en seconde année, tout comme il abandonna l’idée d’obtenir le diplôme de l’Ecole Normale Supérieure (voir edit en fin de billet). Après avoir mis en cause le «contenant», comme de nombreux autres, je propose donc une critique du «contenu» qui n’est pas plus reluisant mais qui demande plus d’efforts.
@@ -83,3 +92,19 @@ EDIT 1/11: la vague de protestations contre le CV d’Idriss Aberkane l’a amen
 
 
 [**Article original (Wayback Machine)**](https://web.archive.org/web/20201011073024/http://hemisphere-gauche.blogs.liberation.fr/2016/10/31/une-critique-consanguine-du-livre-didriss-aberkane/)
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -3,9 +3,9 @@ title: "Le confinement: une situation dure mais nécessaire"
 author: "RL"
 date: "2020-11-08"
 categories: [facebook, covid]
-image: "Coronavirus-retour-sur-un-mois-de-confinement-en-France.png"
+image: "Coronavirus-retour-sur-un-mois-de-confinement-en-France.jpg"
 description: "Un post FB tentant de convaincre du bien-fondé du confinement avec de multiples sources scientifiques"
-title-block-banner: "Coronavirus-retour-sur-un-mois-de-confinement-en-France.png"
+title-block-banner: "Coronavirus-retour-sur-un-mois-de-confinement-en-France.jpg"
 include-in-header:
   - text: |
       <style>

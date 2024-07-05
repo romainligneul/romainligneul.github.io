@@ -2,9 +2,18 @@
 title: "Comment la hiérarchie sociale s'enracine-t-elle dans le cerveau?"
 author: "RL, Libération"
 date: "2017-04-14"
-categories: [liberation, neuroscience, inégalités, politique]
+categories: [liberation, neuroscience, inégalités]
 image: "homeless.jpg"
 description: "Une étude de neuroimagerie (la mienne) jette une lumière inédite sur notre tendance à légitimer ou à lutter contre les inégalités sociales."
+title-block-banner: "homeless.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 La question des inégalités socio-économiques constitue le clivage politique majeur autour duquel toute notre vie démocratique s’organise. Comme chacun d’entre nous aura bientôt l’occasion d’exprimer sa préférence en la matière, il m’a paru utile de vulgariser (exceptionnellement) les résultats de mes propres travaux, [publiés la semaine dernière](https://web.archive.org/web/20201021011337/https://www.nature.com/articles/srep45920) dans la revue Scientific Reports.

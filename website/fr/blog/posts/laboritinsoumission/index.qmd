@@ -5,6 +5,15 @@ date: "2017-02-06"
 categories: [liberation, neuroscience, inégalités, politique, livres]
 image: "dore_laborit.jpg"
 description: "Henri Laborit (1914-1995), médecin, chercheur, philosophe, était convaincu que la diffusion du savoir en neurosciences jouerait un rôle libérateur pour les sociétés. Il s'attacha notamment à décrire les mécanismes psychobiologiques de la dominance et de la soumission, ainsi que les conditions de leur dépassement. Trente ans plus tard, ses conclusions restent criantes de modernité."
+title-block-banner: "dore_laborit.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Force est de constater que le concept de soumission occupe une place grandissante dans le paysage culturel et social de notre pays. A tel point que son refus est devenu le mot d’ordre d’une force politique mobilisant plusieurs millions de citoyens.
@@ -104,3 +113,5 @@ Prenons donc garde à ne pas reproduire la même erreur avec les «nouvelles gri
 [**Article original (Wayback Machine)**](https://web.archive.org/web/20200923024131/http://hemisphere-gauche.blogs.liberation.fr/2017/02/06/penser-linsoumission-avec-henri-laborit/)
 
 ![Portrait d'Henri Laborit par [Antoine Doré](https://www.antoinedore.com/)](dore_laborit.jpg){fig-align="center" width="667"}
+
+<script src="https://giscus.app/client.js"         data-repo="romainligneul/giscus-comments"         data-repo-id="R_kgDOMSMTIw"         data-category="CommentsBlogFR"         data-category-id="DIC_kwDOMSMTI84CglZk"         data-mapping="pathname"         data-strict="0"         data-reactions-enabled="1"         data-emit-metadata="0"         data-input-position="top"         data-theme="preferred_color_scheme"         data-lang="en"         crossorigin="anonymous"         async> </script>

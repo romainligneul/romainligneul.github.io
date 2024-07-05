@@ -4,7 +4,16 @@ author: "RL, Neuro89"
 date: "2016-01-03"
 categories: [neuro89, terrorisme, sciences cognitives, complotisme]
 image: "arretetonchar.jpg"
-description: "Rue89 a choisi le complotisme comme premier grand thème de 2016. Faut-il y voir une forme de traitement préventif, à quelques jours du premier anniversaire des attentats de Charlie Hebdo, ou bien au contraire y voir une piqûre de rappel permettant de remettre au goût du jour, l’air de rien, certains faits restés inexpliqués en 2015?"
+description: "Rue89 a choisi le complotisme comme premier grand thème de 2016. Faut-il y voir une forme de traitement préventif, à quelques jours du premier anniversaire des attentats de Charlie Hebdo, ou bien au contraire y voir une piqûre de rappel permettant de remettre au goût du jour, l’air de rien, certains faits restés inexpliqués en 2015"
+title-block-banner: "arretetonchar.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Parce que les théories complotistes répondent à une interrogation sans cesse croissante du public à l’égard d’une Histoire qui s’emballe, les articles se proposant de démystifier ces théories répondent en quelque sorte à la même question que les sites complotistes eux-mêmes : que croire et qui croire ?
@@ -81,3 +90,20 @@ Le principe à l’œuvre dans la théorie du complot – la recherche d’inten
 
 
 [**Lien vers l'article original**](https://www.nouvelobs.com/rue89/rue89-neuro89/20160103.RUE2203/theories-du-complot-pourquoi-le-cerveau-s-emmele-quand-il-s-en-mele.html)
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+

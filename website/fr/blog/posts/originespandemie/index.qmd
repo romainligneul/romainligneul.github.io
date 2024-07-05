@@ -2,10 +2,19 @@
 title: "Origines de la pandémie: pourquoi faut-il s'abstenir d'accabler la Chine?"
 author: "RL, Libération"
 date: "2020-04-17"
-categories: [liberation, covid19, santé, politique]
+categories: [liberation, covid19, politique]
 image: "chauvesouris.jpg"
 image-alt: "Photo NPS, Carlsbad Caverns National Park, New Mexico"
 description: "Le consensus voulait que la pandémie de Covid-19 ait commencé en Chine, sur le marché d’une grande mégalopole industrielle nommée Wuhan. Jusqu'à ce que trois études scientifiques remettent en cause cette hypothèse."
+title-block-banner: "chauvesouris.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
 ---
 
 Au fur et à mesure que les tests se généralisent à travers le monde, de plus en plus de données sont disponibles pour les analyses dites “[phylogénétiques](https://web.archive.org/web/20201205031119/https://www.medecinesciences.org/en/articles/medsci/full_html/2002/09/medsci20021811p1146/medsci20021811p1146.html)”, qui permettent de reconstruire l’évolution temporelle de Covid-19 au sein des populations humaines en analysant les mutations qui apparaissent progressivement dans son génome. Il s’agit en quelque sorte de reconstruire l’arbre généalogique du virus *a posteriori*, en partant du principe que chaque nouvelle mutation constitue une nouvelle «branche» bien identifiable.
