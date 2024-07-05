@@ -1,0 +1,34 @@
+---
+title: "500 000 cerveaux anglais passés dans l'IRM d'ici 2022, et après?"
+author: "RL, Libération"
+date: "2016-10-26"
+categories: [neuro89, neuroscience, génétique]
+image: "brainwarhol.jpg"
+description: "Les grands programmes de recherche en neurosciences sont indispensables pour lutter contre les maladies neurodégénératives. Mais ils constituent également un enjeu sociétal de type nouveau..."
+---
+
+Chaque année, des milliers de publications contribuent ensemble à approfondir notre compréhension du cerveau humain et notre capacité à le guérir, à l’influencer et à le modifier. Ces recherches sont essentielles pour lutter contre les maladies neurologiques et psychiatriques, dont la fréquence croît à mesure que notre espérance de vie s’allonge et que notre environnement s’éloigne du milieu dans lequel nous évoluions encore il y a quelques milliers d’années. Cependant, ces bénéfices ne sont pas intrinsèquement liés au savoir produit par les chercheurs. Au contraire, ils dépendent entièrement de l’utilisation que la société dans son ensemble décide d’en faire.
+
+Or ce n’est pas la volonté des chercheurs, mais bien le vote de tous les citoyens qui déterminera dans quelle société ces connaissances trouveront une fonction et les limites légitimes de leur utilisation. A titre personnel, je suis préoccupé par celle qui sera faite de mes propres travaux, présents et futurs. C’est la d’ailleurs la raison pour laquelle je m’engage dans l’aventure d’Hémisphère Gauche, comme une manière de m’évader quelques heures par semaines de l’austérité du monde académique pour mettre un pied dans le tourbillon bordélique mais vital du monde réel.
+
+###  Le développement des «biobanques» 
+
+Pour ne prendre qu’un exemple, une étude parue le 19 septembre dans la prestigieuse revue 	[Nature Neuroscience](https://web.archive.org/web/20200830155831/http://www.nature.com/neuro/journal/vaop/ncurrent/full/nn.4393.html) décrit les méthodes et les premiers résultats du pharaonique projet « 	[UK Biobank](https://web.archive.org/web/20200830155831/http://www.ukbiobank.ac.uk/about-biobank-uk/) », qui vise à recueillir un ensemble complet de données psychologiques, biologiques et génétiques sur 500 000 habitants du Royaume-Uni âgés entre 40 et 70 ans d’ici 2022. Son but annoncé est la mise au point d’outils permettant de prédire les risques de développer certaines maladies neurodégénératives à l’échelle individuelle, et donc de faciliter l’élaboration de nouveaux traitements pour empêcher celles-ci de survenir. 	
+
+![Figure représentant les différentes mesures de connectivité cérébrales (a-b)recueillies dans le cadre du projet UK Biobank, ainsi que leur association avec différentes variables d’intérêt (c-d): santé, cognition, lifestyle, etc.](biobank.jpg){fig-align="center" width="799"}
+
+Malheureusement, dans une économie aussi dérégulée que la nôtre, on peut redouter que cette même connaissance ne permette aussi aux compagnies d’assurance, aux banques et aux employeurs d’évaluer ces mêmes vulnérabilités avant d’établir un contrat avec les particuliers, d’où résulterait un accès plus inégalitaire au soin, au logement et au travail. Or, l’avènement prochain de telles pratiques – consistant par exemple à insérer un examen d’imagerie cérébrale dans le processus d’embauche – ne révèle pas de la science-fiction, puisqu’il se trouve des chercheurs (ultraminoritaires, certes) pour recommander leur mise en œuvre d’ici quelques années. 	
+
+Willem Verbeke de l’université de Rotterdam soutient par exemple qu’une batterie d’examens neurobiologiques pourrait permettre de détecter à l’avance les profils à risque avant d’embaucher des individus à des postes importants:
+
+> “Si quelqu’un voulait devenir directeur d’une compagnie, je voudrais probablement d’abord un scan de son cerveau pour être sûr qu’il n’a pas des tendances psychopathiques ou autistiques.« [source](https://web.archive.org/web/20200830155831/https://www.nextnature.net/2009/02/brain-scan-replaces-job-interview-in-5-years/) (ma traduction)
+
+Dans ce cas précis, on souhaite bonne chance à Verbeke pour déceler des tendances psychopathiques en jetant un coup d’oeil au cerveau de ses candidats, car ce n’est pas 5 ans, mais au bas mot 20 ans qu’il faudra aux neurosciences pour établir de tels diagnostics, et encore. Mais le problème n’est pas tant d’ordre pratique, que d’ordre éthique. D’autres maladies, telles que Parkinson, sont bien plus proches de pouvoir être [anticipées](https://web.archive.org/web/20200830155831/http://brain.oxfordjournals.org/content/127/8/1693.short). Et déjà, les données cérébrales peuvent donner une idée approximative du quotient intellectuel, de telle sorte que d’autres imaginent leur utilisation au moment de l’entrée à l'[université](https://web.archive.org/web/20200830155831/http://www.independent.co.uk/news/science/scientists-can-now-predict-how-intelligent-you-are-with-a-brain-scan-but-could-it-lead-to-a6693616.html)... Que déciderons-nous le jour où ces technologies seront vraiment disponibles?
+
+### Imaginer le revers de la médaille sans se couper l’herbe sous le pied
+
+En outre, le « screening » des populations à des fins lucratives n’est pas l’unique dérive possible de l’utilisation du savoir généré par les neurosciences. Il en existe d’autres, que j’aborderai dans le futur, parmi lesquelles la marchisandisation des techniques de modification cérébrales, le neuromarketing ou encore le détournement fallacieux des conclusions scientifiques à des fins politiques (on se souvient notamment des propos de 	[Nicolas Sarkozy sur la pédophilie et les tendances suicidaires](https://web.archive.org/web/20200830155831/http://www.lemonde.fr/societe/article/2007/04/11/tolle-chez-les-scientifiques-apres-les-propos-de-nicolas-sarkozy-sur-la-genetique_894367_3224.html)).
+
+C’est évidemment un crève-coeur pour les chercheurs que de communiquer sur ces dérives potentielles, mais il me semble qu’une dissémination constructive du savoir passe aussi par la mise en garde contre ses applications les moins enthousiasmantes. Car nous sommes les mieux placés pour imaginer les bénéfices, aussi bien que les risques, associés aux avancées scientifiques auxquelles nous participons.
+
+[Article original (Wayback Archive)](https://web.archive.org/web/20200830155831/http://hemisphere-gauche.blogs.liberation.fr/2016/10/26/projet-biobank/)
