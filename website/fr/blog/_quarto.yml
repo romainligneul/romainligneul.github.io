@@ -13,7 +13,7 @@ website:
 format:
   html:
     theme: cerulean
-    css: ../../custom.scss
+    css: ../../../custom.scss
 
 
 

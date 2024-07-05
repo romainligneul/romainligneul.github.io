@@ -21,7 +21,7 @@ website:
           - text: "Quiz électoraux (2022)"
             file: fr/science-citoyenne/quiz_elections.qmd
           - text: "Biais réseaux sociaux (2017)"
-            file: fr/science-citoyenne/biais_réseaux.qmd
+            file: fr/science-citoyenne/biais_reseaux.qmd
     right:
       - href: "./"
         text: EN
@@ -43,5 +43,5 @@ format:
   html:
     theme: 
       - cerulean
-      - custom.scss
+      - ../../custom.scss
     toc: true
