@@ -1,6 +1,5 @@
 ---
 title: "Romain Ligneul (PhD)"
-description: "Neuroscientist, developer, (blog) writer"
 about:
   template: jolla
   image: images/portrait_bw.png
@@ -8,8 +7,14 @@ aliases:
   - /
 ---
 
+::: {#centered .h4 style="text-align: center"}
+"Neuroscientist, geek, (blog) writer, et al."
+:::
+
 ::: callout-warning
 This page is under construction.
+
+The [French part](./en/fr) of this website is much more developed at the moment.
 :::
 
 For more information about me, check the following website:
