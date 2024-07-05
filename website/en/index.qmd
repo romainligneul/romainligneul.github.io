@@ -7,8 +7,8 @@ aliases:
   - /
 ---
 
-::: {#centered .h4 style="text-align: center"}
-"Neuroscientist, geek, (blog) writer, et al."
+::: {#centered .h4 style="text-align: center; margin-top:0.5rem; margin-bottom:1.2rem"}
+Neuroscientist, geek, (blog) writer, et al.
 :::
 
 ::: callout-warning
@@ -37,7 +37,7 @@ You can even click on the links in the footer of this page 😊.
 
 ### To contact me:
 
-Email: romain[#dot#]ligneul[&at&]gmail.com
+Email: romain\[#dot#\]ligneul\[&at&\]gmail.com
 
 Or leave me a message below (nb: if you don't have a Github account you should get one anyway!)
 

@@ -7,9 +7,10 @@ aliases:
   - /fr
 ---
 
-::: {#centered .h4 style="text-align: center"}
-"Chercheur, geek, blogueur, et al."
+::: {#centered .h4 style="text-align: center; margin-top:0.5rem; margin-bottom:1.2rem"}
+Chercheur (neuroscience), geek, blogueur, et al.
 :::
+
 
 Bienvenu.e.s sur ma page francophone, qui n'a presque rien à voir avec son homologue anglophone, beaucoup plus orientée vers la science, la modélisation, le code informatique, etc. Je suis en effet chercheur dans une autre vie (située à un [clic](./enà){target="_blank"} d'ici).
 

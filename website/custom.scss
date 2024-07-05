@@ -230,12 +230,13 @@ div.quarto-about-jolla {
   background-color: $primary-light;
 }
 
+.nav-link {
+  color: $gray-200;
+  font-weight: 150;
+}
+
 .nav-link.active {
   color: $gray-100;
   font-weight: 200;
 }
 
-.nav-link.active {
-  color: $gray-200;
-  font-weight: 180;
-}
