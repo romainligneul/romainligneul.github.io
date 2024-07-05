@@ -37,7 +37,7 @@ You can even click on the links in the footer of this page 😊.
 
 ### To contact me:
 
-Email: romain\[#dot#\]ligneul\[&at&\]gmail.com
+Email: [romain.ligneul@gmail.com](mailto:romain.ligneul@gmail.com)
 
 Or leave me a message below (nb: if you don't have a Github account you should get one anyway!)
 

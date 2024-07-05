@@ -10,6 +10,11 @@ website:
       - icon: github
         href: https://github.com/romainligneul
       - icon: twitter 
+        menu:
+        - text: Académique (EN)
+          href:  https://twitter.com/causalself
+        - text: Éclectique (FR)
+          href:  https://twitter.com/nerfsocial
         href: https://twitter.com/nerfsocial
       - icon: linkedin 
         href: https://www.linkedin.com/in/romain-ligneul-b63b46192/
