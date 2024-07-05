@@ -2,7 +2,7 @@
 title: "500 000 cerveaux anglais passés dans l'IRM d'ici 2022, et après?"
 author: "RL, Libération"
 date: "2016-10-26"
-categories: [neuro89, neuroscience, génétique]
+categories: [libération, neuroscience, génétique]
 image: "brainwarhol.jpg"
 description: "Les grands programmes de recherche en neurosciences sont indispensables pour lutter contre les maladies neurodégénératives. Mais ils constituent également un enjeu sociétal de type nouveau..."
 ---
