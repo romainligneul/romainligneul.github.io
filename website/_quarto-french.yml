@@ -18,9 +18,9 @@ website:
       - text: Science citoyenne
         menu:
           - text: "Quiz électoraux (2022)"
-            file: fr/science-citoyenne/quiz_elections.qmd
+            file: fr/sciencecitoyenne/quiz_elections.qmd
           - text: "Biais réseaux sociaux (2017)"
-            file: fr/science-citoyenne/biais_reseaux.qmd
+            file: fr/sciencecitoyenne/biais_reseaux.qmd
     right:
       - href: "./"
         text: EN
