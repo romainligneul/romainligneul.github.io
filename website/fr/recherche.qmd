@@ -1,5 +1,5 @@
 ---
-title: "RL | Recherche"
+title: ""
 image: "../images/recherche_banner.jpg"
 description: "Côté recherche"
 title-block-banner: "../images/recherche_banner.png"
@@ -8,10 +8,12 @@ include-in-header:
       <style>
       .quarto-title-block .quarto-title-banner {
         background-position-y: center;
-        height: 400px;
+        height: 300px;
       }
       </style>
 ---
+
+# Recherche
 
 Nommé en 2023 et titularisé en 2024, je suis Chargé de Recherche à l'INSERM. Je travaille au Centre de Recherche en Neurosciences de Lyon (CRNL, COPHY) ou je dirige le groupe "Contrôle Adaptatif" financé par des bourses française et européenne.
 

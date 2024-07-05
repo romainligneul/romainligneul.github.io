@@ -2,7 +2,7 @@
 title: ""
 image: "../images/RC.png"
 description: "Startup"
-title-block-banner: "../images/RC.png"
+title-block-banner: "../../images/RC.png"
 include-in-header:
   - text: |
       <style>
