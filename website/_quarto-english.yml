@@ -1,5 +1,5 @@
 project:
-  title: "RL | "
+  title: "RL  "
   output-dir: ./docs/
   render:
   - "./en/"
