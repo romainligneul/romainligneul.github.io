@@ -1,5 +1,5 @@
 ---
-title: "RL | RobustCircuit"
+title: ""
 image: "../images/RC.png"
 description: "Startup"
 title-block-banner: "../images/RC.png"
