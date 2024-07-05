@@ -1,1 +1,8 @@
 /* css styles */
+.quarto-title-banner .quarto-title {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	height: fit-content;
+	margin-top: 5%;
+  border-radius: 15px;
+}
