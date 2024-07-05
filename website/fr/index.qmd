@@ -10,7 +10,8 @@ about:
     - icon: cup-hot-fill
       text: Cophy
       href: https://cophyteam.wixsite.com/website-1
-
+aliases:
+  - /fr
 
 ---
 

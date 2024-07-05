@@ -4,7 +4,7 @@ author: "RL, Neuro89"
 date: "2016-02-16"
 categories: [neuro89, neuroscience, futur, inégalités]
 image: "evitement1.jpg"
-description: "Le dopage cognitif prend la forme de produits high-tech avec l’arrivée des premiers neurostimulateurs électriques sur le marché. Démystifications et mises en garde sont de rigueur."
+description: "Essai un brin ironique sur la quête de vie éternelle, ses miroirs aux alouettes et son coût."
 ---
 
 Vous en avez assez de la condition humaine et ras-le-bol du poil dans les oreilles ? Vous ne voyez pas pourquoi votre ego si méritant devrait se dissoudre dans ce grand Rien qu’est le grand Tout ?

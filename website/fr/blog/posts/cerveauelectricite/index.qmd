@@ -4,7 +4,7 @@ author: "RL, Neuro89"
 date: "2015-02-14"
 categories: [neuro89, performance, neuroscience, sciences cognitives, neuromodulation, léger]
 image: "galvani.jpg"
-description: "Essai ironique sur la quête de vie éternelle, ses miroirs aux alouettes et son coût."
+description: "Le dopage cognitif prend la forme de produits high-tech avec l’arrivée des premiers neurostimulateurs électriques sur le marché. Démystifications et mises en garde sont de rigueur."
 ---
 
 Dans le monde anglo-saxon, le culte de la productivité et de la performance individuelle se traduit par un recours de plus en plus fréquent au [dopage cognitif](http://www.cerveauetpsycho.fr/ewb_pages/a/article-l-amelioration-cognitive-une-illusion-26966.php) (« cognitive enhancement »). L’ingestion de médicaments psychostimulants comme la Ritaline ou le Modafinil par des individus en bonne santé y est ainsi devenue monnaie courante.

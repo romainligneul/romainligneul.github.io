@@ -12,9 +12,9 @@ website:
       - href: en/codes.qmd
         text: Code
     right:
-      - href: index.qmd
+      - href: ./en
         text: EN
-      - href: en/fr/index.html
+      - href: "./fr"
       - text: FR
         
 format:
