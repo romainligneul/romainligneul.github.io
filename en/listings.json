@@ -2,6 +2,8 @@
   {
     "listing": "/fr/blog/index.html",
     "items": [
+      "/fr/blog/posts/laboritinsoumission/index.html",
+      "/fr/blog/posts/deconnomie/index.html",
       "/fr/blog/posts/trump/index.html",
       "/fr/blog/posts/aberkane2/index.html",
       "/fr/blog/posts/aberkane1/index.html",
@@ -10,7 +12,6 @@
       "/fr/blog/posts/vieeternelle/index.html",
       "/fr/blog/posts/milgramfilm/index.html",
       "/fr/blog/posts/cerveauattentats/index.html",
-      "/fr/blog/posts/deconnomie/index.html",
       "/fr/blog/posts/cerveaucomplot/index.html",
       "/fr/blog/posts/neuro-noel/index.html",
       "/fr/blog/posts/cerveauelectricite/index.html"
