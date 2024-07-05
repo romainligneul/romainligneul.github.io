@@ -69,30 +69,20 @@ Or un des éléments essentiels qui distingue la théorie néoclassique des thé
 
 Inutile d’en dire plus pour comprendre comment des hommes politiques [sans bagage mathématique](https://web.archive.org/web/20201021013037/http://passeurdesciences.blog.lemonde.fr/2016/12/07/ces-ex-ministres-nuls-en-maths/) en viennent à afficher une conviction inébranlable dans le bien-fondé de leurs politiques économiques – fussent-elles en contradiction absolue avec l’opinion du commun des mortels qui les a portés au pouvoir.
 
-::::::: {.card style="width: 90%;margin-left: 5%;"}
-:::: {.row .no-gutters}
-::: col-sm-5
-::: {#\<img .class="card-img" src="/images/paste-3.png"}
-:::
-::::
-
-:::: col-sm-7
-::: card-body
-<h5 class="card-title">
-
-La Déconnomie
-
-</h5>
-
-<p class="card-text">
-
-Voir aussi l’interview de Jacques Généreux donnée <a href="https://www.liberation.fr/debats/2016/11/30/jacques-genereux-stop-a-l-anerie-economique_1532053/" class="btn btn-primary">le 30 novembre à Libération</a>
-
-</p>
-:::
-::::
-:::::::
-
-::::::::
-
 [**Article Original (Wayback Machine)**](https://web.archive.org/web/20201021013037/http://hemisphere-gauche.blogs.liberation.fr/2017/01/04/la-deconnomie-de-jacques-genereux-sous-la-loupe-des-sciences-cognitives/)
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
