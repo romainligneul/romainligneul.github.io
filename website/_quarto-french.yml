@@ -15,8 +15,7 @@ website:
         text: Recherche
       - href: fr/robustcircuit.qmd
         text: Startup
-      - href: fr/science-citoyenne/index.qmd
-        text: Science citoyenne
+      - text: Science citoyenne
         menu:
           - text: "Quiz électoraux (2022)"
             file: fr/science-citoyenne/quiz_elections.qmd
