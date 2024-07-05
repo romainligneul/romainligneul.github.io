@@ -2,15 +2,15 @@
   {
     "objectID": "en/index.html",
     "href": "en/index.html",
-    "title": "Romain Ligneul (EN)",
+    "title": "Romain Ligneul",
     "section": "",
-    "text": "Main landing page"
+    "text": "Warning\n\n\n\nThis page is under construction.\n\n\nFor more information about me, check the following website:\nMy research group: https://www.adaptivecontrol.org\nThe team that hosts my research group: https://cophyteam.wixsite.com/website-1/\nThe institute that hosts my team: https://www.crnl.fr/en?language=en\nThe institution that runs my institute: https://www.inserm.fr/\nThe ministry that run my institution: https://www.enseignementsup-recherche.gouv.fr/fr\nThe European institution that generously funded my group: https://erc.europa.eu/homepage\nAlternatively you can check the website of the startup that I founded a few years ago with my partner-in-crime Daniela Domingues, aka @neurodaniela.\nYou can even click on the links in the footer of this page 😊."
   },
   {
     "objectID": "en/codes.html",
     "href": "en/codes.html",
-    "title": "Romain Ligneul (EN)",
+    "title": "RL | Codes",
     "section": "",
-    "text": "Here I have some codes"
+    "text": "Warning\n\n\n\nThis page is under construction.\n\n\nFor now, if you are interested in my code, you can visit my Github account (it’s a mess) https://github.com/romainligneul\nOr the Github account of my start-up RobustCircuit (it’s a mess too) https://github.com/robustcircuit\nIt is more oriented towards web experiments using Javascript/jsPsych and some SVG manipulation logics using D3.js"
   }
 ]
