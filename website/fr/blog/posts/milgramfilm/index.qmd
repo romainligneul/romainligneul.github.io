@@ -1,9 +1,9 @@
 ---
 title: "Du cours magistral au biopic expérimental : Stanley Milgram au cinéma"
 author: "RL, Neuro89"
-date: "28-01-16"
+date: "2016-01-28"
 categories: [neuro89, cinéma, sciences cognitives, dominance]
-image: "milgramexp.jpg"
+image: "milgramexp.png"
 description: "Critique du film Experimenter relatant une partie de la vie de Stanley Milgram"
 ---
 
@@ -11,7 +11,7 @@ Cette semaine, une poignée de cinémas accueille en France la sortie du film «
 
 Son réalisateur [Michael Almereyda](http://www.premiere.fr/Cinema/News-Cinema/Michael-Almereyda-Experimenter-est-un-film-passionnel-sur-des-idees) va là où [les documentaires et les émissions](http://blog.mondediplo.net/2010-03-13-Le-Jeu-de-la-mort-ou-la-tele-en-zone-extreme) consacrés aux travaux de Milgram n’étaient pas allés. De la même manière que « The Big Short » était porté par l’acteur-narrateur Ryan Gosling, le film est donc porté le professeur Milgram lui-même, par sa créativité, sa lucidité, et certaines des contradictions qui l’ont animé tout au long de sa courte vie (51 ans).
 
-**La psychologie, ce savoir menaçant...**
+## La psychologie, ce savoir menaçant...
 
 En termes scientifiques, les observations, les interprétations et les limites des travaux de Milgram sont rapportés honnêtement et sans lourdeurs excessives, même si l’on aurait aimé que l’importance du contexte dans le succès de ce type d’expériences soit mieux explicité.
 
@@ -27,7 +27,7 @@ Certains s’agaceront du cliché répétitif de la femme-secrétaire – indis
 
 D’autres devineront la volonté un peu maladroite de figurer l’importance du sens commun et de l’ancrage affectif pour cet intellectuel qui aura fait face, toute sa carrière durant, à l’un des aspects les plus tristement reproductibles de la nature humaine.
 
-**Ce qu’avait compris Arendt**
+## Ce qu’avait compris Arendt
 
 Quoi qu’il en soit, « Experimenter » est un film original, ludique et plutôt réussi. Il donne à voir l’univers particulier de la psychologie expérimentale, ses rapports avec la société civile, et l’engagement profond – presque aliénant – d’une de ses figures majeures au XXe siècle.
 
@@ -35,7 +35,7 @@ Il a également le mérite de situer l’œuvre de Stanley Milgram dans l’hist
 
 Pourquoi Arendt ? Parce qu’Arendt avait compris avant tout le monde – dans « Les Origines du totalitarisme » (1951) puis dans « La Banalité du mal » (1963) – le mécanisme pour lequel Milgram aura fourni une preuve expérimentale concrète : les plus grands maux du monde moderne s’enracinent paradoxalement dans le respect scrupuleux des normes sociales et dans l’obéissance aveugle aux sources institutionnelles d’autorité. En somme, dans le renoncement à penser et à agir selon notre propre jugement.
 
-**Quand on renonce à désobéir**
+## Quand on renonce à désobéir
 
 A l’heure où la société française courbe l’échine devant les arguties sécuritaires et les orientations douteuses d’un socialisme flirtant avec le nationalisme, « Experimenter » a le mérite de nous rappeler que d’amères leçons se profilent à l’horizon lorsque les indignés renoncent à désobéir.
 

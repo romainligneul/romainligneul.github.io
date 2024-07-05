@@ -19,7 +19,7 @@ D’ailleurs, l’idée que l’altruisme puisse être biologiquement utile à p
 
 Cependant, si les causes de l’altruisme dans le règne animal s’appliquent aussi aux êtres humains, notamment dans les rapports hommes-femmes ou parents-enfants, elles sont loin d’expliquer toutes les formes de la générosité humaine. En particulier, les cadeaux envers des individus non apparentés (génétiquement), voire anonymes, continuent de poser un problème auquel l’économie expérimentale et les neurosciences cognitives tentent de répondre ensemble.
 
-**Théorie des jeux et générosité désintéressée chez l’homme**
+## Théorie des jeux et générosité désintéressée chez l’homme
 
 [L’économie comportementale](https://web.archive.org/web/20160221231507/https:/fr.wikipedia.org/wiki/%C3%89conomie_comportementale) cherche à décrire et à expliquer les décisions humaines touchant à l’acquisition et au partage de ressources utiles aux individus. Parmi ses [paradigmes](https://web.archive.org/web/20160221231507/https:/fr.wikipedia.org/wiki/Paradigme) expérimentaux, on trouve de nombreux « jeux » dans lesquels deux joueurs ou plus doivent prendre des décisions économiques simples. Ces décisions peuvent ensuite être envisagées sous un angle normatif ou rationnel : c’est ce que l’on appelle la [théorie des jeux](https://web.archive.org/web/20160221231507/https:/fr.wikipedia.org/wiki/Th%C3%A9orie_des_jeux).
 
@@ -27,7 +27,7 @@ Le plus simple d’entre eux s’appelle le [« jeu du dictateur »](https://w
 
 En moyenne, les participants redistribuent entre 20 et 30% \[[PDF](https://web.archive.org/web/20160221231507/http:/afse2015.sciencesconf.org/57665/document)\] de la somme qui leur a été allouée (c’est-à-dire, en l’occurrence, entre 2 et 3 euros). Il semblerait donc que les décisions humaines ne soient pas aussi égoïstes et utilitaristes que certains [pessimistes](https://web.archive.org/web/20160221231507/https:/fr.wikipedia.org/wiki/Homo_homini_lupus_est) le pensent ! En effet, comme on joue le plus souvent de manière anonyme et qu’aucun bénéfice ultérieur n’est à espérer (amitié, réputation, etc.), toute donation non nulle peut être interprétée comme un acte réellement généreux.
 
-**Regard des autres, regard de l’Autre**
+## Regard des autres, regard de l’Autre
 
 Parmi le grand nombre de travaux ayant étudié l’ampleur et la fréquence de ces actes généreux en fonction des populations étudiées et des contextes expérimentaux utilisés par les chercheurs, certains ont donné des résultats tout à fait étonnants. Par exemple, le fait de mettre des yeux ou même un simple pictogramme rappelant vaguement la forme d’un visage humain dans le champ visuel des joueurs permet d’augmenter la fréquence des donations non nulles de 25 à 40% \[[PDF](https://web.archive.org/web/20160221231507/http:/ecopsycho.gretha.cnrs.fr/IMG/pdf/neg_014_0071_1_.pdf)\].
 

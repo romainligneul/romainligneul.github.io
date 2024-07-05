@@ -14,7 +14,7 @@ website:
       - href: fr/work.qmd
         text: Travail
     right:
-      - href: index.qmd
+      - href: ../index.html
         text: EN
       - href: fr/index.qmd
       - text: FR
