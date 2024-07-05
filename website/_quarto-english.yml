@@ -5,6 +5,7 @@ project:
   - "./en/"
 
 website:
+  favicon: favicon.ico
   navbar:
     tools:
       - icon: github
