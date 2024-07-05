@@ -1,8 +1,7 @@
 ---
 title: "RL | Quiz électoraux 2022"
 execute: 
-  echo: false
-  eval: false
+  freeze: true
 ---
 
 ## Étude initiale: quiz du Figaro
