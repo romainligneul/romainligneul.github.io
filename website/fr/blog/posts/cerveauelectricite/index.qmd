@@ -1,7 +1,7 @@
 ---
-title: "Entre 1 euro et 1 milliard : votre budget pour la vie éternelle"
-author: "RL, Neuro89"
-date: "2015-02-14"
+title: ""
+author: "Doper le cerveau à l’électricité : vers une humanité augmentée ou altérée ?"
+date: "2016-02-14"
 categories: [neuro89, performance, neuroscience, sciences cognitives, neuromodulation, léger]
 image: "galvani.jpg"
 description: "Le dopage cognitif prend la forme de produits high-tech avec l’arrivée des premiers neurostimulateurs électriques sur le marché. Démystifications et mises en garde sont de rigueur."

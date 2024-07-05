@@ -1,0 +1,46 @@
+---
+title: "Comment la hiérarchie sociale s'enracine-t-elle dans le cerveau?"
+author: "RL, Libération"
+date: "2017-04-14"
+categories: [liberation, neuroscience, inégalités, politique]
+image: "homeless.jpg"
+description: "Une étude de neuroimagerie (la mienne) jette une lumière inédite sur notre tendance à légitimer ou à lutter contre les inégalités sociales."
+---
+
+La question des inégalités socio-économiques constitue le clivage politique majeur autour duquel toute notre vie démocratique s’organise. Comme chacun d’entre nous aura bientôt l’occasion d’exprimer sa préférence en la matière, il m’a paru utile de vulgariser (exceptionnellement) les résultats de mes propres travaux, [publiés la semaine dernière](https://web.archive.org/web/20201021011337/https://www.nature.com/articles/srep45920) dans la revue Scientific Reports.
+
+Certains d’entre nous s’apprêtent à voter pour Marine Le Pen en sachant que cela accentuera les inégalités entre français “de souche” et français “issus de l’immigration”. D’autres valideront les orientations de François Fillon ou Emmanuel Macron à travers lesquelles les inégalités les plus amples se justifient pour peu qu’elles dérivent du mérite personnel et de la sacro-sainte liberté d’entreprendre. Enfin, certains choisiront de voter à gauche en espérant - comme toujours - que leur bulletin contribuera à résorber les inégalités dans leur ensemble.
+
+Pourquoi différons-nous tant dans nos préférences politiques? Comment est-ce possible que des inversions complètes de causalité soient associées à la justification de ces préférences, certains arguant que les hiérarchies de dominance dérivent naturellement des asymétries de compétence quand d’autres soutiennent que ces asymétries sont au contraire générées par le système hiérarchique lui-même?
+
+De [Platon](https://web.archive.org/web/20201021011337/https://www.philosciences.com/Pss/philosophie-et-societe/economie-politique-societe/153-regimes-politiques-platon) à [John Rawls](https://web.archive.org/web/20201021011337/https://www.cairn.info/revue-etudes-2011-1-page-55.htm), en passant par [Jean-Jacques Rousseau](https://web.archive.org/web/20201021011337/http://eet.pixel-online.org/files/etranslation/original/Rousseau%20JJ%20Discours%20sur.pdf), les fondations philosophiques de ce questionnement sont millénaires et ses ramifications sont innombrables. Une étude de neurosciences cognitives se penchant sur le problème doit donc rester à sa modeste place, qui est d’alimenter une réflexion multidisciplinaire par des faits empiriques nouveaux.
+
+Ici, la nouveauté tient en quelques lignes: plus l’activité de leur lobe préfrontal est forte lorsqu’ils font face à des individus socialement dominants, plus les êtres humains - de jeunes étudiants masculins en l’occurrence - sont enclins à légitimer les inégalités sociales\*. Autrement dit, dans le questionnaire d’[orientation à la dominance sociale](https://web.archive.org/web/20201021011337/https://www.researchgate.net/profile/Michael_Dambrun/publication/278327481_La_dominance_sociale_et_les_mythes_legitimateurs_validation_d'une_version_francaise_de_l'echelle_d'orientation_a_la_dominance_sociale/links/5583ce5408ae8bf4ba6fa976.pdf) (ODS), ceux dont le cortex préfrontal était plus sensible à la subordination sociale étaient également plus susceptibles d’adhérer à des affirmations comme «Certaines personnes sont tout simplement inférieures à d’autres», «Le pays gagnerait à moins se préoccuper des inégalités sociales» ou encore «Les groupes inférieurs devraient rester à leur place».
+
+![A gauche, l’aire du cortex préfrontal dorso-latéral antérieur droit (en rouge) dont la réponse était significativement plus importante face aux individus supérieurs que face aux individus inférieurs. A droite, amplitude de cette différence d’activité en fonction du score obtenu au questionnaire ODS qui mesure la propension à légitimer et à renforcer les hiérarchies de dominance sociale. ](figscirep.jpg){fig-align="center" width="804"}
+
+En termes psychologiques, l’interprétation de ce résultat reste délicat et demandera vérification (en théorie, on ne peut pas [inférer](https://web.archive.org/web/20201021011337/http://knowingneurons.com/2014/02/12/reverse-inference-neurosciences-greatest-fallacy/) l’existence d’un processus cognitif à partir d’une activité cérébrale), mais il est intéressant de noter que cette zone du cortex préfrontal influe sur la confiance que nous plaçons dans nos croyances et nos propres jugements. En règle générale, elle est active lorsque la confiance fait défaut et que nous sommes incertains, tandis qu’elle est inactive lorsque nous sommes sûrs de nous. En [augmentant](https://web.archive.org/web/20201021011337/http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090808) ou [diminuant](https://web.archive.org/web/20201021011337/http://www.pnas.org/cgi/pmidlookup?view=long&pmid=27162349) artificiellement l’excitabilité de ses neurones, on peut non seulement modifier ce sentiment de confiance à la baisse ou à la hausse, mais aussi interférer avec la [motivation et l’apprentissage](https://web.archive.org/web/20201021011337/http://www.cnrs.fr/insb/recherche/parutions/articles2016/j-c-dreher2.html) dans un contexte social compétitif.
+
+Quoi qu’il en soit, chez certaines personnes, l’impact de la subordination sociale sur le cortex préfrontal antérieur pourrait paradoxalement renforcer les attitudes favorisant le maintien ou l’exacerbation des inégalités, et donc la décision de voter pour les partis de l’ordre (social).
+
+Pour en savoir plus sur la question, vous pouvez lire ce [texte](https://web.archive.org/web/20201021011337/https://blogs.mediapart.fr/horslesmurs/blog/110816/inegalites-sociales-le-profil-cognitif-de-ceux-qui-s-en-foutent) radical ou le communiqué de presse publié par l’Institut des Sciences Biologiques du CNRS, disponible [ici](https://web.archive.org/web/20201021011337/http://www.cnrs.fr/insb/recherche/parutions/articles2017/r-ligneul.html?utm_content=buffercc30f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer).
+
+\*NB: Divers facteurs démographiques (comme l’âge, le sexe ou le niveau d’études) et divers traits de personnalité (liés au comportement social ou non) ont été pris en compte, ce qui implique que l’activité cérébrale mesurée explique une variabilité dans les préférences politiques qui n’est pas réductible à ces facteurs habituellement associés à l’ODS.
+
+[**Article original (Wayback Machine)**](https://web.archive.org/web/20201021011337/http://hemisphere-gauche.blogs.liberation.fr/2017/04/14/comment-la-hierarchie-sociale-senracine-t-elle-dans-nos-cerveaux/)
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

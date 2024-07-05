@@ -2,6 +2,10 @@
   {
     "listing": "/fr/blog/index.html",
     "items": [
+      "/fr/blog/posts/meteocerveau/index.html",
+      "/fr/blog/posts/neurolordon/index.html",
+      "/fr/blog/posts/secusocialecancer/index.html",
+      "/fr/blog/posts/hierarchiecerveau/index.html",
       "/fr/blog/posts/bullesdefiltres/index.html",
       "/fr/blog/posts/laboritinsoumission/index.html",
       "/fr/blog/posts/deconnomie/index.html",
@@ -11,11 +15,11 @@
       "/fr/blog/posts/biobank2022/index.html",
       "/fr/blog/posts/lsdneuroimagerie/index.html",
       "/fr/blog/posts/vieeternelle/index.html",
+      "/fr/blog/posts/cerveauelectricite/index.html",
       "/fr/blog/posts/milgramfilm/index.html",
       "/fr/blog/posts/cerveauattentats/index.html",
       "/fr/blog/posts/cerveaucomplot/index.html",
-      "/fr/blog/posts/neuro-noel/index.html",
-      "/fr/blog/posts/cerveauelectricite/index.html"
+      "/fr/blog/posts/neuro-noel/index.html"
     ]
   }
 ]

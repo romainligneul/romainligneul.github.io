@@ -2,7 +2,7 @@
 title: "La science et les médias : ce que révèle le succès litigieux d’Idriss Aberkane"
 author: "RL, Libération"
 date: "2016-10-27"
-categories: [neuro89, neuroscience, aberkane, médias]
+categories: [liberation, neuroscience, aberkane, médias]
 image: "aberkane_poudre.jpg"
 description: "Ce lundi 24 octobre 2016, Le Monde Sciences faisait l’honneur d’un article grand format à un «passionné de neurosciences, biologie, informatique, mathématiques, philosophie et géopolitique», Idriss Aberkane. Honneur qui en a fait bondir plus d'un dans la communauté scientifique."
 ---

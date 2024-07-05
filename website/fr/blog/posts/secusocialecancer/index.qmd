@@ -1,0 +1,78 @@
+---
+title: "Le financement de la sécurité sociale ou le cancer technocratique par l’exemple"
+author: "RL, Libération"
+date: "2017-10-07"
+categories: [liberation, économie, inégalités, politique]
+image: "homeless.jpg"
+description: "L'histoire d'une jeune femme découvrant qu'elle est atteinte d'un cancer dans la France d'Emmanuel Macron."
+---
+
+Malgré de nombreux articles dans les tuyaux, ce blog est resté muet depuis plusieurs mois suite à l’élection présidentielle et au cancer nouvellement diagnostiqué d’une amie qui m’est chère. Or ce second événement vient éclairer le premier d’une lumière tellement crue qu’il me semble utile d’en faire le récit, à l’heure où le gouvernement rend public [un projet de loi de Finances de la Sécurité sociale (PLFSS) aussi libéral qu’austéritaire](https://web.archive.org/web/20201021014511/https://www.humanite.fr/securite-sociale-salve-de-critiques-contre-le-plfss-642945).
+
+C’est donc l’histoire banale d’une italienne de moins de 30 ans — travaillant et cotisant en France depuis environ un an — qui s’est prise en pleine gueule les « politiques de réduction des déficits en matière de santé publique ». En filigrane, c’est aussi l’histoire d’un Français qui découvre que ces mêmes politiques de « réduction des déficits » parviennent à conjuguer avec un brio insoupçonné l’absurde et le minable.
+
+Attention cependant, il ne s’agit en aucun cas de dire que nous serions mal lotis en France relativement à d’autres pays. La comparaison des systèmes de santé est un exercice complexe, mais il est clair que la Sécurité Sociale reste [un des modèles les plus performants](https://web.archive.org/web/20201021014511/http://www.who.int/whr/2000/media_centre/press_release/fr/) au monde. Si l’on prend pour référence le modèle américain tristement décrit par Michael Moore dans son documentaire [Sicko](https://web.archive.org/web/20201021014511/https://www.youtube.com/watch?v=xpk9AuJ4J18), toute critique du système français semblera évidemment illégitime. En revanche, si on prend pour référence l’idéal de solidarité censé être la sève de *notre* système et si l’on refuse d’abandonner l’idée selon laquelle la Sécurité Sociale française se doit d’être un exemple à suivre pour le reste du monde — plutôt qu’une relique du communisme d’après-guerre dont le démantèlement serait inexorable — alors il est peut être utile de pointer du doigt certaines de ses lacunes en partie invisibles pour ceux qui ont la chance d’être en bonne santé.
+
+### Un diagnostic à 900€
+
+Imaginez donc que vous soyez une jeune femme étrangère arrivée depuis peu dans l’un des instituts scientifiques les plus prestigieux du pays. A priori, vous êtes chanceuse car votre employeur — bien au fait du cauchemar administratif dans lequel vous vous débattez — vous facilite la vie et s’occupe de vous inscrire à la Sécurité Sociale pour vous obtenir une Carte Vitale. Comme vous cotisez déjà, tout se passe apparemment sans heurts et vous commencez vos recherches. Metro-boulot-dodo.
+
+Malheureusement, quelques mois plus tard, au beau milieu d’une campagne pour les législatives à laquelle vous ne comprenez rien, il y a cette grosse boule qui apparaît dans votre cou. Au début, vous n’y faites pas trop attention, mais l’inquiétude grandit et vous finissez par la montrer à un ami quelque peu versé dans la médecine. À partir de là, tout s’enchaîne. Rendez-vous chez le généraliste, 2 fois 25€, rendez-vous chez l’hématologue, 2 fois 35€, échographie du cou, 130€, scanner abdomino-thoraço-pelvien, 330€, analyses sanguines, 110€. Tout va très vite. Ça y est, vous avez probablement le cancer.
+
+Le hic, c’est que plus de 6 mois après être arrivée en France, vous n’avez toujours pas reçu votre Carte Vitale. Votre médecin généraliste et les [sites d’aide aux ressortissants étrangers](https://web.archive.org/web/20201021014511/http://alceis.com/fr/news/inscription-%C3%A0-la-s%C3%A9curit%C3%A9-sociale-fran%C3%A7aise) disent que c’est « normal », mais certains amis français — peut-être un peu gauchistes — vous disent que c’est surtout une stratégie très pernicieuse de « réduction des déficits ». Après tout, n’est-ce pas en partie parce que vous n’aviez pas de Carte Vitale que vous avez tellement tardé à aller chez le médecin en dépit de ces symptômes récurrents qui vous pourrissaient la vie depuis quelques temps?
+
+Jusque-là, vous vous en êtes sortie avec ce qu’il y avait sur votre compte en banque, mais vous ne finirez pas le mois sans demander en urgence un virement à vos parents. Ceci étant dit, vous n’avez pas le temps de vous appesantir sur ces premières contrariétés financières. Il faut déjà aller faire un [TEP-SCAN](https://web.archive.org/web/20201021014511/https://fr.wikipedia.org/wiki/Tomographie_par_%C3%A9mission_de_positons), examen durant lequel l’on vous injectera une solution de sucre radioactif permettant de bien mettre en lumière les cellules cancéreuses voraces qui, parait-il, vous rongeraient en douce.
+
+### Un cancer dont la fréquence a doublé en 20 ans
+
+Arrivée dans l’hôpital de banlieue où doit se faire ce fameux TEP-SCAN, un nouveau problème se pose donc : puisque votre demande d’ouverture des droits à la Sécurité Sociale est perdue dans une pile de dossiers — quelque part dans un obscur service en sous-effectif de l’Assurance Maladie — les admissions de l’établissement vous notifient que vous allez devoir débourser une somme de 1200€ juste après l’examen. Confrontée aux protestations de l’ami français qui vous accompagne et à la forte probabilité pour que votre carte bancaire soit techniquement incapable de cracher 1200€ d’un coup, la guichetière se montre coopérative et finit par consulter sa supérieure qui décide de « bloquer le dossier jusqu’à la fin du mois ». Manière habile pour les services administratifs de faire tampon entre les impératifs financiers de la direction et la réalité économique des malades.
+
+Quelques jours après une biopsie pendant laquelle on vous charcute le cou afin d’en extraire un ganglion hypertrophié, le couperet tombe dans le bureau encombré d’un hématologue de l’hôpital Cochin : vous avez un lymphome de Hodgkin de stade II. Concrètement, d’après le scénario « optimiste », cela signifie que vous allez profiter d’une quadruple chimiothérapie aux mois de juin, juillet, août et septembre, et que vous finirez par 3 semaines de radiothérapie au mois d’octobre. Si l’hématologue évoque l’impossibilité de remonter la chaîne des causes ayant abouti à votre maladie, cela vous intéresserait quand même de savoir [pourquoi la fréquence de ce type de cancer a presque doublé, chez les 20-29 ans, entre 1995 et 2012](https://web.archive.org/web/20201021014511/http://www.lemonde.fr/les-decodeurs/visuel/2016/10/25/les-chiffres-des-principaux-cancers-decortiques_5019988_4355770.html).
+
+Bien entendu, vous avez encore du mal à réaliser ce qui vous attend. Vous lisez et relisez un peu compulsivement les informations disponibles sur internet, aussi rassurantes que terrifiantes. En gros, vous avez 90% de chance de vous en sortir, ce qui laisse quand même 10% de chances d’y passer avant d’assister à la réélection d’Emmanuel Macron.
+
+A ce stade, vous pouvez vous morfondre en pensant à vos beaux cheveux qui risquent de tomber comme des mouches, ou bien vous pouvez mettre le pied à l’étrier et essayer d’accélérer ce satané processus d’ouverture des droits. Sans ça, votre maladie a beau être « prise en charge à 100% », vous devrez continuer à payer les innombrables actes médicaux et autres prélèvements sanguins à effectuer dans les semaines qui viennent. Lettres, photocopies, appels, tout est bon pour faire avancer les choses.
+
+### 10 mois de délai pour une Carte Vitale
+
+Après une dernière échographie cardiaque visant à vérifier que votre cœur pourra encaisser une chimio aussi violente, 190€, l’Assurance Maladie finit par vous attribuer un numéro temporaire. Bon, le remboursement des 900€ que vous avez déjà dépensés attendra et vous ne pouvez toujours pas vous enregistrer sur « Ameli.fr », mais la galère financière semble toucher sa fin. Place au traitement.
+
+Vous aimeriez bien pouvoir continuer à avancer sur votre thèse, mais pour chacune de vos 8 séances de chimio, ce sera 5 à 7 heures passées à l’hôpital, suivies de 3-4 jours de fatigue extrême et de nausées, 3-4 jours de dépression inexplicables et une petite semaine de répit pendant laquelle vous aurez le loisir de constater les effets secondaires du traitement: au menu, chute de cheveux, perte d’appétit, modification radicale du goût et sensations de brûlure dans la bouche ou dans les mains. Soit le contexte idéal pour faire des allers-retours à la CPAM et à la Poste en essayant de comprendre pourquoi vous devez envoyer pour la dixième fois une attestation de domicile ou une photocopie de votre carte d’identité.
+
+Quoi qu’il en soit, comme votre système immunitaire est salement amoché par les médicaments, hors de question de reprendre quotidiennement le RER bondé pour aller au labo. Félicitations, vous appartenez officiellement à la vaste catégorie des assistés et autres parasites de la société française: celle des personnes en situation d’arrêt de travail longue durée !
+
+Cependant, n’espérez pas profiter de cette aubaine sans traiter quelques appels, documents et lettres supplémentaires. Comme l’indemnité prévue par la sécurité sociale ne s’élève qu’à [la moitié de votre salaire](https://web.archive.org/web/20201021014511/https://www.ameli.fr/paris/assure/remboursements/indemnites-journalieres/arret-maladie), soit environ 750€, il va falloir que votre hématologue signe de nouveaux papiers pour que votre employeur accepte d’en payer l’autre moitié. Inutile de dire que sans les conventions collectives qui protègent les salariés de votre institution, vous pouviez mettre la clé sous la porte de votre luxueux 18m² parisien. Vous remerciez donc ceux qui se sont battus par le passé pour vous éviter de devoir déménager en lointaine banlieue, entre deux chimios.
+
+### Une chance toute relative
+
+Vers la fin de l’été, une bonne nouvelle tombe enfin sur votre petite tête dégarnie : selon toute vraisemblance, le traitement fonctionne et vous avez de bonnes chances d’être guérie ! Cela vous remet du baume au cœur, même si n’échapperez pas à la « radiothérapie de consolidation » prévue de fin septembre à mi-octobre, ce qui signifie aussi que votre arrêt de travail devra être allongé de quelques semaines supplémentaires.
+
+Finalement, votre calvaire médical touche à sa fin en ce mois d’octobre 2017. L’œsophagite causée par vos séances quotidiennes de radiothérapie est un peu douloureuse, mais les effets de la chimio s’estompent progressivement et vous parvenez à retrouver un rythme de travail à peu près satisfaisant depuis votre domicile. Presque un an après votre arrivée en France, vous recevez aussi votre Carte Vitale et votre véritable numéro d’assuré. Bien que vous soyez reconnaissante que la nation française vous fasse un tel honneur, vous vous demandez tout de même si le remboursement des 900€ que vous aviez dépensés au début de votre parcours du combattant va réellement plafonner à 200€ comme cela semble être le cas depuis quelques semaines.
+
+Soucieuse de ne pas vous laisser gamberger sur ce petit détail de l’histoire, l’administration de l’Assurance Maladie vous réserve cependant une dernière surprise. Plus de deux mois après avoir l’avoir envoyée, votre demande d’extension d’arrêt de travail vous est retournée au motif que le médecin a fait une minuscule rature en écrivant la date à partir de laquelle l’extension prend effet. Vous pensiez en avoir fini avec le service d’hémato-cancérologie de l’hôpital Cochin ? Que nenni ! Il va falloir y retourner encore une fois, pour que le médecin puisse préciser que la date — pourtant bien lisible au bas de la page et reproduite à l’identique au milieu du document — est « certifiée par ses soins ».
+
+Cette ultime mesquinerie achève de convaincre un de vos proches de relater votre histoire sur son blog. Vous accueillez l’idée avec enthousiasme car vous savez que vous avez bénéficié de quatre garde-fous essentiels dont d’autres sont et seront malheureusement privés.
+
+Vos parents ont pu vous aider financièrement au moment d’établir le diagnostic, vous avez été accompagnée dans le processus par des amis français capables de vous traduire tout le charabia administratif auquel vous avez été confrontée, votre employeur n’est pas un patron soumis à une concurrence sans foi ni loi, et vous êtes tombée sur des médecins, des infirmières et des aides-soignants aussi adorables et que compétents, malgré un manque criant de personnel qui, parait-il, est devenu la réalité quotidienne des hôpitaux français.
+
+Sans cela, vous ne seriez peut-être pas sur le chemin de la guérison et vous craignez que d’autres personnes — hommes ou femmes, jeunes ou moins jeunes, de nationalité française ou non — n’aient pas eu la même «chance» que vous. Vous avez donc une pensée pour celles et ceux qui, découragés par la réalité des politiques de « réduction des coûts », auront trop retardé le moment du diagnostic et du début des soins.
+
+En somme, vous dédiez ce billet de blog à celles et ceux que la technocratie française aura mis, consciemment ou non, sur la voie d’une mort [banale](https://web.archive.org/web/20201021014511/https://www.scienceshumaines.com/la-banalite-du-mal-revisitee_fr_22093.html).
+
+[**Article original (Wayback Machine)**](https://web.archive.org/web/20201021014511/http://hemisphere-gauche.blogs.liberation.fr/2017/10/07/le-financement-de-la-securite-sociale-ou-le-cancer-technocratique-par-lexemple/)
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
