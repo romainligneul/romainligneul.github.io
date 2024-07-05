@@ -7,10 +7,6 @@ image: "meteocerveau.jpg"
 description: "L’Équipe de France est championne du monde et Brigitte Macron se prélasse au bord de la piscine en attendant que la ratatouille libérale millésime 2018 finisse de mijoter au Parlement. Bref, nous sommes au milieu du mois d’août et le soleil brille au dessus de nos têtes."
 ---
 
-[**Article original (Wayback Machine)**](http://hemisphere-gauche.blogs.liberation.fr/2017/10/14/neurosciences-contre-sciences-sociales-lerreur-de-frederic-lordon/)
-
-<script src="https://giscus.app/client.js"         data-repo="romainligneul/giscus-comments"         data-repo-id="R_kgDOMSMTIw"         data-category="CommentsBlogFR"         data-category-id="DIC_kwDOMSMTI84CglZk"         data-mapping="pathname"         data-strict="0"         data-reactions-enabled="1"         data-emit-metadata="0"         data-input-position="top"         data-theme="preferred_color_scheme"         data-lang="en"         crossorigin="anonymous"         async> </script>
-
 Pour la plupart d’entre nous et malgré les contrariétés politiques qui affligent certains, l’été est synonyme de bonne humeur. Cette tendance se répercute directement sur les plateformes web comme Twitter où les mots à connotation positive deviennent plus fréquents ([Golder & Maci, 2011](https://web.archive.org/web/20201205021208/http://science.sciencemag.org/content/sci/333/6051/1878.full.pdf?casa_token=00-l9mSMK0sAAAAA:rBMnpd-MAo7RUucQAz277KCsUVK0Lrw1tCM1HFd79ct_rlSSvdSy9sNPrXTLzXCc6q8BeelP7KTnoQ)) tandis que les mots à connotation négative régressent. L’analyse des changements d’humeur sur le web (“[sentiment analysis](https://web.archive.org/web/20201205021208/https://en.wikipedia.org/wiki/Sentiment_analysis)” en anglais) suggère que même nos anxiétés s’apaisent puisque les recherches Wikipedia associées à différents types de maladies chutent pendant la période estivale.
 
 Que se passe-t-il donc dans notre cerveau qui permettrait d’expliquer que notre vocabulaire et nos humeurs se réchauffent à mesure que nos peaux caramélisent? Pour répondre à cette question, il faut se pencher sur un domaine scientifique aussi vaste que passionnant: la [chronobiologie](https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/Chronobiologie) qui, comme son étymologie l’indique, s’intéresse à la manière dont les organismes s’adaptent aux cycles temporels de Dame Nature.
@@ -45,6 +41,7 @@ L’été amène donc son lot de réjouissances (et de sérotonine?) à la major
 
 D’où l’utilité des cartes postales!
 
-[**Article original (**](http://hemisphere-gauche.blogs.liberation.fr/2017/10/14/neurosciences-contre-sciences-sociales-lerreur-de-frederic-lordon/)[**Wayback** ](https://web.archive.org/web/20201205021208/http://hemisphere-gauche.blogs.liberation.fr/2018/08/12/la-meteo-du-cerveau-ou-comment-nos-emotions-fluctuent-au-gre-des-saisons/)[**Machine)**](http://hemisphere-gauche.blogs.liberation.fr/2017/10/14/neurosciences-contre-sciences-sociales-lerreur-de-frederic-lordon/)
+
+[**Article original (Wayback Machine)**](http://hemisphere-gauche.blogs.liberation.fr/2017/10/14/neurosciences-contre-sciences-sociales-lerreur-de-frederic-lordon/)
 
 <script src="https://giscus.app/client.js"         data-repo="romainligneul/giscus-comments"         data-repo-id="R_kgDOMSMTIw"         data-category="CommentsBlogFR"         data-category-id="DIC_kwDOMSMTI84CglZk"         data-mapping="pathname"         data-strict="0"         data-reactions-enabled="1"         data-emit-metadata="0"         data-input-position="top"         data-theme="preferred_color_scheme"         data-lang="en"         crossorigin="anonymous"         async> </script>

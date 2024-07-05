@@ -1,0 +1,48 @@
+---
+title: "Anticiper et mesurer l'impact psychologique et social du confinement"
+author: "RL, Libération"
+date: "2020-03-19"
+categories: [liberation, sciences cognitives, santé, psychiatrie]
+image: "confinement.jpg"
+description: "Alors que le Sénat examine la “loi d’urgence sanitaire” visant à étendre largement les pouvoirs de l’exécutif dans les mois qui viennent, il paraît urgent d’élargir notre connaissance et notre compréhension des conséquences psychologiques et sociales du confinement obligatoire décidé par Emmanuel Macron, dont cette loi constitue la suite logique."
+---
+
+Dans son édition du 14 mars 2020, le journal médical de référence The Lancet a publié une brève [revue de la littérature](https://web.archive.org/web/20201205022057/https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30460-8/fulltext) portant sur cette question, en réponse à l’appel de l’Organisation Mondiale de la Santé. Analysant 24 études détaillant les conséquence des quarantaines établies pour contenir les virus SARS ou Ebola (entre autres), les auteurs de l’article montrent que l’isolement en période d’épidémie peut être à l’origine de détresses psychologiques importantes, allant jusqu’au syndrome de stress post-traumatique.
+
+Certaines études montrent ainsi que la peur, l’anxiété ou la colère peuvent perdurer plusieurs mois après l’expérience d’une quarantaine, même relativement courte (10 jours). En outre, le retour à une vie sociale et professionnelle normale peut être difficile, en particulier pour les personnels soignants et leur famille. Parmi les facteurs de risque, on retrouve évidemment la fragilité financière des foyers touchés, mais également le manque d’information sur la durée et les justifications du confinement qui contribuent à un sentiment d’incertitude délétère.
+
+### Des recommandations concrètes
+
+Les auteurs de l’étude mettent en lumière le rôle-clé joué par les pouvoirs publics, souvent défaillants dans leur gestion des personnes confinées. Contre toute attente, même dans un pays aussi riche que le Canada, les livraisons de nourriture et de médicaments furent mal gérées durant l’épidémie de SARS à Toronto entre 2002 et 2004, et les indemnités promises furent versées avec beaucoup de retard. Il est donc essentiel que le gouvernement français, après avoir imposé le confinement et une véritable quarantaine aux personnes pouvant avoir été infectées par Covid-19, assume ses responsabilités.
+
+En la matière, l’article préconise les mesures suivantes:
+
+• Les quarantaines strictes imposées aux personnes potentiellement contagieuses doivent être limitées autant que possible à la période d’incubation du virus.
+
+• Les pouvoirs publiques et les autorités sanitaires doivent donner le maximum d’information possible sur la conduite à tenir, sur les justifications et sur la durée du confinement.
+
+• Les pouvoirs publics doivent s’assurer que les personnes confinées aient accès aux ressources de bases, aussi bien au plan nutritionnel que sanitaire.
+
+• Faciliter la communication des personnes isolées avec le monde extérieur et en particulier avec le milieu médical qui doit assurer un suivi aussi régulier que possible des symptômes physiologiques et psychologiques.
+
+• Porter une attention particulière au personnel soignant, qui est en première ligne dans le combat contre le virus et qui constitue la population la plus susceptible de souffrir de séquelles psychologiques à long-terme.
+
+Au delà de ces mesures de bon sens, les auteurs mettent en lumière le manque de données disponibles, notamment en ce qui concerne les personnes souffrant déjà de troubles psychologiques ou psychiatriques pour qui l’isolement pourrait être particulièrement difficile à vivre.
+
+### Vers une mobilisation des psychologues professionnels dans la lutte contre Covid-19?
+
+Un effort de recherche considérable paraît donc nécessaire aujourd’hui. En effet, contrairement aux épidémies récentes, ce sont des millions de personnes qui sont actuellement confinées chez elles. Tous les segments de la population sont concernés. On peut donc craindre qu’une saturation des services de soins psychologiques et psychiatriques accompagne la saturation des services de soins intensifs, [à l’image de ce qu’il se passe en Chine](https://web.archive.org/web/20201205022057/https://www.huffingtonpost.fr/entry/face-au-coronavirus-les-psychologues-chinois-sont-de-plus-en-plus-sollicites_fr_5e6760ddc5b6670e72fe3895).
+
+A cet égard, une mobilisation massive et coordonnée des psychologues professionnels serait extrêmement utile pour mieux contenir et évaluer les conséquences à court- et à long-terme de cette stratégie de santé publique.
+
+La mise en place de consultations à distance subventionnées par l’État est évidemment indispensable, et la collaboration entre psychologues, psychiatres et chercheurs paraît souhaitable.
+
+En ces temps sombres, la stabilité et la résilience de la société tout entière dépend de notre capacité à anticiper les conséquences de l’épidémie, et l’aspect psychologique de celle-ci n’échappe pas à la règle.
+
+------------------------------------------------------------------------
+
+Post-scriptum: Le youtubeur PsykoCouac a également fait une [vidéo](https://web.archive.org/web/20201205022057/https://youtu.be/tmcVMavico0) en réaction à cet article de The Lancet.
+
+[**Article original (Wayback Machine)**](https://web.archive.org/web/20201205022057/http://hemisphere-gauche.blogs.liberation.fr/2020/03/19/anticiper-et-mesurer-les-consequences-psychologiques-et-sociales-du-confinement/)
+
+<script src="https://giscus.app/client.js"         data-repo="romainligneul/giscus-comments"         data-repo-id="R_kgDOMSMTIw"         data-category="CommentsBlogFR"         data-category-id="DIC_kwDOMSMTI84CglZk"         data-mapping="pathname"         data-strict="0"         data-reactions-enabled="1"         data-emit-metadata="0"         data-input-position="top"         data-theme="preferred_color_scheme"         data-lang="en"         crossorigin="anonymous"         async> </script>

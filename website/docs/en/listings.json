@@ -2,6 +2,12 @@
   {
     "listing": "/fr/blog/index.html",
     "items": [
+      "/fr/blog/posts/IAprivee/index.html",
+      "/fr/blog/posts/uscovid/index.html",
+      "/fr/blog/posts/originespandemie/index.html",
+      "/fr/blog/posts/raoultfraude/index.html",
+      "/fr/blog/posts/impactconfinement/index.html",
+      "/fr/blog/posts/autoevaluationrecherche/index.html",
       "/fr/blog/posts/meteocerveau/index.html",
       "/fr/blog/posts/neurolordon/index.html",
       "/fr/blog/posts/secusocialecancer/index.html",
