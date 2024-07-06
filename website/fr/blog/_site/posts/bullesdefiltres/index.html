@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="RL, Libération">
+<meta name="dcterms.date" content="2017-04-04">
+<meta name="description" content="Les opinions et les contenus partagés quotidiennement sur Facebook jouent un rôle de plus en plus important dans le processus démocratique. Compte tenu de l’opacité des algorithmes qui contrôlent la transmission de l’information sur le réseau social, seule l’expérimentation citoyenne permet d’évaluer leur neutralité et leur impact sur notre perception du monde politique.">
+
+<title>Présidentielles et bulles de filtres: le référencement politique de Facebook passé au crible – blog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(bleu_blanc_rouge.jpg);
+background-size: cover;
+      }
+</style>
+<style>
+.quarto-title-block .quarto-title-banner {
+  background-position-y: center;
+  height: 400px;
+}
+</style>
+
+
+<link rel="stylesheet" href="../../../custom.scss">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">blog</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Présidentielles et bulles de filtres: le référencement politique de Facebook passé au crible</h1>
+                  <div>
+        <div class="description">
+          Les opinions et les contenus partagés quotidiennement sur Facebook jouent un rôle de plus en plus important dans le processus démocratique. Compte tenu de l’opacité des algorithmes qui contrôlent la transmission de l’information sur le réseau social, seule l’expérimentation citoyenne permet d’évaluer leur neutralité et leur impact sur notre perception du monde politique.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">liberation</div>
+                <div class="quarto-category">politique</div>
+                <div class="quarto-category">science citoyenne</div>
+                <div class="quarto-category">médias</div>
+                <div class="quarto-category">réseaux sociaux</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>RL, Libération </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 4, 2017</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>Avec plus de <a href="https://web.archive.org/web/20201021022118/http://www.blogdumoderateur.com/chiffres-facebook/">30 millions d’inscrits</a> en France, le mastodonte du web est devenu un outil incontournable aussi bien pour les hommes politiques, que pour les militants et les journalistes qui font l’actualité de notre démocratie. Les informations qui y circulent participent largement à l’évolution (ou à la stagnation) de nos opinions politiques et à l’idée que nous nous faisons des intentions de vote de notre cercle social.</p>
+<p>Depuis 2013, l’algorithme initial de la plate-forme, connu sous le nom de <a href="https://web.archive.org/web/20201021022118/https://fr.wikipedia.org/wiki/EdgeRank">Edge Rank</a>, a été remplacé par plusieurs algorithmes d’intelligence artificielle beaucoup plus complexes: lors de son introduction, un ingénieur de Facebook estimait qu’environ <a href="https://web.archive.org/web/20201021022118/http://marketingland.com/edgerank-is-dead-facebooks-news-feed-algorithm-now-has-close-to-100k-weight-factors-55908">100 000 facteurs</a> étaient pris en compte pour déterminer quels contenus seraient montrés à un utilisateur donné. Comme je l’écrivais déjà en <a href="https://web.archive.org/web/20201021022118/http://tempsreel.nouvelobs.com/rue89/rue89-parti-pris/20151117.RUE1354/changez-votre-photo-de-profil-facebook-et-le-bleu-blanc-rouge-en-un-clic.html">novembre 2015 après les attentats de Paris</a>, il n’y a pas de raisons autres que complotistes de penser que Facebook utilise son incroyable pouvoir d’influence pour peser sciemment sur l’évolution des sociétés contemporaines.</p>
+<p>Mais, il y a également très peu de moyens pour les citoyens et les institutions publiques d’exclure une telle hypothèse, puisque la procédure de référencement des contenus employée par Facebook n’est pas rendue publique, qu’une minorité de contenus partagés est accessible au-delà des “cercles d’amis” (contrairement à Twitter, par exemple) et qu’il est impossible d’afficher ces contenus suivant un ordre réellement chronologique, ce qui faciliterait l’examen de son fonctionnement et des éventuels biais de représentation provoqués chez les utilisateurs.</p>
+<p>Quel sera l’impact de ce filtrage “intelligent” sur le scrutin des présidentielles 2017? Nul ne peut le dire avec certitude mais cela ne doit pas nous empêcher de poser la question.</p>
+<section id="expérimenter-sur-facebook-ou-le-règne-du-système-d" class="level3">
+<h3 class="anchored" data-anchor-id="expérimenter-sur-facebook-ou-le-règne-du-système-d">Expérimenter sur Facebook ou le règne du système-D</h3>
+<p>Dès lors, seule la bonne volonté de citoyens prêts à se coordonner pour effectuer des expériences sur le réseau social permet d’étudier et de surveiller la manière dont l’entreprise contrôle la transmission des informations qui y sont partagées. Ce sont précisément les résultats d’une telle initiative que je rapporte ici (Figure 1).</p>
+<p>Dans le but de voir si Facebook favorise ou non certains candidats à l’élection présidentielle et dans quelle mesure “l’effet-bulle” qui nous enferme dans nos propres préférences politiques y est avéré, j’ai demandé à 30 utilisateurs de Facebook de poster successivement cinq messages de soutien aux 5 candidats principaux à l’élection présidentielle: Jean-Luc Mélenchon (JLM), Benoît Hamon (BH), Emmanuel Macron (EM), François Fillon (FF) et Marine Le Pen (MLP). Tous les messages se présentaient sous la forme suivante:</p>
+<blockquote class="blockquote">
+<p>Ça y est, je me suis décidé. Aux présidentielles, je voterai pour XXXXX !<br>
+Ceci est une expérience, pas un spam. Pour participer (1 à 5 min) cliquez ici: <a href="https://web.archive.org/web/20201021022118/https://goo.gl/forms/uGy3dRtxu11xKwSe2">https://goo.gl/forms/uGy3dRtxu11xKwSe2</a><br>
+S’il vous plait : ne likez pas / ne partagez pas / ne commentez pas ce post<br>
+<a href="https://web.archive.org/web/20201021022118/https://www.xxxxx2017.fr/">https://www.xxxxx2017.fr/</a><br>
+<br>
+</p>
+</blockquote>
+<p>Les lettres <em>XXXXX</em> étaient remplacées dans chacun des 5 messages par le nom de chaque candidat (exemple: François Fillon et <a href="https://web.archive.org/web/20201021022118/http://www.fillon2017.fr/">www.fillon2017.fr</a>). Un ordre précis de publication était attribué à l’avance de manière à ce que les messages de soutien à chaque candidat soient publiés autant de fois (6) en 1ère, 2nde, 3ème, 4ème et 5ème position sur l’ensemble des 30 comptes utilisés pour l’expérience. Les contacts de chaque expérimentateur acceptant de remplir le questionnaire Google (voir <a href="https://web.archive.org/web/20201021022118/https://goo.gl/forms/uGy3dRtxu11xKwSe2">ici</a>) étaient alors priés de rapporter plusieurs informations:</p>
+<p>1°) quel candidat apparaît en premier dans votre fil Facebook?</p>
+<p>2°) pour quel candidat pensez vous voter?</p>
+<p>3°) pour quel candidat pensez-vous que vos contacts voteront en majorité?</p>
+<p>4°) avez vous déjà relayé des informations négatives à l’encontre de certains candidats?</p>
+<p>5°) pensez-vous que Facebook est politiquement neutre?</p>
+<p>6°) êtes-vous d’accord pour dire que, sur Facebook, on voit prioritairement les contenus qui nous plaisent?</p>
+<p>7°) dans quel ordre apparaissent les 5 candidats sur votre fil d’actualité Facebook?</p>
+<p>NB: les questions 2-7 étaient optionnelles.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="design_bullesdefiltres.jpg" class="img-fluid figure-img" width="635"></p>
+<figcaption>Figure 1. Exemple de reréférencement effectué par l’algorithme de Facebook. En utilisant le lien fourni, les partipants étaient invités à rapporter l’ordre apparent des messages de soutien à chaque candidat dans leur fil d’actualité. En comparant cette information avec l’ordre chronologique de publication assigné à chacun des 30 expérimentateurs, il est possible d’évaluer la manière dont l’algorithme FB traite nos prises de position politiques.</figcaption>
+</figure>
+</div>
+<p>Sur une période d’un mois (du 28 février au 26 mars), 737 réponses ont été collectées sur le réseau social. Bien que les résultats de cette étude apportent des éléments de réponse inédits et parfois inattendus, ils doivent être appréhendés avec un certain recul pour plusieurs raisons: l’échantillon testé n’est pas représentatif de la population française (surreprésentation de participants jeunes, diplômés, et de gauche) et certains facteurs n’ont pas été strictement contrôlés (réactions intempestives sur les posts, nombre de réponses par participants, nombre de réponses par compte, etc.). De plus, il ne s’agit pas d’une étude scientifique au sens strict: sa méthodologie n’a été évaluée par aucun comité de chercheurs et l’auteur de l’étude (en l’occurrence, moi) n’est pas spécialiste de l’analyse des réseaux sociaux.</p>
+<p>Malgré tout, on fera remarquer que les instituts de sondage sont - eux aussi - loins de remplir les critères standards de scientificité et qu’ils ne diffusent presque jamais les données brutes recueillies, d’où <a href="https://web.archive.org/web/20201021022118/https://www.franceculture.fr/politique/sondages-faut-il-changer-de-methode">la multiplication des critiques à leur encontre</a>. A l’inverse, la méthodologie de cette étude, les données brutes et les scripts utilisés pour l’analyse sont intégralement disponibles en ligne (<a href="https://web.archive.org/web/20201021022118/https://doi.org/10.6084/m9.figshare.4815049.v1">ici</a>), ce qui devrait notamment permettre de répliquer et de perfectionner l’expérience, ou de vérifier les conclusions rapportées. Ces dernières donnent à réfléchir quant au rôle joué par Facebook dans les élections présidentielles et elles montrent l’utilité (voire la nécessité) d’étudier le réseau social pour mieux prendre en compte (voire limiter) son impact sur le processus démocratique en France.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="intentions_de_vote.jpg" class="img-fluid figure-img" width="607"></p>
+<figcaption>Figure 2. Orientation politique des participants à cette étude. Cet échantillon de 737 participants est largement polarisé à gauche, ce qui restreint la généralité des résultats rapportés.</figcaption>
+</figure>
+</div>
+<p>Tant que Facebook refusera que ses utilisateurs et les pouvoirs publics puissent faire l’audit de ses <a href="https://web.archive.org/web/20201021022118/http://www.lemonde.fr/pixels/article/2014/07/01/comment-fonctionne-l-algorithme-de-facebook_4448781_4408996.html">algorithmes</a> et de son utilisation des <a href="https://web.archive.org/web/20201021022118/http://www.lemonde.fr/pixels/article/2016/02/09/donnees-personnelles-le-virulent-requisitoire-de-la-cnil-contre-facebook_4861621_4408996.html">informations personnelles</a>, ce genre d’approche restera nécessaire.</p>
+</section>
+<section id="les-bulles-de-filtre-dans-le-contexte-des-présidentielles-françaises" class="level3">
+<h3 class="anchored" data-anchor-id="les-bulles-de-filtre-dans-le-contexte-des-présidentielles-françaises">Les “bulles de filtre” dans le contexte des présidentielles françaises</h3>
+<p>Discuté et théorisé depuis plusieurs années sous l’impulsion notamment d’<a href="https://web.archive.org/web/20201021022118/https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles?utm_source=tedcomshare&amp;utm_medium=referral&amp;utm_campaign=tedspread">Eli Pariser</a>, le problème des bulles de filtre est lié au fait que le réseau social personnalise constamment notre expérience pour nous montrer des contenus avec lesquels nous sommes déjà d’accord ou à propos desquels nous éprouvons un intérêt a priori. Dans une interview accordée au <a href="https://web.archive.org/web/20201021022118/http://techland.time.com/2011/05/16/5-questions-with-eli-pariser-author-of-the-filter-bubble/">Time</a>, Eli Pariser indiquait que, sur Facebook, “vous vous endoctrinez vous-même avec vos propres opinions. Vous ne réalisez pas que ce que vous voyez n’est qu’une partie du tableau. Et cela a des conséquences sur la démocratie : pour être un bon citoyen, il faut que vous puissiez vous mettre à la place des autres et avoir une vision d’ensemble. Si tout ce que vous voyez s’enracine dans votre propre identité, cela devient difficile, voire impossible”.</p>
+<p>Le phénomène doit être distingué de l’enfermement sociologique qui découle du fait (lui aussi très important) que nous sélectionnons nos contacts Facebook sur la base d’affinités préexistantes, qui sélectionnent eux-mêmes leurs contacts de cette manière. Par exemple, dans la présente étude, le très faible nombre de participants déclarant vouloir voter pour François Fillon (10% des intentions exprimées) ou Marine Le Pen (2% des intentions exprimées) reflète sans aucun doute mon propre enfermement socioculturel et la “distance sociale” qui me sépare en moyenne de ces électeurs (Figure 2). Cependant, si nous sommes pour la plupart conscients de notre enfermement sociologique, les bulles de filtres que génèrent les algorithmes de Facebook exercent quant à elles une influence bien plus pernicieuse, car résultant d’un contrôle implicite (et largement méconnu) des contenus auxquels nous sommes exposés.</p>
+<p>Dans les données recueillies ici, Facebook a par exemple modifié l’ordre réel des messages postés dans 92% des cas, ce qui a “permis” à plus de 30% (182) des 595 individus ayant exprimé leur intention de vote de voir leur candidat préféré apparaître en premier dans leur fil d’actualité. Statistiquement, une telle proportion n’a presque aucune chance d’arriver par hasard, ce qui indique que Facebook est bel et bien capable de prédire en partie pour quel candidat nous allons voter, et qu’il utilise cette information pour choisir les contenus auxquels nous sommes exposés.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/caa776294c3b77e67f2017f83a3cd007.jpg" class="img-fluid figure-img" width="817"></p>
+<figcaption>Figure 3. Candidat apparaissant en premier dans le fil d’actualité des participants en fonction de leur intention de vote. Les données sont normalisées de façon à ce que la somme de chaque colonne soit égale à 100, ce qui signifie que le code couleur correspond à la probabilité qu’un candidat donné apparaisse en premier, compte tenu l’intention de vote des participants. Par exemple, la case jaune en bas à droite indique que Marine Le Pen est vue en premier dans plus de 50% des cas par ses électeurs potentiels.</figcaption>
+</figure>
+</div>
+<p>Si l’on décompose l’analyse candidat par candidat (Figure 3), on observe que l’effet est particulièrement vrai pour Marine Le Pen (affichée en premier sur le fil d’actualité de 54.5% de ses électeurs potentiels), pour Emmanuel Macron (en premier sur le fil d’actualité de 38% de ses électeurs potentiels) et, dans une moindre mesure, pour Jean-Luc Mélenchon (34.4%) et François Fillon (28.8%). Seul Benoît Hamon obtient un résultat inverse à la tendance générale, puisque seulement 17.8% de ses électeurs potentiels l’ont vu en premier dans leur fil d’actualité: la figure ci-dessus indique que les électeurs de Hamon ont en fait tendance à voir les prises de position en faveur de Mélenchon ou de Macron en premier, ce qui peut sembler logique compte tenu du retard pris par sa campagne par rapport à ces deux candidats.</p>
+</section>
+<section id="bulles-de-filtre-et-vote-utile" class="level3">
+<h3 class="anchored" data-anchor-id="bulles-de-filtre-et-vote-utile">“Bulles de filtre” et vote utile</h3>
+<p>Ainsi, l’existence des bulles de filtre implique que nous ayons tendance à voir des prises de position et des contenus qui nous renforcent dans nos convictions. Elles ont donc une conséquence particulièrement problématique dans le contexte particulier des présidentielles françaises: elles renforcent probablement le mécanisme bien huilé du “vote utile” si <a href="https://web.archive.org/web/20201021022118/https://www.monde-diplomatique.fr/2017/04/HALIMI/57398">souvent décrié</a>. En effet, le vote utile est essentiellement un vote stratégique consistant à voter pour le candidat dont nous pensons qu’il a le plus de chances de gagner face à un adversaire donné. Il dépend donc largement d’un pari sur les intentions de vote du groupe social pris dans son ensemble.</p>
+<p>Tout le monde sait qu’Emmanuel Macron représente aujourd’hui le candidat du “vote utile”. Dès lors, si les gens qui pensent voter pour lui sont prioritairement exposés aux prises de positions favorables à ce candidat sur Facebook - au détriment de déclarations (ou contenus partagés) en faveur d’autres candidats - il est clair que cela ne peut que les renforcer dans leur stratégie. Pour voir si le phénomène des bulles de filtre a pu influencer la perception des intentions de vote au sein du groupe social, j’ai croisé les intentions de vote personnelles (question 2) avec l’estimation du vote majoritaire au sein du groupe social (question 3). Les résultats de cette analyse, reportés dans la Figure 4 ci-dessous, sont particulièrement marquants:</p>
+<p>- Les électeurs potentiels de Mélenchon ou de Hamon considèrent généralement que leur entourage votera majoritairement pour Mélenchon (47% et 28%, respectivement), pour Hamon (25% et 37%) ou pour Macron (26% et 33%).<br>
+- Les électeurs potentiels de Fillon considèrent généralement que leur entourage votera majoritairement pour Fillon (52%) ou pour Macron (41%).<br>
+- Les électeurs potentiels de Le Pen considèrent généralement que leur entourage votera majoritairement pour Le Pen (36%), Fillon (27%) ou Macron (36%)<br>
+- Enfin, les électeurs potentiels de Macron considèrent que leur entourage votera pour Macron dans 65% des cas, record en la matière. Fillon est, chez ces électeurs, le second candidat jugé le plus souvent majoritaire au sein du groupe social, mais cela n’arrive que dans 13% des cas!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/53021bc0717e92179e7e27e638302394-1.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 4. Majorité perçue sur Facebook en fonction des intentions de vote. Les données sont normalisées de façon à ce que la somme de chaque rang soit égale à 100, ce qui signifie que le code couleur correspond à la probabilité qu’un candidat soit jugé majoritaire dans le groupe social, compte tenu l’intention de vote des participants. Par exemple, la case jaune au centre signifie que 65% des électeurs potentiels d’Emmanuel Macron considèrent qu’Emmanuel Macron sera majoritaire au sein de leurs contacts Facebook.</figcaption>
+</figure>
+</div>
+<p>Deux hypothèses sont possibles pour expliquer cette dernière observation: soit les électeurs potentiels d’Emmanuel Macron évaluent correctement le vote majoritaire de leur groupe social, soit ils souffrent d’une distorsion qui les conduit à imaginer Macron plus majoritaire qu’il n’est réellement. Les données collectées ne peuvent pas trancher définitivement, même si la distribution des intentions de vote collectées (voir Figure 2) suggère que les différents groupes sociaux testés ne sont pas tellement favorable à Emmanuel Macron, et donc que la seconde hypothèse à des chances d’être valide. Cependant, si la première hypothèse était valide, cela signifierait que les électeurs potentiels de Macron sont enfermés dans une bulle socioculturelle un peu plus hermétique que les autres, ce qui n’est pas forcément réjouissant non plus… Ceci étant dit, il faut dire que le peu de données disponibles pour Marine Le Pen rend la comparaison avec cette candidate incertaine et que les résultats globaux de l’analyse pourraient varier si l’expérience était répliquée dans un autre milieu social.</p>
+<p>Enfin, s’il est important de souligner le fait que les électeurs potentiels d’Emmanuel Macron souffrent d’un effet-bulle plus intense que les autres électeurs, c’est aussi parce que ce résultat tranche avec l’appréciation qu’ils ont du réseau social. Ainsi, ils semblent paradoxalement moins d’accord (6.4) que les électeurs de Hamon (7.3) ou Mélenchon (7.1) pour dire que “Sur Facebook, on a tendance à voir prioritairement les posts de contact partageant nos idées” (de 1, pas du tout, à 10 complètement d’accord; Figure Figure 5, droite). De même, à la question “Avez-vous confiance dans la neutralité politique de Facebook?” (de 1, pas du tout, à 10, complètement confiance), ils obtiennent un score moyen de 4.5; la différence avec les électeurs potentiels de Hamon (3.4) ou Mélenchon (3.1) étant statistiquement significative (Figure 5, gauche).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/a6a8135f9c2dea2247d346081ba184b3.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 5. Perception de Facebook en fonction des intentions de vote aux présidentielles. Globalement, les résultats indiquent une certaine défiance vis à vis de la neutralité politique de Facebook (grande majorité de réponses inférieures à 5 sur le graphique de gauche) et ils confirment que les participants à l’étude, pour la plupart jeunes, sont conscients que Facebook a tendance à créer des ’bulles de filtre’ (grande majorité de réponses supérieures à 5 sur le graphique de droite). Étonnament, les électeurs potentiels d’Emmanuel Macron sont moins négatifs à propos de Facebook que les électeurs orientés plus à gauche.</figcaption>
+</figure>
+</div>
+</section>
+<section id="question-sensible-et-pente-glissante-facebook-avantage-t-il-certains-candidats" class="level3">
+<h3 class="anchored" data-anchor-id="question-sensible-et-pente-glissante-facebook-avantage-t-il-certains-candidats">Question sensible et pente glissante: Facebook avantage-t-il certains candidats?</h3>
+<p>Techniquement, les données recueillies au cours de cette expérience permettent aussi de déterminer si Facebook avantage certains candidats par rapport à d’autres. Pour éviter que certains exploitent les données mises en ligne en les sortant de leur contexte, je rapporte ci-dessous quelques analyses qui suggèrent qu’Emmanuel Macron pourrait être favorisé par les algorithmes du réseau social, ce qui explique peut-être pourquoi le phénomène des “bulles de filtre” décrit ci-dessus apparaît plus marqué pour ce candidat. Mais, s’il est bon de prendre en compte cet avantage (surtout lorsque l’on appartient à un milieu social semblable à celui de la présente étude), il me faut d’emblée mettre en garde le lecteur contre toute interprétation complotiste qui consisterait à penser que ces analyses révèleraient une manipulation délibérée de Mark Zuckerberg! J’explique pourquoi un peu plus bas.</p>
+<p>Le premier indice suggérant qu’Emmanuel Macron est avantagé par rapport aux autres candidats dérive de la comparaison entre la proportion des participants ayant vu chaque candidat en première position dans leur fil d’actualité et la proportion de participants qui auraient du voir ce candidat en premier si l’ordre chronologique était respecté. En effet, Emmanuel Macron est le candidat pour qui cette différence est la plus favorable, que l’on utilise toutes les données disponibles (+9%, contre +5% pour Mélenchon et -11% pour Fillon) ou que l’on exclue systématiquement de l’analyse les réponses où il était le candidat préféré du participant considéré (+5% contre +2% pour Le Pen et -12% pour Fillon).</p>
+<p>Ensuite, si l’on examine la probabilité que chaque candidat soit présenté en premier dans le fil d’actualité, sachant qu’il était réellement premier (d’après l’ordre chronologique; Figure 6, gauche), ou la même probabilité, sachant qu’il aurait dû être dernier (toujours d’après l’ordre chronologique; Figure 6, droite), on constate à nouveau un avantage assez clair en faveur d’Emmanuel Macron:</p>
+<p>- Lorsqu’il est réellement premier selon l’ordre chronologique de publication, Macron est effectivement vu en premier dans le fil d’actualité dans 45% des cas. Par comparaison, Le Pen (seconde sur cette échelle) n’est effectivement première que dans 30% des cas où elle devrait être première et cette proportion descend à 15% pour JLM (dernier sur cette échelle).</p>
+<p>- Lorsqu’il aurait dû être dernier (d’après l’ordre chronologique), Macron apparaît encore en premier dans 53% des cas. Par comparaison, Le Pen (à nouveau seconde sur cette échelle) apparaît première dans 40% des cas où elle devrait être dernière et cette proportion descend à 4% pour Fillon (dernier sur cette échelle).</p>
+<p>En regardant de plus près les graphiques qui synthétisent ces données, on constate deux autres tendances intéressantes. Premièrement, Marine Le Pen se substitue souvent à Jean-Luc Mélenchon lorsqu’il devrait apparaître en premier (33% des cas) - et inversement (dans 31% des cas). Deuxièmement, Jean-Luc Mélenchon se substitue souvent à Benoît Hamon lorsque ce dernier devrait apparaître en premier (37% des cas). Ces substitutions correspondent vraisemblablement à l’association de ces différents candidats dans les articles de presse relayés sur le réseau social, puisque l’on sait que de nombreux journalistes aiment rapprocher Jean-Luc Mélenchon et Marine Le Pen d’une part, et que la question du rapprochement entre Hamon et Mélenchon a occupé beaucoup d’espace médiatique ces derniers mois d’autre part.</p>
+<p>Le troisième et dernier indice permettant de mettre en évidence le référencement favorable d’Emmanuel Macron provient de l’analyse d’un sous-ensemble des données, focalisée sur la situation où les candidats considérés sont initialement positionnés en 3ème position (c’est à dire, centrale) dans l’ordre chronologique de publication (Figure 7 ci-dessous). En permettant de visualiser simultanément les tendances à la hausse et à la baisse pour sur la base d’une situation bien définie, cette analyse montre que Macron est hissé dans 50% des cas à la première ou à la deuxième place (contre 32% pour Hamon, second, et 21% pour Le Pen, dernière), et dans 41% des cas à la première place (contre 10% pour Fillon, deuxième et 4% pour Le Pen, dernière). Avec Hamon (65%), Emmanuel Macron (64%) est ainsi le candidat qui a le plus de chance de se maintenir ou de monter dans le référencement de Facebook lorsqu’il part d’une position chronologiquement intermédiaire.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/94b419aa5cecc2f4157d408db99fe9e7.jpg" class="img-fluid figure-img" width="655"></p>
+<figcaption>Figure 7. Rang observé dans le fil d’actualité lorsque chaque candidat est publié en 3ème position d’après l’ordre chronologique de publication.</figcaption>
+</figure>
+</div>
+<p>Comme je l’ai écrit plus haut, il ne faut pas déduire de ces données qu’Emmanuel Macron est intentionnellement avantagé par l’entreprise, ni que les résultats obtenus seraient réplicables dans n’importe quel milieu social. Il est par exemple possible qu’Emmanuel Macron soit favorisé simplement parce qu’il apparaît plus souvent dans les médias ou parce qu’il suscite en moyenne moins de commentaires négatifs que des candidats plus polarisés - que ce soit à gauche ou à droite. Même si on ne peut strictement exclure cette hyp</p>
+<p>zothèse, il reste donc hautement improbable que Facebook favorise intentionnellement un candidat au détriment des autres: il s’agit plus probablement d’un “phénomène émergent” lié au fonctionnement des algorithmes de référencement.</p>
+<p>Certes, les recherches académiques sur Facebook existent et permettent d’obtenir des résultats passionnants d’un point de vue sociologique. Certaines sont mêmes sponsorisées par l’entreprise elle-même comme <a href="https://web.archive.org/web/20201021022118/http://cn.cnstudiodev.com/uploads/document_attachment/attachment/681/science_facebook_filter_bubble_may2015.pdf">cette étude menée sur 11 millions d’américains</a> parue dans la revue Science en 2015 (qui se voulait évidemment rassurante quant au phénomène des bulles de filtres). Cependant, le contrôle sur la diffusion des contenus exercé par l’entreprise s’est <a href="https://web.archive.org/web/20201021022118/https://qz.com/936503/facebooks-new-method-of-fighting-fake-news-is-making-it-hard-for-people-to-post-a-false-story-about-irish-slaves/">accentuée récemment avec le débat sur les “fake news”</a> et la lenteur de la recherche académique est de toute manière peu compatible avec les temporalités politique ou médiatique. En attendant que Facebook offre plus de garanties concernant son fonctionnement (intentionnel ou accidentel) et compte tenu du précédent que représente sa tentative réussie de <a href="https://web.archive.org/web/20201021022118/https://www.theguardian.com/technology/2014/jun/29/facebook-users-emotions-news-feeds">“contrôle émotionnel”</a> - publiée en 2013 dans la revue <a href="https://web.archive.org/web/20201021022118/http://www.pnas.org/content/111/24/8788.full">PNAS</a>, la création d’un observatoire citoyen qui conduirait à plus grande échelle des expériences semblables à celle décrite ici serait donc fort utile.</p>
+</section>
+<section id="comment-facebook-sait-il-pour-qui-vous-allez-voter" class="level3">
+<h3 class="anchored" data-anchor-id="comment-facebook-sait-il-pour-qui-vous-allez-voter">Comment Facebook sait-il pour qui vous allez voter?</h3>
+<p>Bien des choses ont été écrites sur la manière dont Facebook traite nos informations personnelles pour mieux prédire nos préférences (politiques ou autres) et nous exposer à des contenus générateurs de revenus. Au cours de cette expérience, j’ai constaté que certaines personnes se pensaient à l’abri des classifications politiques de Facebook parce qu’elles ne partagent pas et ne réagissent pas aux contenus qui y sont diffusés. Dès lors, pour ces personnes, l’idée qu’une bulle de filtre pourrait malgré tout biaiser leur perception de l’actualité politique semble souvent saugrenue.</p>
+<p>Pourtant, un certain nombres de facteurs comme l’âge, le sexe, la composition du cercle de contacts, les contenus visualisés ou le type de pages suivies permettent à Facebook de profiler ces utilisateurs plus spectateurs qu’acteurs. En outre, ses algorithmes peuvent s’appuyer aussi sur des informations indirectes: dans les données décrites ici, il apparaît par exemple que l’utilisation de Facebook au cours de la journée diffère significativement en fonction du clivage gauche-droite (Figure 8): par rapport aux utilisateurs situés à gauche, les utilisateurs de droite présentent un pic d’activité plus marqué entre 17 et 21h, de sorte que la simple répartition de notre activité sur Facebook dit déjà quelque chose de notre orientation politique. Au passage et pour conclure, ce genre d’informations permet aussi à Facebook et aux compagnies qui exploitent ses données d’avoir une idée assez précise de notre <a href="https://web.archive.org/web/20201021022118/https://fr.wikipedia.org/wiki/Rythme_circadien">rythme circadien</a> (ou “horloge biologique”), ce qui ouvre une porte sur notre hygiène de vie…</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/245c04b11d1399338f31551c8112fa96-2.jpg" class="img-fluid figure-img" width="635"></p>
+<figcaption>Figure 8. Utilisation de Facebook au cours de la journée en fonction du clivage politique gauche-droite. La période grisée correspond à la tranche horaire 17h-21h sur laquelle la différence entre les deux courbes est significative.</figcaption>
+</figure>
+</div>
+</section>
+<section id="pour-aller-plus-loin" class="level3">
+<h3 class="anchored" data-anchor-id="pour-aller-plus-loin">Pour aller plus loin</h3>
+<p>- L’extension <a href="https://web.archive.org/web/20201021022118/http://dataselfie.it/#/">Data Selfie</a> pour Chrome permet de visualiser en temps réel les données que Facebook collecte à notre endroit.</p>
+<p>- Le mécanisme de référencement de Facebook évolue rapidement en ce moment, sous l’impulsion notamment du département d’intelligence artificielle de Facebook dirigé par le français Yann LeCun (chercheur à l’origine de la révolution dite du “deep-learning”) qui voudrait même, à terme, que l’expérience de chaque utilisateur soit contrôlée par une <a href="https://web.archive.org/web/20201021022118/http://fortune.com/facebook-machine-learning/">intelligence artificielle dédiée</a>. Ainsi, les excellents cours de Yann LeCun données l’an passé au Collège de France (disponible en ligne <a href="https://web.archive.org/web/20201021022118/https://www.college-de-france.fr/site/yann-lecun/course-2015-2016.htm">ici</a>) donnent une très bonne idée des enjeux de l’intelligence artificielle et du type d’algorithmes employés par Facebook aujourd’hui.</p>
+<p>- Le magnifique outil <a href="https://web.archive.org/web/20201021022118/https://presidentielle2017.iscpif.fr/">Politoscope</a> mis en ligne ce lundi 3 avril par les chercheurs de l’Institut des Systèmes Complexes de Paris-Ile-de-France permet de visualiser avec un très haut degré de précision différentes dynamiques sociales liées à la campagne présidentielle sur Twitter.</p>
+<p>- Intitulée <a href="https://web.archive.org/web/20201021022118/https://www.dailymotion.com/video/x55sim8">“Faut-il brûler Facebook?”</a>, l’’interview donnée à Mediapart par Antonio Casilli, chercheur et maître de conférence à Telecom ParisTech fait le lien entre le business model de Facebook et le principe des bulles en filtres et montre l’importance de la question pour les sociétés démocratiques.</p>
+<p>- Aussi fascinant que terrifiant, le documentaire interactif <a href="https://web.archive.org/web/20201021022118/https://donottrack-doc.com/fr/">Do-Not-Track</a> décortique la mécanique du profilage individuel sur internet (qui s’étend à nos personnalités, à nos addictions, à nos anxiétés, à notre compte en banque, etc.) et montre que les données extraites des réseaux sociaux sont de plus en plus utilisées par les entreprises privées (par exemple, <a href="https://web.archive.org/web/20201021022118/https://www.theguardian.com/technology/2016/nov/02/admiral-to-price-car-insurance-based-on-facebook-posts">les compagnies d’assurance</a>) et par les pouvoirs publics (par exemple, pour profiler <a href="https://web.archive.org/web/20201021022118/http://www.theverge.com/2017/3/10/14887818/dhs-ice-customs-social-media-screening-report-inspector-general">les immigrants</a> ou pour <a href="https://web.archive.org/web/20201021022118/https://www.theguardian.com/environment/earth-insight/2014/jun/12/pentagon-mass-civil-breakdown?CMP=twt_gu">anticiper voire contrer des mouvements de protestation sociale</a>).</p>
+<p>- Enfin, tout le monde ne partage l’idée selon laquelle les bulles de filtre sont si néfastes pour le débat démocratique: voir par exemple <a href="https://web.archive.org/web/20201021022118/http://imagesociale.fr/3666">la réflexion d’André Gunther</a> au lendemain de l’élection de Donald Trump ou <a href="https://web.archive.org/web/20201021022118/http://www.vox.com/policy-and-politics/2017/3/29/14983026/social-media-polarization-study-nber">cette étude récente</a> suggérant que les bulles de filtre contribuent moins qu’on ne le pense à polariser l’espace politique (ce qui n’est cependant pas l’argument du présent billet).</p>
+<hr>
+<p>Merci à tous les aides-expérimentateurs et à tous les participants qui ont rendu cette étude possible!</p>
+<p><a href="https://web.archive.org/web/20201021022118/http://hemisphere-gauche.blogs.liberation.fr/2017/04/04/presidentielles-et-bulles-de-filtres-le-referencement-politique-de-facebook-passe-au-crible/"><strong>Article original (Wayback Machine)</strong></a></p>
+<script src="https://giscus.app/client.js" data-repo="romainligneul/giscus-comments" data-repo-id="R_kgDOMSMTIw" data-category="CommentsBlogFR" data-category-id="DIC_kwDOMSMTI84CglZk" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async="">
+</script>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

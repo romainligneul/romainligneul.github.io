@@ -3,9 +3,9 @@ title: "Partenariat avec Doctolib : uberisation de la santé et danger pour la s
 author: "RL, L'insoumission"
 date: "2021-01-15"
 categories: [linsoumission, covid19, recherche, politique]
-image: "images/covid-19-vaccin.jpg"
+image: "covid-19-vaccin.jpg"
 description: "Un article rédigé pour le groupe thématique Santé de la France insoumise."
-title-block-banner: "images/covid-19-vaccin.jpg"
+title-block-banner: "covid-19-vaccin.jpg"
 include-in-header:
   - text: |
       <style>
@@ -26,7 +26,7 @@ Les détails contractuels n’ayant pas été rendus publics, il est difficile d
 
 [^2]: [Annonce de Doctolib](https://twitter.com/doctolib/status/1348880970859081729/photo/1) sur Twitter.
 
-[^3]: [Vol de données chez Doctolib ](https://www.lemonde.fr/pixels/article/2020/07/23/doctolib-victime-d-un-vol-de-donnees_6047078_4408996.html)en juillet 2020.
+[^3]: [Vol de données chez Doctolib](https://www.lemonde.fr/pixels/article/2020/07/23/doctolib-victime-d-un-vol-de-donnees_6047078_4408996.html)en juillet 2020.
 
     Voir aussi l’article de Télérama “[Sur Doctolib le secret médical est soigné avec beaucoup trop de légèreté](https://www.telerama.fr/medias/sur-doctolib-le-secret-medical-est-soigne-avec-beaucoup-de-legerete-6665635.php)” qui évoque des transferts de banques de données sur clé USB ou via le service non-sécurisé WeTransfer.
 
@@ -49,6 +49,12 @@ Ainsi, nous demandons au gouvernement:
 -   Le déploiement immédiat, par les services publics, des moyens humains nécessaires au bon déroulement de la phase 3 du plan de vaccination.
 
 -   La création d’une plate-forme de prise de rendez-vous médicaux publique et sécurisée permettant de s’affranchir à terme des sociétés privées tout en garantissant la souveraineté numérique de notre système de santé. 
+
+
+::: {#refs}
+:::
+
+<hr>
 
 [**Article original**](https://lafranceinsoumise.fr/2021/01/15/partenariat-avec-doctolib-uberisation-de-la-sante-et-danger-pour-la-souverainete-numerique/)
 

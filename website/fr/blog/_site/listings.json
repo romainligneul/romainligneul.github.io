@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/covidrecherche/index.html",
+      "/posts/doctolibetat/index.html",
       "/posts/IAprivee/index.html",
       "/posts/uscovid/index.html",
       "/posts/originespandemie/index.html",
@@ -9,6 +11,7 @@
       "/posts/impactconfinement/index.html",
       "/posts/autoevaluationrecherche/index.html",
       "/posts/meteocerveau/index.html",
+      "/posts/cubausinecerveaux/index.html",
       "/posts/neurolordon/index.html",
       "/posts/secusocialecancer/index.html",
       "/posts/hierarchiecerveau/index.html",
@@ -21,7 +24,6 @@
       "/posts/trump/index.html",
       "/posts/aberkane2/index.html",
       "/posts/aberkane1/index.html",
-      "/posts/cubausinecerveaux/index.html",
       "/posts/biobank2022/index.html",
       "/posts/ceuxquisenfoutent/index.html",
       "/posts/lsdneuroimagerie/index.html",
