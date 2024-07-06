@@ -9,17 +9,16 @@ aliases:
 
 ::: {#centered .h4 style="text-align: center; margin-top:0.5rem; margin-bottom:1.2rem"}
 Neuroscientist, geek, (blog) writer, et al.
-
-{{< iconify emojione flag-for-us-outlying-islands >}}
 :::
 
-::: callout-warning
-This page is under construction.
-
-The [French part](./fr) of this website is much more developed at the moment.
+::: callout-note
+Pour voir ma page web en français, cliquez ici: [{{< iconify emojione flag-for-france >}}](./fr)
+Les versions françaises et anglaises de ce site diffèrent significativement.
 :::
 
-For more information about me, check the following websites:
+The [French version](./fr) of this website is much more developed at the moment, and it is less oriented towards academia.
+
+For more information about me, you may already check the following websites:
 
 -   My research group: <https://www.adaptivecontrol.org>
 
@@ -33,15 +32,15 @@ For more information about me, check the following websites:
 
 -   The European institution that generously funded my group: <https://erc.europa.eu/homepage>
 
-Alternatively you can check the website of the [startup](https://robustcircuit.eu/) that I founded a few years ago with my partner-in-crime Daniela Domingues, aka [\@neurodaniela](https://x.com/neurodaniela).
-
-You can also check the social networks at the topic of this page 😊.
+You may check the website of the [startup](https://robustcircuit.eu/) that I founded a few years ago with my partner-in-crime Daniela Domingues, aka [\@neurodaniela](https://x.com/neurodaniela).
 
 ### To contact me:
 
 Email: [romain.ligneul\@gmail.com](mailto:romain.ligneul@gmail.com)
 
-Or leave me a message below (nb: if you don't have a Github account you should get one anyway!)
+Other handles: [{{< iconify mdi github >}}](https://github.com/romainligneul) [{{< iconify mdi twitter >}}](https://twitter.com/causalself) [{{< iconify mdi linkedin >}}](https://www.linkedin.com/in/romain-ligneul-b63b46192/) 
+
+Or leave me a message below (public, requires a Github account)
 
 <script src="https://giscus.app/client.js"
         data-repo="romainligneul/giscus-comments"
