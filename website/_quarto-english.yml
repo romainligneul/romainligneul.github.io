@@ -22,12 +22,12 @@ website:
       - icon: lightbulb 
         href: https://www.adaptivecontrol.org
     left:
-      - href: ./en/index.qmd
+      - href: ./index.qmd
         text: Home
-      - href: en/codes.qmd
+      - href: ./codes.qmd
         text: Code
     right:
-      - href: ./en
+      - href: ./
         text: "{{< iconify emojione flag-for-us-outlying-islands >}}"
       - href: ./fr
         text: "{{< iconify emojione flag-for-france >}}"

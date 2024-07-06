@@ -38,7 +38,7 @@ website:
           - text: "Biais réseaux sociaux (2017)"
             file: fr/sciencecitoyenne/biais_reseaux.qmd
     right:
-      - href: ./en
+      - href: ./
         text: "{{< iconify emojione flag-for-us-outlying-islands >}}"
       - href: ./fr
         text: "{{< iconify emojione flag-for-france >}}"
