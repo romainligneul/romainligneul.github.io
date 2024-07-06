@@ -1,5 +1,5 @@
 ---
-title: "Romain Ligneul (PhD)"
+title: "Romain Ligneul"
 about:
   template: jolla
   image: images/portrait_bw.png
@@ -9,6 +9,8 @@ aliases:
 
 ::: {#centered .h4 style="text-align: center; margin-top:0.5rem; margin-bottom:1.2rem"}
 Neuroscientist, geek, (blog) writer, et al.
+
+{{< iconify emojione flag-for-us-outlying-islands >}}
 :::
 
 ::: callout-warning
@@ -37,7 +39,7 @@ You can also check the social networks at the topic of this page 😊.
 
 ### To contact me:
 
-Email: [romain.ligneul@gmail.com](mailto:romain.ligneul@gmail.com)
+Email: [romain.ligneul\@gmail.com](mailto:romain.ligneul@gmail.com)
 
 Or leave me a message below (nb: if you don't have a Github account you should get one anyway!)
 

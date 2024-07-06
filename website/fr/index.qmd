@@ -4,10 +4,12 @@ about:
   template: jolla
   image: ../images/portrait_bw.png
 ---
+
 ::: {#centered .h4 style="text-align: center; margin-top:0.5rem; margin-bottom:1.2rem"}
 Chercheur (neuroscience), geek, blogueur, et al.
-:::
 
+{{< iconify emojione flag-for-france >}}
+:::
 
 Bienvenu.e.s sur ma page francophone, qui n'a presque rien à voir avec son homologue anglophone, beaucoup plus orientée vers la science, la modélisation, le code informatique, etc. Je suis en effet chercheur dans une autre vie (située à un [clic](./enà){target="_blank"} d'ici).
 
@@ -15,8 +17,7 @@ Dans ma vie francophone, je passe un certain temps à écrire pour, et parfois �
 
 #### Blog(s) + Presse
 
-Assez conséquent et relativement bien organisé, le blog de ce site répertorie tous les billets que j'ai précédemment publiés sur d'autres plateformes (Rue89, Mediapart, Libération) et de nouveaux billets écrits au fil de l'eau, ainsi que quelques articles écrits pour la presse grand public. 
-Il traite de science (principalement cerveau et cognition) mais vous y trouverez aussi beaucoup de réflexions politiques, notamment sur les inégalités socioéconomiques et le terrorisme. C'est une mauvaise manie que j'ai attrapé très jeune.
+Assez conséquent et relativement bien organisé, le blog de ce site répertorie tous les billets que j'ai précédemment publiés sur d'autres plateformes (Rue89, Mediapart, Libération) et de nouveaux billets écrits au fil de l'eau, ainsi que quelques articles écrits pour la presse grand public. Il traite de science (principalement cerveau et cognition) mais vous y trouverez aussi beaucoup de réflexions politiques, notamment sur les inégalités socioéconomiques et le terrorisme. C'est une mauvaise manie que j'ai attrapé très jeune.
 
 #### Recherche
 
@@ -38,7 +39,7 @@ Une brève description de cette start-up fondée il y a quelques années avec Da
 
 ### Pour me contacter:
 
-Email: [romain.ligneul@gmail.com](mailto:romain.ligneul@gmail.com)
+Email: [romain.ligneul\@gmail.com](mailto:romain.ligneul@gmail.com)
 
 Or laissez moi un message ci-dessous si vous avez un compte Github (2 min à créer)
 

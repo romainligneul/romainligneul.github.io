@@ -1,11 +1,12 @@
 ---
 title: "Étonnante usine à cerveaux"
-author: "RL, Le Monde Diplomatique - Manières de voir"
-date: "2016-10-27"
-categories: [liberation, neuroscience, aberkane, recherche, medias]
-image: "aberkane_poudre.jpg"
-description: "Ce lundi 24 octobre 2016, Le Monde Sciences faisait l’honneur d’un article grand format à un «passionné de neurosciences, biologie, informatique, mathématiques, philosophie et géopolitique», Idriss Aberkane. Honneur qui en a fait bondir plus d'un dans la communauté scientifique."
-title-block-banner: "aberkane_poudre.jpg"
+author: "RL, Manières de voir"
+date: "2017-11-05"
+categories: [diplo, neuroscience, recherche, cuba]
+image: "cover.png"
+image-alt: Tomás Munita. — Le Capitole de La Havane, 2012
+description: "Reportage publié dans le supplément mensuel du Monde Diplomatique à la suite d'un voyage à Cuba et d'une visite du centre de neuroscience de La Havane"
+title-block-banner: "cover.png"
 include-in-header:
   - text: |
       <style>
@@ -16,63 +17,60 @@ include-in-header:
       </style>
 ---
 
-Pour ceux qui ne connaissent pas encore le personnage, Idriss Aberkane est un jeune conférencier connu pour sa défense de « [l’économie de la connaissance](https://web.archive.org/web/20200923020135/https://fr.wikipedia.org/wiki/%C3%89conomie_du_savoir)», concept multiforme qui gravite autour de l’idée selon laquelle la connaissance et sa diffusion seront, dans le futur, les deux piliers d’une croissance économique ininterrompue car ne reposant pas sur la transformation et l’échange de bien matériels.
+"Le futur de notre pays doit nécessairement être un futur d’hommes de science, d’hommes de pensée, parce que c’est précisément ce que nous semons ; nous semons des opportunités pour l’intelligence », proclama Fidel Castro, le 15 janvier 1960. En 1959, le pays comptait trois universités, contre plus de soixante aujourd’hui. Le taux d’alphabétisation a bondi d’environ 70 % à plus de 99 % en 2012 (derniers chiffres disponibles). Celui de l’île voisine, Haïti, stagne à 62 %[^1].
 
-Ses discours dynamiques mettent fréquemment en avant la valeur immense que représente le monde vivant pour l’évolution des technologies humaines, notamment par le biais du [biomimétisme](https://web.archive.org/web/20200923020135/https://fr.wikipedia.org/wiki/Biomim%C3%A9tisme). Certes, les approximations, les raccourcis et les [formules mystificatrices](https://web.archive.org/web/20200923020135/https://medium.com/@tibo/idriss-aberkane-ou-le-danger-de-la-poudre-aux-yeux-b4f8b94ce202#.y3k66qwp9) parsèment sa pensée, mais il faut lui reconnaître une chose : Idriss est motivé, passionné et formidablement « productif ».
+[^1]: A l’occasion du 20ème anniversaire de la Société de Spéléologie Cubaine, Académie
+    des Sciences. <http://en.granma.cu/special-in-honor-of-fidel-s-90th-birthday/2016-08-12/a-talent-for-doing-the-impossible>
 
-Formidablement productif, car son [CV](https://web.archive.org/web/20200923020135/http://idrissaberkane.org/index.php/cv/) est proprement hallucinant pour un jeune homme de trente ans : trois doctorats, Cambridge University, Stanford University, ENS Ulm, Collège de France, Ecole Polytechnique. 160 conférences, une liste de publications longue comme le bras, des titres d’Ambassadeur, de Conseiller scientifique, de Professeur dans la Silicon Valley, de Professeur à l’École Centrale de Paris, d’Ingénieur de Recherche, et enfin d’[Éditorialiste](https://web.archive.org/web/20200923020135/http://www.lepoint.fr/journalistes-du-point/idriss-j--aberkane) au Point.
+Dorénavant, La Havane exporte des médecins et des chercheurs dans le monde entier (lire l’article d’Hernando Calvo Ospina page 52). Ces succès de Cuba dans le domaine biomédical s’expliquent en grande partie par les efforts de l’État en matière d’éducation publique (qui représentent plus de 10 % du produit intérieur brut[^2]). Le pays fait aujourd’hui jeu égal avec les États-Unis en ce qui concerne l’espérance de vie (78,5 ans) et la mortalité infantile (5 pour 1 000)[^3]. Les médecins constituent ainsi une véritable manne économique pour l’île (première source de devises, devant les envois d’argent et le tourisme).
 
-## De l’importance des guillemets
+[^2]: Selon le Programme des Nations Unies pour le Développement.
 
-Formidablement « productif », donc, parce que nous entrons là dans le vif du sujet: oui, le CV d’Idriss pose problème à certains.
+[^3]: Par exemple, sur la période 2007-2012, Cuba a investi 11.9% de son PIB dans l’éducation, ce qui constituait un record mondial.
 
-Devant le petit tollé suscité par les nombreuses inexactitudes présumées (voir en bas de page), lemonde.fr a d’ailleurs ajouté une [mise en garde](https://web.archive.org/web/20200923020135/http://www.lemonde.fr/sciences/article/2016/10/24/idriss-aberkane-l-apprenti-sage_5019485_1650684.html) dès le lendemain:
+Grâce à un accord conclu en 2000 avec le Venezuela d'Hugo Chávez, l’île a longtemps reçu jusqu’à cent mille barils de pétrole par jour (à prix subventionné) en contrepartie desquels plus de dix mille médecins et universitaires cubains travaillent sur le sol vénézuélien[^4].
 
-![](aberkane_portrait_monde.jpg){fig-align="center" width="485"}
+[^4]: Statistiques de l’Organisation Mondiale de la Santé, 2016.
 
-Je n’entrerai pas dans le détail de tous ces points et je me contenterai d’aborder le plus crucial pour quelqu’un qui se dit « Docteur en neurosciences cognitives » : sa soi-disant scolarité au [Cogmaster](https://web.archive.org/web/20200923020135/http://www.cogmaster.net/) de l’ENS Ulm, reconnu comme l’une des meilleures formations en neurosciences cognitives d’Europe.
+![Tomás Munita. — Scène de rue dans le centre de La Havane, 2016](rue.png){fig-align="center" width="500"}
 
-En effet, Idriss Aberkane ne figure ni sur les [listes d’anciens élèves](https://web.archive.org/web/20200923020135/http://sapience.dec.ens.fr/cogmaster/www/f_01_archives.php) de ce master, ni même dans l’annuaire des [anciens élèves](https://web.archive.org/web/20200923020135/http://www.archicubes.ens.fr/lannuaire#annuaire_chercher?identite=aberkane) de l’ENS.
+Directeur du Cuban Neuroscience Center (CNEURO), à La Havane, le docteur Mitchell Valdés-Sosa, 67 ans, fut le témoin privilégié de l’histoire du développement des sciences cubaines. Exilé à Chicago sous la dictature de Fulgencio Batista (1952-1959), son père revint sur l’île en 1961 pour y exercer sa profession d’obstétricien et pallier l’exode d’une bourgeoisie médicale ayant fui la révolution[^5]. Il assista donc à la création du Centro nacional de investigaciones científicas (CNIC, l’équivalent du Centre national de la recherche scientifique, CNRS) en 1965, et à l’arrivée des nombreux chercheurs et médecins envoyés par l’URSS de Leonid Brejnev ou par le Chili de Salvador Allende pour former la première génération de spécialistes locaux, ainsi qu’à la soutenance du tout premier docteur ès sciences de l’île en 1971. Au début des années 1980, la recherche cubaine s’éloigna du modèle soviétique, jugé trop centralisé, trop bureaucratique et trop rigide. Le pouvoir laissa de plus en plus d’autonomie aux chercheurs qu’il consultait fréquemment.
 
-## La fin justifie-t-elle les moyens ?
+[^5]: On estime que Cuba a perdu plus d’un tiers de ses médecins entre 1959 et 1961.
 
-L’objet de ce billet n’est pas de partir en guerre contre le CV gonflé aux hormones d’Idriss Aberkane, car son succès repose en grande partie sur la complicité des médias. Il est entré dans l’écosystème par la mauvaise porte, et la vraie question qui se pose maintenant est celle de savoir si les « bonnes » portes existent pour permettre aux « bons » chercheurs de trouver leur audience et de transmettre leurs savoirs.
+Au cours des années fastes ayant précédé la perestroïka et la « période spéciale », Valdés-Sosa et son frère Pedro ont contribué à certaines des réussites majeures qu’ont connues les neurosciences locales, comme la construction du premier système cubain d’imagerie cérébrale assistée par ordinateur ou la conception d’algorithmes de traitement des signaux neuronaux encore utilisés aujourd’hui.
 
-Il suffit de visualiser la première minute de son passage sur France 5 pour comprendre le problème. Après une énonciation à n’en plus finir du parcours d’Aberkane, qui baisse les yeux, Anne-Elisabeth Lemoine se plaint d’avoir « déjà mal à la tête » et lui demande d’un ton équivoque : « ça ne tient qu’à moi ? ».
+| **Partenaire privilégié de l’île, la Chine vient de recevoir l’autorisation d’ouvrir une société pharmaceutique sur le territoire**
 
-{{< video https://www.youtube.com/watch?v=HrquuGp3Cjw >}}
+Le budget de la recherche cubaine reste limité. C’est pourquoi le gouvernement promeut des circuits courts dans lesquels recherche fondamentale, recherche appliquée et chaînes de production se concentrent sur un même lieu. CNEURO regroupe par exemple des biologistes, des mathématiciens, des physiciens, des médecins impliqués dans divers essais cliniques ainsi que plusieurs techniciens spécialisés. Valdés-Sosa précise non sans fierté que CNEURO produit « chaque année quelques six mille prothèses et appareils auditifs permettant le diagnostic précoce de la surdité chez les très jeunes enfants ».
 
-Au visionnage de cette vidéo que la chaine officielle de *C à vous* intitule, comme par mégarde, « Idriss [Aberrante]{.underline} (sic): Comment libérer votre cerveau ? », la notion de culpabilité se dissipe, ou plutôt, se dissout. Dans le fond, Idriss ne fait que servir une bonne vieille soupe, avec des manières fort agréables et un talent certain.
+BioCubaFarma, la société publique qui regroupe l’ensemble des acteurs de l’industrie biomédicale, détient plus de deux mille brevets et exporte plusieurs centaines de produits différents vers le Brésil, le Vietnam, l’Afrique du Sud, le Venezuela, l’Algérie et l’Iran. Partenaire privilégié de Cuba, la Chine vient de recevoir l’autorisation d’ouvrir une société pharmaceutique sur le territoire cubain. Compte tenu du faible coût et de la bonne formation des professionnels de la santé à Cuba, les Canadiens sont également intéressés, tout comme certaines entreprises françaises.
 
-A cet égard, la suite de l’interview est particulièrement instructive. Idriss invente des mots qui tapent à l’œil (neurosagesse), se réfère à des histoires sensationnelles mais invérifiables et peu plausibles (la corde et l’éléphant) et il remixe des concepts parascientifiques, pour ne pas dire ascientifiques, comme pour mieux noyer le poisson. Par exemple, la description qu’il donne du mentalisme correspond plutôt à la [programmation neurolinguistique](https://web.archive.org/web/20200923020135/https://fr.wikipedia.org/wiki/Programmation_neuro-linguistique), le [mentalisme](https://web.archive.org/web/20200923020135/https://fr.wikipedia.org/wiki/Mentalisme_(illusionnisme)) à proprement parler se définissant en fait comme « l’art du spectacle qui consiste à créer l’illusion de facultés paranormales ». Drôle de mise en abîme quand on connait le personnage…
+Vaccin contre le cancer Depuis les accords de décembre 2014 ayant abouti à la réouverture de l’ambassade américaine à La Havane et à un réchauffement des relations entre les États-Unis et Cuba, deux molécules cubaines prometteuses font l’objet d’essais cliniques aux États-Unis : un vaccin contre le cancer du poumon et un médicament contre les gangrènes liées au diabète[^6]. En retour, un assouplissement administratif devait permettre aux entreprises américaines d’exporter une gamme plus étendue de produits vers Cuba, jusqu’à ce que M. Donald Trump fasse marche arrière à Miami, le 16 juin 2017. Si le monde universitaire a accueilli avec enthousiasme ces accords qui jettent les bases d’une coopération scientifique entre les deux pays, le chemin à parcourir reste encore long. Washington n’oubliant jamais de rappeler que « Cuba est une dictature », le Congrès a récemment invoqué le Cuba Democracy Act (1992) pour imposer une clause contractuelle enjoignant aux pédiatres cubains de ne pas utiliser le matériel américain qu’ils reçoivent pour torturer leurs patients[^7]… Ce qui n’a pas manqué de provoquer l’indignation des médecins et des chercheurs.
 
-Certes, il existe des énarques au pedigree validé qui sont de véritables insultes à l’intelligence et des autodidactes sans diplômes qui sont géniaux. Mais Aberkane n’est ni l’un ni l’autre. C’est simplement un gentil charlatan qui a fait sienne la devise «la fin justifie les moyens» et qui, comme bien d’autres avant lui, constate actuellemment le succès retentissant de celle-ci. D’ailleurs, il commence à engranger les bénéfices de cette exposition médiatique : son entreprise personnelle se réclame en effet de contrats avec Forbes, Engie, GDF, Eiffage, Chanel, ou encore… le MEDEF !
+[^6]: Cohen et al., 2015. *Advancing neuroscience interactions with Cuba*. Proceedings of the National Academy of Science ([lien](http://escholarship.org/uc/item/4j78s4wb))
 
-## De quelle fin parle-t-on, au juste ?
+[^7]: Voir l’article paru dans *Science*, qui mentionne notamment les difficultés préalables associées à l’exportation de matériel biomédical. <http://www.sciencemag.org/news/2014/12/researchers-applaud-us-cuba-accord>
 
-Le personnage ne dupe donc ni les journalistes, ni les chercheurs. Au final, seul l’audimat est dupe.
+![Tomás Munita. — Place de la Révolution, La Havane, 2014](placerevolution.png){fig-align="center" width="500"}
 
-Mais l’audimat est diverti, donc l’audimat est content, donc les annonceurs sont contents. Et puis Idriss est « numéro 1 », donc Idriss est content, donc tout le monde est content.
+Pour autant, malgré la vocation altruiste[^8] de la « médecine révolutionnaire » initialement promue par Ernesto « Che » Guevara, le dispositif scientifique cubain n’est pas exempt de contradictions. Les hommes en blanc sont souvent envoyés à l’étranger dans le cadre d’un service civique de deux ans, au cours duquel ils sont hébergés dans des camps particulièrement surveillés et ont obligation de ne pas quitter leur région d’affectation, sous peine de sanctions. Sans compter les mesures imaginées par Washington pour motiver les déserteurs en herbe[^9], dont la rémunération avoisine les 60 euros mensuels (ils perçoivent plusieurs centaines d’euros lorsqu’ils sont en mission à l’étranger).
 
-Bon, soyons honnêtes et ne tombons pas dans la caricature. Il reste quelques bastions qui résistent et continuent d’offrir un environnement de qualité pour parler science dans le format qui convient, c’est-à-dire dans un format long qui permet de dépasser le sensationnalisme et les formules toutes faites résonnant avec ce que les auditeurs savent déjà : la [Tête au carré](https://web.archive.org/web/20200923020135/https://www.franceinter.fr/emissions/la-tete-au-carre) sur Inter, la [Méthode scientifique](https://web.archive.org/web/20200923020135/https://www.franceculture.fr/emissions/la-methode-scientifique) et la [Conversation scientifique](https://web.archive.org/web/20200923020135/https://www.franceculture.fr/emissions/la-conversation-scientifique) sur Culture, les documentaires d’[Arte](https://web.archive.org/web/20200923020135/http://future.arte.tv/fr), voire même [E=M6](https://web.archive.org/web/20200923020135/http://www.m6.fr/emission-e_m6/) en sont quelques exemples.
+[^8]: Source: <https://www.law.cornell.edu/cfr/text/31/515.559>
 
-Mais à l’image du mythique [*C’est pas sorcier*](https://web.archive.org/web/20200923020135/https://fr.wikipedia.org/wiki/C%27est_pas_sorcier)disparu du PAF en 2014, la tendance est au déclin tandis que la biologie, les neurosciences et l’intelligence artificielle progressent si rapidement qu’elles auront à n’en pas douter des [répercussions majeures](https://web.archive.org/web/20200923020135/https://www.ted.com/talks/sam_harris_can_we_build_ai_without_losing_control_over_it?language=fr) sur l’avenir à moyen-terme de nos sociétés. Avenir qui dépend, en théorie, du choix éclairé de citoyens ayant la chance de vivre en démocratie.
+[^9]: Comme lorsque Cuba envoya plus de 400 médecins pour combattre l’épidémie d’Ebola sur le sol africain.
 
-Dans ce contexte, l’exposition dont bénéficie Idriss Aberkane est contre-productive. Pas seulement parce qu’il occupe un temps d’antenne qui aurait pu être mieux employé, mais parce qu’elle donne une fausse image de ce que sont les neurosciences au grand public: d’une part, elle renforce le discrédit des chercheurs, et d’autre part elle renforce l’idée selon laquelle il serait possible de goûter aux fruits de la science comme on profite d’une émission de divertissement.
+| **Le gouvernement a lancé un programme de recensement des jumeaux, afin de mieux prédire l’apparition de certaines maladies**
 
-## «Trois doctorats, c’est pas grand chose du tout»
+Outre les incertitudes liées aux réticences de l’administration Trump vis-à- vis du commerce et du tourisme américano-cubain, les espoirs consécutifs à l’ouverture du secteur biomédical sont « assombris par les difficultés financières », explique Pascal Belin, directeur de recherche à l’Institut des neurosciences de la Timone (INT), à Marseille. Belin, qui collabore depuis plus de dix ans avec ses homologues de La Havane, estime que les laboratoires cubains regorgent de « chercheurs talentueux qui feraient d’excellents éléments dans les établissements français », mais leur développement dépend, selon lui, de la mise en place de partenariats internationaux, axés notamment sur l’échange de compétences et de matériel. Sans parler de procédures d’émigration plus souples côté cubain.
 
-Quand on entend Aberkane dire, sans que quiconque sourcille, «trois doctorats c’est pas grand chose du tout, dans le sens où j’ai juste eu la chance de pouvoir faire d’une passion, d’un hobby, un diplôme», on se dit qu’il y a un vrai problème de représentation de ce qu’est le doctorat en France. Car un doctorat, c’est minimum 3 ans de travail à temps plein, et certainement pas la transformation chanceuse d’un hobby en diplôme! C’est la volonté d’aller au bout de soi-même et de toucher ses limites. C’est accepter d’être déconnecté du monde réel pour quelques temps et de s’y reconnecter sans renier ce qu’on a appris: à savoir que c’est l’ignorance et non la connaissance qui est le [moteur](https://web.archive.org/web/20200923020135/https://www.ted.com/talks/stuart_firestein_the_pursuit_of_ignorance?language=en) de la science véritable.
+Si l’INT a fait don à l’équipe du docteur Valdés-Sosa d’un appareil pour les électroencéphalogrammes, Belin souligne que d’autres pays sont en avance sur la France dans le domaine de la coopération avec Cuba. L’université de Maastricht (Pays-Bas), par exemple, a offert un scanner IRM d’une valeur de plusieurs millions d’euros à CNEURO et a créé un programme doctoral mixte qui lui permet notamment de bénéficier de l’expertise de Cuba en matière de neuro-imagerie dite « multimodale »[^10].
 
-En théorie, ce qu’un journaliste devrait chercher quand il s’entretient avec un chercheur, ce ne sont pas seulement de nouvelles réponses, mais aussi et surtout de nouveaux points d’interrogation. Car la recherche, c’est avant tout l'ascension - souvent douloureuse - vers de meilleures questions et tout le défi de la communication scientifique est d’en faire saisir à autrui le sens et l’importance.
+[^10]: Combinaison de plusieurs mesures d’activités cérébrales simultanées, telles que l’électro-encéphalogramme et l’IRM
 
-Idriss Aberkane est sympatique, cultivé comme [Pic de la Mirandole](https://web.archive.org/web/20200923020135/https://fr.wikipedia.org/wiki/Jean_Pic_de_la_Mirandole), et il est peut-être convaincu que tous les moyens sont bons pour susciter la curiosité de son auditoire. Malheureusement, il semble ignorer que le goût de la curiosité ne sert pas à grand chose sans le goût de l’effort intellectuel, pour lequel aucune formule magique n’a encore été inventée.
+Afin de mieux prédire l’apparition et l’évolution de maladies neurodégénératives, telles qu’Alzheimer — de plus en plus fréquentes du fait du vieillissement de la population —, le gouvernement cubain a lancé en 2004 un vaste programme de recensement de tous les jumeaux de l’île. La quasi-totalité (95 %) d’entre eux ayant été répertoriés, plus de cent mille individus peuvent désormais être mobilisés pour l’étude de l’hérédité génétique et des interactions des gènes et de l’environnement, et ce dans l’un des pays les plus métissés. Dans le domaine spécifique des neurosciences cognitives, un partenariat à long terme avec Cuba offrirait la possibilité d’examiner en profondeur les différences interculturelles entre les pays européens et l’une des dernières sociétés communistes, ouvrant ainsi la voie à une meilleure compréhension des dynamiques complexes qui régissent le rapport entre structures sociales et comportements individuels.
 
-Ce dernier dépend avant tout de l’éducation, du crédit et du respect accordé à ceux qui lui dédient leur vie, et enfin, du temps, du temps, et encore du temps. Car en cette matière, l’appétit vient en mangeant.
-
-Mais pas n’importe quoi.
-
-[**Article original (Wayback Archive)**](https://web.archive.org/web/20200923020135/http://hemisphere-gauche.blogs.liberation.fr/2016/10/27/la-science-et-les-medias-ce-que-revele-le-succes-litigieux-didriss-aberkane/)
+[**Article original (Wayback Archive)**](https://www.monde-diplomatique.fr/mav/155/LIGNEUL/57921#nb6)
 
 <script src="https://giscus.app/client.js"
         data-repo="romainligneul/giscus-comments"
@@ -89,4 +87,3 @@ Mais pas n’importe quoi.
         crossorigin="anonymous"
         async>
 </script>
-
