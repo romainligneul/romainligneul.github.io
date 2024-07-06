@@ -5,7 +5,6 @@ project:
   - "./fr/"
 
 website:
-  site-url: https://romainligneul.github.io/
   favicon: favicon.ico
   navbar:
     tools:
