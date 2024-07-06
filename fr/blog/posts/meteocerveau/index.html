@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="RL, Libération">
+<meta name="dcterms.date" content="2018-10-12">
+<meta name="description" content="L’Équipe de France est championne du monde et Brigitte Macron se prélasse au bord de la piscine en attendant que la ratatouille libérale millésime 2018 finisse de mijoter au Parlement. Bref, nous sommes au milieu du mois d’août et le soleil brille au dessus de nos têtes.">
 
-<title>Romain Ligneul (PhD) – RL</title>
+<title>La météo du cerveau, ou comment nos émotions fluctuent au gré des saisons – RL</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../favicon.ico" rel="icon">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../favicon.ico" rel="icon">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,6 +71,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(meteocerveau.jpg);
+background-size: cover;
+      }
+</style>
+<style>
+.quarto-title-block .quarto-title-banner {
+  background-position-y: center;
+  height: 400px;
+}
+</style>
 
 
 </head>
@@ -74,11 +91,11 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">RL</span>
     </a>
   </div>
@@ -89,21 +106,44 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../en/index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../../../../fr/index.html"> 
+<span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../en/codes.html"> 
-<span class="menu-text">Code</span></a>
+    <a class="nav-link" href="../../../../fr/blog/"> 
+<span class="menu-text">Blog</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../fr/recherche.html"> 
+<span class="menu-text">Recherche</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../fr/robustcircuit.html"> 
+<span class="menu-text">Startup</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-science-citoyenne" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Science citoyenne</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-science-citoyenne">    
+        <li>
+    <a class="dropdown-item" href="../../../../fr/sciencecitoyenne/quiz_elections.html">
+ <span class="dropdown-text">Quiz électoraux (2022)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../fr/sciencecitoyenne/biais_reseaux.html">
+ <span class="dropdown-text">Biais réseaux sociaux (2017)</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href=".././en"> 
+    <a class="nav-link" href="../../../.././en"> 
 <span class="menu-text"><iconify-icon inline="" icon="emojione:flag-for-us-outlying-islands" aria-label="Icon flag-for-us-outlying-islands from emojione Iconify.design set." title="Icon flag-for-us-outlying-islands from emojione Iconify.design set."></iconify-icon></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href=".././en/fr"> 
+    <a class="nav-link" href="../../../.././en/fr"> 
 <span class="menu-text"><iconify-icon inline="" icon="emojione:flag-for-france" aria-label="Icon flag-for-france from emojione Iconify.design set." title="Icon flag-for-france from emojione Iconify.design set."></iconify-icon></span></a>
   </li>  
 </ul>
@@ -111,16 +151,16 @@ ul.task-list li input[type="checkbox"] {
             <div class="quarto-navbar-tools tools-wide">
     <a href="https://github.com/romainligneul" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
     <div class="dropdown">
-      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-twitter"></i></a>
+      <a href="https://twitter.com/nerfsocial" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-twitter"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
             <a class="dropdown-item quarto-navbar-tools-item" href="https://twitter.com/causalself">
-            Academic (EN)
+            Académique (EN)
             </a>
           </li>
           <li>
             <a class="dropdown-item quarto-navbar-tools-item" href="https://twitter.com/nerfsocial">
-            Eclectic (FR)
+            Éclectique (FR)
             </a>
           </li>
       </ul>
@@ -132,69 +172,107 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">La météo du cerveau, ou comment nos émotions fluctuent au gré des saisons</h1>
+                  <div>
+        <div class="description">
+          L’Équipe de France est championne du monde et Brigitte Macron se prélasse au bord de la piscine en attendant que la ratatouille libérale millésime 2018 finisse de mijoter au Parlement. Bref, nous sommes au milieu du mois d’août et le soleil brille au dessus de nos têtes.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">liberation</div>
+                <div class="quarto-category">neuroscience</div>
+                <div class="quarto-category">léger</div>
+                <div class="quarto-category">neuromodulation</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>RL, Libération </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 12, 2018</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
-  <li><a href="#to-contact-me" id="toc-to-contact-me" class="nav-link active" data-scroll-target="#to-contact-me">To contact me:</a></li>
+  <li><a href="#sérotonine-et-soleil" id="toc-sérotonine-et-soleil" class="nav-link active" data-scroll-target="#sérotonine-et-soleil">Sérotonine et soleil</a></li>
+  <li><a href="#un-tableau-estival-pas-si-rose-que-ça" id="toc-un-tableau-estival-pas-si-rose-que-ça" class="nav-link" data-scroll-target="#un-tableau-estival-pas-si-rose-que-ça">Un tableau estival pas si rose que ça</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="images/portrait_bw.png" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Romain Ligneul (PhD)</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<div id="centered" class="h4" style="text-align: center; margin-top:0.5rem; margin-bottom:1.2rem">
-<p>Neuroscientist, geek, (blog) writer, et al.</p>
+
+
+
+
+<p>Pour la plupart d’entre nous et malgré les contrariétés politiques qui affligent certains, l’été est synonyme de bonne humeur. Cette tendance se répercute directement sur les plateformes web comme Twitter où les mots à connotation positive deviennent plus fréquents (<a href="https://web.archive.org/web/20201205021208/http://science.sciencemag.org/content/sci/333/6051/1878.full.pdf?casa_token=00-l9mSMK0sAAAAA:rBMnpd-MAo7RUucQAz277KCsUVK0Lrw1tCM1HFd79ct_rlSSvdSy9sNPrXTLzXCc6q8BeelP7KTnoQ">Golder &amp; Maci, 2011</a>) tandis que les mots à connotation négative régressent. L’analyse des changements d’humeur sur le web (“<a href="https://web.archive.org/web/20201205021208/https://en.wikipedia.org/wiki/Sentiment_analysis">sentiment analysis</a>” en anglais) suggère que même nos anxiétés s’apaisent puisque les recherches Wikipedia associées à différents types de maladies chutent pendant la période estivale.</p>
+<p>Que se passe-t-il donc dans notre cerveau qui permettrait d’expliquer que notre vocabulaire et nos humeurs se réchauffent à mesure que nos peaux caramélisent? Pour répondre à cette question, il faut se pencher sur un domaine scientifique aussi vaste que passionnant: la <a href="https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/Chronobiologie">chronobiologie</a> qui, comme son étymologie l’indique, s’intéresse à la manière dont les organismes s’adaptent aux cycles temporels de Dame Nature.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="cycles.jpg" class="img-fluid figure-img" width="645"></p>
+<figcaption>L’analyse du comportement des internautes sur Twitter et Wikipedia permet d’illustrer les modifications d’humeur au cours de l’année. Par exemple, les recherches correspondant à divers troubles psychiatriques augmentent en hiver et au début du printemps, tout comme les tweets contenant les mot-clés “colère”, “tristesse” ou “anxiété” augmentent en automne (Dzogang et al., 2016, voir aussi).</figcaption>
+</figure>
 </div>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<p>Si la structure du cerveau humain est remarquablement stable comparée à celle de mammifères plus petits (comme l’écureuil dont le cerveau rabougrit de <a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/?term=Profound+seasonal+changes+in+brain+size+and+architecture+in+the+common+shrew">10 à 25%</a>en hiver!), la plupart des systèmes de notre organisme s’adaptent malgré tout, à des degrés divers, aux différences d’illumination, d’humidité et de température qui caractérisent chaque saison.</p>
+<p>Mais en matière de “saisonnalité des émotions”, c’est d’abord du côté de la fameuse <a href="https://web.archive.org/web/20201205021208/http://lecerveau.mcgill.ca/flash/d/d_08/d_08_m/d_08_m_dep/d_08_m_dep.html">sérotonine</a> qu’il faut se pencher. Impliquée dans le contrôle de l’humeur, de l’apprentissage, de l’appétit, ou encore de l’impulsivité, une série de recherches démontre l’existence d’un rythme “circannuel” au niveau de ce <a href="https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/Neuromodulation">neuromodulateur</a> complexe qui constitue par ailleurs une des cibles thérapeutiques les plus importantes pour la psychiatrie contemporaine.</p>
+<section id="sérotonine-et-soleil" class="level3">
+<h3 class="anchored" data-anchor-id="sérotonine-et-soleil">Sérotonine et soleil</h3>
+<p>Ainsi, le transporteur membranaire de la sérotonine, qui sert à évacuer la molécule après qu’elle a été libérée, voit sa concentration diminuer en été et augmenter en hiver (<a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/18762593">Praschak-Rieder et al., 2008</a>; <a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/20110086">Kalbitzer et al.,2010</a>). Cette variation annuelle est d’autant plus pertinente qu’elle paraît absente chez ceux qui souffrent de <a href="https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/D%C3%A9pression_saisonni%C3%A8re">dépression saisonnière</a> (seasonal affective disorder en anglais; <a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/26994750">McMahon et al., 2016</a>). Et il est frappant de constater que les antidépresseurs classiques miment en quelque sorte l’effet du soleil, puisqu’ils agissent eux-aussi en <a href="https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/Inhibiteur_s%C3%A9lectif_de_la_recapture_de_la_s%C3%A9rotonine">réduisant l’efficacité du transporteur de la sérotonine</a>.</p>
+<p>Deux autres facettes du système fluctuent elles-aussi au cours de l’année: l’activité des neurones sérotoninergiques eux-mêmes augmente avec la durée du jour (<a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/25959961">Green et al., 2015</a>) tout comme la densité de certains récepteurs qui font le pont entre le “signal sérotonine” et notre comportement (<a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/25772667">les 5HT1A</a>, pour les puristes). Sans parler des cycles observés dans les voies de synthèse et de dégradation de la molécule (<a href="https://web.archive.org/web/20201205021208/https://jamanetwork.com/journals/jamapsychiatry/article-abstract/497278">Maes et al., 1995</a>; <a href="https://web.archive.org/web/20201205021208/https://www.sciencedirect.com/science/article/pii/S0140673602117375">Lambert et al., 2002</a>; <a href="https://web.archive.org/web/20201205021208/https://www.nature.com/articles/tp201384">Luykx et al., 2013</a>)… Plus de signal à la base, moins d’évacuation, et plus de récepteurs pour le recevoir, tout cela va dans le même sens et il est donc assez naturel de penser que le système sérotoninergique dans son ensemble participe de façon significative à la fluctuation de nos humeurs, et peut-être même d’une partie de nos capacités cognitives (<a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/?term=A+Warm+Heart+and+a+Clear+Head">Keller et al., 2005</a>; <a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/26858432">Meyer et al., 2016</a>)!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="serosaison.jpg" class="img-fluid figure-img" width="860"></p>
+<figcaption>A gauche, représentation du transporteur responsable de la recapture la sérotonine après sa libération (extrait d’un billet de blog approfondi et intéressant sur la place parfois exagérée qu’occupe le transporteur à la sérotonine dans la vulgarisation des troubles psychiatriques). A droite, fluctuation de l’expression de ce transporteur au cours de l’année, avec son pic caractéristique au milieu de l’hiver (Kalbitzer et al., 2010).</figcaption>
+</figure>
 </div>
-<div class="callout-title-container flex-fill">
-Warning
+<p>Faut-il donc faire le plein de soleil en été pour se charger en bonne humeur pour toute l’année? Est-ce que le phénomène à un rapport avec les bains de soleil excessifs ou l’utilisation intensive des cabines à UV observés chez certains? Difficile à dire, d’autant plus qu’on ne sait pas encore si la lumière a un impact direct ou si les effets observés sont dûs à l’influence d’un autre facteur, qui pourrait être lié aux changements d’alimentation ou à l’augmentation de l’exercice physique en été.</p>
+<p>Il serait donc réducteur voire téméraire d’espérer tout expliquer par la sérotonine, d’autant plus que d’autres signaux chimiques apparentés (comme la <a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/21048126">dopamine</a>) varient eux aussi au gré des saisons. En ce qui concerne l’exposition aux UV solaires ou artificiels, une étude récente menée chez la souris suggère d’ailleurs que ce sont en fait les <a href="https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/Endorphine">endorphines</a> qui expliquent le développement de véritables comportement addictifs (<a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/24949966">Fell et al., 2014</a>). L’idée est assez simple: l’exposition prolongée aux UV entraîne une série de micro-traumatismes pour notre peau, qui réagit en libérant ces antidouleurs naturels que sont les endorphines. En retour, ces endorphines suscitent une sensation de détente et de bien-être similaire à ce que ressentent les joggers après une longue course. Et à l’instar <a href="https://web.archive.org/web/20201205021208/https://www.sciencedirect.com/science/article/abs/pii/S0031938416300269">des sportifs</a>, une petite proportion des individus sensibles à ce mécanisme développeraient une forme d’addiction aux UV qui préoccupe plus en plus <a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/28639816">aux États-Unis</a>.</p>
+</section>
+<section id="un-tableau-estival-pas-si-rose-que-ça" class="level3">
+<h3 class="anchored" data-anchor-id="un-tableau-estival-pas-si-rose-que-ça">Un tableau estival pas si rose que ça</h3>
+<p>De plus, comme souvent en science, ce qui semble évident au premier abord se révèle en réalité plus complexe qu’il n’y paraît. Par exemple, contrairement à une croyance populaire solidement enracinée, ce n’est pas pendant l’hiver que les détresses psychologiques les plus profondes se manifestent. La vaste majorité des données disponibles indique au contraire que les taux de suicide atteignent leur maximum <a href="https://web.archive.org/web/20201205021208/https://www.theguardian.com/science/2005/may/12/mentalhealth.society">à la fin du printemps et au début de l’été</a>.</p>
+<p>Menée aux États-Unis et au Mexique, une étude parue le <a href="https://web.archive.org/web/20201205021208/https://www.nature.com/articles/s41558-018-0222-x">28 juillet dernier</a> dans la revue Nature Climate Change montre même l’existence d’une corrélation nette entre taux de suicide et variations de température d’une année sur l’autre. Autrement dit, pour un mois donné, les taux de suicide augmentent lorsque les températures sont au-dessus des valeurs habituelles. Et les tailles d’effet sont si impressionnantes que les chercheurs estiment que le réchauffement climatique pourrait avoir un impact similaire à celui une crise économique d’ici 2050: pour chaque degré supplémentaire, le taux de suicide augmente en effet de 0.7% aux US et de 2.1% au Mexique. Pour tenter de mieux saisir le lien entre ces deux variables, les chercheurs ont ensuite analysé 600 millions de tweets postés dans ces deux zones géographiques. De façon inattendue mais cohérente avec les observations épidémiologiques, cette seconde analyse révèle une corrélation positive entre température mensuelle et le nombre de “tweets à connotation dépressive”.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="suicide_ete.jpg" class="img-fluid figure-img" width="637"></p>
+<figcaption>Carte représentant l’effet des températures plus hautes (en rouge) ou plus basses (en bleu) que les normales saisonnières sur les taux de suicide aux États-Unis et au Mexique (extrait de Burke et al., 2018).</figcaption>
+</figure>
 </div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This page is under construction.</p>
-<p>The <a href="./fr">French part</a> of this website is much more developed at the moment.</p>
-</div>
-</div>
-<p>For more information about me, check the following websites:</p>
-<ul>
-<li><p>My research group: <a href="https://www.adaptivecontrol.org" class="uri">https://www.adaptivecontrol.org</a></p></li>
-<li><p>The team that hosts my research group: <a href="https://cophyteam.wixsite.com/website-1/" class="uri">https://cophyteam.wixsite.com/website-1/</a></p></li>
-<li><p>The institute that hosts my team: <a href="https://www.crnl.fr/en?language=en" class="uri">https://www.crnl.fr/en?language=en</a></p></li>
-<li><p>The institution that runs my institute: <a href="https://www.inserm.fr/" class="uri">https://www.inserm.fr/</a></p></li>
-<li><p>The ministry that run my institution: https://www.enseignementsup-recherche.gouv.fr/fr</p></li>
-<li><p>The European institution that generously funded my group: <a href="https://erc.europa.eu/homepage" class="uri">https://erc.europa.eu/homepage</a></p></li>
-</ul>
-<p>Alternatively you can check the website of the <a href="https://robustcircuit.eu/">startup</a> that I founded a few years ago with my partner-in-crime Daniela Domingues, aka <a href="https://x.com/neurodaniela">@neurodaniela</a>.</p>
-<p>You can also check the social networks at the topic of this page 😊.</p>
-<section id="to-contact-me" class="level3">
-<h3 data-anchor-id="to-contact-me">To contact me:</h3>
-<p>Email: <a href="mailto:romain.ligneul@gmail.com">romain.ligneul@gmail.com</a></p>
-<p>Or leave me a message below (nb: if you don’t have a Github account you should get one anyway!)</p>
-<script src="https://giscus.app/client.js" data-repo="romainligneul/giscus-comments" data-repo-id="R_kgDOMSMTIw" data-category="Comments OtherFR" data-category-id="DIC_kwDOMSMTI84Cgltq" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async="">
-</script>
+<p>L’été amène donc son lot de réjouissances (et de sérotonine?) à la majorité d’entre nous, mais il représente aussi une période difficile pour les personnes vulnérables et fragilisées. Si les auteurs de l’étude américaine soutiennent l’idée que l’augmentation du taux de suicide repose sur un mécanisme biologique, ils ne précisent pas lequel. On sait en tout cas que l’été peut exacerber l’isolement social, notamment chez les gens qui n’ont pas la chance de partir en vacances et chez les personnes âgées (environ <a href="https://web.archive.org/web/20201205021208/https://www.inegalites.fr/Qui-va-partir-en-vacances">40% de la population</a> en France).</p>
+<p>D’où l’utilité des cartes postales!</p>
+<p><a href="http://hemisphere-gauche.blogs.liberation.fr/2017/10/14/neurosciences-contre-sciences-sociales-lerreur-de-frederic-lordon/"><strong>Article original (Wayback Machine)</strong></a></p>
+<script src="https://giscus.app/client.js" data-repo="romainligneul/giscus-comments" data-repo-id="R_kgDOMSMTIw" data-category="CommentsBlogFR" data-category-id="DIC_kwDOMSMTI84CglZk" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async=""> </script>
 
 
 </section>
-</main>  
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -215,6 +293,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

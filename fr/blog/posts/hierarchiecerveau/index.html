@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="RL, Libération">
+<meta name="dcterms.date" content="2017-04-14">
+<meta name="description" content="Une étude de neuroimagerie (la mienne) jette une lumière inédite sur notre tendance à légitimer ou à lutter contre les inégalités sociales.">
 
-<title>Romain Ligneul (PhD) – RL</title>
+<title>Comment la hiérarchie sociale s’enracine-t-elle dans le cerveau? – RL  </title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../favicon.ico" rel="icon">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../favicon.ico" rel="icon">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,6 +71,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(homeless.jpg);
+background-size: cover;
+      }
+</style>
+<style>
+.quarto-title-block .quarto-title-banner {
+  background-position-y: center;
+  height: 400px;
+}
+</style>
 
 
 </head>
@@ -74,11 +91,11 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">RL</span>
     </a>
   </div>
@@ -89,21 +106,44 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../en/index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../../../../fr/index.html"> 
+<span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../en/codes.html"> 
-<span class="menu-text">Code</span></a>
+    <a class="nav-link" href="../../../../fr/blog/"> 
+<span class="menu-text">Blog</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../fr/recherche.html"> 
+<span class="menu-text">Recherche</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../fr/robustcircuit.html"> 
+<span class="menu-text">Startup</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-science-citoyenne" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Science citoyenne</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-science-citoyenne">    
+        <li>
+    <a class="dropdown-item" href="../../../../fr/sciencecitoyenne/quiz_elections.html">
+ <span class="dropdown-text">Quiz électoraux (2022)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../fr/sciencecitoyenne/biais_reseaux.html">
+ <span class="dropdown-text">Biais réseaux sociaux (2017)</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href=".././en"> 
+    <a class="nav-link" href="../../../.././en"> 
 <span class="menu-text"><iconify-icon inline="" icon="emojione:flag-for-us-outlying-islands" aria-label="Icon flag-for-us-outlying-islands from emojione Iconify.design set." title="Icon flag-for-us-outlying-islands from emojione Iconify.design set."></iconify-icon></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href=".././en/fr"> 
+    <a class="nav-link" href="../../../.././en/fr"> 
 <span class="menu-text"><iconify-icon inline="" icon="emojione:flag-for-france" aria-label="Icon flag-for-france from emojione Iconify.design set." title="Icon flag-for-france from emojione Iconify.design set."></iconify-icon></span></a>
   </li>  
 </ul>
@@ -111,16 +151,16 @@ ul.task-list li input[type="checkbox"] {
             <div class="quarto-navbar-tools tools-wide">
     <a href="https://github.com/romainligneul" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
     <div class="dropdown">
-      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-twitter"></i></a>
+      <a href="https://twitter.com/nerfsocial" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-twitter"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
             <a class="dropdown-item quarto-navbar-tools-item" href="https://twitter.com/causalself">
-            Academic (EN)
+            Académique (EN)
             </a>
           </li>
           <li>
             <a class="dropdown-item quarto-navbar-tools-item" href="https://twitter.com/nerfsocial">
-            Eclectic (FR)
+            Éclectique (FR)
             </a>
           </li>
       </ul>
@@ -132,69 +172,79 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Comment la hiérarchie sociale s’enracine-t-elle dans le cerveau?</h1>
+                  <div>
+        <div class="description">
+          Une étude de neuroimagerie (la mienne) jette une lumière inédite sur notre tendance à légitimer ou à lutter contre les inégalités sociales.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">liberation</div>
+                <div class="quarto-category">neuroscience</div>
+                <div class="quarto-category">inégalités</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>RL, Libération </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 14, 2017</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#to-contact-me" id="toc-to-contact-me" class="nav-link active" data-scroll-target="#to-contact-me">To contact me:</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="images/portrait_bw.png" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Romain Ligneul (PhD)</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<div id="centered" class="h4" style="text-align: center; margin-top:0.5rem; margin-bottom:1.2rem">
-<p>Neuroscientist, geek, (blog) writer, et al.</p>
+
+
+
+
+<p>La question des inégalités socio-économiques constitue le clivage politique majeur autour duquel toute notre vie démocratique s’organise. Comme chacun d’entre nous aura bientôt l’occasion d’exprimer sa préférence en la matière, il m’a paru utile de vulgariser (exceptionnellement) les résultats de mes propres travaux, <a href="https://web.archive.org/web/20201021011337/https://www.nature.com/articles/srep45920">publiés la semaine dernière</a> dans la revue Scientific Reports.</p>
+<p>Certains d’entre nous s’apprêtent à voter pour Marine Le Pen en sachant que cela accentuera les inégalités entre français “de souche” et français “issus de l’immigration”. D’autres valideront les orientations de François Fillon ou Emmanuel Macron à travers lesquelles les inégalités les plus amples se justifient pour peu qu’elles dérivent du mérite personnel et de la sacro-sainte liberté d’entreprendre. Enfin, certains choisiront de voter à gauche en espérant - comme toujours - que leur bulletin contribuera à résorber les inégalités dans leur ensemble.</p>
+<p>Pourquoi différons-nous tant dans nos préférences politiques? Comment est-ce possible que des inversions complètes de causalité soient associées à la justification de ces préférences, certains arguant que les hiérarchies de dominance dérivent naturellement des asymétries de compétence quand d’autres soutiennent que ces asymétries sont au contraire générées par le système hiérarchique lui-même?</p>
+<p>De <a href="https://web.archive.org/web/20201021011337/https://www.philosciences.com/Pss/philosophie-et-societe/economie-politique-societe/153-regimes-politiques-platon">Platon</a> à <a href="https://web.archive.org/web/20201021011337/https://www.cairn.info/revue-etudes-2011-1-page-55.htm">John Rawls</a>, en passant par <a href="https://web.archive.org/web/20201021011337/http://eet.pixel-online.org/files/etranslation/original/Rousseau%20JJ%20Discours%20sur.pdf">Jean-Jacques Rousseau</a>, les fondations philosophiques de ce questionnement sont millénaires et ses ramifications sont innombrables. Une étude de neurosciences cognitives se penchant sur le problème doit donc rester à sa modeste place, qui est d’alimenter une réflexion multidisciplinaire par des faits empiriques nouveaux.</p>
+<p>Ici, la nouveauté tient en quelques lignes: plus l’activité de leur lobe préfrontal est forte lorsqu’ils font face à des individus socialement dominants, plus les êtres humains - de jeunes étudiants masculins en l’occurrence - sont enclins à légitimer les inégalités sociales*. Autrement dit, dans le questionnaire d’<a href="https://web.archive.org/web/20201021011337/https://www.researchgate.net/profile/Michael_Dambrun/publication/278327481_La_dominance_sociale_et_les_mythes_legitimateurs_validation_d'une_version_francaise_de_l'echelle_d'orientation_a_la_dominance_sociale/links/5583ce5408ae8bf4ba6fa976.pdf">orientation à la dominance sociale</a> (ODS), ceux dont le cortex préfrontal était plus sensible à la subordination sociale étaient également plus susceptibles d’adhérer à des affirmations comme «Certaines personnes sont tout simplement inférieures à d’autres», «Le pays gagnerait à moins se préoccuper des inégalités sociales» ou encore «Les groupes inférieurs devraient rester à leur place».</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figscirep.jpg" class="img-fluid figure-img" width="804"></p>
+<figcaption>A gauche, l’aire du cortex préfrontal dorso-latéral antérieur droit (en rouge) dont la réponse était significativement plus importante face aux individus supérieurs que face aux individus inférieurs. A droite, amplitude de cette différence d’activité en fonction du score obtenu au questionnaire ODS qui mesure la propension à légitimer et à renforcer les hiérarchies de dominance sociale.</figcaption>
+</figure>
 </div>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This page is under construction.</p>
-<p>The <a href="./fr">French part</a> of this website is much more developed at the moment.</p>
-</div>
-</div>
-<p>For more information about me, check the following websites:</p>
-<ul>
-<li><p>My research group: <a href="https://www.adaptivecontrol.org" class="uri">https://www.adaptivecontrol.org</a></p></li>
-<li><p>The team that hosts my research group: <a href="https://cophyteam.wixsite.com/website-1/" class="uri">https://cophyteam.wixsite.com/website-1/</a></p></li>
-<li><p>The institute that hosts my team: <a href="https://www.crnl.fr/en?language=en" class="uri">https://www.crnl.fr/en?language=en</a></p></li>
-<li><p>The institution that runs my institute: <a href="https://www.inserm.fr/" class="uri">https://www.inserm.fr/</a></p></li>
-<li><p>The ministry that run my institution: https://www.enseignementsup-recherche.gouv.fr/fr</p></li>
-<li><p>The European institution that generously funded my group: <a href="https://erc.europa.eu/homepage" class="uri">https://erc.europa.eu/homepage</a></p></li>
-</ul>
-<p>Alternatively you can check the website of the <a href="https://robustcircuit.eu/">startup</a> that I founded a few years ago with my partner-in-crime Daniela Domingues, aka <a href="https://x.com/neurodaniela">@neurodaniela</a>.</p>
-<p>You can also check the social networks at the topic of this page 😊.</p>
-<section id="to-contact-me" class="level3">
-<h3 data-anchor-id="to-contact-me">To contact me:</h3>
-<p>Email: <a href="mailto:romain.ligneul@gmail.com">romain.ligneul@gmail.com</a></p>
-<p>Or leave me a message below (nb: if you don’t have a Github account you should get one anyway!)</p>
-<script src="https://giscus.app/client.js" data-repo="romainligneul/giscus-comments" data-repo-id="R_kgDOMSMTIw" data-category="Comments OtherFR" data-category-id="DIC_kwDOMSMTI84Cgltq" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async="">
+<p>En termes psychologiques, l’interprétation de ce résultat reste délicat et demandera vérification (en théorie, on ne peut pas <a href="https://web.archive.org/web/20201021011337/http://knowingneurons.com/2014/02/12/reverse-inference-neurosciences-greatest-fallacy/">inférer</a> l’existence d’un processus cognitif à partir d’une activité cérébrale), mais il est intéressant de noter que cette zone du cortex préfrontal influe sur la confiance que nous plaçons dans nos croyances et nos propres jugements. En règle générale, elle est active lorsque la confiance fait défaut et que nous sommes incertains, tandis qu’elle est inactive lorsque nous sommes sûrs de nous. En <a href="https://web.archive.org/web/20201021011337/http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090808">augmentant</a> ou <a href="https://web.archive.org/web/20201021011337/http://www.pnas.org/cgi/pmidlookup?view=long&amp;pmid=27162349">diminuant</a> artificiellement l’excitabilité de ses neurones, on peut non seulement modifier ce sentiment de confiance à la baisse ou à la hausse, mais aussi interférer avec la <a href="https://web.archive.org/web/20201021011337/http://www.cnrs.fr/insb/recherche/parutions/articles2016/j-c-dreher2.html">motivation et l’apprentissage</a> dans un contexte social compétitif.</p>
+<p>Quoi qu’il en soit, chez certaines personnes, l’impact de la subordination sociale sur le cortex préfrontal antérieur pourrait paradoxalement renforcer les attitudes favorisant le maintien ou l’exacerbation des inégalités, et donc la décision de voter pour les partis de l’ordre (social).</p>
+<p>Pour en savoir plus sur la question, vous pouvez lire ce <a href="https://web.archive.org/web/20201021011337/https://blogs.mediapart.fr/horslesmurs/blog/110816/inegalites-sociales-le-profil-cognitif-de-ceux-qui-s-en-foutent">texte</a> radical ou le communiqué de presse publié par l’Institut des Sciences Biologiques du CNRS, disponible <a href="https://web.archive.org/web/20201021011337/http://www.cnrs.fr/insb/recherche/parutions/articles2017/r-ligneul.html?utm_content=buffercc30f&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">ici</a>.</p>
+<p>*NB: Divers facteurs démographiques (comme l’âge, le sexe ou le niveau d’études) et divers traits de personnalité (liés au comportement social ou non) ont été pris en compte, ce qui implique que l’activité cérébrale mesurée explique une variabilité dans les préférences politiques qui n’est pas réductible à ces facteurs habituellement associés à l’ODS.</p>
+<p><a href="https://web.archive.org/web/20201021011337/http://hemisphere-gauche.blogs.liberation.fr/2017/04/14/comment-la-hierarchie-sociale-senracine-t-elle-dans-nos-cerveaux/"><strong>Article original (Wayback Machine)</strong></a></p>
+<script src="https://giscus.app/client.js" data-repo="romainligneul/giscus-comments" data-repo-id="R_kgDOMSMTIw" data-category="CommentsBlogFR" data-category-id="DIC_kwDOMSMTI84CglZk" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async="">
 </script>
 
 
-</section>
-</main>  
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -215,6 +265,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
