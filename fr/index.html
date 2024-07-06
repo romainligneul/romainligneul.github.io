@@ -186,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Dans ma vie francophone, je passe un certain temps à écrire pour, et parfois à parler devant, un public varié.</p>
 <section id="blogs-presse" class="level4">
 <h4 data-anchor-id="blogs-presse">Blog(s) + Presse</h4>
-<p>Assez conséquent et relativement bien organisé, le blog de ce site répertorie tous les billets que j’ai précédemment publiés sur d’autres plateformes (Rue89, Mediapart, Libération) et de nouveaux billets écrits au fil de l’eau, ainsi que quelques articles écrits pour la presse grand public. Il traite de science (principalement cerveau et cognition) mais vous y trouverez aussi beaucoup de réflexions politiques, notamment sur les inégalités socioéconomiques et le terrorisme. C’est une mauvaise manie que j’ai attrapé très jeune.</p>
+<p>Le blog de ce site répertorie tous les billets que j’ai précédemment publiés sur d’autres plateformes (Rue89, Mediapart, Libération) et de nouveaux billets écrits au fil de l’eau, ainsi que quelques articles écrits pour la presse grand public. Il traite de science (principalement cerveau et cognition) mais vous y trouverez aussi beaucoup de réflexions politiques, notamment sur les inégalités socioéconomiques et le terrorisme. C’est une mauvaise manie que j’ai attrapé très jeune.</p>
 </section>
 <section id="recherche" class="level4">
 <h4 data-anchor-id="recherche">Recherche</h4>
@@ -302,7 +302,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/romainligneul\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
