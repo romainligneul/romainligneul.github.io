@@ -1,6 +1,5 @@
 ---
-title: ""
-image: "../images/RC.png"
+title: "RobustCircuit"
 description: "Startup"
 title-block-banner: "../../images/RC.png"
 include-in-header:
@@ -8,7 +7,7 @@ include-in-header:
       <style>
       .quarto-title-block .quarto-title-banner {
         background-position-y: center;
-        width: 100%
+        width: 100%;
         height: auto;
       }
       </style>

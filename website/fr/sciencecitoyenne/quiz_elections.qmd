@@ -1,10 +1,8 @@
 ---
-title: "RL | Quiz électoraux 2022"
+title: "Quiz électoraux 2022"
 execute:
-  echo: false
   eval: false
-  output: false
-freeze: true
+  freeze: true  
 ---
 
 ## Étude initiale: quiz du Figaro
@@ -39,7 +37,7 @@ Version du quiz utilisée: <https://www.lemonde.fr/les-decodeurs/article/2022/03
 
 #### Affectations par candidat
 
-```
+```matlab
 clear all
 
 % Le quiz a été importé a partir de cette addresse sous la forme d'un
@@ -82,7 +80,7 @@ end
 
 #### Calculs complémentaires
 
-```
+```matlab
 % calcule la similarité entre candidats (réception de points pour les mêmes réponses)
 for c=1:length(candidats)
     for cc=1:length(candidats)
@@ -132,7 +130,7 @@ save(['analyses/' nom_analyse '.mat'])
 
 #### Initialization
 
-```
+```matlab
 
 % nom de l'analyse
 analyse_source='analyses_court_correction';
@@ -147,7 +145,7 @@ end
 
 ```
 
-```
+```matlab
 % plot biais
 f1=figure('name', 'bias', 'color', 'w', 'position',  [246   328   560   645] )
 % code couleur récupéré sur le site du monde
@@ -179,7 +177,7 @@ saveas(f1, ['figures/figure_' analyse_source '_biais.png'])
 
 #### Coaffectation et similarité
 
-```
+```matlab
 % similarité
 f2=figure('color', 'w')
 imagesc(100\*coaffectation) 

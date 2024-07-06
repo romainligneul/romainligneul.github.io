@@ -2,10 +2,9 @@ project:
   type: website
   output-dir: ./docs
 
-
 execute:
   freeze: auto
 
 profile:
-  default: english
+  default: french
   group: [english, french]

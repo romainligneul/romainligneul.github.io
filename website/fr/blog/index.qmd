@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Blog de Romain Ligneul"
 listing:
   contents: posts
   sort: "date desc"
@@ -8,14 +8,13 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: true
+title-block-banner: "banner_blog.png"
 include-in-header:
   - text: |
       <style>
       .quarto-title-block .quarto-title-banner {
         background-position-y: center;
-        height: 300px;
-        background-image: url("banner_blog.png")
+        height: 400px;
       }
       </style>
 ---

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>RL | Quiz électoraux 2022 – RL</title>
+<title>Quiz électoraux 2022 – RL</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -40,6 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -122,12 +157,12 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../.././"> 
-<span class="menu-text">EN</span></a>
+    <a class="nav-link" href="../.././en"> 
+<span class="menu-text"><iconify-icon inline="" icon="emojione:flag-for-us-outlying-islands" aria-label="Icon flag-for-us-outlying-islands from emojione Iconify.design set." title="Icon flag-for-us-outlying-islands from emojione Iconify.design set."></iconify-icon></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../.././fr"> 
-<span class="menu-text">FR</span></a>
+    <a class="nav-link" href="../.././en/fr"> 
+<span class="menu-text"><iconify-icon inline="" icon="emojione:flag-for-france" aria-label="Icon flag-for-france from emojione Iconify.design set." title="Icon flag-for-france from emojione Iconify.design set."></iconify-icon></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -178,7 +213,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">RL | Quiz électoraux 2022</h1>
+<h1 class="title">Quiz électoraux 2022</h1>
 </div>
 
 
@@ -230,131 +265,128 @@ En principe, les quiz électoraux pourraient être utiles à la démocratie. Mai
 <p>Version du quiz utilisée: <a href="https://www.lemonde.fr/les-decodeurs/article/2022/03/31/quiz-sur-la-presidentielle-2022-de-quel-candidat-etes-vous-le-plus-proche_6119971_4355770.html" class="uri">https://www.lemonde.fr/les-decodeurs/article/2022/03/31/quiz-sur-la-presidentielle-2022-de-quel-candidat-etes-vous-le-plus-proche_6119971_4355770.html</a></p>
 <section id="affectations-par-candidat" class="level4">
 <h4 class="anchored" data-anchor-id="affectations-par-candidat">Affectations par candidat</h4>
-<pre><code>clear all
-
-% Le quiz a été importé a partir de cette addresse sous la forme d'un
-% fichier JSON
-% https://assets-decodeurs.lemonde.fr/sheets/XusEdnYa3E1Jjl5VdrKGA2z9bH1uwA_887
-% Ce fichier JSON a ensuite été converti au format excel/csv en utilisant
-% cet outil: https://data.page/json/csv
-% Puis il a été importé (à partir du fichier excel) dans matlab pour
-% produire ce fichier:
-quiz=importdata('sources/quizlemonde.mat')
-
-% spécifications de l'analyse
-nom_analyse='analyses';
-
-nquestions=20;
-nsimulations=10000;
-correction_nquestion=true;
-candidats={'Arthaud', 'Poutou','Roussel', 'Mélenchon', 'Jadot', 'Hidalgo', 'Macron', 'Pécresse', 'Lassalle', 'Dupont-Aignan', 'Le Pen', 'Zemmour'};
-
-% prétraitement du quiz pour obtenir les affectations par candidat et par
-% question.
-noptions=nan(nquestions,1);
-for i=1:nquestions
-    for a=1:6
-        if (iscell(quiz{i+1,9+a})==0 | isempty(cell2mat(quiz{i+1,9+a}))) &amp; isnan(noptions(i,1))
-            noptions(i,1)=a-1;
-        end
-        for c=1:length(candidats)
-            exist_str=strfind(quiz{i+1,9+a},candidats{c});
-            try
-                if isempty(exist_str{1})==0
-                    mat_affect(c,i)=a;
-                end
-            end
-        end
-    end
-end
-</code></pre>
+<div class="sourceCode" id="cb1"><pre class="sourceCode matlab code-with-copy"><code class="sourceCode matlab"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">clear</span> <span class="va">all</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">% Le quiz a été importé a partir de cette addresse sous la forme d'un</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">% fichier JSON</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">% https://assets-decodeurs.lemonde.fr/sheets/XusEdnYa3E1Jjl5VdrKGA2z9bH1uwA_887</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">% Ce fichier JSON a ensuite été converti au format excel/csv en utilisant</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">% cet outil: https://data.page/json/csv</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">% Puis il a été importé (à partir du fichier excel) dans matlab pour</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">% produire ce fichier:</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="va">quiz</span><span class="op">=</span><span class="va">importdata</span>(<span class="ss">'sources/quizlemonde.mat'</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">% spécifications de l'analyse</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="va">nom_analyse</span><span class="op">=</span><span class="ss">'analyses'</span><span class="op">;</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="va">nquestions</span><span class="op">=</span><span class="fl">20</span><span class="op">;</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="va">nsimulations</span><span class="op">=</span><span class="fl">10000</span><span class="op">;</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="va">correction_nquestion</span><span class="op">=</span><span class="va">true</span><span class="op">;</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="va">candidats</span><span class="op">=</span>{<span class="ss">'Arthaud'</span><span class="op">,</span> <span class="ss">'Poutou'</span><span class="op">,</span><span class="ss">'Roussel'</span><span class="op">,</span> <span class="ss">'Mélenchon'</span><span class="op">,</span> <span class="ss">'Jadot'</span><span class="op">,</span> <span class="ss">'Hidalgo'</span><span class="op">,</span> <span class="ss">'Macron'</span><span class="op">,</span> <span class="ss">'Pécresse'</span><span class="op">,</span> <span class="ss">'Lassalle'</span><span class="op">,</span> <span class="ss">'Dupont-Aignan'</span><span class="op">,</span> <span class="ss">'Le Pen'</span><span class="op">,</span> <span class="ss">'Zemmour'</span>}<span class="op">;</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co">% prétraitement du quiz pour obtenir les affectations par candidat et par</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co">% question.</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="va">noptions</span><span class="op">=</span><span class="va">nan</span>(<span class="va">nquestions</span><span class="op">,</span><span class="fl">1</span>)<span class="op">;</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="kw">for</span> <span class="va">i</span><span class="op">=</span><span class="fl">1</span><span class="op">:</span><span class="va">nquestions</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="kw">for</span> <span class="va">a</span><span class="op">=</span><span class="fl">1</span><span class="op">:</span><span class="fl">6</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>        <span class="kw">if</span> (<span class="va">iscell</span>(<span class="va">quiz</span>{<span class="va">i</span><span class="op">+</span><span class="fl">1</span><span class="op">,</span><span class="fl">9</span><span class="op">+</span><span class="va">a</span>})<span class="op">==</span><span class="fl">0</span> <span class="op">|</span> <span class="va">isempty</span>(<span class="va">cell2mat</span>(<span class="va">quiz</span>{<span class="va">i</span><span class="op">+</span><span class="fl">1</span><span class="op">,</span><span class="fl">9</span><span class="op">+</span><span class="va">a</span>}))) <span class="op">&amp;</span> <span class="va">isnan</span>(<span class="va">noptions</span>(<span class="va">i</span><span class="op">,</span><span class="fl">1</span>))</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>            <span class="va">noptions</span>(<span class="va">i</span><span class="op">,</span><span class="fl">1</span>)<span class="op">=</span><span class="va">a</span><span class="op">-</span><span class="fl">1</span><span class="op">;</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>        <span class="kw">end</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>        <span class="kw">for</span> <span class="va">c</span><span class="op">=</span><span class="fl">1</span><span class="op">:</span><span class="va">length</span>(<span class="va">candidats</span>)</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>            <span class="va">exist_str</span><span class="op">=</span><span class="va">strfind</span>(<span class="va">quiz</span>{<span class="va">i</span><span class="op">+</span><span class="fl">1</span><span class="op">,</span><span class="fl">9</span><span class="op">+</span><span class="va">a</span>}<span class="op">,</span><span class="va">candidats</span>{<span class="va">c</span>})<span class="op">;</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>            <span class="kw">try</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>                <span class="kw">if</span> <span class="va">isempty</span>(<span class="va">exist_str</span>{<span class="fl">1</span>})<span class="op">==</span><span class="fl">0</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>                    <span class="va">mat_affect</span>(<span class="va">c</span><span class="op">,</span><span class="va">i</span>)<span class="op">=</span><span class="va">a</span><span class="op">;</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>                <span class="kw">end</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>            <span class="kw">end</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>        <span class="kw">end</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    <span class="kw">end</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="kw">end</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="calculs-complémentaires" class="level4">
 <h4 class="anchored" data-anchor-id="calculs-complémentaires">Calculs complémentaires</h4>
-<pre><code>% calcule la similarité entre candidats (réception de points pour les mêmes réponses)
-for c=1:length(candidats)
-    for cc=1:length(candidats)
-        coaffectation(c,cc)=(sum(mat_affect(c,mat_affect(c,:)&gt;0)==mat_affect(cc,mat_affect(c,:)&gt;0)))/sum(mat_affect(c,:)&gt;0);
-    end
-end
-
-% correction pour le nombre de questions concernant chaque candidat
-if correction_nquestion
-    point_correction=1./(mean(mat_affect&gt;0,2));
-else
-    point_correction=ones(length(candidats),1);
-end
-
-% simulation des réponses aléatoires
-scores=zeros(length(candidats),nsimulations);
-for s=1:nsimulations
-    for i=1:nquestions
-         choix=randi(noptions(i));
-         points=find(choix==mat_affect(:,i));
-         scores(points,s)=scores(points,s)+point_correction(points);
-    end
-    [dum, dum, invrank] = unique(scores(:,s));
-    rang(:,s)=1+max(invrank)-invrank;
-end
-
-% calcule des moyennes et des intervalles de confiance à 95%
-for c=1:length(candidats)
-    proportion_premier(c,1)=mean(rang(c,:)==1);
-    confidence_interval(c,:)=bootci(1000,@(x) mean(x), [rang(c,:)==1]');
-end
-
-% crée le dossier si besoin
-if exist('analyses', 'dir')==0
-    mkdir('analyses')
-end
-
-% sauvegarde les données
-save(['analyses/' nom_analyse '.mat'])
-
-% fichiers présauvegardés
-% court = 20 questions: première partie du quiz
-% long = 40 questions: inclusion des questions supplémentaires</code></pre>
+<div class="sourceCode" id="cb2"><pre class="sourceCode matlab code-with-copy"><code class="sourceCode matlab"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">% calcule la similarité entre candidats (réception de points pour les mêmes réponses)</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">for</span> <span class="va">c</span><span class="op">=</span><span class="fl">1</span><span class="op">:</span><span class="va">length</span>(<span class="va">candidats</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">for</span> <span class="va">cc</span><span class="op">=</span><span class="fl">1</span><span class="op">:</span><span class="va">length</span>(<span class="va">candidats</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>        <span class="va">coaffectation</span>(<span class="va">c</span><span class="op">,</span><span class="va">cc</span>)<span class="op">=</span>(<span class="va">sum</span>(<span class="va">mat_affect</span>(<span class="va">c</span><span class="op">,</span><span class="va">mat_affect</span>(<span class="va">c</span><span class="op">,:</span>)<span class="op">&gt;</span><span class="fl">0</span>)<span class="op">==</span><span class="va">mat_affect</span>(<span class="va">cc</span><span class="op">,</span><span class="va">mat_affect</span>(<span class="va">c</span><span class="op">,:</span>)<span class="op">&gt;</span><span class="fl">0</span>)))<span class="op">/</span><span class="va">sum</span>(<span class="va">mat_affect</span>(<span class="va">c</span><span class="op">,:</span>)<span class="op">&gt;</span><span class="fl">0</span>)<span class="op">;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">end</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="kw">end</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">% correction pour le nombre de questions concernant chaque candidat</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="kw">if</span> <span class="va">correction_nquestion</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="va">point_correction</span><span class="op">=</span><span class="fl">1</span><span class="op">./</span>(<span class="va">mean</span>(<span class="va">mat_affect</span><span class="op">&gt;</span><span class="fl">0</span><span class="op">,</span><span class="fl">2</span>))<span class="op">;</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="kw">else</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="va">point_correction</span><span class="op">=</span><span class="va">ones</span>(<span class="va">length</span>(<span class="va">candidats</span>)<span class="op">,</span><span class="fl">1</span>)<span class="op">;</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="kw">end</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="co">% simulation des réponses aléatoires</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="va">scores</span><span class="op">=</span><span class="va">zeros</span>(<span class="va">length</span>(<span class="va">candidats</span>)<span class="op">,</span><span class="va">nsimulations</span>)<span class="op">;</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="kw">for</span> <span class="va">s</span><span class="op">=</span><span class="fl">1</span><span class="op">:</span><span class="va">nsimulations</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="kw">for</span> <span class="va">i</span><span class="op">=</span><span class="fl">1</span><span class="op">:</span><span class="va">nquestions</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>         <span class="va">choix</span><span class="op">=</span><span class="va">randi</span>(<span class="va">noptions</span>(<span class="va">i</span>))<span class="op">;</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>         <span class="va">points</span><span class="op">=</span><span class="va">find</span>(<span class="va">choix</span><span class="op">==</span><span class="va">mat_affect</span>(<span class="op">:,</span><span class="va">i</span>))<span class="op">;</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>         <span class="va">scores</span>(<span class="va">points</span><span class="op">,</span><span class="va">s</span>)<span class="op">=</span><span class="va">scores</span>(<span class="va">points</span><span class="op">,</span><span class="va">s</span>)<span class="op">+</span><span class="va">point_correction</span>(<span class="va">points</span>)<span class="op">;</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    <span class="kw">end</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    [<span class="va">dum</span><span class="op">,</span> <span class="va">dum</span><span class="op">,</span> <span class="va">invrank</span>] <span class="op">=</span> <span class="va">unique</span>(<span class="va">scores</span>(<span class="op">:,</span><span class="va">s</span>))<span class="op">;</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="va">rang</span>(<span class="op">:,</span><span class="va">s</span>)<span class="op">=</span><span class="fl">1</span><span class="op">+</span><span class="va">max</span>(<span class="va">invrank</span>)<span class="op">-</span><span class="va">invrank</span><span class="op">;</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="kw">end</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="co">% calcule des moyennes et des intervalles de confiance à 95%</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="kw">for</span> <span class="va">c</span><span class="op">=</span><span class="fl">1</span><span class="op">:</span><span class="va">length</span>(<span class="va">candidats</span>)</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>    <span class="va">proportion_premier</span>(<span class="va">c</span><span class="op">,</span><span class="fl">1</span>)<span class="op">=</span><span class="va">mean</span>(<span class="va">rang</span>(<span class="va">c</span><span class="op">,:</span>)<span class="op">==</span><span class="fl">1</span>)<span class="op">;</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>    <span class="va">confidence_interval</span>(<span class="va">c</span><span class="op">,:</span>)<span class="op">=</span><span class="va">bootci</span>(<span class="fl">1000</span><span class="op">,@</span>(<span class="va">x</span>) <span class="va">mean</span>(<span class="va">x</span>)<span class="op">,</span> [<span class="va">rang</span>(<span class="va">c</span><span class="op">,:</span>)<span class="op">==</span><span class="fl">1</span>]<span class="op">'</span>)<span class="op">;</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="kw">end</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="co">% crée le dossier si besoin</span></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="kw">if</span> <span class="va">exist</span>(<span class="ss">'analyses'</span><span class="op">,</span> <span class="ss">'dir'</span>)<span class="op">==</span><span class="fl">0</span></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>    <span class="va">mkdir</span>(<span class="ss">'analyses'</span>)</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="kw">end</span></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="co">% sauvegarde les données</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="va">save</span>([<span class="ss">'analyses/'</span> <span class="va">nom_analyse</span> <span class="ss">'.mat'</span>])</span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a><span class="co">% fichiers présauvegardés</span></span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="co">% court = 20 questions: première partie du quiz</span></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="co">% long = 40 questions: inclusion des questions supplémentaires</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
 <section id="figures" class="level3">
 <h3 class="anchored" data-anchor-id="figures">Figures</h3>
 <section id="initialization" class="level4">
 <h4 class="anchored" data-anchor-id="initialization">Initialization</h4>
-<pre><code>
-% nom de l'analyse
-analyse_source='analyses_court_correction';
-
-% charge l'analyse souhaitée
-load(['analyses/' analyse_source '.mat'])
-
-% crée le dossier si besoin
-if exist('figures', 'dir')==0
-    mkdir('figures')
-end
-</code></pre>
-<pre><code>% plot biais
-f1=figure('name', 'bias', 'color', 'w', 'position',  [246   328   560   645] )
-% code couleur récupéré sur le site du monde
-hexcolors={'#9D0D16', '#CE2929', '#F1001C', '#FF3333', '#23B73D', '#FF668B', '#FF9F0E', '#0890C5', '#617B75', '#02279C', '#8D6026','#654519'};
-hm=bar([1:12]',diag(100*proportion_premier(:,1)),'stacked');
-hold on
-he=errorbar(1:12,100*proportion_premier,100*(proportion_premier-confidence_interval(:,1)),100*(confidence_interval(:,2)-proportion_premier));
-he.LineStyle='none';
-he.Color='k';
-he.LineWidth=1;
-hold off
-for c=1:12
-    cartecouleur(c,:)=sscanf(hexcolors{c}(2:end),'%2x%2x%2x',[1 3])/255;
-    hm(c).FaceColor=cartecouleur(c,:);
-    hm(c).FaceAlpha=0.8;
-end
-xlim([0 13])
-ylabel('premier ou copremier (%)')
-set(gca, 'xticklabel', candidats, 'fontsize', 14)
-box off
-camroll(-90)
-saveas(f1, ['figures/figure_' analyse_source '_biais.png'])
-</code></pre>
+<div class="sourceCode" id="cb3"><pre class="sourceCode matlab code-with-copy"><code class="sourceCode matlab"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">% nom de l'analyse</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="va">analyse_source</span><span class="op">=</span><span class="ss">'analyses_court_correction'</span><span class="op">;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">% charge l'analyse souhaitée</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="va">load</span>([<span class="ss">'analyses/'</span> <span class="va">analyse_source</span> <span class="ss">'.mat'</span>])</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co">% crée le dossier si besoin</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="kw">if</span> <span class="va">exist</span>(<span class="ss">'figures'</span><span class="op">,</span> <span class="ss">'dir'</span>)<span class="op">==</span><span class="fl">0</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="va">mkdir</span>(<span class="ss">'figures'</span>)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="kw">end</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode matlab code-with-copy"><code class="sourceCode matlab"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">% plot biais</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="va">f1</span><span class="op">=</span><span class="va">figure</span>(<span class="ss">'name'</span><span class="op">,</span> <span class="ss">'bias'</span><span class="op">,</span> <span class="ss">'color'</span><span class="op">,</span> <span class="ss">'w'</span><span class="op">,</span> <span class="ss">'position'</span><span class="op">,</span>  [<span class="fl">246</span>   <span class="fl">328</span>   <span class="fl">560</span>   <span class="fl">645</span>] )</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">% code couleur récupéré sur le site du monde</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="va">hexcolors</span><span class="op">=</span>{<span class="ss">'#9D0D16'</span><span class="op">,</span> <span class="ss">'#CE2929'</span><span class="op">,</span> <span class="ss">'#F1001C'</span><span class="op">,</span> <span class="ss">'#FF3333'</span><span class="op">,</span> <span class="ss">'#23B73D'</span><span class="op">,</span> <span class="ss">'#FF668B'</span><span class="op">,</span> <span class="ss">'#FF9F0E'</span><span class="op">,</span> <span class="ss">'#0890C5'</span><span class="op">,</span> <span class="ss">'#617B75'</span><span class="op">,</span> <span class="ss">'#02279C'</span><span class="op">,</span> <span class="ss">'#8D6026'</span><span class="op">,</span><span class="ss">'#654519'</span>}<span class="op">;</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="va">hm</span><span class="op">=</span><span class="va">bar</span>([<span class="fl">1</span><span class="op">:</span><span class="fl">12</span>]<span class="op">',</span><span class="va">diag</span>(<span class="fl">100</span><span class="op">*</span><span class="va">proportion_premier</span>(<span class="op">:,</span><span class="fl">1</span>))<span class="op">,</span><span class="ss">'stacked'</span>)<span class="op">;</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="va">hold</span> <span class="va">on</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="va">he</span><span class="op">=</span><span class="va">errorbar</span>(<span class="fl">1</span><span class="op">:</span><span class="fl">12</span><span class="op">,</span><span class="fl">100</span><span class="op">*</span><span class="va">proportion_premier</span><span class="op">,</span><span class="fl">100</span><span class="op">*</span>(<span class="va">proportion_premier</span><span class="op">-</span><span class="va">confidence_interval</span>(<span class="op">:,</span><span class="fl">1</span>))<span class="op">,</span><span class="fl">100</span><span class="op">*</span>(<span class="va">confidence_interval</span>(<span class="op">:,</span><span class="fl">2</span>)<span class="op">-</span><span class="va">proportion_premier</span>))<span class="op">;</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="va">he</span>.<span class="va">LineStyle</span><span class="op">=</span><span class="ss">'none'</span><span class="op">;</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="va">he</span>.<span class="va">Color</span><span class="op">=</span><span class="ss">'k'</span><span class="op">;</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="va">he</span>.<span class="va">LineWidth</span><span class="op">=</span><span class="fl">1</span><span class="op">;</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="va">hold</span> <span class="va">off</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="kw">for</span> <span class="va">c</span><span class="op">=</span><span class="fl">1</span><span class="op">:</span><span class="fl">12</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    <span class="va">cartecouleur</span>(<span class="va">c</span><span class="op">,:</span>)<span class="op">=</span><span class="va">sscanf</span>(<span class="va">hexcolors</span>{<span class="va">c</span>}(<span class="fl">2</span><span class="op">:</span><span class="kw">end</span>)<span class="op">,</span><span class="ss">'%2x%2x%2x'</span><span class="op">,</span>[<span class="fl">1</span> <span class="fl">3</span>])<span class="op">/</span><span class="fl">255</span><span class="op">;</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="va">hm</span>(<span class="va">c</span>).<span class="va">FaceColor</span><span class="op">=</span><span class="va">cartecouleur</span>(<span class="va">c</span><span class="op">,:</span>)<span class="op">;</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="va">hm</span>(<span class="va">c</span>).<span class="va">FaceAlpha</span><span class="op">=</span><span class="fl">0.8</span><span class="op">;</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="kw">end</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="va">xlim</span>([<span class="fl">0</span> <span class="fl">13</span>])</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="va">ylabel</span>(<span class="ss">'premier ou copremier (%)'</span>)</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="va">set</span>(<span class="va">gca</span><span class="op">,</span> <span class="ss">'xticklabel'</span><span class="op">,</span> <span class="va">candidats</span><span class="op">,</span> <span class="ss">'fontsize'</span><span class="op">,</span> <span class="fl">14</span>)</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="va">box</span> <span class="va">off</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="va">camroll</span>(<span class="op">-</span><span class="fl">90</span>)</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="va">saveas</span>(<span class="va">f1</span><span class="op">,</span> [<span class="ss">'figures/figure_'</span> <span class="va">analyse_source</span> <span class="ss">'_biais.png'</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -376,19 +408,18 @@ saveas(f1, ['figures/figure_' analyse_source '_biais.png'])
 </section>
 <section id="coaffectation-et-similarité" class="level4">
 <h4 class="anchored" data-anchor-id="coaffectation-et-similarité">Coaffectation et similarité</h4>
-<pre><code>% similarité
-f2=figure('color', 'w')
-imagesc(100\*coaffectation) 
-set(gca,'xtick',1:12); 
-set(gca,'ytick',1:12); 
-set(gca,'xticklabel',candidats); 
-set(gca,'yticklabel',candidats, 'fontsize', 14); 
-xticklabel_rotate(\[\],45,\[\], 'fontsize', 14) 
-title('pourcentage de co-affectations') 
-colorbar 
-set(gcf, 'position', \[ 808 328 984 645\]) 
-saveas(f2, \['figures/figure\_' analyse_source(10:end) '\_similarité.png'\])
-</code></pre>
+<div class="sourceCode" id="cb5"><pre class="sourceCode matlab code-with-copy"><code class="sourceCode matlab"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">% similarité</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="va">f2</span><span class="op">=</span><span class="va">figure</span>(<span class="ss">'color'</span><span class="op">,</span> <span class="ss">'w'</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="va">imagesc</span>(<span class="fl">100</span><span class="op">\*</span><span class="va">coaffectation</span>) </span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="va">set</span>(<span class="va">gca</span><span class="op">,</span><span class="ss">'xtick'</span><span class="op">,</span><span class="fl">1</span><span class="op">:</span><span class="fl">12</span>)<span class="op">;</span> </span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="va">set</span>(<span class="va">gca</span><span class="op">,</span><span class="ss">'ytick'</span><span class="op">,</span><span class="fl">1</span><span class="op">:</span><span class="fl">12</span>)<span class="op">;</span> </span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="va">set</span>(<span class="va">gca</span><span class="op">,</span><span class="ss">'xticklabel'</span><span class="op">,</span><span class="va">candidats</span>)<span class="op">;</span> </span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="va">set</span>(<span class="va">gca</span><span class="op">,</span><span class="ss">'yticklabel'</span><span class="op">,</span><span class="va">candidats</span><span class="op">,</span> <span class="ss">'fontsize'</span><span class="op">,</span> <span class="fl">14</span>)<span class="op">;</span> </span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="va">xticklabel_rotate</span>(<span class="op">\</span>[<span class="op">\</span>]<span class="op">,</span><span class="fl">45</span><span class="op">,\</span>[<span class="op">\</span>]<span class="op">,</span> <span class="ss">'fontsize'</span><span class="op">,</span> <span class="fl">14</span>) </span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="va">title</span>(<span class="ss">'pourcentage de co-affectations'</span>) </span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="va">colorbar</span> </span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="va">set</span>(<span class="va">gcf</span><span class="op">,</span> <span class="ss">'position'</span><span class="op">,</span> <span class="op">\</span>[ <span class="fl">808</span> <span class="fl">328</span> <span class="fl">984</span> <span class="fl">645</span><span class="op">\</span>]) </span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="va">saveas</span>(<span class="va">f2</span><span class="op">,</span> <span class="op">\</span>[<span class="ss">'figures/figure\_'</span> <span class="va">analyse_source</span>(<span class="fl">10</span><span class="op">:</span><span class="kw">end</span>) <span class="ss">'\_similarité.png'</span><span class="op">\</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="coaffectations.png" class="img-fluid figure-img"></p>
@@ -496,7 +527,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/romainligneul\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

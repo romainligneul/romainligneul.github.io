@@ -5,6 +5,7 @@ project:
   - "./fr/"
 
 website:
+  site-url: https://romainligneul.github.io/
   favicon: favicon.ico
   navbar:
     tools:
@@ -37,10 +38,10 @@ website:
           - text: "Biais réseaux sociaux (2017)"
             file: fr/sciencecitoyenne/biais_reseaux.qmd
     right:
-      - href: "./"
-        text: EN
-      - href: ./fr
-        text: FR
+      - href: ./en
+        text: "{{< iconify emojione flag-for-us-outlying-islands >}}"
+      - href: ./en/fr
+        text: "{{< iconify emojione flag-for-france >}}"
   page-footer: 
     left: "Copyright 2024, Romain Ligneul" 
 
