@@ -2,6 +2,8 @@
   {
     "listing": "/fr/blog/index.html",
     "items": [
+      "/fr/blog/posts/covidrecherche/index.html",
+      "/fr/blog/posts/doctolibetat/index.html",
       "/fr/blog/posts/IAprivee/index.html",
       "/fr/blog/posts/uscovid/index.html",
       "/fr/blog/posts/originespandemie/index.html",

@@ -1,0 +1,69 @@
+---
+title: "Partenariat avec Doctolib : uberisation de la santé et danger pour la souveraineté numérique?"
+author: "RL, L'insoumission"
+date: "2021-01-15"
+categories: [linsoumission, covid19, recherche, politique]
+image: "images/covid-19-vaccin.jpg"
+description: "Un article rédigé pour le groupe thématique Santé de la France insoumise."
+title-block-banner: "images/covid-19-vaccin.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
+---
+
+Comme à son habitude, le gouvernement a sorti du chapeau une solution de dernière minute pour organiser la prise de rendez-vous dans le cadre de la campagne vaccinale en cours. Et il s’agit bien entendu d’une solution privée, dans la droite ligne de son recours au cabinet de conseil McKinsey: les entreprises Doctolib, Keldoc et Maiia sont les heureuses gagnantes de cette tombola révélatrice de l’incapacité du gouvernement à répondre aux défis posés par la pandémie.
+
+Argument mobilisé par Olivier Véran, auditionné par la commission des Affaires sociales de l’Assemblée nationale le 12 janvier: il aurait sinon fallu “tout construire dans le secteur public en partant de zéro alors même que nous avons des acteurs français”. En partant de zéro, vraiment? L’Assurance Maladie possède pourtant un fichier national exhaustif et un site internet permettant l’interaction entre ses services et ses administrés (Ameli.fr). L’État a même déjà financé “RDV-solidarités”, une plateforme dédiée à la prise de rendez-vous et qui aurait pu être mise à niveau pour l’occasion[^1]. Or, cela fait presque un an que nous tablons sur cette campagne vaccinale pour sortir de la pandémie. Compte tenu de la simplicité du problème, le développement d’une application publique semblait largement possible. Signer en toute opacité un partenariat de dernière minute avec ces entreprises en dit long sur l’incurie gouvernementale. 
+
+[^1]: Plate-forme open-source [RDV-solidarités](https://www.rdv-solidarites.fr/) créée par la Direction interministérielle du Numérique.
+
+Les détails contractuels n’ayant pas été rendus publics, il est difficile d’évaluer le coût total de l’opération ainsi que les garanties en matière de respect de la vie privée. Cependant, on sait que le coût d’installation des systèmes informatiques dans chaque centre de vaccination sera à la charge de l’état[^2] et qu’une défaillance de Doctolib a rendu possible un vol massif de données personnelles au cours de l’été 2020[^3]. En outre, les données collectées par Doctolib sont en partie stockées sur les serveurs du géant américain Amazon[^4], ce qui pose d’évidents problèmes de souveraineté numérique. Enfin, les services déshumanisés de Doctolib et de ses homologues seront totalement inefficaces lors de la phase 3, qui prévoit de trier les patients sur la base de leurs facteurs de risque. Les moyens humains seront alors indispensables pour s’assurer que les citoyens désireux de se faire vacciner remplissent les conditions définies par la Haute Autorité de Santé.
+
+[^2]: [Annonce de Doctolib](https://twitter.com/doctolib/status/1348880970859081729/photo/1) sur Twitter.
+
+[^3]: [Vol de données chez Doctolib ](https://www.lemonde.fr/pixels/article/2020/07/23/doctolib-victime-d-un-vol-de-donnees_6047078_4408996.html)en juillet 2020.
+
+    Voir aussi l’article de Télérama “[Sur Doctolib le secret médical est soigné avec beaucoup trop de légèreté](https://www.telerama.fr/medias/sur-doctolib-le-secret-medical-est-soigne-avec-beaucoup-de-legerete-6665635.php)” qui évoque des transferts de banques de données sur clé USB ou via le service non-sécurisé WeTransfer.
+
+[^4]: [Conditions d’hébergement des données](https://www.frenchweb.fr/doctolib-lorsque-vous-faites-le-chiffrement-des-donnees-lhebergeur-a-peu-dimportance/402057) chez Doctolib. 
+
+Au-delà des enjeux à court terme, cette décision prise par le gouvernement n’est pas seulement un “coup de pouce” aux startups françaises, elle symbolise évidemment une logique d’uberisation des soins de santé, forme insidieuse de privatisation du service public. En 2019 déjà, la société Happytal, qui propose des services de conciergerie délocalisés à nos hopitaux et Ephad exsangues faisait polémique[^5], non seulement pour ce qu’elle représente — une marchandisation du confort hospitalier (repas, chambres individuelles, massages, etc.) — mais également pour des problèmes éthiques liés aux données récoltées. Malgré son “engagement” à ne pas revendre nos informations personnelles, Doctolib recrute d’ailleurs activement des ingénieurs spécialisés dans l’analyse massive de données[^6], ce qui autorise à s’interroger sur le sort qui leur est réellement réservé.
+
+[^5]: [Polémique liée à la société Happytal](https://france3-regions.francetvinfo.fr/nouvelle-aquitaine/charente-maritime/la-rochelle/polemique-autour-happytal-societe-privee-qui-propose-services-payant-au-sein-hopital-rochelle-1771551.html).
+
+[^6]: [Offres d’emploi Doctolib](https://www.aijobs.tech/fr/j/c/recrutement-doctolib/) sur le site AIjobs
+
+Ainsi, nous demandons au gouvernement:
+
+-   Une totale transparence sur les termes du contrat passé avec les entreprises Doctolib, Keldoc et Maiia.
+
+-   Des garanties relatives au traitement des données récoltées durant la campagne vaccinale ainsi que leur hébergement sur le sol français.
+
+-   L’assurance que le fichier national de l’Assurance Maladie ne sera à aucun moment et sous aucune forme partagé avec les entreprises Doctolib, Keldoc et Maiia.
+
+-   Le déploiement immédiat, par les services publics, des moyens humains nécessaires au bon déroulement de la phase 3 du plan de vaccination.
+
+-   La création d’une plate-forme de prise de rendez-vous médicaux publique et sécurisée permettant de s’affranchir à terme des sociétés privées tout en garantissant la souveraineté numérique de notre système de santé. 
+
+[**Article original**](https://lafranceinsoumise.fr/2021/01/15/partenariat-avec-doctolib-uberisation-de-la-sante-et-danger-pour-la-souverainete-numerique/)
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

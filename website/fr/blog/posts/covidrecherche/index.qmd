@@ -1,0 +1,103 @@
+---
+title: "Covid-19 et recherche publique: le fossé s’élargit entre les besoins et les moyens"
+author: "RL, L'insoumission"
+date: "2021-01-20"
+categories: [linsoumission, covid19, recherche, politique]
+image: "images/coronavirus.jpg"
+description: "Un article rédigé pour les groupes thématiques Santé et ESR de la France insoumise."
+title-block-banner: "images/coronavirus.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
+---
+
+Alors que la pandémie continue de battre son plein, il apparaît de plus en plus clairement que notre profonde dépendance vis à vis des acteurs privés est la source d’incertitudes qui menacent les intérêts nationaux. La campagne vaccinale en cours montre comment le sous-financement de la recherche publique et le manque de considération que lui porte notre gouvernement limitent notre capacité à orienter les politiques sanitaires de façon rationnelle. 
+
+**Pourquoi l’évaluation indépendante des vaccins est-elle indispensable?**
+
+L’absence de stratégie publique permettant l’évaluation rigoureuse et indépendante des différents vaccins nous rend notamment tributaires des entreprises pharmaceutiques capables de faire valider leur essais cliniques auprès des agences française et européennes (EMA, ANSM), qui sont la cible d’un lobbying intense de la part de l’EPFIA[^1], la fédération européenne des industries pharmaceutiques.
+
+[^1]: Voir l’analyse de [Politico, 17/07/20](https://www.politico.com/news/2020/07/17/drug-agencies-talk-while-their-governments-fight-366920)
+
+Il est difficile dans ces conditions d’évaluer sereinement l’efficacité et la sécurité des vaccins, comme le contenus des documents volés à l’Agence Européenne des Médicaments le montre[^2]. Il apparaît que l’agence aurait subi des pressions politiques de la part de certains états membres et de la Commission Européenne[^3]. Par ailleurs, les vaccins commercialisés auraient une concentration en ARNm moindre que ceux utilisés lors des essais cliniques malgré l'intervention de l'EMA. Si les répercussions de cette dernière affaire sur la campagne vaccinale restent difficiles à évaluer, il est clair que l’industrie pharmaceutique apparaît une nouvelle fois comme peu consciencieuse, ce qui risque d’aggraver la défiance des français à son égard. Rappelons qu’à ce jour, seulement 1 français sur 2 est prêt à se faire vacciner[^4]. 
+
+[^2]: Article du [Monde, 16/01/21](https://www.lemonde.fr/planete/article/2021/01/16/vaccins-ce-que-disent-les-documents-voles-a-l-agence-europeenne-des-medicaments_6066502_3244.html)
+
+[^3]: Voir l’analyse de l’influence de l’EPFIA par [Bastamag, 24/05/19](https://www.bastamag.net/Lobbying-comment-l-industrie-pharmaceutique-prend-d-assaut-les-institutions)
+
+    Voir aussi le travail de l’association [Corporate Europe Laboratory](https://corporateeurope.org/en/topics/health)
+
+[^4]: Étude [IFOP du 15/01/21](https://www.ifop.com/wp-content/uploads/2021/01/117_591_CP_Ifop_Lemon_2021.01.13.pdf)
+
+**Le financement de la recherche publique sur Covid-19 reste largement insuffisant !**
+
+Face à ce constat, il apparaît urgent d’investir dans la recherche publique de manière à permettre une évaluation indépendante des différentes options, aussi bien en matière de sécurité que d’efficacité. Or, malgré les effets d’annonce, les efforts concrets du gouvernement sont très limités en la matière. 
+
+Une plateforme dédiée aux essais cliniques, Covireivac[^5], a été créée en juillet dernier, mais celle-ci héberge principalement des essais “à promotion industrielle” qui sont donc à la charge des groupes pharmaceutiques désireux de travailler sur une cohorte française. Le seul essai  “à promotion académique” porte sur l’effet du vaccin Moderna chez les personnes âgées mais il est de très petite taille (180 volontaires), ce qui donne une idée du faible effort financier consenti par le gouvernement. Si les crédits étaient débloqués, Covireivac pourrait parfaitement évaluer plus de vaccins (y compris les vaccins chinois ou russes) sur des cohortes bien plus larges puisque des dizaines de milliers de citoyens se sont déjà déclarés volontaires sur la plateforme. 
+
+[^5]: Article de [France Info du 3/12/20](https://www.francetvinfo.fr/sante/maladie/coronavirus/vaccin/vaccins-contre-le-covid-19-huit-questions-sur-covireivac-la-plateforme-pour-les-francais-qui-souhaitent-participer-a-un-essai-clinique_4203971.html)
+
+**Derrière les effets d’annonce, une fragilisation des structures existantes**
+
+Au-delà de l’urgence imposée par le calendrier vaccinal, il est évident que la recherche publique sur les maladies infectieuses doit aussi être financée sur le long terme. A ce jour, les engagements du gouvernement restent ici aussi très insuffisants. En décembre, seuls 8 millions d’euros avaient été débloqués pour financer des projets de recherche contre Covid-19[^6], alors que Frédérique Vidal annonçait un fond d’urgence de 50 millions d’euros en mars[^7]. Dans le même temps, outre les 750 millions qu’elle a alloués au secteur pharmaceutique pour la recherche de vaccins, l’Allemagne a mis 150 millions sur la table pour dynamiser la recherche publique et centraliser les initiatives[^8]. L’effort global du gouvernement français n’arrive même pas à la hauteur de celui consenti par la fondation Volkswagen[^9]!
+
+[^6]: Voir la [publication de l’ESRI](https://www.enseignementsup-recherche.gouv.fr/cid155663/www.enseignementsup-recherche.gouv.fr/cid155663/l-effort-global-de-recherche-sur-le-covid-19-porte-a-8-millions-d-euros-afin-de-soutenir-et-coordonner-la-reponse-scientifique-a-la-propagation-du-virus-sur-le-territoire-national.html)
+
+[^7]: Article des [Échos du 19/03/2020](https://www.lesechos.fr/politique-societe/societe/un-fonds-durgence-de-50-millions-pour-la-recherche-sur-le-covid-19-1187024).
+
+[^8]: Voir la [publication du ministère de l’enseignement supérieur et de la recherche allemand](https://www.bmbf.de/en/coronavirus-what-the-bmbf-is-doing-11194.html).
+
+[^9]: Voir la [publication de l’institut Max Planck du 11/01/21](https://www.demogr.mpg.de/en/news_events_6123/news_press_releases_4630/news/covid_19_database_receives_funding_from_volkswagen_foundation_8745).
+
+Plutôt que d’injecter de l’argent, l’État a choisi de fusionner deux institutions de référence pour l’étude des maladies infectieuses: depuis le 1er janvier l’agence Reacting et l’ANRS sont regroupées au sein d’une entité unique. Or de nombreuses voix ont exprimé leur vive inquiétude vis-à-vis du financement insuffisant de cette entité. Parmi elles, Aides et Sidaction —rejoints notamment par Françoise Barré Sinoussi, prix Nobel— soulignent que seuls 2 millions d’euros ont été sanctuarisés au budget 2021 pour cette nouvelle agence. Ils craignent que l’État se défausse sur les investisseurs privés ou les financements européens pour les 70 millions supplémentaires nécessaire à son bon fonctionnement[^10]. Un collectif de chercheurs signataires d’une tribune dans le Monde dénonce ces mêmes insécurités budgétaires[^11].
+
+[^10]: Voir le [communiqué de AIDES du 7/01/21](https://www.aides.org/publication/fusion-anrsreacting-la-lutte-contre-le-vih-et-les-maladies-emergentes-meritent-mieux), l’article de [VIH.org du 17/12/21](https://vih.org/20201217/recherche-en-maladies-infectieuses-lanrs-et-de-reacting-fusionnent/) et l’article du [Monde du 1/01/21](https://www.lemonde.fr/planete/article/2021/01/01/une-nouvelle-agence-consacree-aux-maladies-infectieuses-emergentes-en-manque-de-moyens-propres_6064964_3244.html).
+
+[^11]: Article du [Monde du 14/01/21](https://www.lemonde.fr/idees/article/2021/01/14/l-insecurite-budgetaire-dont-souffrira-la-nouvelle-agence-sur-les-maladies-infectieuses-emergentes-ne-peut-qu-etre-nefaste_6066277_3232.html)
+
+**Conclusion**
+
+En ce début d’année 2021, rien n’indique que le gouvernement ait pris la mesure des enjeux sanitaires et politiques liés à l’évaluation indépendante des vaccins anti-Covid. Rien n’indique non plus qu’il reconnaisse la nécessité de soutenir la recherche publique sur les maladies infectieuses en général et sur la Covid-19 en particulier. 
+
+Alors que le fossé par rapport à notre voisin allemand se creuse à une vitesse phénoménale et que ses finances sont dans le rouge depuis plusieurs années, la recherche publique française doit une nouvelle fois se contenter de miettes. Alors que les autres grandes puissances ont compris l’importance d’un investissement massif dans la recherche et les infrastructures publiques pour faire face aux conséquences de la pandémie, à court et à long terme, le gouvernement français continue à minimiser ses investissements et aggrave ainsi notre dépendance vis-à-vis des acteurs privés. Il est donc urgent de renverser la situation et d’obtenir de sa part:
+
+-   Un engagement à financer de façon pérenne et significative les agences Covireivac et Reacting-ANRS. 
+
+-   L’évaluation indépendante des différentes options vaccinales, sans exclure a priori les vaccins russes ou chinois, sur des cohortes de taille suffisante.
+
+-   L’augmentation des crédits alloués à la recherche de traitements contre la maladie car la vaccination ne résoudra pas tous les problèmes.
+
+-   Une augmentation des crédits alloués à la recherche en général.
+
+Sous réserve de financements, seule la recherche publique nationale est en effet en mesure d’assumer pleinement les responsabilités suivantes:
+
+-   Compléter et valider le travail des compagnies pharmaceutiques de façon indépendante en contrôlant et en contribuant à la phase 3 des essais cliniques. 
+
+-   Analyser les données de veille épidémiologique au long-cours qui accompagnent nécessairement les campagnes de vaccination.
+
+-   Le cas échéant, réaliser rapidement les études in vitro et in vivo visant à évaluer l’efficacité des tests de dépistages, des vaccins ou des traitements contre les variants qui pourraient apparaitre ou circuler sur notre sol.
+
+-   Le cas échéant, réaliser rapidement les études permettant d'évaluer l'efficacité et la sécurité de protocoles autres que ceux définis par les essais cliniques ayant amené à la mise sur le marché des vaccins ou des traitements (par exemple: combinaison de 2 vaccins, report des secondes doses, etc).
+
+[**Article original**](https://lafranceinsoumise.fr/2021/01/28/covid-19-et-recherche-publique-le-fosse-selargit-entre-les-besoins-et-les-moyens/)
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
