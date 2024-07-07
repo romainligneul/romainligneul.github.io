@@ -2,12 +2,14 @@ project:
   title: "RL  "
   output-dir: ./docs/
   render:
-  - "./en/"
+  - "./"
+  - "!./fr/*"
   - "!./www/*"
 
 website:
   favicon: favicon.ico
   twitter-card: true
+  open-graph: true
   site-url: https://romainligneul.github.io
   navbar:
     tools:

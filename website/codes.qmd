@@ -1,6 +1,5 @@
 ---
 title: "RL | Codes"
-aliases:
 ---
 
 ::: {.callout-warning}
