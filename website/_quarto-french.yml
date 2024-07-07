@@ -1,6 +1,6 @@
 project:
   title: "RL  "
-  output-dir: ./docs/en
+  output-dir: ./docs/
   render:
   - "./fr/"
   - "!./www/*"

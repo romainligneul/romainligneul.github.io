@@ -11,7 +11,7 @@ listing:
 page-layout: full
 title-block-banner: "banner_blog.png"
 image: "/fr/blog/banner_blog_card.png"
-description: "Blog science/société"
+description: "Science & société"
 include-in-header:
   - text: |
       <style>
