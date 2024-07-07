@@ -1,15 +1,47 @@
 ---
-title: "Romain Ligneul (EN)"
-about:
-  template: jolla
-  image: ../img/neuron.PNG
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/romainligneul/cophy-project
-    - icon: cup-hot-fill
-      text: Cophy
-      href: https://cophyteam.wixsite.com/website-1
+title: "RL | Codes"
 ---
 
-Here I have some codes
+::: {.callout-warning}
+This page is under construction.
+:::
+
+For now, if you are interested in my code, you can visit my Github account (it's a mess)
+https://github.com/romainligneul
+
+Or the Github account of my start-up RobustCircuit (it's a mess too)
+https://github.com/robustcircuit
+
+It is more oriented towards web experiments using Javascript/jsPsych and some SVG manipulation logics using D3.js
+
+### If you want to reuse this website
+
+The codebase is available here:
+
+https://github.com/romainligneul/romainligneul.github.io
+
+You'll have to install [Quarto](https://quarto.org/).
+
+If you want to deploy it on Github pages, follow this tutorial:
+
+https://quarto.org/docs/publishing/github-pages.html
+
+Quarto is very powerful but also very upsetting, so be prepared.
+
+At some point, I might provide a blank template for this multilingual version of the Quarto website utility, depending on interest. So, please leave a comment below if that's your case.
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="Comments OtherFR"
+        data-category-id="DIC_kwDOMSMTI84Cgltq"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
