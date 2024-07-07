@@ -6,6 +6,7 @@ project:
 
 website:
   favicon: favicon.ico
+  site-url: https://romainligneul.github.io
   navbar:
     tools:
       - icon: github
