@@ -8,8 +8,10 @@ project:
 website:
   favicon: favicon.ico
   twitter-card: true
-  open-graph: true
-  site-url: https://romainligneul.github.io
+  open-graph:
+    site-name: Romain Ligneul
+    locale: fr_FR
+  site-url: "https://romainligneul.github.io"
   navbar:
     tools:
       - icon: github
