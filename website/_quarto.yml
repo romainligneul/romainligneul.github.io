@@ -5,6 +5,7 @@ project:
 website:
   site-url: https://romainligneul.github.io
   description: "Romain Ligneul"
+  twitter-card: true
 execute:
   freeze: auto
 

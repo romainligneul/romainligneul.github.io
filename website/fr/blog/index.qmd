@@ -1,5 +1,5 @@
 ---
-title: "Blog de Romain Ligneul"
+title: "Blog - Romain Ligneul"
 listing:
   contents: posts
   sort: "date desc"
@@ -10,6 +10,8 @@ listing:
   feed: true
 page-layout: full
 title-block-banner: "banner_blog.png"
+image: banner_blog_card.png
+description: "Blog science/société"
 include-in-header:
   - text: |
       <style>

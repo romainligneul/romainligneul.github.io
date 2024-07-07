@@ -7,6 +7,7 @@ project:
 
 website:
   favicon: favicon.ico
+  twitter-card: true
   site-url: https://romainligneul.github.io
   navbar:
     tools:

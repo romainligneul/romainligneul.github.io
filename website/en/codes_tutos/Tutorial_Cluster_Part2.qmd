@@ -1,5 +1,5 @@
 ---
-title: 'Part 2: Good job submission practice on SLURM clusters'
+title: 'Part 2: Ethical and efficient practices on SLURM clusters'
 format: html
 execute:
   freeze: true
