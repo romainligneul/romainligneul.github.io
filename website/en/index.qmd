@@ -5,6 +5,8 @@ about:
   image: images/portrait_bw.png
 aliases:
   - /
+site-url: https://romainligneul.github.io/
+description: "French and English personal webpage featuring a blog and other resources"
 ---
 
 ::: {#centered .h4 style="text-align: center; margin-top:0.5rem; margin-bottom:1.2rem"}
