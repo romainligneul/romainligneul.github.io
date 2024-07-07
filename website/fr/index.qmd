@@ -12,11 +12,11 @@ Chercheur (neuroscience), geek, blogueur, et al.
 :::
 
 ::: callout-note
-To see my web page in English, click here: [{{< iconify emojione flag-for-us-outlying-islands >}}](../)
+To see my web page in English, click here: [{{< iconify emojione flag-for-us-outlying-islands >}}](./..)
 The content of English and French version is quite different.
 :::
 
-Bienvenu.e.s sur ma page francophone, qui n'a presque rien à voir avec son homologue anglophone, beaucoup plus orientée vers la science, la modélisation, le code informatique, etc. Je suis en effet chercheur dans une autre vie (située à un [clic](../){target="_blank"} d'ici).
+Bienvenu.e.s sur ma page francophone, qui n'a presque rien à voir avec son homologue anglophone, beaucoup plus orientée vers la science, la modélisation, le code informatique, etc. Je suis en effet chercheur dans une autre vie (située à un [clic](./..){target="_blank"} d'ici).
 
 Dans ma vie francophone, je passe un certain temps à écrire pour, et parfois à parler devant, un public varié.
 
