@@ -4,10 +4,15 @@ project:
 
 website:
   site-url: https://romainligneul.github.io
+  google-analytics: 
+    anonymize-ip: true
+    tracking-id: "G-CFSZ45W5CV"
+    storage: none
   description: "Romain Ligneul"
   twitter-card: true
   open-graph:
     site-name: Romain Ligneul
+    locale: en_US
   favicon: favicon.ico
 execute:
   freeze: auto
