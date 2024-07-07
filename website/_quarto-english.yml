@@ -22,9 +22,9 @@ website:
       - icon: lightbulb 
         href: https://www.adaptivecontrol.org
     left:
-      - href: ./index.qmd
+      - href: ./en/index.qmd
         text: Home
-      - href: ./codes.qmd
+      - href: ./en/codes.qmd
         text: Code
     right:
       - href: ./
