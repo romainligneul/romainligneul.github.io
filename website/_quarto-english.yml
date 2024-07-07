@@ -31,6 +31,8 @@ website:
         text: "{{< iconify emojione flag-for-us-outlying-islands >}}"
       - href: ./fr
         text: "{{< iconify emojione flag-for-france >}}"
+      - icon: rss
+        href: index.xml
 
   page-footer:
     left: "Copyright 2024, Romain Ligneul" 

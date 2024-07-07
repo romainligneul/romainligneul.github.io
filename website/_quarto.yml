@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: ./docs
 
+website:
+  site-url: https://romainligneul.github.io
+  description: "Romain Ligneul"
 execute:
   freeze: auto
 
