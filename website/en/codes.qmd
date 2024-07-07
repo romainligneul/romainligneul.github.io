@@ -1,7 +1,7 @@
 ---
 title: "RL | Codes"
 aliases:
-  - ./en/codes
+  - ./codes
 ---
 
 ::: {.callout-warning}
