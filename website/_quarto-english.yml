@@ -32,7 +32,7 @@ website:
       - href: ./fr
         text: "{{< iconify emojione flag-for-france >}}"
       - icon: rss
-        href: index.xml
+        href: fr/blog/index.xml
 
   page-footer:
     left: "Copyright 2024, Romain Ligneul" 
