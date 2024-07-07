@@ -8,13 +8,12 @@ aliases:
 This page is under construction.
 :::
 
-For now, if you are interested in my code, you can visit my Github account (it's a mess)
-https://github.com/romainligneul
+### Tutorial on SLURM clusters + interactive notebooks
 
-Or the Github account of my start-up RobustCircuit (it's a mess too)
-https://github.com/robustcircuit
+[Part 1](codes_tutos/Tutorial_Cluster_Part1)
 
-It is more oriented towards web experiments using Javascript/jsPsych and some SVG manipulation logics using D3.js
+[Part 2](codes_tutos/Tutorial_Cluster_Part2)
+
 
 ### If you want to reuse this website
 
@@ -31,6 +30,17 @@ https://quarto.org/docs/publishing/github-pages.html
 Quarto is very powerful but also very upsetting, so be prepared.
 
 At some point, I might provide a blank template for this multilingual version of the Quarto website utility, depending on interest. So, please leave a comment below if that's your case.
+
+### Other codes
+
+For now, if you are interested in my code, you can visit my Github account (it's a mess)
+https://github.com/romainligneul
+
+Or the Github account of my start-up RobustCircuit (it's a mess too)
+https://github.com/robustcircuit
+
+It is more oriented towards web experiments using Javascript/jsPsych and some SVG manipulation logics using D3.js
+
 
 <script src="https://giscus.app/client.js"
         data-repo="romainligneul/giscus-comments"

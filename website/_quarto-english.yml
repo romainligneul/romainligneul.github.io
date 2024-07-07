@@ -3,7 +3,8 @@ project:
   output-dir: ./docs/
   render:
   - "./en/"
-
+  - "!./www/*"
+  
 website:
   favicon: favicon.ico
   site-url: https://romainligneul.github.io
@@ -22,9 +23,9 @@ website:
       - icon: lightbulb 
         href: https://www.adaptivecontrol.org
     left:
-      - href: ./en/index.qmd
+      - href: ./index.qmd
         text: Home
-      - href: ./en/codes.qmd
+      - href: ./codes.qmd
         text: Code
     right:
       - href: ./

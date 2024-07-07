@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>RL  </title>
+<link>https://romainligneul.github.io/fr/blog/</link>
+<atom:link href="https://romainligneul.github.io/fr/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Romain Ligneul</description>
+<generator>quarto-1.6.1</generator>
+<lastBuildDate>Tue, 19 Jan 2021 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/covidrecherche/index.html}</title>
+  <dc:creator>RL, L&#39;insoumission</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/covidrecherche/</link>
+  <description>{B4F502887207:/fr/blog/posts/covidrecherche/index.html}</description>
+  <category>linsoumission</category>
+  <category>covid19</category>
+  <category>recherche</category>
+  <category>politique</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/covidrecherche/</guid>
+  <pubDate>Tue, 19 Jan 2021 23:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/covidrecherche/images/coronavirus.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/doctolibetat/index.html}</title>
+  <dc:creator>RL, L&#39;insoumission</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/doctolibetat/</link>
+  <description>{B4F502887207:/fr/blog/posts/doctolibetat/index.html}</description>
+  <category>linsoumission</category>
+  <category>covid19</category>
+  <category>recherche</category>
+  <category>politique</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/doctolibetat/</guid>
+  <pubDate>Thu, 14 Jan 2021 23:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/doctolibetat/covid-19-vaccin.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/IAprivee/index.html}</title>
+  <dc:creator>RL, Libération</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/IAprivee/</link>
+  <description>{B4F502887207:/fr/blog/posts/IAprivee/index.html}</description>
+  <category>liberation</category>
+  <category>IA</category>
+  <category>économie</category>
+  <category>sciences cognitives</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/IAprivee/</guid>
+  <pubDate>Wed, 05 Aug 2020 22:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/IAprivee/coverIAprivee.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/uscovid/index.html}</title>
+  <dc:creator>RL, Libération</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/uscovid/</link>
+  <description>{B4F502887207:/fr/blog/posts/uscovid/index.html}</description>
+  <category>liberation</category>
+  <category>covid19</category>
+  <category>politique</category>
+  <category>medias</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/uscovid/</guid>
+  <pubDate>Tue, 21 Apr 2020 22:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/uscovid/covid19map.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/originespandemie/index.html}</title>
+  <dc:creator>RL, Libération</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/originespandemie/</link>
+  <description>{B4F502887207:/fr/blog/posts/originespandemie/index.html}</description>
+  <category>liberation</category>
+  <category>covid19</category>
+  <category>politique</category>
+  <category>medias</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/originespandemie/</guid>
+  <pubDate>Thu, 16 Apr 2020 22:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/originespandemie/chauvesouris.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/raoultfraude/index.html}</title>
+  <dc:creator>RL, Libération</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/raoultfraude/</link>
+  <description>{B4F502887207:/fr/blog/posts/raoultfraude/index.html}</description>
+  <category>liberation</category>
+  <category>covid19</category>
+  <category>recherche</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/raoultfraude/</guid>
+  <pubDate>Fri, 27 Mar 2020 23:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/raoultfraude/dore_virus.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/impactconfinement/index.html}</title>
+  <dc:creator>RL, Libération</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/impactconfinement/</link>
+  <description>{B4F502887207:/fr/blog/posts/impactconfinement/index.html}</description>
+  <category>liberation</category>
+  <category>sciences cognitives</category>
+  <category>santé</category>
+  <category>psychiatrie</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/impactconfinement/</guid>
+  <pubDate>Wed, 18 Mar 2020 23:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/impactconfinement/confinement.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/autoevaluationrecherche/index.html}</title>
+  <dc:creator>RL, Libération</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/autoevaluationrecherche/</link>
+  <description>{B4F502887207:/fr/blog/posts/autoevaluationrecherche/index.html}</description>
+  <category>liberation</category>
+  <category>neuroscience</category>
+  <category>économie</category>
+  <category>recherche</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/autoevaluationrecherche/</guid>
+  <pubDate>Wed, 22 Jan 2020 23:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/autoevaluationrecherche/autoeval_banner.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/meteocerveau/index.html}</title>
+  <dc:creator>RL, Libération</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/meteocerveau/</link>
+  <description>{B4F502887207:/fr/blog/posts/meteocerveau/index.html}</description>
+  <category>liberation</category>
+  <category>neuroscience</category>
+  <category>léger</category>
+  <category>neuromodulation</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/meteocerveau/</guid>
+  <pubDate>Thu, 11 Oct 2018 22:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/meteocerveau/meteocerveau.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/cubausinecerveaux/index.html}</title>
+  <dc:creator>RL, Manières de voir</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/cubausinecerveaux/</link>
+  <description>{B4F502887207:/fr/blog/posts/cubausinecerveaux/index.html}</description>
+  <category>diplo</category>
+  <category>neuroscience</category>
+  <category>recherche</category>
+  <category>cuba</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/cubausinecerveaux/</guid>
+  <pubDate>Sat, 04 Nov 2017 23:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/cubausinecerveaux/cover.png" medium="image" type="image/png" height="95" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/neurolordon/index.html}</title>
+  <dc:creator>RL, Libération</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/neurolordon/</link>
+  <description>{B4F502887207:/fr/blog/posts/neurolordon/index.html}</description>
+  <category>liberation</category>
+  <category>économie</category>
+  <category>inégalités</category>
+  <category>politique</category>
+  <category>neuroscience</category>
+  <category>recherche</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/neurolordon/</guid>
+  <pubDate>Fri, 13 Oct 2017 22:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/neurolordon/lordon.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/secusocialecancer/index.html}</title>
+  <dc:creator>RL, Libération</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/secusocialecancer/</link>
+  <description>{B4F502887207:/fr/blog/posts/secusocialecancer/index.html}</description>
+  <category>liberation</category>
+  <category>économie</category>
+  <category>inégalités</category>
+  <category>politique</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/secusocialecancer/</guid>
+  <pubDate>Fri, 06 Oct 2017 22:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/secusocialecancer/nospeurs_dore.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/hierarchiecerveau/index.html}</title>
+  <dc:creator>RL, Libération</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/hierarchiecerveau/</link>
+  <description>{B4F502887207:/fr/blog/posts/hierarchiecerveau/index.html}</description>
+  <category>liberation</category>
+  <category>neuroscience</category>
+  <category>inégalités</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/hierarchiecerveau/</guid>
+  <pubDate>Thu, 13 Apr 2017 22:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/hierarchiecerveau/homeless.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/bullesdefiltres/index.html}</title>
+  <dc:creator>RL, Libération</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/bullesdefiltres/</link>
+  <description>{B4F502887207:/fr/blog/posts/bullesdefiltres/index.html}</description>
+  <category>liberation</category>
+  <category>politique</category>
+  <category>science citoyenne</category>
+  <category>médias</category>
+  <category>réseaux sociaux</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/bullesdefiltres/</guid>
+  <pubDate>Mon, 03 Apr 2017 22:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/bullesdefiltres/bleu_blanc_rouge.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/hamondesistement/index.html}</title>
+  <dc:creator>RL, Mediapart</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/hamondesistement/</link>
+  <description>{B4F502887207:/fr/blog/posts/hamondesistement/index.html}</description>
+  <category>mediapart</category>
+  <category>politique</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/hamondesistement/</guid>
+  <pubDate>Wed, 01 Mar 2017 23:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/hamondesistement/vallshamon.png" medium="image" type="image/png" height="88" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/laboritinsoumission/index.html}</title>
+  <dc:creator>RL, Libération</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/laboritinsoumission/</link>
+  <description>{B4F502887207:/fr/blog/posts/laboritinsoumission/index.html}</description>
+  <category>liberation</category>
+  <category>neuroscience</category>
+  <category>inégalités</category>
+  <category>politique</category>
+  <category>livres</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/laboritinsoumission/</guid>
+  <pubDate>Sun, 05 Feb 2017 23:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/laboritinsoumission/dore_laborit.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/strategiepion/index.html}</title>
+  <dc:creator>RL, Mediapart</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/strategiepion/</link>
+  <description>{B4F502887207:/fr/blog/posts/strategiepion/index.html}</description>
+  <category>mediapart</category>
+  <category>politique</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/strategiepion/</guid>
+  <pubDate>Mon, 09 Jan 2017 23:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/strategiepion/pions.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/deconnomie/index.html}</title>
+  <dc:creator>RL, Libération</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/deconnomie/</link>
+  <description>{B4F502887207:/fr/blog/posts/deconnomie/index.html}</description>
+  <category>neuro89</category>
+  <category>sciences cognitives</category>
+  <category>économie</category>
+  <category>politique</category>
+  <category>inégalités</category>
+  <category>medias</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/deconnomie/</guid>
+  <pubDate>Tue, 03 Jan 2017 23:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/deconnomie/dore_greed.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/trump/index.html}</title>
+  <dc:creator>RL, Libération</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/trump/</link>
+  <description>{B4F502887207:/fr/blog/posts/trump/index.html}</description>
+  <category>neuro89</category>
+  <category>sciences cognitives</category>
+  <category>politique</category>
+  <category>inégalités</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/trump/</guid>
+  <pubDate>Tue, 08 Nov 2016 23:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/trump/trump.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/fr/blog/posts/aberkane2/index.html}</title>
+  <dc:creator>RL, Libération</dc:creator>
+  <link>https://romainligneul.github.io/fr/blog/posts/aberkane2/</link>
+  <description>{B4F502887207:/fr/blog/posts/aberkane2/index.html}</description>
+  <category>liberation</category>
+  <category>neuroscience</category>
+  <category>aberkane</category>
+  <category>livres</category>
+  <category>medias</category>
+  <guid>https://romainligneul.github.io/fr/blog/posts/aberkane2/</guid>
+  <pubDate>Sun, 30 Oct 2016 23:00:00 GMT</pubDate>
+  <media:content url="https://romainligneul.github.io/fr/blog/posts/aberkane2/bibliotheque.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
