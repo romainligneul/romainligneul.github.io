@@ -9,7 +9,7 @@ author: Romain Ligneul
 ::: callout-note
 This tutorial was written to help my colleagues access our local cluster [CRNL (FR)](www.crnl.fr/en), but as long as you have a cluster equipped with SLURM, the tutorial should also work smoothly on your infrastructure.
 :::
-{{< downloadthis ../../www/Tutorial_Cluster_Part1.ipynb dname="Tutorial_Cluster_Part1.ipynb" label="Download this notebook" >}}
+{{< downloadthis ../www/Tutorial_Cluster_Part1.ipynb dname="Tutorial_Cluster_Part1.ipynb" label="Download this notebook" >}}
 
 This tutorial will help you to set up your personal Python environment and hopefully improve your way of using it on a compute cluster. 
 
