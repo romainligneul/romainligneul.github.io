@@ -8,6 +8,7 @@ website:
     anonymize-ip: true
     tracking-id: "G-CFSZ45W5CV"
     storage: none
+  cookie-consent: false
   description: "Romain Ligneul"
   twitter-card: true
   open-graph:

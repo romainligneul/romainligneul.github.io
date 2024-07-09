@@ -4,6 +4,9 @@ project:
   render:
   - "./fr/"
   - "!./www/*"
+  - "!*.py"
+  pre-render: pre_render.py
+  post-render: post_render.py
 
 website:
   favicon: favicon.ico

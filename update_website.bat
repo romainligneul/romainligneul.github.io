@@ -8,3 +8,4 @@ git commit -m "auto"
 git push
 cd website
 quarto publish gh-pages --no-render --no-prompt
+cd ..
