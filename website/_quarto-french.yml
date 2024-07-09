@@ -12,6 +12,10 @@ website:
     site-name: Romain Ligneul
     locale: fr_FR
   site-url: "https://romainligneul.github.io"
+  google-analytics: 
+    anonymize-ip: true
+    tracking-id: "G-CFSZ45W5CV"
+    storage: none
   navbar:
     tools:
       - icon: github
