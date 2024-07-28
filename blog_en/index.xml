@@ -17,7 +17,7 @@
 <generator>quarto-1.6.1</generator>
 <lastBuildDate>Wed, 05 Aug 2020 22:00:00 GMT</lastBuildDate>
 <item>
-  <title>L’intelligence artificielle générale comme propriété privée?</title>
+  <title>OpenAI business model: towards private AGI?</title>
   <dc:creator>RL, Libération</dc:creator>
   <link>https://romainligneul.github.io/blog_en/posts/privateAI/</link>
   <description><![CDATA[ 
@@ -102,8 +102,8 @@
  ]]></description>
   <category>liberation</category>
   <category>IA</category>
-  <category>économie</category>
-  <category>sciences cognitives</category>
+  <category>economics</category>
+  <category>cognitive sciences</category>
   <guid>https://romainligneul.github.io/blog_en/posts/privateAI/</guid>
   <pubDate>Wed, 05 Aug 2020 22:00:00 GMT</pubDate>
   <media:content url="https://romainligneul.github.io/blog_en/posts/privateAI/coverIAprivee.jpg" medium="image" type="image/jpeg"/>
@@ -393,7 +393,7 @@
  ]]></description>
   <category>liberation</category>
   <category>neuroscience</category>
-  <category>economy</category>
+  <category>economics</category>
   <category>research</category>
   <guid>https://romainligneul.github.io/blog_en/posts/autoevaluationresearch/</guid>
   <pubDate>Wed, 22 Jan 2020 23:00:00 GMT</pubDate>
@@ -453,8 +453,8 @@
  ]]></description>
   <category>liberation</category>
   <category>neuroscience</category>
-  <category>light</category>
   <category>neuromodulation</category>
+  <category>psychiatry</category>
   <guid>https://romainligneul.github.io/blog_en/posts/brainweather/</guid>
   <pubDate>Thu, 11 Oct 2018 22:00:00 GMT</pubDate>
   <media:content url="https://romainligneul.github.io/blog_en/posts/brainweather/meteocerveau.jpg" medium="image" type="image/jpeg"/>
@@ -503,7 +503,6 @@
 
 
  ]]></description>
-  <category>diplo</category>
   <category>neuroscience</category>
   <category>research</category>
   <category>cuba</category>
@@ -646,7 +645,7 @@ Please: do not like / do not share / do not comment on this post<br>
 
  ]]></description>
   <category>liberation</category>
-  <category>politique</category>
+  <category>politics</category>
   <category>citizen science</category>
   <category>medias</category>
   <category>social network</category>
@@ -923,7 +922,6 @@ Please: do not like / do not share / do not comment on this post<br>
 </section>
 
  ]]></description>
-  <category>mediapart</category>
   <category>politics</category>
   <category>inequalities</category>
   <category>psychiatry</category>
@@ -1283,7 +1281,7 @@ Please: do not like / do not share / do not comment on this post<br>
   <category>neuro89</category>
   <category>terrorism</category>
   <category>neuroscience</category>
-  <category>conspiracy</category>
+  <category>conspiracy theories</category>
   <category>media</category>
   <guid>https://romainligneul.github.io/blog_en/posts/terroristbrain/</guid>
   <pubDate>Sat, 16 Jan 2016 23:00:00 GMT</pubDate>
