@@ -45,10 +45,6 @@ Vous pouvez visiter le site web du groupe [Contrôle Adaptatif](https://www.adap
 
 Enfin, vous pouvez jeter un oeil à ma page anglophone ici même (en cours de construction).
 
-## Quelques publications scientifiques
-
-<iframe src="https://www.adaptivecontrol.org/#latest-publications" style="border:0px #ffffff none; margin-top: -150px;" name="myiFrame" scrolling="yes" frameborder="1" marginheight="30px" marginwidth="0px" width="100%" height="800px" allowfullscreen></iframe>
-
 ## Commentaires? Questions?
 
 <script src="https://giscus.app/client.js"
