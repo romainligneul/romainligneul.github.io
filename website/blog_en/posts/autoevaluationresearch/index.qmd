@@ -1,0 +1,77 @@
+---
+title: "Towards Self-Assessment and Horizontal Resource Control in Academia? "
+author: "RL, Libération"
+date: "2020-01-23"
+categories: [liberation, neuroscience, economy, research]
+image: "autoeval_banner.jpg"
+description: "Critiques of the Existing System and Possible Alternatives"
+title-block-banner: "autoeval_banner.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
+---
+
+Recently, a group of French researchers published an [op-ed in Le Monde](https://web.archive.org/web/20201205023236/https://www.lemonde.fr/idees/article/2020/01/20/nous-chercheurs-voulons-defendre-l-autonomie-de-la-recherche-et-des-formations_6026543_3232.html) announcing their collective intention to apply for the presidency of the HCERES, France's highest public authority for regulating and guiding research. This initiative, notably driven by [rogueESR](https://web.archive.org/web/20201205023236/http://rogueesr.fr/), has garnered over 5000 supports, including mine.
+
+Responsible for evaluating all research laboratories in France, the HCERES and its predecessor, the AERES, have accompanied—and often encouraged—the transformation of the French scientific landscape since 2006. Indeed, this "High Committee for the Evaluation of Research and Higher Education" is historically linked to the creation of the [ANR](https://web.archive.org/web/20201205023236/https://fr.wikipedia.org/wiki/Agence_nationale_de_la_recherche) (National Research Agency), which shifted French research toward an Anglo-Saxon "project-based" funding system in 2005.
+
+### A System Under Critique for 15 Years
+
+This significant structural reform has provoked much discussion and exertion over the past 15 years. Indeed, it involves researchers dedicating a significant portion of their time to drafting funding applications that have little chance of success. Despite slight improvements since 2015, the success rate remains [around 15%](https://web.archive.org/web/20201205023236/https://twitter.com/Alexis_Verger/status/1150661972301701120), with many agreeing that the [time lost](https://web.archive.org/web/20201205023236/https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0118494) writing and evaluating these funding applications is largely counterproductive, both scientifically and economically, given the ANR's enormous [operational costs](https://web.archive.org/web/20201205023236/http://lesupenmaintenance.blogspot.com/2017/07/inefficience-et-couts-caches-du-neo.html).
+
+In this context, the op-ed published in Le Monde at the beginning of 2020 is just the latest in a long series (see [here](https://web.archive.org/web/20201205023236/https://www.lepoint.fr/debats/tribune-il-faut-repenser-et-renforcer-l-agence-nationale-pour-la-recherche-08-01-2016-2008132_2.php), [here](https://web.archive.org/web/20201205023236/https://www.lemonde.fr/sciences/article/2015/09/21/recherche-la-selection-par-l-excellence-est-denaturee_4766031_1650684.html), [here](https://web.archive.org/web/20201205023236/https://www.lemonde.fr/sciences/article/2019/03/06/le-financement-de-la-recherche-fondamentale-ne-doit-pas-etre-une-loterie_5431902_1650684.html), [here](https://web.archive.org/web/20201205023236/https://www.liberation.fr/debats/2019/09/02/le-jeu-du-hasard-et-de-la-recherche_1748859), or [there](https://web.archive.org/web/20201205023236/https://www.latribune.fr/opinions/20100325trib000491876/depenser-plus-pour-faire-moins-de-recherche-.html)). Will it have as much impact as the [mass resignation](https://web.archive.org/web/20201205023236/https://www.lemonde.fr/blog/huet/2016/06/09/politique-de-la-recherche-demission-de-masse-a-lanr/) of prominent ANR figures in 2016, who, refusing to cope with continuous [budget cuts](https://web.archive.org/web/20201205023236/https://www.lemonde.fr/idees/article/2016/05/23/coupes-budgetaires-dans-la-recherche-huit-grands-chercheurs-denoncent-un-suicide-scientifique-et-industriel_4924612_3232.html) under Sarkozy and Hollande, perhaps helped increase the overall budget dedicated to the structure?
+
+It's uncertain, especially considering how the current executive treats demands coming "from below" and considering that the likely candidate for the presidency of the HCERES is none other than [Thierry Coulhon](https://web.archive.org/web/20201205023236/https://www.lemonde.fr/blog/huet/2020/01/21/montee-de-la-contestation-a-luniversite-et-au-cnrs/), a former advisor to the Fillon government and now advising Emmanuel Macron on "education, higher education, research, and innovation".
+
+However, the unprecedented interest of this op-ed paradoxically lies in reminding us of a very simple but often forgotten fact: in terms of research evaluation, "the bottom" is actually "the top" since no one is better placed to assess scientific output than the researchers themselves. They are the ones, not ministers or the President, who are best positioned to anticipate upcoming revolutions, determine which research lines are dead ends and which are promising, or to evaluate the material and human resources required to achieve set goals.
+
+With this idea in mind, members of the rogueESR collective urge the entire scientific community to engage with the question in their latest letter:
+
+> The second phase of this nascent movement of reaffirming the scholarly world as forming a community capable of setting its own rules, this immense freedom being balanced by a principle of responsibility towards society, requires everyone's participation. What strategy can we employ, by curbing all forms of bureaucracy, to agree, beyond partisan divisions, on the University and the research system we aspire to bring to life. Our email is open to all thoughtful tactical and strategic proposals.
+
+I seize the opportunity to submit a proposal as radically different from the current system as from the previous one. Given the ANR's programmed failure, it might be tempting to nostalgically contemplate the past and its "inter-ministerial funding"—less time-consuming and more flexible for researchers—but this would be a serious mistake, in my opinion.
+
+Indeed, if one can consider that the reforms which gave birth to the ANR were an opportunity for the then-government to hold a "modernization discourse" that masked—like a smokescreen—the upcoming budget cuts, these reforms were still based on strong dissatisfaction with the old system. It is informative to revisit the report on research studied at the National Assembly on [December 21, 2004](https://web.archive.org/web/20201205023236/http://www.assemblee-nationale.fr/12/rap-info/i1998.asp). Many criticisms targeted the overly hierarchical allocation of credits (following a ministry - institute - laboratory - researcher scheme) whose major flaw was to fuel local nepotisms, often allowing laboratory directors to distribute resources at their discretion; and often at the expense of the most innovative or risky projects carried by younger researchers still poorly integrated into the complex power games that academia has always known. The shift to project-based funding has at least had the virtue of de-siloing all researchers and establishing a horizontal competition theoretically allowing each to compete directly for resources.
+
+### A Framework-Breaking Proposal
+
+Is it possible to combine the flexibility of the old system with the horizontality of the new, while taking a real step towards a more free, more creative science whose management would involve "everyone's participation"? It seems to me that yes.
+
+The idea is as follows: instead of awarding funding by project or by laboratory, the state could directly allocate a portion of its credits to each actor in the research process, according to a system blending scientific merit and seniority. From the PhD student at the end of their thesis to the senior research director, including the research engineer and the postdoc, each person contributing to advancing knowledge would thus control a fraction of the credits available for their branch.
+
+At each hierarchical level, the allocation would increase significantly, reflecting despite everything the evolution of scientific expertise. In the field of cognitive neuroscience, for example, the state could allocate five thousand euros per year for doctoral students at the end of their thesis, twenty thousand euros for non-tenured researchers (i.e., postdocs), and fifty thousand euros for tenured researchers and research engineers. If this idea may seem subversive with respect to the traditional hierarchical organization, it is not by accident. In reality, it's simply about pushing the logic of rogueESR to the limit.
+
+If researchers are to collectively evaluate and control research, isn't it natural to assign to each of them a part of the available resources, to be employed according to their expertise and motivations? Since it is common to consider that a PhD student at the end of their thesis has already become an [expert](https://web.archive.org/web/20201205023236/https://www.lemonde.fr/sciences/article/2014/05/05/tribune-qui-fait-la-recherche-publique-en-france_4411829_1650684.html) regarding their research theme, and since postdocs are often seen as true [locomotives](https://web.archive.org/web/20201205023236/https://academic.oup.com/bioscience/article/65/11/1088/374441) of academia, isn't it sensible to include these two categories in the collective system of evaluation and control being discussed?
+
+A natural objection is that this organization seems at first glance highly individualistic, each researcher then having their little patch of land to cultivate their particular interests. However, it should be noted that the project-based funding as we know it is already highly individualistic since the funding is associated with a single person rather than a collective, both at the French and European levels. Moreover, in this new system, no one would have the "firepower" necessary to carry out major projects, so that collaboration and pooling of resources would be imposed on anyone with big scientific ambitions.
+
+By setting up a platform allowing both the submission of projects, the call for contributions, and the allocation of resources, each actor could then organize a fundraising campaign among their peers, in exchange for an authorship place and/or a proportionate right to oversee the publications resulting from this pooling. The state could promote this type of cooperative logic by awarding additional funding to projects that have received enough contributions, thus breaking with the zero-sum game principle.
+
+### Fighting Academic "Branding" and the Reign of Researcher-Communicators
+
+The great virtue of this system would be to put each researcher before the following dilemma: work alone with limited means or work collectively with significantly greater means, so that personal ambitions would systematically be weighed against scientific ambitions; and this, unlike the current system where building a personal reputation and brand ("[academic branding](https://web.archive.org/web/20201205023236/https://www.nature.com/articles/d41586-019-03021-5)") very largely conditions the ability to fulfill our scientific ambitions, benefiting the researchers most skilled in communication.
+
+Such an initiative would undoubtedly multiply the inventiveness of researchers at every level and would also allow for better exploitation of the inter-individual differences that exist in academia. For example, in the field of neuroscience, as in many others, "theorists" generally do not need a lot of their own resources to do their work. A few good computers suffice. However, they urgently need to be able to rely on work informing and constraining the theories they develop. In such a system, these same theorists could thus make their credits available to "experimentalists" who have submitted the most useful projects to them, or directly issue a call for contributions for the experiments they most need.
+
+![Proposed distribution schema](autoeval.jpg){alt="Proposed distribution schema"}
+
+Certainly, such a reform could not be imposed on the scientific community overnight, and it would undoubtedly take years of local experimentation to develop the necessary tools and refine the logistical and ethical aspects of this entirely "bottom-up" participative system, to borrow an Anglicism that scientists are fond of.
+
+But if we want to hold all researchers accountable for the future of research, and if we want them all to intervene in its evaluation, if we want to fight both bureaucratic arbitrariness and hierarchical arbitrariness, we will have to give them the counterpart of this new responsibility: control over the available resources. Without this, a system proceeding by the nomination of representatives in charge of control, evaluation, and distribution of resources seems inevitable, whether they be laboratory directors or bureaucrats employed by central institutions like the ANR.
+
+For dispensing with such representatives and for freeing the vital forces of academia while advocating self-management, it is essential that everyone contribute to this work of evaluation, orientation, and pooling.
+
+### To Go Further
+
+As part of this collective movement, two public sessions of the "Science Policies" seminar will be held at the EHESS on January 30 and February 6 next. These meetings will undoubtedly provide an opportunity to discuss many other proposals imagined by researchers to reform the system as we know it.
+
+See the program, [here](https://web.archive.org/web/20201205023236/https://pds.hypotheses.org/).
+
+[**Original article (Wayback Machine)**](https://web.archive.org/web/20201205023236/http://hemisphere-gauche.blogs.liberation.fr/2020/01/23/vers-lauto-evaluation-et-le-controle-horizontal-des-ressources-dans-le-monde-academique/)
+
+<script src="https://giscus.app/client.js"         data-repo="romainligneul/giscus-comments"         data-repo-id="R_kgDOMSMTIw"         data-category="CommentsBlogFR"         data-category-id="DIC_kwDOMSMTI84CglZk"         data-mapping="pathname"         data-strict="0"         data-reactions-enabled="1"         data-emit-metadata="0"         data-input-position="top"         data-theme="preferred_color_scheme"         data-lang="en"         crossorigin="anonymous"         async> </script>

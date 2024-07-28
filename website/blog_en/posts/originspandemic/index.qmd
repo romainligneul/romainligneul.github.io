@@ -1,0 +1,86 @@
+---
+title: "Origins of the Pandemic: Why Should We Refrain from Blaming China?"
+author: "RL, Libération"
+date: "2020-04-17"
+categories: [liberation, covid19, politics, media]
+image: "chauvesouris.jpg"
+image-alt: "Photo NPS, Carlsbad Caverns National Park, New Mexico"
+description: "The consensus held that the Covid-19 pandemic began in China, at the market of a large industrial megacity named Wuhan. Until three scientific studies challenged this hypothesis."
+title-block-banner: "chauvesouris.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
+---
+
+As testing becomes widespread around the world, more and more data is available for so-called “[phylogenetic](https://web.archive.org/web/20201205031119/https://www.medecinesciences.org/en/articles/medsci/full_html/2002/09/medsci20021811p1146/medsci20021811p1146.html)” analyses, which allow us to reconstruct the temporal evolution of Covid-19 within human populations by analyzing the mutations that gradually appear in its genome. It is a way of reconstructing the virus's family tree *a posteriori*, assuming that each new mutation constitutes a new, well-identifiable “branch.”
+
+These new analyses suggest that the scenario is probably not as simple as it first seemed, and it is premature to place the moral burden of the epidemic on China's shoulders. Given the current scientific data, media and political spheres should exercise caution on this sensitive issue, especially as [diplomatic tensions escalate](https://web.archive.org/web/20201205031119/https://www.lemonde.fr/international/article/2020/04/15/coronavirus-paris-exprime-son-mecontentement-aupres-de-l-ambassadeur-de-chine_6036626_3210.html).
+
+To recap, the scenario of an initial emergence in Wuhan is based on two main facts:
+
+● The genome of Covid-19 is very close to the genome of a virus named BatCov-RatG13, which infected a bat analyzed at the Wuhan Institute of Virology. However, the bat in question was captured in 2013 in [a cave in Yunnan province](https://web.archive.org/web/20201205031119/https://www.cell.com/current-biology/pdfExtended/S0960-9822(20)30360-2), located more than 1000 kilometers away.
+
+● Among the [first recorded cases](https://web.archive.org/web/20201205031119/http://thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext), a large majority had visited the wild animal market in Wuhan. However, the first patient who tested positive had never visited the market in question.
+
+![Wuhan wild animal market (Wiki Commons) ](marchewuhan.jpg){fig-align="center" width="580"}
+
+### Despite Appearances
+
+While the consensus lasted for almost three months, it is now being challenged by several phylogenetic studies suggesting that the viral strain that spread in Wuhan is not the original source of the virus, or that it represents just one possible source among others.
+
+Before delving into the subject, it must be emphasized that none of these studies question the idea that the virus originated from a bat. In fact, the bat virus initially analyzed in Wuhan is even used as a reference point in several analyses, with the goal of tracing the virus's path from its closest known animal relative.
+
+The first study casting doubt on the pandemic's origin comes from a report published by the [“Bulletin of the World Health Organization”](https://web.archive.org/web/20201205031119/https://www.who.int/bulletin/online_first/20-253591.pdf) on February 24 by IBM researchers in the United States. It warns of the existence of three branches, the oldest of which includes a group of patients:
+
+● who had no contact with the Wuhan market.
+
+● who travel a lot
+
+● who are of various nationalities
+
+● who were infected by a variant spreading more slowly than the others
+
+On March 5, another Sino-American study published on [Medrxiv](https://web.archive.org/web/20201205031119/https://www.medrxiv.org/content/10.1101/2020.02.25.20027953v2) reached a similar conclusion. In this study, three strains are identified and — again — the strain closest to BatCov-RatG13 is not the one found in Wuhan, but a strain initially detected in Japan, the USA, Australia, and other Chinese provinces far from Wuhan.
+
+### Wuhan, Only an Intermediate Step?
+
+On April 8, finally, English and German researchers published the phylogenetic analysis of 160 virus genomes in the [American journal PNAS](https://web.archive.org/web/20201205031119/https://www.pnas.org/content/early/2020/04/07/2004999117). Collected from all over the world, these genomes are very similar to each other, but there are still variations allowing the distinction of three main strains, A, B, and C.
+
+Since the vast majority of the cases initially recorded in Wuhan belong to group B, the group B variants should be the closest to the BatCov-RatG13 strain (if the first human-animal contagion really took place in this city). However, this is not the case. In reality, the variants closest to the bat virus are those of group A, found in southern China (near Hong Kong), Japan, and the United States. Group C, finally, is the one that hit Europe hardest and seems to have emerged only in a third phase, following a mutation within group B.
+
+![The three subgroups highlighted by the German-British study. Bottom right, the bat genome, closer to group A than to group B, found in Wuhan (PNAS). ](sousgroupes.jpg){fig-align="center" width="610"}
+
+Interviewed by the Chinese television channel CGTN, Peter Forster from the University of Cambridge and the first author of the study is adamant: despite appearances, it is too early to say that the pandemic originated in Wuhan, China (see the interview in English, [here](https://web.archive.org/web/20201205031119/https://youtu.be/AQQf2yoymu0)).
+
+While these studies could be partially challenged by the discovery of a virus even closer to Covid-19 than its current cousin, BatCov-RatG13, they remind us that the exact origins of the pandemic remain a mystery. If Wuhan is not the initial epicenter, where should we now look for patient zero?
+
+### The Mystery Deepens
+
+Given the proximity between Covid-19 and BatCov-RatG13, the main hypothesis remains that the first human-animal contagion occurred in China, possibly in Yunnan province. In this case, the Chinese patient zero would have directly or indirectly infected a few travelers of various nationalities before the virus mutated and spread rapidly in Wuhan and then around the world.
+
+However, other hypotheses cannot be ruled out. Since 2002, the possibility of a new coronavirus-related epidemic has motivated some research institutes to work on the threat. The first SARS epidemic broke out in China, and many samples were collected to isolate the viruses circulating in Chinese bats, with many institutes receiving these samples worldwide.
+
+Once in these laboratories, these viruses are cultured to allow researchers to study their properties in detail. Depending on the question, cultures are conducted on either bat or human lung cells or on living animals, such as [primates](https://web.archive.org/web/20201205031119/https://journals.plos.org/plosmedicine/article%3Fid%3D10.1371/journal.pmed.0030149) or [mice](https://web.archive.org/web/20201205031119/https://www.jax.org/news-and-insights/2020/february/introducing-mouse-model-for-corona-virus). In some P3 or P4 laboratories, these natural viruses are even directly modified to make them more aggressive — an approach that sparked [significant controversy](https://web.archive.org/web/20201205031119/https://www.the-scientist.com/news-opinion/lab-made-coronavirus-triggers-debate-34502) a few years ago.
+
+Despite the claims of Prof. Montagnier, [readily relayed by far-right media](https://web.archive.org/web/20201205031119/https://www.valeursactuelles.com/monde/le-coronavirus-est-sorti-dun-laboratoire-de-wuhan-lexplication-choc-du-prix-nobel-de-medecine-luc-montagnier-118322), we know with near certainty that [Covid-19 was never modified in a laboratory](https://web.archive.org/web/20201205031119/https://theconversation.com/covid-19-origine-naturelle-ou-anthropique-136281). However, nothing excludes that it may have been cultured in vitro, an hypothesis acknowledged as possible in the most serious scientific publications (see for example [this article published in Nature Medicine](https://web.archive.org/web/20201205031119/https://www.nature.com/articles/s41591-020-0820-9)). This type of research can inadvertently lead to the selection of viruses better able to infect human cells through a passive mechanism of “passage selection.”
+
+Although the hypothesis remains unlikely, it is not excluded that Covid-19 emerged from a research laboratory, due to human error or equipment failure. If this were the case, patient zero could be Chinese, French, or American.
+
+### International Tensions
+
+In this regard, it is obviously the Wuhan Institute of Virology — recently equipped with a [P4 laboratory thanks to French support](https://web.archive.org/web/20201205031119/https://fr.wikipedia.org/wiki/Institut_de_virologie_de_Wuhan) — that has been the subject of the first [suspicions](https://web.archive.org/web/20201205031119/https://fr.sputniknews.com/international/202004101043523262-le-covid-19-fabrique-en-laboratoire-le-bacteriologique-nest-pas-une-arme-interessante-dement-un/). Persevering in his strategy of stigmatizing China, Trump even [suggested](https://web.archive.org/web/20201205031119/https://www.reuters.com/article/us-health-coronavirus-trump-china/trump-says-us-investigating-whether-virus-came-from-wuhan-lab-idUSKCN21Y01B) in a press conference that his administration is currently exploring this conspiracy-theorist favorite.
+
+However, given recent events, the Chinese ambassador to France may not be entirely wrong, despite his [critics](https://web.archive.org/web/20201205031119/https://www.franceinter.fr/monde/quand-l-ambassade-de-chine-en-france-reecrit-l-histoire-du-coronavirus): it might be more appropriate to turn to the United States if considering the hypothesis of a laboratory escape. Indeed, in August 2019, a major security breach led to the [abrupt closure of many sensitive activities at Fort Detrick](https://web.archive.org/web/20201205031119/https://www.nytimes.com/2019/08/05/health/germs-fort-detrick-biohazard.html), a major hub of the American military's biodefense research. The sterilization process for waste produced by this research center working on the world's most dangerous viruses malfunctioned following a 2018 flood, implying that a virus leak could have occurred. Indicating the severity of the event, partial resumption only took place on [December 7, 2019](https://web.archive.org/web/20201205031119/https://www.salon.com/2019/12/07/the-army-quietly-re-opens-its-infamous-germ-warfare-lab_partner/), just before the pandemic began. The center only [became fully operational again this month](https://web.archive.org/web/20201205031119/https://homelandprepnews.com/stories/46681-maryland-lawmakers-applaud-cdcs-decision-to-reopen-fort-detrick-facility/). In other words, P4 labeling is not synonymous with infallibility, and the latest example comes from the United States.
+
+In any case, as tensions rise and while awaiting further data, it would be prudent for journalists and politicians to adopt a more nuanced perspective on the virus's origin. With nearly a million Chinese citizens or immigrants on its soil, France cannot afford to fall with Trump into [stigmatizing China](https://web.archive.org/web/20201205031119/https://www.nature.com/articles/d41586-020-01009-0). This stance is all the more condemnable as phylogenetic analyses cast doubt on the true origins of the pandemic.
+
+Without providing definitive answers.
+
+[**Original Article (Wayback Machine)**](https://web.archive.org/web/20201205031119/http://hemisphere-gauche.blogs.liberation.fr/2020/04/17/origines-de-la-pandemie-pourquoi-faut-il-sabstenir-daccabler-la-chine/)
+
+<script src="https://giscus.app/client.js"         data-repo="romainligneul/giscus-comments"         data-repo-id="R_kgDOMSMTIw"         data-category="CommentsBlogFR"         data-category-id="DIC_kwDOMSMTI84CglZk"         data-mapping="pathname"         data-strict="0"         data-reactions-enabled="1"         data-emit-metadata="0"         data-input-position="top"         data-theme="preferred_color_scheme"         data-lang="en"         crossorigin="anonymous"         async> </script>

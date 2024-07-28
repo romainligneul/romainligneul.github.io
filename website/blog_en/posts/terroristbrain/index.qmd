@@ -1,0 +1,93 @@
+---
+title: "The 'Brain Behind the Attacks' Taken Literally"
+author: "RL, Neuro89"
+date: "2016-01-17"
+categories: [neuro89, terrorism, neuroscience, conspiracy, media]
+image: "dore_cerveau_attentats.jpg"
+description: "Widely adopted by the press and numerous politicians, the 'brain behind the attacks' is one of those ready-made expressions that first reflect the difficulty, if not the abandonment, of thinking about terrorism beyond clichés and misleading rhetoric."
+title-block-banner: "dore_cerveau_attentats.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
+---
+
+Every year, new words and expressions are born or revived in a public debate constantly stirred by the evolution of techniques and societies. Language exerts considerable, often implicit, influence on the formation of opinions, leading to an ongoing need to clarify its meaning and measure its impact.
+
+Following the killings in France in 2015, an expression has become an almost indispensable term to denote our public enemy number one: the 'brain behind the attacks,' this depersonalized and multifaceted threat that thrives at times in Salafist mosques, at other times in the suburbs of Saint-Denis, and at other times in Syria.
+
+Adopted by most of the media and numerous politicians, the 'brain behind the attacks' is one of those ready-made expressions that primarily reflect the difficulty, if not the abandonment, of thinking about terrorism beyond clichés and misleading rhetoric.
+
+![The brain behind the attacks - Antoine Doré](dore_cerveau_attentats.jpg){fig-align="center"}
+
+## A Brain for Ten Terrorists?
+
+Taken literally, searching relentlessly for *the* brain behind attacks committed by a dozen individuals is akin to denying the existence of a unique psychology in those who acted. It reduces these suicide bombers to puppets whose brains are washed by an occult intelligence, external to our society and foreign to our culture. Dangerous due to its implicit nature, this representation of the situation is problematic at a time when we seek to deradicalize and thus understand the tiny fraction of French youth inclined toward [‘minor jihad’](https://fr.wikipedia.org/wiki/Jihad#Jihad_majeur_et_Jihad_mineur).
+
+Yet there are reasons for hope. Over the past decade, some researchers have rigorously studied the determinants of terrorist violence. Simultaneously, neurobiologists and psychologists have made significant progress in understanding violent and antisocial behaviors. It is urgent that this knowledge enter the public debate, be considered by institutions, and be subject to serious investigation. This is also the aim of [the call published on November 18, 2015](http://sciences.blogs.liberation.fr/home/2015/11/le-pdg-du-cnrs-veut-une-recherche-post-attentats.html) by Alain Fuchs, president of CNRS.
+
+## Is the 'Brain Behind the Attacks' a 'Sick Brain'?
+
+Although it is morally justifiable and understandable, the lexicon of madness and alienation ('madmen', 'monsters', 'sick', etc.) used to describe terrorists is rarely justified clinically. Indeed, numerous retrospective studies on IRA (Ireland), ETA (Basque Country), or Al-Qaeda fighters show that terrorists—whether Islamist or not—are most often within the 'normal distribution' concerning psychiatric pathologies, social origin, or education \[[PDF](https://www.researchgate.net/profile/Andrew_Silke/publication/238721660_Radicalization_Holy_Warriors_Exploring_the_Psychological_Processes_of_Jihadi/links/0a85e53c6983bcbf4a000000.pdf)\]. In other words, there is no psychiatric, psychological, or socio-economic profile that is typical of a suicide terrorist.
+
+Established and accepted in a report submitted to the U.S. Congress as early as 1999 \[[PDF](http://www.loc.gov/rr/frd/pdf-files/Soc_Psych_of_Terrorism.pdf), page 40\], this observation has also been discussed in the prestigious journal Science \[[PDF](https://hal-ens.archives-ouvertes.fr/ijn_00509568/document), [PDF](http://www.artisresearch.com/articles/Atran_Individual_Factors.pdf)\] under the impetus of [Scott Atran](http://www.institutnicod.org/membres/membres-statutaires/atran-scott/). A pioneer in terrorism research, this Franco-American anthropologist also reminds us that the 'success' associated with jihadist engagement on Twitter or Facebook constitutes a motivation as simple as it is powerful for martyr candidates, sensitive to the respect and admiration aroused in some by their morbid project (see Atran’s [intervention](https://youtu.be/qlbirlSA-dc) to the UN Security Council, in English, and the [French report](http://www.un.org/press/fr/2015/cs11872.doc.htm) associated with it).
+
+### A Paradoxical Altruism
+
+Psychologically, suicide bombing is more akin to what researchers call 'altruistic punishment' than to the murderous insanity responsible for the numerous shootings observed in the United States. The latter is often linked to a [pre-existing mental pathology](https://www.contrepoints.org/2012/12/19/108575-tuerie-a-lecole-la-piste-pharmaceutique), which explains Barack Obama’s efforts to strengthen [gun control](https://tempsreel.nouvelobs.com/societe/20160105.AFP1922/armes-a-feu-aux-etats-unis-obama-decide-de-court-circuiter-le-congres.html) for individuals suffering from psychiatric illnesses. In contrast, altruistic punishment involves incurring a cost to restore a social norm (of cooperation or otherwise) that one considers more significant than personal interest. The support of other group members and the role of social norms play an important role in such behaviors.
+
+Thus, whether terrorists aspire to Sharia or democratic sovereignty in Islamic lands makes little difference, as the support (real or presumed) of the social group to which they identify seems to be the primary cause of their actions. This is also why bidirectional exchange between Arab-Muslim and Judeo-Christian cultures is the first remedy against terrorism. Symbolized by the opening of synagogues, churches, and mosques or by the tolerance of religious symbols such as the kippah, the cross, and the veil, the construction of a sense of belonging to French society heavily depends on citizens' ability to understand the emotions and moral feelings driving others beyond their usual social circle.
+
+Although religious affiliation plays a crucial role since it overrides national belonging in the jihadists’ imagination, research shows that they are not born or raised in more religious environments than average \[[PDF](https://www.researchgate.net/profile/Andrew_Silke/publication/238721660_Radicalization_Holy_Warriors_Exploring_the_Psychological_Processes_of_Jihadi/links/0a85e53c6983bcbf4a000000.pdf)\]. A [study](http://www.pnas.org/content/113/2/316.abstract) conducted in Palestine even suggests that despite its ability to segment humanity into communities of beliefs, religious sentiment itself does not predispose one to view terrorism as a morally just cause.
+
+![The trolley problem, widely used to study moral decision-making](dilemmetram.png){fig-align="center"}
+
+Adapting the famous [‘trolley problem’](https://fr.wikipedia.org/wiki/Dilemme_du_tramway), researchers asked over 1000 young people whether it would be just to kill a Palestinian to save five Israelis or five Palestinians. The first group was asked to decide directly on the best course of action. The second group was asked which decision God would approve of the most. Contrary to the belief that religious beliefs are the epicenter of inter-ethnic violence, the second group was clearly more inclined than the first to sacrifice the Palestinian man to save Israeli lives...
+
+## Can Violent Deviations Be Prevented Using Neuroscience?
+
+If the terrorist is distinguished neither by their mental state, religiosity, education level, nor beliefs, how can we initiate neurobiological reflection? Let’s perhaps start with what makes a jihadist a criminal: premeditated violence and the act itself.
+
+Scientifically, premeditated violence corresponds to proactive aggression, as opposed to reactive aggression. The causes and consequences of these two phenomena are very different. In 2015, a study conducted with over 250 adolescents showed that proactive violence might reflect a desire to attain high social status, while reactive violence would denote a low social status \[[PDF](https://www.researchgate.net/profile/Yvonne_Van_den_Berg3/publication/281318689_Popularity_Differentially_Predicts_Reactive_and_Proactive_Aggression_in_Early_Adolescence/links/55e1712808aecb1a7cc6631f.pdf)\]. Moreover, while proactive violence is not or is only slightly dependent on circulating cortisol levels (the stress hormone), reactive violence is [strongly](http://link.springer.com/article/10.1007/s10802-008-9263-3) dependent on them. Finally, proactive aggression results more from a difficulty in experiencing emotions, while reactive aggression stems from an inability to regulate these emotions.
+
+At the cerebral level, these findings [translate](http://archpsyc.jamanetwork.com/article.aspx?articleid=1847577'amp;resultclick=1) in proactive violent individuals as hypo-reactivity of a central structure for emotions, the amygdala. In reactive violent individuals, on the other hand, there is an [observed](http://www.biologicalpsychiatryjournal.com/article/S0006-3223%2806%2901064-X/abstract?cc=y=) hyper-reactivity of the same structure. Pursuing a promising research avenue, a research group even showed that [mild electrical stimulation](http://scan.oxfordjournals.org/content/early/2015/02/12/scan.nsv018.abstract) of the anterior prefrontal cortex reduced levels of proactive aggression but had no effect on levels of reactive aggression.
+
+![The amygdala, a key structure for emotions - Anatomography/Wikimedia Commons/CC](amygdale.png){fig-align="center"}
+
+Given that stimulation of the anterior prefrontal cortex also modifies how individuals perceive dominance relationships with others, these results may reinforce the link between proactive violence and the quest for social status (see also the thesis defended by the author of this blog, [PDF](https://drive.google.com/open?id=0Bw7SZPk0IiJjQnJXc3FxcmpKWW8), pp. 241-246).
+
+Will it one day be possible to prevent deviations by treating perpetrators of violent acts early using this technique? Clinical trials may answer this question in the next two decades. In the meantime, it is important to remember that the visibility of laboratory studies is limited, as the most ‘violent’ experimental protocols use only small, low-intensity electric shocks with no consequences.
+
+## Syndrome E, Amphetamines, and Psychopathy
+
+Nearly 20 years ago, neuroscientist Itzhak Fried already suggested that individuals capable of killing coldly stand out less for dysfunctional reasoning than for a 'cognitive fracture' between emotional and decision-making processes \[[PDF](http://cnl.ucla.edu/Pubs/Fried%20The%20Lancet%20(1997).pdf)\]. This fracture would lead to what Fried called 'Syndrome E,' related to [psychopathy](https://fr.wikipedia.org/wiki/Psychopathie), which combines a lack of empathy with various emotional changes.
+
+Moreover, without profoundly altering free will or intent as some [widespread fantasy](http://www.lesinrocks.com/2015/12/20/actualite/le-captagon-adjuvant-de-la-propagande-terroriste-11793573/) might suggest, cocaine and [amphetamines used](http://www.rfi.fr/moyen-orient/20151026-liban-prince-saoudien-arrete-beyrouth-apres-saisie-drogue-captagon-trafic) by some jihadists can nevertheless facilitate the act and composure. Prior to the act itself, because they affect the [dopaminergic](https://fr.wikipedia.org/wiki/Dopamine) system and [alter](https://www.researchgate.net/publication/235728208_Deficient_fear_recognition_in_regular_cocaine_users_is_not_attributable_to_elevated_impulsivity_or_conduct_disorder_prior_to_cocaine_use) the activities of the amygdala, these psychostimulants somewhat mimic psychopathy and induce significant narcissism, excessive self-confidence, and heightened sensitivity to issues of social dominance. The encounter with these substances may therefore play a role in personality changes that precede or accompany radicalization.
+
+## Conclusion
+
+In conclusion, we hope to have demonstrated that research into the causes of terrorism, at both the individual and social group levels, is feasible, desirable, and that its findings sometimes directly oppose certain preconceived ideas about the phenomenon. This is why the notion that the only brains that matter are those we have yet to kill or imprison is particularly deadly.
+
+By focusing our attention on this elusive 'brain behind the attacks' that supposedly hops between the bombs of our Rafales, we lose sight of the essential: the causes that led some French people to sacrifice their lives to punish the people they are supposed to belong to. Just like the real-fake 'closure of borders' enacted and then canceled by François Hollande on the evening of November 13, or the absurd debate on 'nationality revocation,' the hunt for the 'brain behind the attacks' fits into a subtle game of semantic shifts that likely serve the electoral ambitions of some but also oppose intelligent counter-terrorism efforts.
+
+[**Link to the original article**](https://www.nouvelobs.com/rue89/rue89-neuro89/20160117.RUE2220/le-cerveau-des-attentats-au-pied-de-la-lettre.html)
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

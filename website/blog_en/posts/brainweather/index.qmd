@@ -1,0 +1,55 @@
+---
+title: "Brain Weather: How Our Emotions Fluctuate with the Seasons"
+author: "RL, Libération"
+date: "2018-10-12"
+categories: [liberation, neuroscience, light, neuromodulation]
+image: "meteocerveau.jpg"
+description: "The French team is the world champion and Brigitte Macron is lounging by the pool waiting for the liberal ratatouille vintage 2018 to finish simmering in Parliament. In short, it’s mid-August and the sun is shining above our heads."
+title-block-banner: "meteocerveau.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
+---
+
+For most of us, despite the political frustrations that afflict some, summer is synonymous with good mood. This trend directly affects web platforms like Twitter, where positively connoted words become more frequent ([Golder & Maci, 2011](https://web.archive.org/web/20201205021208/http://science.sciencemag.org/content/sci/333/6051/1878.full.pdf?casa_token=00-l9mSMK0sAAAAA:rBMnpd-MAo7RUucQAz277KCsUVK0Lrw1tCM1HFd79ct_rlSSvdSy9sNPrXTLzXCc6q8BeelP7KTnoQ)) while negatively connoted words decrease. The analysis of mood changes on the web (“[sentiment analysis](https://web.archive.org/web/20201205021208/https://en.wikipedia.org/wiki/Sentiment_analysis)” in English) suggests that even our anxieties ease as Wikipedia searches related to various illnesses drop during the summer period.
+
+What happens in our brain that might explain why our vocabulary and moods warm up as our skins caramelize? To answer this question, we must delve into a scientific field as vast as it is fascinating: [chronobiology](https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/Chronobiologie), which, as its etymology indicates, studies how organisms adapt to the temporal cycles of Mother Nature.
+
+![The analysis of internet users' behavior on Twitter and Wikipedia illustrates mood changes throughout the year. For example, searches related to various psychiatric disorders increase in winter and early spring, just as tweets containing keywords like "anger," "sadness," or "anxiety" rise in autumn (Dzogang et al., 2016, see also).](cycles.jpg){fig-align="center" width="645"}
+
+While the structure of the human brain is remarkably stable compared to that of smaller mammals (like the squirrel, whose brain shrinks by [10 to 25%](https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/?term=Profound+seasonal+changes+in+brain+size+and+architecture+in+the+common+shrew) in winter!), most of our body systems still adapt, to varying degrees, to the differences in light, humidity, and temperature that characterize each season.
+
+But in terms of the “seasonality of emotions,” it is primarily the famous [serotonin](https://web.archive.org/web/20201205021208/http://lecerveau.mcgill.ca/flash/d/d_08/d_08_m/d_08_m_dep/d_08_m_dep.html) that we should look at. Involved in mood regulation, learning, appetite, and impulsivity, a series of studies demonstrates the existence of a “circannual” rhythm in this complex [neuromodulator](https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/Neuromodulation) which is also one of the most important therapeutic targets for contemporary psychiatry.
+
+### Serotonin and Sunshine
+
+Thus, the membrane transporter of serotonin, which helps clear the molecule after it has been released, decreases in concentration in summer and increases in winter ([Praschak-Rieder et al., 2008](https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/18762593); [Kalbitzer et al., 2010](https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/20110086)). This annual variation is especially relevant as it appears absent in those who suffer from [seasonal depression](https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/D%C3%A9pression_saisonni%C3%A8re) (seasonal affective disorder in English; [McMahon et al., 2016](https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/26994750)). It is striking to note that classical antidepressants mimic the effect of the sun, as they also act by [reducing the effectiveness of the serotonin transporter](https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/Inhibiteur_s%C3%A9lectif_de_la_recapture_de_la_s%C3%A9rotonine).
+
+Two other aspects of the system also fluctuate throughout the year: the activity of the serotonergic neurons themselves increases with day length ([Green et al., 2015](https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/25959961)) as does the density of certain receptors that bridge the “serotonin signal” and our behavior ([the 5HT1A](https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/25772667), for purists). Not to mention the cycles observed in the synthesis and degradation pathways of the molecule ([Maes et al., 1995](https://web.archive.org/web/20201205021208/https://jamanetwork.com/journals/jamapsychiatry/article-abstract/497278); [Lambert et al., 2002](https://web.archive.org/web/20201205021208/https://www.sciencedirect.com/science/article/pii/S0140673602117375); [Luykx et al., 2013](https://web.archive.org/web/20201205021208/https://www.nature.com/articles/tp201384))... More signal at the base, less evacuation, and more receptors to receive it, all point in the same direction, making it quite natural to think that the serotonergic system as a whole significantly contributes to the fluctuation of our moods, and perhaps even some of our cognitive abilities ([Keller et al., 2005](https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/?term=A+Warm+Heart+and+a+Clear+Head); [Meyer et al., 2016](https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/26858432))!
+
+![On the left, representation of the transporter responsible for serotonin reuptake after its release (excerpt from a detailed and interesting blog post on the sometimes exaggerated role of the serotonin transporter in popularizing psychiatric disorders). On the right, fluctuation of the transporter’s expression throughout the year, with its characteristic peak in mid-winter (Kalbitzer et al., 2010).](serosaison.jpg){fig-align="center" width="860"}
+
+Should we then soak up the sun in summer to charge up on good mood for the entire year? Is the phenomenon related to excessive sunbathing or the intensive use of tanning beds observed in some? It’s hard to say, especially since we don’t yet know if light has a direct impact or if the observed effects are due to another factor, which could be related to dietary changes or increased physical activity in summer.
+
+It would therefore be reductive and even rash to hope to explain everything by serotonin, especially since other related chemical signals (like [dopamine](https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/21048126)) also vary with the seasons. Regarding exposure to solar or artificial UV, a recent study conducted on mice suggests that it is actually [endorphins](https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/Endorphine) that explain the development of true addictive behaviors ([Fell et al., 2014](https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/24949966)). The idea is quite simple: prolonged exposure to UV causes a series of micro-traumas to our skin, which reacts by releasing these natural painkillers known as endorphins. In turn, these endorphins induce a feeling of relaxation and well-being similar to what joggers feel after a long run. And like [athletes](https://web.archive.org/web/20201205021208/https://www.sciencedirect.com/science/article/abs/pii/S0031938416300269), a small proportion of individuals sensitive to this mechanism would develop a form of UV addiction that is increasingly concerning [in the United States](https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/28639816).
+
+### A Summer Picture Not So Rosy
+
+Furthermore, as often in science, what seems obvious at first glance turns out to be more complex than it appears. For example, contrary to a deeply rooted popular belief, it is not during winter that the deepest psychological distresses manifest. The vast majority of available data indicates that suicide rates actually peak [at the end of spring and early summer](https://web.archive.org/web/20201205021208/https://www.theguardian.com/science/2005/may/12/mentalhealth.society).
+
+Conducted in the United States and Mexico, a study published on [July 28](https://web.archive.org/web/20201205021208/https://www.nature.com/articles/s41558-018-0222-x) in the journal Nature Climate Change even shows a clear correlation between suicide rates and temperature variations from one year to the next. In other words, for a given month, suicide rates increase when temperatures are above usual values. And the effect sizes are so impressive that researchers estimate that global warming could have an impact similar to that of an economic crisis by 2050: for each additional degree, the suicide rate increases by 0.7% in the US and 2.1% in Mexico. To better understand the link between these two variables, researchers then analyzed 600 million tweets posted in these two regions. Unexpectedly but consistently with epidemiological observations, this second analysis reveals a positive correlation between monthly temperature and the number of “depressive connotation tweets.”
+
+![Map showing the effect of temperatures higher (in red) or lower (in blue) than seasonal normals on suicide rates in the United States and Mexico (excerpt from Burke et al., 2018).](suicide_ete.jpg){fig-align="center" width="637"}
+
+So, while summer brings its share of joys (and serotonin?) to most of us, it also represents a difficult period for vulnerable and fragile people. If the authors of the American study support the idea that the increase in suicide rates rests on a biological mechanism, they do not specify which one. In any case, it is known that summer can exacerbate social isolation, especially among those who do not have the chance to go on vacation and among the elderly (about [40% of the population](https://web.archive.org/web/20201205021208/https://www.inegalites.fr/Qui-va-partir-en-vacances) in France).
+
+Hence the usefulness of postcards!
+
+[**Original Article (Wayback Machine)**](http://hemisphere-gauche.blogs.liberation.fr/2017/10/14/neurosciences-contre-sciences-sociales-lerreur-de-frederic-lordon/)
+
+<script src="https://giscus.app/client.js"         data-repo="romainligneul/giscus-comments"         data-repo-id="R_kgDOMSMTIw"         data-category="CommentsBlogFR"         data-category-id="DIC_kwDOMSMTI84CglZk"         data-mapping="pathname"         data-strict="0"         data-reactions-enabled="1"         data-emit-metadata="0"         data-input-position="top"         data-theme="preferred_color_scheme"         data-lang="en"         crossorigin="anonymous"         async> </script>

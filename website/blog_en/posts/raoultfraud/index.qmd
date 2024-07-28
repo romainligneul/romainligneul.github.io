@@ -1,0 +1,73 @@
+---
+title: "Didier Raoult Accused of Scientific Fraud: What Should We Believe?"
+author: "RL, Libération"
+date: "2020-03-28"
+categories: [liberation, covid19, research]
+image: "dore_virus.jpg"
+description: "A scathing article on Didier Raoult published at a time when the media and politicians were still showering him with praise."
+title-block-banner: "dore_virus.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
+---
+
+Since the beginning of the Covid-19 crisis, Professor Didier Raoult has established himself as an essential figure in the public debate through forceful statements and extensive interviews.
+
+Unsurprisingly, the publication of the results of his study evaluating the effectiveness of a treatment combining chloroquine and azithromycin received significant media attention. Given Professor Raoult's controversial reputation and the sensitive nature of the study, it is not surprising that the scientific community also scrutinized the results with a particularly critical eye.
+
+Approved on March 6, submitted on March 16, and published on March 20, this study is currently the subject of accusations of negligence or even scientific fraud by several researchers and science journalists. Among them, the tenacious Leonid Schneider — who was already at the origin of [the Catherine Jessus case in 2017](https://web.archive.org/web/20201205015421/https://fr.wikipedia.org/wiki/Catherine_Jessus#Affaire_de_m%C3%A9conduite_scientifique) — published a particularly harsh blog post against Professor Raoult. As in the Jessus case, this new [post](https://web.archive.org/web/20201205015421/https://forbetterscience.com/2020/03/26/chloroquine-genius-didier-raoult-to-save-the-world-from-covid-19/?fbclid=IwAR0KXLuANcVozIE_P6EpSY5O0p0DgkN4pTXtGm6htfhqt1L5l5Joe76xKsw) mixes proven facts, ad hominem attacks, and "evidence" of scientific fraud.
+
+In the face of what can only be called a torrent of mud, what should we believe?
+
+### Personal Attacks, Fraud Accusations, and Methodological Criticisms
+
+As is often the case in such situations, there are objective facts, hypotheses to verify, and contextual elements that contribute to painting an unnecessarily dark picture.
+
+I will not dwell on the second part of Schneider's post, which accuses Professor Didier Raoult of being a torturer who does not hesitate to publicly humiliate his students, a misogynist who tried to cover up a sexual harassment case within his institute, and an early climate change skeptic. Given his [overinflated ego](https://web.archive.org/web/20201205015421/https://www.francetvinfo.fr/sante/maladie/coronavirus/coronavirus-qui-est-didier-raoult-la-star-mondiale-de-la-microbiologie-qui-assure-avoir-trouve-le-remede-contre-le-covid-19_3884387.html) and his tendency to denigrate his peers, it is not surprising that Professor Raoult has made many enemies, and it is not for me to judge the veracity of the facts presented, as concerning as they appear. But if we want to portray the man behind the researcher, we must not forget that we are still talking about a doctor who has dedicated his life to treating patients and advancing infectiology.
+
+Among the hypotheses to be verified are several serious accusations of scientific fraud related to recent publications co-signed by Professor Raoult. However, image manipulations and sequencing errors will need to be thoroughly investigated before being considered as proof of fraud. Additionally, Professor Raoult is only an intermediate author on most of these studies: given the enormous number of articles he publishes each year, it is highly unlikely that these errors — if proven — are the result of direct intervention on his part.
+
+In my opinion, this accumulation of accusations looks more like a witch hunt than scientific criticism, and it obscures the essential question: should we place our hopes in the treatment proposed by Professor Didier Raoult? Here, it is no longer the statements and insinuations of Leonid Schneider that need to be examined, but the facts highlighted by other active researchers.
+
+### Triple Hats and Flawed Statistics
+
+Before diving into the heart of the matter, it is worth noting with some discomfort that the editor-in-chief of the [journal](https://web.archive.org/web/20201205015421/https://www.journals.elsevier.com/international-journal-of-antimicrobial-agents) where the article was published is none other than Jean-Marc Rolain, who is also a co-author and subordinate of Professor Raoult at the IHU Méditerranée. Such triple roles are generally frowned upon in the academic world because it becomes difficult to believe in an impartial and unbiased evaluation of the scientific quality of the work reported.
+
+Most of the criticisms have been posted on the site [Pubpeer](https://web.archive.org/web/20201205015421/https://pubpeer.com/publications/B4044A446F35DF81789F6F20F8E0EE) (a platform for post-publication peer review) or on [MedRxiv](https://web.archive.org/web/20201205015421/https://www.medrxiv.org/content/10.1101/2020.03.16.20037135v1) (a preprint server for health sciences). However, one should first look at the very concise report posted by three British researchers on the site [Zenodo](https://web.archive.org/web/20201205015421/https://zenodo.org/record/3724167#.Xn92T4j7SUm). Proof of the attention it garnered, this report was downloaded over 18,000 times in five days.
+
+The report's authors first indicate that the paper underwent virtually no modifications between its posting on MedRxiv and its "official" publication in Jean-Marc Rolain's journal. This means that the reviewers responsible for identifying any methodological issues found none, or their criticisms were ignored.
+
+However, the criticisms are numerous and often legitimate:
+
+• The statistical analyses reported in the paper are flawed because age and symptom differences between the tested groups were not accounted for. That said, a [reanalyis of the data](https://web.archive.org/web/20201205015421/https://nfaivre.netlify.com/files/master.html) shows that the main effects hold when these variables are considered.
+
+• The possible (and likely) existence of biases in how patient groups were constituted. Thus, the control group patients (i.e., without treatment) were not all treated by Professor Raoult's institute, unlike the patients receiving chloroquine. However, since the control group patients were on average younger and less often male, this lack of randomization probably does not invalidate the study's conclusions on its own.
+
+• More problematic is that Professor Raoult's team excluded six patients from the treatment group post hoc. Among them, one death, three patients admitted to intensive care, one patient with nausea, and one patient who "left the hospital." This is serious because at least four of these patients can be considered therapeutic failures. Excluding them could have significantly skewed the statistical conclusions given the small sample sizes tested.
+
+• Finally, and most importantly, the report's authors and many other scientists point to the absence of proper clinical data on patient outcomes. The only variable considered is viral load, so it is exaggerated and even dishonest to loudly proclaim, based on this study alone, that the combination of chloroquine and azithromycin constitutes a treatment for the disease. To date, the only [other publication](https://web.archive.org/web/20201205015421/http://www.zjujournals.com/med/EN/10.3785/j.issn.1008-9292.2020.03.03#1) evaluating chloroquine's effectiveness suggests that it has no effect, taken alone, on clinical outcomes. It is therefore possible that Professor Raoult's treatment makes the virus undetectable in the upper airways (where the samples are taken) without eradicating it from the rest of the body (notably the lungs).
+
+### A Deplorable Media Strategy
+
+These criticisms suggest that Professor Raoult and his team's recommendations are very premature, and certain irregularities highlighted — both in the British researchers' report and on Pubpeer — suggest that the analyses fall far short of the standards expected given the severity of the crisis and the therapeutic directions that might be taken in response to the infectious disease specialist's media campaign.
+
+Of course, the health emergency justifies the rapid publication of the most promising scientific results. That is not the question. Nor is it a question of who Professor Raoult really is. What matters now is that the public debate can take place in good conditions without anyone using the crisis to put themselves in the spotlight.
+
+There is thus reason to be annoyed by Professor Raoult's explosive and immodest positions, as he is quick to self-congratulate and disqualify the work of his peers.
+
+And there is reason to lament, conversely, the little attention received by the Academy of Medicine, which considers that "the public release of hydroxychloroquine for hospitalized patients in respiratory distress is not an appropriate response for patients whose viral load is, at this stage, mostly nonexistent and whose illness is no longer a strictly viral disease but a pulmonary failure" (official statement, [here](https://web.archive.org/web/20201205015421/http://www.academie-medecine.fr/wp-content/uploads/2020/03/20.3.26-Communiqu%C3%A9-Anm-AnP-Chloroquine.pdf?fbclid=IwAR0JDrgql1A2se6XKhzcatX6a6HS8KfSVOoXetI_e0mnU3F46P4vA-HnMaM)).
+
+### Further Reading
+
+[Analysis](https://web.archive.org/web/20201205015421/https://www.heidi.news/articles/coronavirus-didier-raoult-enfonce-le-clou-avec-une-deuxieme-publication-sur-la-chloroquine?fbclid=IwAR12JA0ZUX6fU-x38-uNfPDxAKHxwOE_wfOa-afqmiH7CNROSUBml7-u_zg) of the latest paper published on Saturday, March 28, by Professor Raoult's team, still inconclusive despite the inclusion of a larger number of patients.
+
+Illustration, [Antoine Doré](https://web.archive.org/web/20201205015421/https://www.instagram.com/antoinedoreart/?hl=fr)
+
+[**Original Article (Wayback Machine)**](https://web.archive.org/web/20201205015421/http://hemisphere-gauche.blogs.liberation.fr/2020/03/28/didier-raoult-accuse-de-fraude-scientifique-que-faut-il-croire/)
+
+<script src="https://giscus.app/client.js"         data-repo="romainligneul/giscus-comments"         data-repo-id="R_kgDOMSMTIw"         data-category="CommentsBlogFR"         data-category-id="DIC_kwDOMSMTI84CglZk"         data-mapping="pathname"         data-strict="0"         data-reactions-enabled="1"         data-emit-metadata="0"         data-input-position="top"         data-theme="preferred_color_scheme"         data-lang="en"         crossorigin="anonymous"         async> </script>

@@ -1,0 +1,68 @@
+---
+title: "Is Trump's Victory a Defeat for Intelligence?"
+author: "RL, Libération"
+date: "2016-11-09"
+categories: [neuro89, cognitive sciences, politics, inequalities]
+image: "trump.jpg"
+description: "To what extent did voters' intelligence determine the outcome of the American presidential election? A scientific study published on November 3, 2016, explores this question."
+title-block-banner: "trump.jpg"
+include-in-header:
+  - text: |
+      <style>
+      .quarto-title-block .quarto-title-banner {
+        background-position-y: center;
+        height: 400px;
+      }
+      </style>
+---
+
+Entitled "Cognitive Ability and Authoritarianism: Understanding Support for Trump and Clinton," [the article](https://web.archive.org/web/20200831015721/http://www.sciencedirect.com/science/article/pii/S0191886916310911) by Becky Choma and Yaniv Hanoch describes the complex relationship between cognitive ability and support for the new American president, Donald Trump.
+
+Specifically, the researchers invited 400 American voters to take an IQ test (very abbreviated, hence the vague term "cognitive ability") and a series of questionnaires. Among these were questions about voting intentions and pro-Trump opinions, as well as two personality scales known as SDO (Social Dominance Orientation) and RWA (Right-Wing Authoritarianism).
+
+The [SDO](https://web.archive.org/web/20200831015721/https://blogs.mediapart.fr/horslesmurs/blog/110816/inegalites-sociales-le-profil-cognitif-de-ceux-qui-s-en-foutent) is frequently used in psychology to assess the tendency to legitimize hierarchical relationships within societies (e.g., men-women, whites-minorities, etc.). The [RWA](https://web.archive.org/web/20200831015721/http://quebec.huffingtonpost.ca/Bruno%20Mass%C3%A9/psychologie-conservateurs-canada_b_3279747.html) is used to evaluate the tendency to desire an authoritarian, conservative government that upholds traditional, particularly religious, values.
+
+### The Indirect Link Between Trumpism and Intelligence
+
+While the results indicate there is no *direct* link between intelligence and voting for Trump, they do highlight an *indirect* link.
+
+A path analysis ([PDF](https://web.archive.org/web/20200831015721/http://leger360.com/admin/leger_a/fr_la7_pathanalysis.pdf)) revealed that lower cognitive ability is, on average, associated with a stronger legitimization of existing dominance relationships (SDO) and a stronger attraction to authoritarian and traditionalist policies (RWA). Since these two scales have a powerful impact on adherence to Trump's theses (and more generally to [conservative theses](https://web.archive.org/web/20200831015721/https://blogs.mediapart.fr/horslesmurs/blog/110816/inegalites-sociales-le-profil-cognitif-de-ceux-qui-s-en-foutent)), intelligence likely played an indirect role in the outcome of the American presidential election.
+
+In summary, individuals with lower IQs were, on average, more likely to vote for Trump due to increased sensitivity to discourses that propose reinforcing the domination of certain social groups over others, based on religious or racial distinctions. It would have been interesting to know if these same voters also readily accept authority relationships based on intellectual or academic distinctions, but the researchers did not address this question.
+
+![Summary of the study published in the Journal of Personality and Individual Differences on 11/3/2016. Plus symbols (+) denote a positive association between variables, minus symbols (-) denote a negative association.](mediation.jpg){fig-align="center" width="744"}
+
+Obviously, since the study was conducted online and the evaluation of intelligence remains very rudimentary, its results should be interpreted with caution. Moreover, although statistically significant, the effect explains only a small portion of the variance in voting intentions (less than 5%). Finally, the mechanism linking intelligence and political opinions could be different in the United States and France.
+
+That said, the researchers accounted for the influence of many other variables on the result, which is a strength. For example, their data show that being older or wealthier facilitates voting for Trump, while being more educated facilitates voting for Clinton, but accounting for these demographic factors does not change the main effect of the study: the indirect link "intelligence → SDO/RWA → vote Trump" remains.
+
+### A Struggle for Simplicity
+
+Is Choma and Hanoch's study relevant for countering the rise of far-right ideas in French society?
+
+Perhaps. Indeed, if the difficulty in understanding the world we live in is the reason for communal retreat and authoritarian desire, it seems essential for the (true) left to clearly articulate its vision of the world and its project for the future. In other words, to simplify its message without falling into simplism and without betraying itself.
+
+Some might argue that it is technically impossible to be simpler than the primary Manichaeism of a Trump or a Le Pen.
+
+But this is not necessarily true. After all, far-right discourses rely on constructing a binary world distinguishing *them* and *us*, while internationalist left has always pursued the idea of a unitary world, that of *humanity*.
+
+Putting this *human* at the forefront and showing the difficulty of establishing a sensible and non-arbitrary demarcation between *them* and *us* could ultimately shift the simplicity to the other side.
+
+
+[**Original Article (Wayback Machine)**](https://web.archive.org/web/20200831015721/http://hemisphere-gauche.blogs.liberation.fr/2016/11/09/victoire-de-trump-une-defaite-de-lintelligence/)
+
+<script src="https://giscus.app/client.js"
+        data-repo="romainligneul/giscus-comments"
+        data-repo-id="R_kgDOMSMTIw"
+        data-category="CommentsBlogFR"
+        data-category-id="DIC_kwDOMSMTI84CglZk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
