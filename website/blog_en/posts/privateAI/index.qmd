@@ -1,11 +1,11 @@
 ---
-title: "L'intelligence artificielle générale comme propriété privée?"
+title: "OpenAI business model: towards private AGI?"
 author: "RL, Libération"
 date: "2020-08-06"
-categories: [liberation, IA, économie, sciences cognitives]
+categories: [liberation, IA, economics, cognitive sciences]
 image: "coverIAprivee.jpg"
 image-alt: "Wiki Commons @mikemacmarketing"
-description: "Le modèle de Bill Gates et Elon Musk à la lumière du réseau de neurones GPT-3."
+description: "An essay exploring the perspectives of tech giants through the lens of advanced AI."
 title-block-banner: "coverIAprivee.jpg"
 include-in-header:
   - text: |

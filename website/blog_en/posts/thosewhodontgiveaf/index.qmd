@@ -2,7 +2,7 @@
 title: "Social Inequalities: The Cognitive Profile of Those Who Don't Care."
 author: "RL, Mediapart"
 date: "2016-08-11"
-categories: [mediapart, politics, inequalities, psychiatry, cognitive sciences]
+categories: [politics, inequalities, psychiatry, cognitive sciences]
 image: "dore_quisenfoutent.jpg"
 image-alt: "Those Who Don't Care. © Antoine Doré @ http://www.antoinedore.com/"
 description: "The power dynamics governing French society were exposed in the spring of 2016. What lessons can we learn, and more importantly, what should we do? This rant offers some answers inspired by research in cognitive and social sciences."

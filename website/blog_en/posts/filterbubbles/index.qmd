@@ -2,7 +2,7 @@
 title: "Presidential Elections and Filter Bubbles: Scrutinizing Facebook's Political Referencing"
 author: "RL, Libération"
 date: "2017-04-04"
-categories: [liberation, politique, citizen science, medias, social network]
+categories: [liberation, politics, citizen science, medias, social network]
 image: "bleu_blanc_rouge.jpg"
 description: "The opinions and content shared daily on Facebook are increasingly playing a role in the democratic process. Given the opacity of the algorithms that control information transmission on the social network, only citizen experimentation can assess their neutrality and their impact on our perception of the political world."
 title-block-banner: "bleu_blanc_rouge.jpg"

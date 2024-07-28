@@ -2,7 +2,7 @@
 title: "A Remarkable Brain Factory"
 author: "RL, Manières de voir"
 date: "2017-11-05"
-categories: [diplo, neuroscience, research, cuba]
+categories: [neuroscience, research, cuba]
 image: "cover.png"
 image-alt: Tomás Munita. — The Capitol of Havana, 2012
 description: "Report published in the monthly supplement of Le Monde Diplomatique following a trip to Cuba and a visit to the Havana Neuroscience Center"

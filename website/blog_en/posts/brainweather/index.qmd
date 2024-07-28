@@ -2,7 +2,7 @@
 title: "Brain Weather: How Our Emotions Fluctuate with the Seasons"
 author: "RL, Libération"
 date: "2018-10-12"
-categories: [liberation, neuroscience, light, neuromodulation]
+categories: [liberation, neuroscience, neuromodulation, psychiatry]
 image: "meteocerveau.jpg"
 description: "The French team is the world champion and Brigitte Macron is lounging by the pool waiting for the liberal ratatouille vintage 2018 to finish simmering in Parliament. In short, it’s mid-August and the sun is shining above our heads."
 title-block-banner: "meteocerveau.jpg"

@@ -6,7 +6,7 @@ about:
 ---
 
 ::: {#centered .h4 style="text-align: center; margin-top:0.5rem; margin-bottom:1.2rem"}
-Chercheur (neurosciences, sciences cognitives), geek, blogueur
+Chercheur, geek, blogueur, citoyen
 
 {{< iconify emojione flag-for-france >}}
 :::
@@ -16,7 +16,7 @@ To see my web page in English, click here: [{{< iconify emojione flag-for-us-out
 The content of English and French version is quite different.
 :::
 
-Bienvenu.e.s sur ma page francophone, qui n'a presque rien à voir avec son homologue anglophone, beaucoup plus orientée vers la science, la modélisation, le code informatique, etc. Je suis en effet chercheur dans une autre vie (située à un [clic](./..){target="_blank"} d'ici).
+Bienvenu.e.s sur ma page francophone, qui n'a pas grand chose à voir avec son homologue anglophone, plus orientée vers la science, la modélisation, le code informatique, etc. Si vous cherchez le site web de mon groupe de recherche (en anglais), c'est ici: [adaptivecontrol.org](https://www.adaptivecontrol.org/).
 
 Dans ma vie francophone, je passe un certain temps à écrire pour, et parfois à parler devant, un public varié.
 

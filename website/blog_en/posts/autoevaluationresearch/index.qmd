@@ -2,7 +2,7 @@
 title: "Towards Self-Assessment and Horizontal Resource Control in Academia? "
 author: "RL, Libération"
 date: "2020-01-23"
-categories: [liberation, neuroscience, economy, research]
+categories: [liberation, neuroscience, economics, research]
 image: "autoeval_banner.jpg"
 description: "Critiques of the Existing System and Possible Alternatives"
 title-block-banner: "autoeval_banner.jpg"
