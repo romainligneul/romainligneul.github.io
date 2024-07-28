@@ -10,7 +10,7 @@ listing:
   feed: true
 page-layout: full
 title-block-banner: "banner_blog.png"
-image: "/blog_english/banner_blog_card.png"
+image: "/blog_en/banner_blog_card.png"
 description: "Science & society"
 include-in-header:
   - text: |
@@ -21,3 +21,5 @@ include-in-header:
       }
       </style>
 ---
+
+A selection of science-society and science popularization blog posts that may interest non-French readers, as well as some reading notes and comments on original research papers.
