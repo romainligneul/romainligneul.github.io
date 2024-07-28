@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="RL, Libération">
+<meta name="dcterms.date" content="2017-04-04">
+<meta name="description" content="The opinions and content shared daily on Facebook are increasingly playing a role in the democratic process. Given the opacity of the algorithms that control information transmission on the social network, only citizen experimentation can assess their neutrality and their impact on our perception of the political world.">
+
+<title>Presidential Elections and Filter Bubbles: Scrutinizing Facebook’s Political Referencing – RL  </title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../favicon.ico" rel="icon">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-CFSZ45W5CV"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+ 
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied'
+  });
+gtag('config', 'G-CFSZ45W5CV', { 'anonymize_ip': true});
+</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(bleu_blanc_rouge.jpg);
+background-size: cover;
+      }
+</style>
+<style>
+.quarto-title-block .quarto-title-banner {
+  background-position-y: center;
+  height: 400px;
+}
+</style>
+
+
+<meta property="og:title" content="Presidential Elections and Filter Bubbles: Scrutinizing Facebook’s Political Referencing – RL">
+<meta property="og:description" content="The opinions and content shared daily on Facebook are increasingly playing a role in the democratic process. Given the opacity of the algorithms that control information transmission on the social network, only citizen experimentation can assess their neutrality and their impact on our perception of the political world.">
+<meta property="og:image" content="https://romainligneul.github.io/blog_en/posts/filterbubbles/bleu_blanc_rouge.jpg">
+<meta property="og:site_name" content="Romain Ligneul">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:title" content="Presidential Elections and Filter Bubbles: Scrutinizing Facebook’s Political Referencing – RL">
+<meta name="twitter:description" content="The opinions and content shared daily on Facebook are increasingly playing a role in the democratic process. Given the opacity of the algorithms that control information transmission on the social network, only citizen experimentation can assess their neutrality and their impact on our perception of the political world.">
+<meta name="twitter:image" content="https://romainligneul.github.io/blog_en/posts/filterbubbles/bleu_blanc_rouge.jpg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">RL</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../blog_en/"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../codes.html"> 
+<span class="menu-text">Code</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../.././"> 
+<span class="menu-text"><iconify-icon inline="" icon="emojione:flag-for-us-outlying-islands" aria-label="Icon flag-for-us-outlying-islands from emojione Iconify.design set." title="Icon flag-for-us-outlying-islands from emojione Iconify.design set."></iconify-icon></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../.././fr"> 
+<span class="menu-text"><iconify-icon inline="" icon="emojione:flag-for-france" aria-label="Icon flag-for-france from emojione Iconify.design set." title="Icon flag-for-france from emojione Iconify.design set."></iconify-icon></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="https://github.com/romainligneul" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-twitter"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://twitter.com/causalself">
+            (EN, research)
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://twitter.com/nerfsocial">
+            (FR, society)
+            </a>
+          </li>
+      </ul>
+    </div>
+    <a href="https://www.linkedin.com/in/romain-ligneul-b63b46192/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://www.adaptivecontrol.org" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-lightbulb"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Presidential Elections and Filter Bubbles: Scrutinizing Facebook’s Political Referencing</h1>
+                  <div>
+        <div class="description">
+          The opinions and content shared daily on Facebook are increasingly playing a role in the democratic process. Given the opacity of the algorithms that control information transmission on the social network, only citizen experimentation can assess their neutrality and their impact on our perception of the political world.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">liberation</div>
+                <div class="quarto-category">politique</div>
+                <div class="quarto-category">citizen science</div>
+                <div class="quarto-category">medias</div>
+                <div class="quarto-category">social network</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>RL, Libération </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 4, 2017</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#experimenting-on-facebook-or-the-reign-of-system-d" id="toc-experimenting-on-facebook-or-the-reign-of-system-d" class="nav-link active" data-scroll-target="#experimenting-on-facebook-or-the-reign-of-system-d">Experimenting on Facebook or the Reign of System-D</a></li>
+  <li><a href="#filter-bubbles-in-the-context-of-french-presidential-elections" id="toc-filter-bubbles-in-the-context-of-french-presidential-elections" class="nav-link" data-scroll-target="#filter-bubbles-in-the-context-of-french-presidential-elections">Filter Bubbles in the Context of French Presidential Elections</a></li>
+  <li><a href="#filter-bubbles-and-useful-voting" id="toc-filter-bubbles-and-useful-voting" class="nav-link" data-scroll-target="#filter-bubbles-and-useful-voting">“Filter Bubbles” and Useful Voting</a></li>
+  <li><a href="#sensitive-issue-and-slippery-slope-does-facebook-favor-certain-candidates" id="toc-sensitive-issue-and-slippery-slope-does-facebook-favor-certain-candidates" class="nav-link" data-scroll-target="#sensitive-issue-and-slippery-slope-does-facebook-favor-certain-candidates">Sensitive Issue and Slippery Slope: Does Facebook Favor Certain Candidates?</a></li>
+  <li><a href="#how-does-facebook-know-who-you-will-vote-for" id="toc-how-does-facebook-know-who-you-will-vote-for" class="nav-link" data-scroll-target="#how-does-facebook-know-who-you-will-vote-for">How Does Facebook Know Who You Will Vote For?</a></li>
+  <li><a href="#going-further" id="toc-going-further" class="nav-link" data-scroll-target="#going-further">Going Further</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>With over <a href="https://web.archive.org/web/20201021022118/http://www.blogdumoderateur.com/chiffres-facebook/">30 million registered users</a> in France, the web giant has become an indispensable tool for politicians, activists, and journalists shaping our democracy. The information circulated there significantly influences the evolution (or stagnation) of our political opinions and our perception of the voting intentions of our social circle.</p>
+<p>Since 2013, the platform’s initial algorithm, known as <a href="https://web.archive.org/web/20201021022118/https://fr.wikipedia.org/wiki/EdgeRank">Edge Rank</a>, has been replaced by several much more complex artificial intelligence algorithms: at its introduction, a Facebook engineer estimated that about <a href="https://web.archive.org/web/20201021022118/http://marketingland.com/edgerank-is-dead-facebooks-news-feed-algorithm-now-has-close-to-100k-weight-factors-55908">100,000 factors</a> were taken into account to determine which content would be shown to a given user. As I already wrote in <a href="https://web.archive.org/web/20201021022118/http://tempsreel.nouvelobs.com/rue89/rue89-parti-pris/20151117.RUE1354/changez-votre-photo-de-profil-facebook-et-le-bleu-blanc-rouge-en-un-clic.html">November 2015 after the Paris attacks</a>, there are no reasons other than conspiracy theories to think that Facebook uses its incredible power of influence to knowingly sway the evolution of contemporary societies.</p>
+<p>However, there are also very few means for citizens and public institutions to exclude such a hypothesis, since the content referencing procedure employed by Facebook is not made public, only a minority of shared content is accessible beyond “friend circles” (unlike Twitter, for example), and it is impossible to display these contents in a truly chronological order, which would facilitate the examination of its operation and any potential representation biases among users.</p>
+<p>What will be the impact of this “intelligent” filtering on the 2017 presidential elections? No one can say for certain, but this should not prevent us from asking the question.</p>
+<section id="experimenting-on-facebook-or-the-reign-of-system-d" class="level3">
+<h3 class="anchored" data-anchor-id="experimenting-on-facebook-or-the-reign-of-system-d">Experimenting on Facebook or the Reign of System-D</h3>
+<p>Thus, only the goodwill of citizens willing to coordinate to conduct experiments on the social network allows for the study and monitoring of how the company controls the transmission of information shared there. It is precisely the results of such an initiative that I report here (Figure 1).</p>
+<p>In order to see whether Facebook favors certain presidential candidates and to what extent the “filter bubble” effect that locks us into our own political preferences is real, I asked 30 Facebook users to successively post five messages of support for the 5 main presidential candidates: Jean-Luc Mélenchon (JLM), Benoît Hamon (BH), Emmanuel Macron (EM), François Fillon (FF), and Marine Le Pen (MLP). All the messages were formatted as follows:</p>
+<blockquote class="blockquote">
+<p>That’s it, I’ve decided. In the presidential elections, I will vote for XXXXX!<br>
+This is an experiment, not spam. To participate (1 to 5 min) click here: <a href="https://web.archive.org/web/20201021022118/https://goo.gl/forms/uGy3dRtxu11xKwSe2">https://goo.gl/forms/uGy3dRtxu11xKwSe2</a><br>
+Please: do not like / do not share / do not comment on this post<br>
+<a href="https://web.archive.org/web/20201021022118/https://www.xxxxx2017.fr/">https://www.xxxxx2017.fr/</a><br>
+<br>
+</p>
+</blockquote>
+<p>The letters <em>XXXXX</em> were replaced in each of the 5 messages by the name of each candidate (example: François Fillon and <a href="https://web.archive.org/web/20201021022118/http://www.fillon2017.fr/">www.fillon2017.fr</a>). A specific order of publication was assigned in advance so that the messages of support for each candidate were published equally often (6 times) in 1st, 2nd, 3rd, 4th, and 5th position across the 30 accounts used for the experiment. The contacts of each experimenter agreeing to fill out the Google questionnaire (see <a href="https://web.archive.org/web/20201021022118/https://goo.gl/forms/uGy3dRtxu11xKwSe2">here</a>) were then asked to report several pieces of information:</p>
+<p>1°) which candidate appears first in your Facebook feed?</p>
+<p>2°) which candidate do you plan to vote for?</p>
+<p>3°) which candidate do you think your contacts will mostly vote for?</p>
+<p>4°) have you ever relayed negative information against certain candidates?</p>
+<p>5°) do you think Facebook is politically neutral?</p>
+<p>6°) do you agree that on Facebook, we primarily see content that we like?</p>
+<p>7°) in what order do the 5 candidates appear on your Facebook news feed?</p>
+<p>NB: questions 2-7 were optional.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="design_bullesdefiltres.jpg" class="img-fluid figure-img" width="635"></p>
+<figcaption>Figure 1. Example of referencing performed by the Facebook algorithm. Using the provided link, participants were invited to report the apparent order of the messages of support for each candidate in their news feed. By comparing this information with the chronological order of publication assigned to each of the 30 experimenters, it is possible to assess how the FB algorithm processes our political positions.</figcaption>
+</figure>
+</div>
+<p>Over a one-month period (from February 28 to March 26), 737 responses were collected on the social network. Although the results of this study provide unique and sometimes unexpected insights, they must be approached with some caution for several reasons: the tested sample is not representative of the French population (overrepresentation of young, educated, left-leaning participants) and certain factors were not strictly controlled (spontaneous reactions to posts, number of responses per participant, number of responses per account, etc.). Moreover, this is not a scientific study in the strict sense: its methodology has not been evaluated by any research committee and the author of the study (namely, me) is not a specialist in social network analysis.</p>
+<p>Nevertheless, it is worth noting that polling institutes are also far from meeting standard scientific criteria and they almost never release the raw data collected, hence <a href="https://web.archive.org/web/20201021022118/https://www.franceculture.fr/politique/sondages-faut-il-changer-de-methode">the proliferation of criticisms against them</a>. On the contrary, the methodology of this study, the raw data, and the scripts used for analysis are fully available online (<a href="https://web.archive.org/web/20201021022118/https://doi.org/10.6084/m9.figshare.4815049.v1">here</a>), which should notably allow for the replication and refinement of the experiment, or to verify the reported conclusions. These findings prompt reflection on the role played by Facebook in presidential elections and show the usefulness (even necessity) of studying the social network to better account for (and possibly limit) its impact on the democratic process in France.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="intentions_de_vote.jpg" class="img-fluid figure-img" width="607"></p>
+<figcaption>Figure 2. Political orientation of participants in this study. This sample of 737 participants is largely polarized to the left, which restricts the generality of the results reported.</figcaption>
+</figure>
+</div>
+<p>As long as Facebook refuses to allow its users and public authorities to audit its <a href="https://web.archive.org/web/20201021022118/http://www.lemonde.fr/pixels/article/2014/07/01/comment-fonctionne-l-algorithme-de-facebook_4448781_4408996.html">algorithms</a> and its use of <a href="https://web.archive.org/web/20201021022118/http://www.lemonde.fr/pixels/article/2016/02/09/donnees-personnelles-le-virulent-requisitoire-de-la-cnil-contre-facebook_4861621_4408996.html">personal information</a>, this approach will remain necessary.</p>
+</section>
+<section id="filter-bubbles-in-the-context-of-french-presidential-elections" class="level3">
+<h3 class="anchored" data-anchor-id="filter-bubbles-in-the-context-of-french-presidential-elections">Filter Bubbles in the Context of French Presidential Elections</h3>
+<p>Discussed and theorized for several years, particularly under the impulse of <a href="https://web.archive.org/web/20201021022118/https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles?utm_source=tedcomshare&amp;utm_medium=referral&amp;utm_campaign=tedspread">Eli Pariser</a>, the problem of filter bubbles is related to the fact that the social network constantly personalizes our experience to show us content with which we are already in agreement or about which we have a prior interest. In an interview granted to <a href="https://web.archive.org/web/20201021022118/http://techland.time.com/2011/05/16/5-questions-with-eli-pariser-author-of-the-filter-bubble/">Time</a>, Eli Pariser indicated that on Facebook, “you indoctrinate yourself with your own opinions. You don’t realize that what you’re seeing is just a part of the picture. And this has consequences for democracy: to be a good citizen, you need to be able to put yourself in the shoes of others and have an overview. If everything you see is rooted in your own identity, it becomes difficult, if not impossible.”</p>
+<p>The phenomenon must be distinguished from sociological confinement which stems from the fact (also very important) that we select our Facebook contacts based on pre-existing affinities, who in turn select their contacts in this way. For example, in this study, the very low number of participants declaring their intention to vote for François Fillon (10% of the expressed intentions) or Marine Le Pen (2% of the expressed intentions) undoubtedly reflects my own sociocultural confinement and the “social distance” that typically separates me from these voters (Figure 2). However, while most of us are aware of our sociological confinement, the filter bubbles generated by Facebook’s algorithms have a more pernicious influence, as they result from implicit (and largely unknown) control over the content we are exposed to.</p>
+<p>In the data collected here, Facebook, for example, modified the real order of messages posted in 92% of cases, which “allowed” more than 30% (182) of the 595 individuals who expressed their voting intention to see their preferred candidate appear first in their news feed. Statistically, such a proportion is almost impossible to occur by chance, indicating that Facebook is indeed able to predict, to some extent, for which candidate we will vote, and that it uses this information to choose the content to which we are exposed.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/caa776294c3b77e67f2017f83a3cd007.jpg" class="img-fluid figure-img" width="817"></p>
+<figcaption>Figure 3. Candidate appearing first in the news feed of participants according to their voting intention. The data are normalized so that the sum of each column equals 100, which means that the color code corresponds to the probability that a given candidate will appear first, given the voting intention of the participants. For example, the yellow box at the bottom right indicates that Marine Le Pen is seen first in more than 50% of cases by her potential voters.</figcaption>
+</figure>
+</div>
+<p>If we break down the analysis candidate by candidate (Figure 3), we observe that the effect is particularly true for Marine Le Pen (displayed first on the news feed of 54.5% of her potential voters), for Emmanuel Macron (first on the news feed of 38% of his potential voters) and, to a lesser extent, for Jean-Luc Mélenchon (34.4%) and François Fillon (28.8%). Only Benoît Hamon achieves a result opposite to the general trend, since only 17.8% of his potential voters saw him first in their news feed: the figure above indicates that Hamon’s voters actually tend to see positions in favor of Mélenchon or Macron first, which may seem logical given the delay taken by his campaign compared to these two candidates.</p>
+</section>
+<section id="filter-bubbles-and-useful-voting" class="level3">
+<h3 class="anchored" data-anchor-id="filter-bubbles-and-useful-voting">“Filter Bubbles” and Useful Voting</h3>
+<p>Thus, the existence of filter bubbles implies that we tend to see positions and content that reinforce us in our convictions. They therefore have a particularly problematic consequence in the specific context of French presidential elections: they probably reinforce the well-oiled mechanism of “useful voting” so <a href="https://web.archive.org/web/20201021022118/https://www.monde-diplomatique.fr/2017/04/HALIMI/57398">often criticized</a>. Indeed, useful voting is essentially a strategic vote consisting of voting for the candidate whom we believe has the most chances of winning against a given opponent. It therefore largely depends on a bet on the voting intentions of the social group as a whole.</p>
+<p>Everyone knows that Emmanuel Macron represents the “useful vote” candidate today. Therefore, if the people who plan to vote for him are primarily exposed to positions favorable to this candidate on Facebook - to the detriment of statements (or shared content) in favor of other candidates - it is clear that this can only reinforce them in their strategy. To see if the phenomenon of filter bubbles could influence the perception of voting intentions within the social group, I crossed personal voting intentions (question 2) with the estimation of the majority vote within the social group (question 3). The results of this analysis, reported in Figure 4 below, are particularly striking:</p>
+<p>- Potential voters of Mélenchon or Hamon generally consider that their entourage will vote mostly for Mélenchon (47% and 28%, respectively), for Hamon (25% and 37%) or for Macron (26% and 33%).<br>
+- Potential voters of Fillon generally consider that their entourage will vote mostly for Fillon (52%) or for Macron (41%).<br>
+- Potential voters of Le Pen generally consider that their entourage will vote mostly for Le Pen (36%), Fillon (27%) or Macron (36%)<br>
+- Finally, potential voters of Macron consider that their entourage will vote for Macron in 65% of cases, a record in this regard. Fillon is, among these voters, the second candidate considered most often majority within the social group, but this happens only in 13% of cases!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/53021bc0717e92179e7e27e638302394-1.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 4. Perceived majority on Facebook according to voting intentions. The data are normalized so that the sum of each rank equals 100, which means that the color code corresponds to the probability that a candidate is considered majority in the social group, given the voting intention of the participants. For example, the yellow box in the center means that 65% of potential voters of Emmanuel Macron consider that Emmanuel Macron will be majority among their Facebook contacts.</figcaption>
+</figure>
+</div>
+<p>Two hypotheses are possible to explain this last observation: either the potential voters of Emmanuel Macron correctly assess the majority vote of their social group, or they suffer from a distortion that leads them to imagine Macron more majority than he really is. The data collected cannot definitively decide, even if the distribution of collected voting intentions (see Figure 2) suggests that the different social groups tested are not so favorable to Emmanuel Macron, and therefore that the second hypothesis has a chance of being valid. However, if the first hypothesis were valid, it would mean that potential voters of Macron are locked in a somewhat more hermetic sociocultural bubble than the others, which is not necessarily reassuring either… That being said, it must be said that the lack of data available for Marine Le Pen makes comparison with this candidate uncertain and that the overall results of the analysis could vary if the experiment were replicated in another social environment.</p>
+<p>Finally, if it is important to emphasize the fact that potential voters of Emmanuel Macron suffer from a more intense filter-bubble effect than other voters, it is also because this result contrasts with their assessment of the social network. Thus, they paradoxically seem less in agreement (6.4) than the voters of Hamon (7.3) or Mélenchon (7.1) to say that “On Facebook, we tend to see primarily the posts of contacts sharing our ideas” (from 1, not at all, to 10 completely agree; Figure 5, right). Similarly, to the question “Do you trust the political neutrality of Facebook?” (from 1, not at all, to 10, completely trust), they obtain an average score of 4.5; the difference with the potential voters of Hamon (3.4) or Mélenchon (3.1) being statistically significant (Figure 5, left).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/a6a8135f9c2dea2247d346081ba184b3.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 5. Perception of Facebook according to voting intentions in the presidential elections. Overall, the results indicate a certain mistrust regarding the political neutrality of Facebook (majority of responses below 5 on the left graph) and they confirm that the participants in the study, mostly young, are aware that Facebook tends to create ‘filter bubbles’ (majority of responses above 5 on the right graph). Surprisingly, potential voters of Emmanuel Macron are less negative about Facebook than voters oriented more to the left.</figcaption>
+</figure>
+</div>
+</section>
+<section id="sensitive-issue-and-slippery-slope-does-facebook-favor-certain-candidates" class="level3">
+<h3 class="anchored" data-anchor-id="sensitive-issue-and-slippery-slope-does-facebook-favor-certain-candidates">Sensitive Issue and Slippery Slope: Does Facebook Favor Certain Candidates?</h3>
+<p>Technically, the data collected during this experiment also allow us to determine whether Facebook favors certain candidates over others. To avoid some exploiting the data posted online by taking it out of context, I report below a few analyses suggesting that Emmanuel Macron might be favored by the algorithms of the social network, which perhaps explains why the phenomenon of “filter bubbles” described above appears more marked for this candidate. But, it is good to take into account this advantage (especially when one belongs to a social environment similar to that of the present study), I must immediately caution the reader against any conspiracy theory interpretation that would consist of thinking that these analyses reveal a deliberate manipulation by Mark Zuckerberg! I explain why a little further down.</p>
+<p>The first clue suggesting that Emmanuel Macron is favored compared to other candidates comes from the comparison between the proportion of participants who saw each candidate in the first position in their news feed and the proportion of participants who should have seen this candidate first if the chronological order were respected. Indeed, Emmanuel Macron is the candidate for whom this difference is the most favorable, whether one uses all the available data (+9%, against +5% for Mélenchon and -11% for Fillon) or systematically excludes from the analysis the responses where he was the favorite candidate of the participant considered (+5% against +2% for Le Pen and -12% for Fillon).</p>
+<p>Then, if we examine the probability that each candidate is presented first in the news feed, knowing that he was actually first (according to the chronological order; Figure 6, left), or the same probability, knowing that he should have been last (still according to the chronological order; Figure 6, right), we again notice a fairly clear advantage in favor of Emmanuel Macron:</p>
+<p>- When he is actually first according to the chronological order of publication, Macron is indeed seen first in the news feed in 45% of cases. By comparison, Le Pen (second on this scale) is actually first only in 30% of cases where she should be first and this proportion drops to 15% for JLM (last on this scale).</p>
+<p>- When he should have been last (according to the chronological order), Macron still appears first in 53% of cases. By comparison, Le Pen (again second on this scale) appears first in 40% of cases where she should be last and this proportion drops to 4% for Fillon (last on this scale).</p>
+<p>Looking more closely at the graphs that synthesize these data, we notice two other interesting trends. Firstly, Marine Le Pen often substitutes for Jean-Luc Mélenchon when he should appear first (33% of cases) - and vice versa (in 31% of cases). Secondly, Jean-Luc Mélenchon often substitutes for Benoît Hamon when the latter should appear first (37% of cases). These substitutions likely correspond to the association of these different candidates in press articles relayed on the social network, since we know that many journalists like to bring together Jean-Luc Mélenchon and Marine Le Pen on the one hand, and that the question of the rapprochement between Hamon and Mélenchon has occupied a lot of media space in recent months on the other hand.</p>
+<p>The third and last clue allowing to highlight the favorable referencing of Emmanuel Macron comes from the analysis of a subset of the data, focused on the situation where the candidates considered are initially positioned in the 3rd position (i.e., central) in the chronological order of publication (Figure 7 below). By allowing the simultaneous visualization of upward and downward trends based on a well-defined situation, this analysis shows that Macron is raised in 50% of cases to the first or second place (against 32% for Hamon, second, and 21% for Le Pen, last), and in 41% of cases to the first place (against 10% for Fillon, second and 4% for Le Pen, last). With Hamon (65%), Emmanuel Macron (64%) is thus the candidate who has the highest chance of maintaining or moving up in the referencing of Facebook when starting from a chronologically intermediate position.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/94b419aa5cecc2f4157d408db99fe9e7.jpg" class="img-fluid figure-img" width="655"></p>
+<figcaption>Figure 7. Rank observed in the news feed when each candidate is published in 3rd position according to the chronological order of publication.</figcaption>
+</figure>
+</div>
+<p>As I wrote above, we should not infer from these data that Emmanuel Macron is intentionally favored by the company, nor that the results obtained would be replicable in any social environment. It is for example possible that Emmanuel Macron is favored simply because he appears more often in the media or because he generally elicits fewer negative comments than more polarized candidates - whether on the left or the right. Even though we cannot strictly exclude this hypothesis, it therefore remains highly improbable that Facebook intentionally favors one candidate over others: it is more likely a “phenomenon emerging” linked to the functioning of the referencing algorithms.</p>
+<p>Certainly, academic research on Facebook exists and allows for fascinating results from a sociological point of view. Some are even sponsored by the company itself like <a href="https://web.archive.org/web/20201021022118/http://cn.cnstudiodev.com/uploads/document_attachment/attachment/681/science_facebook_filter_bubble_may2015.pdf">this study conducted on 11 million Americans</a> published in the journal Science in 2015 (which was obviously reassuring about the phenomenon of filter bubbles). However, the control over the diffusion of content exercised by the company has <a href="https://web.archive.org/web/20201021022118/https://qz.com/936503/facebooks-new-method-of-fighting-fake-news-is-making-it-hard-for-people-to-post-a-false-story-about-irish-slaves/">recently intensified with the debate on “fake news”</a> and the slowness of academic research is in any case little compatible with political or media timelines. While waiting for Facebook to offer more guarantees regarding its functioning (intentional or accidental) and given the precedent represented by its successful attempt at <a href="https://web.archive.org/web/20201021022118/https://www.theguardian.com/technology/2014/jun/29/facebook-users-emotions-news-feeds">“emotional control”</a> - published in 2013 in the journal <a href="https://web.archive.org/web/20201021022118/http://www.pnas.org/content/111/24/8788.full">PNAS</a>, the creation of a citizen observatory that would conduct on a larger scale experiments similar to the one described here would therefore be very useful.</p>
+</section>
+<section id="how-does-facebook-know-who-you-will-vote-for" class="level3">
+<h3 class="anchored" data-anchor-id="how-does-facebook-know-who-you-will-vote-for">How Does Facebook Know Who You Will Vote For?</h3>
+<p>Much has been written about how Facebook processes our personal information to better predict our preferences (political or otherwise) and expose us to content that generates revenue. During this experiment, I noticed that some people thought they were immune to Facebook’s political classifications because they do not share and do not react to the content that is distributed there. Therefore, for these people, the idea that a filter bubble could nevertheless bias their perception of political news often seems absurd.</p>
+<p>However, a number of factors such as age, gender, the composition of the circle of contacts, the content viewed, or the type of pages followed allow Facebook to profile these users more as spectators than actors. Moreover, its algorithms can also rely on indirect information: in the data described here, it appears for example that the use of Facebook during the day differs significantly depending on the left-right divide (Figure 8): compared to users on the left, right-wing users show a more marked peak of activity between 5 pm and 9 pm, so that the simple distribution of our activity on Facebook already says something about our political orientation. By the way, and to conclude, this kind of information also allows Facebook and the companies that exploit its data to have a fairly precise idea of our <a href="https://web.archive.org/web/20201021022118/https://fr.wikipedia.org/wiki/Rythme_circadien">circadian rhythm</a> (or “biological clock”), which opens a door to our lifestyle…</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/245c04b11d1399338f31551c8112fa96-2.jpg" class="img-fluid figure-img" width="635"></p>
+<figcaption>Figure 8. Use of Facebook during the day depending on the political left-right divide. The grayed area corresponds to the time slot 5 pm-9 pm over which the difference between the two curves is significant.</figcaption>
+</figure>
+</div>
+</section>
+<section id="going-further" class="level3">
+<h3 class="anchored" data-anchor-id="going-further">Going Further</h3>
+<p>- The <a href="https://web.archive.org/web/20201021022118/http://dataselfie.it/#/">Data Selfie</a> extension for Chrome allows you to visualize in real-time the data that Facebook collects about us.</p>
+<p>- The mechanism of referencing on Facebook is evolving rapidly at the moment, notably under the impetus of the artificial intelligence department of Facebook led by the Frenchman Yann LeCun (a researcher at the origin of the so-called “deep-learning” revolution) who would even, eventually, like each user’s experience to be controlled by a <a href="https://web.archive.org/web/20201021022118/http://fortune.com/facebook-machine-learning/">dedicated artificial intelligence</a>. Thus, the excellent courses given by Yann LeCun last year at the Collège de France (available online <a href="https://web.archive.org/web/20201021022118/https://www.college-de-france.fr/site/yann-lecun/course-2015-2016.htm">here</a>) give a very good idea of the stakes of artificial intelligence and the type of algorithms used by Facebook today.</p>
+<p>- The wonderful tool <a href="https://web.archive.org/web/20201021022118/https://presidentielle2017.iscpif.fr/">Politoscope</a> put online this Monday, April 3, by researchers from the Institut des Systèmes Complexes de Paris-Ile-de-France allows us to visualize with a very high degree of precision different social dynamics related to the presidential campaign on Twitter.</p>
+<p>- Entitled <a href="https://web.archive.org/web/20201021022118/https://www.dailymotion.com/video/x55sim8">“Should We Burn Facebook?”</a>, the interview given to Mediapart by Antonio Casilli, researcher and lecturer at Telecom ParisTech links the business model of Facebook and the principle of filter bubbles and shows the importance of the question for democratic societies.</p>
+<p>- As fascinating as it is terrifying, the interactive documentary <a href="https://web.archive.org/web/20201021022118/https://donottrack-doc.com/fr/">Do-Not-Track</a> dissects the mechanics of individual profiling on the internet (which extends to our personalities, our addictions, our anxieties, our bank accounts, etc.) and shows that the data extracted from social networks are increasingly used by private companies (for example, <a href="https://web.archive.org/web/20201021022118/https://www.theguardian.com/technology/2016/nov/02/admiral-to-price-car-insurance-based-on-facebook-posts">insurance companies</a>) and by public authorities (for example, to profile <a href="https://web.archive.org/web/20201021022118/http://www.theverge.com/2017/3/10/14887818/dhs-ice-customs-social-media-screening-report-inspector-general">immigrants</a> or to <a href="https://web.archive.org/web/20201021022118/https://www.theguardian.com/environment/earth-insight/2014/jun/12/pentagon-mass-civil-breakdown?CMP=twt_gu">anticipate or counter social protest movements</a>).</p>
+<p>- Finally, not everyone shares the idea that filter bubbles are so detrimental to the democratic debate: see for example <a href="https://web.archive.org/web/20201021022118/http://imagesociale.fr/3666">the reflection of André Gunther</a> the day after the election of Donald Trump or <a href="https://web.archive.org/web/20201021022118/http://www.vox.com/policy-and-politics/2017/3/29/14983026/social-media-polarization-study-nber">this recent study</a> suggesting that filter bubbles contribute less than one might think to polarizing the political space (which is, however, not the argument of the present post).</p>
+<hr>
+<p>Thank you to all the experimental assistants and participants who made this study possible!</p>
+<p><a href="https://web.archive.org/web/20201021022118/http://hemisphere-gauche.blogs.liberation.fr/2017/04/04/presidentielles-et-bulles-de-filtres-le-referencement-politique-de-facebook-passe-au-crible/"><strong>Original article (Wayback Machine)</strong></a></p>
+<script src="https://giscus.app/client.js" data-repo="romainligneul/giscus-comments" data-repo-id="R_kgDOMSMTIw" data-category="CommentsBlogFR" data-category-id="DIC_kwDOMSMTI84CglZk" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async="">
+</script>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/romainligneul\.github\.io");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2024, Romain Ligneul</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
