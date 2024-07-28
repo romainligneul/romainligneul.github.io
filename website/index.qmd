@@ -4,7 +4,7 @@ about:
   template: jolla
   image: images/portrait_bw.png
 site-url: https://romainligneul.github.io/
-description: "French and English personal webpage featuring a blog and other resources"
+description: "Personal webpage featuring a blog and other resources"
 ---
 
 ::: {#centered .h4 style="text-align: center; margin-top:0.5rem; margin-bottom:1.2rem"}
@@ -12,13 +12,10 @@ Neuroscientist, geek, writer, citizen
 :::
 
 ::: callout-note
-Pour voir ma page web en français, cliquez ici: [{{< iconify emojione flag-for-france >}}](./fr)
-Les versions françaises et anglaises de ce site diffèrent significativement.
+Pour voir ma page web en français, cliquez ici: [{{< iconify emojione flag-for-france >}}](./fr) Les versions françaises et anglaises de ce site diffèrent significativement.
 :::
 
-The [French version](./fr) of this website is much more developed at the moment, and it is less oriented towards academia.
-
-For more information about me, you may already check the following websites:
+This website host my blog (english language) and other resources. For more information about me, you may also check the following websites:
 
 -   My research group: <https://www.adaptivecontrol.org>
 
@@ -32,13 +29,18 @@ For more information about me, you may already check the following websites:
 
 -   The European institution that generously funded my group: <https://erc.europa.eu/homepage>
 
-You may check the website of the [startup](https://robustcircuit.eu/) that I founded a few years ago with my partner-in-crime Daniela Domingues, aka [\@neurodaniela](https://x.com/neurodaniela).
+You may also check the website of the [startup](https://robustcircuit.eu/) that I founded a few years ago with my partner-in-crime Daniela Domingues, aka [\@neurodaniela](https://x.com/neurodaniela).
+
+### Recent twitter posts
+
+<a class="twitter-timeline" href="https://twitter.com/causalself?ref_src=twsrc%5Etfw">Tweets by causalself</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### To contact me:
 
 Email: [romain.ligneul\@gmail.com](mailto:romain.ligneul@gmail.com)
 
-Other handles: [{{< iconify mdi github >}}](https://github.com/romainligneul) [{{< iconify mdi twitter >}}](https://twitter.com/causalself) [{{< iconify mdi linkedin >}}](https://www.linkedin.com/in/romain-ligneul-b63b46192/) 
+Other handles: [{{< iconify mdi github >}}](https://github.com/romainligneul) [{{< iconify mdi twitter >}}](https://twitter.com/causalself) [{{< iconify mdi linkedin >}}](https://www.linkedin.com/in/romain-ligneul-b63b46192/)
 
 Or leave me a message below (public, requires a Github account)
 
