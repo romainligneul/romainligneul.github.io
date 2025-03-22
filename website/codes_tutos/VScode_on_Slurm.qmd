@@ -1,0 +1,77 @@
+---
+title: 'Using VScode on SLURM clusters'
+execute:
+  freeze: true
+  eval: false
+author: Romain Ligneul
+---
+
+There are several ways to use VScode on SLURM clusters. 
+
+Some people will like to use the tunnel function of VScode, and I wrote some tutorial about them [elsewhere](https://crnl-lab.github.io/cluster-guidelines/help_interactiveGPU.html).
+
+However, tunnels have become quite unreliable (at least for my use cases), and a much better solution (including for your cluster security, something your IT admins tend to consider..) is to combine advanced SSH commands with SLURM commands so as to run VScode within `srun` or `salloc` sessions.
+
+This page provides information and some tools to make this approach much faster and smoother than what you can get by applying ChatGPT advices!
+
+::: callout-warning
+The methods used here will **not** work if your IT admins have deactivated SSH connections to your compute nodes, as it can sometimes disrupt SLURM operations if used improperly by users. As long as you follow the guidance below, your IT should be fine though, so you might ask them to grant you SSH access to the compute nodes.
+:::
+
+::: callout-note
+Note that you should be have created a SSH key pair on your local computer and have made the public part of the key known to your cluster. You may check the guidelines I wrote for this [here](https://crnl-lab.github.io/cluster-guidelines/help_ssh.html).
+:::
+
+
+
+### Extend your SSH config file
+
+In principle, you should already have a section like this one in your ssh config file, that allows you to SSH to the login node of your cluster:
+
+```
+Host ClusterLoginNode
+	HostName 10.69.168.93
+	User firstname.lastname
+	ForwardX11 yes
+	ForwardX11Trusted yes
+	IdentityFile "C:\PathToYourKey\id_rsa"
+```
+
+Now, opening this `ClusterLoginNode` from VScode and starting to run scripts, notebooks, etc. will be disruptive for your colleagues, because you might saturate the login node and prevent other people to connect, launch jobs, etc. If everyone does it, your IT will have to reboot the whole thing.
+
+So, to run VScode interactively on a SLURM cluster, you should really do it in interactive sessions.
+
+For example, you could add to your config file the following section:
+
+```
+Host cluster-single-cpujob
+	ForwardAgent yes
+	StrictHostKeyChecking no
+	UserKnownHostsFile=/dev/null
+	ProxyCommand ssh ClusterLoginNode "srun --pty --partition=CPU --cpus-per-task=4 --mem=8G --time=8:00:00 /bin/bash -c 'nc $SLURM_NODELIST 22'"
+	IdentityFile "C:\PathToYourKey\id_rsa"
+	User firstname.lastname
+```
+
+Of course, you should adjust the partition name to your cluster partition naming scheme. You can also of course add more arguments.
+
+If you open cluster-single-cpujob you'll be able to run VScode interactively without annoying anyone.
+
+But you can do even better, you can open an interactive VScode session using salloc, and then, from this session, launch multiple jobs with `srun`.
+
+That's pretty useful if you use tools like Jupyter and [submitit](https://github.com/facebookincubator/submitit) for Python!
+
+For example, the following SSH config section that would allow you to run up to 40 jobs with 2 cpus per job and 4G per cpu:
+
+```
+Host hpc-multi-cpu
+	ForwardAgent yes
+	StrictHostKeyChecking no
+	UserKnownHostsFile=/dev/null
+	ProxyCommand ssh ClusterLoginNode "salloc --ntasks=40 --cpus-per-task=2 --mem-per-cpu=4G --time=6:00:00 /bin/bash -c 'firstnode=$(scontrol show hostname $SLURM_NODELIST | head -n 1); nc $firstnode 22'"
+	IdentityFile "C:\PathToYourKey\id_rsa"
+	User firstname.lastname
+```
+
+This one took me quite some time to figure out!
+

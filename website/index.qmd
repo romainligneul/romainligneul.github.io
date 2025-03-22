@@ -31,8 +31,6 @@ This website host my blog (english language) and other resources. For more infor
 
 You may also check the website of the [startup](https://robustcircuit.eu/) that I founded a few years ago with my partner-in-crime Daniela Domingues, aka [\@neurodaniela](https://x.com/neurodaniela).
 
-### Recent twitter posts
-
 <a class="twitter-timeline" href="https://twitter.com/causalself?ref_src=twsrc%5Etfw">Tweets by causalself</a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -40,7 +38,11 @@ You may also check the website of the [startup](https://robustcircuit.eu/) that 
 
 Email: [romain.ligneul\@gmail.com](mailto:romain.ligneul@gmail.com)
 
-Other handles: [{{< iconify mdi github >}}](https://github.com/romainligneul) [{{< iconify mdi twitter >}}](https://twitter.com/causalself) [{{< iconify mdi linkedin >}}](https://www.linkedin.com/in/romain-ligneul-b63b46192/)
+### Social medias
+
+I am largely disengaging from social medias these days, but you can still find me on Bluesky [@causalself.bsky.social](https://bsky.app/profile/causalself.bsky.social).
+
+Other handles: [{{< iconify mdi github >}}](https://github.com/romainligneul) [{{< iconify mdi linkedin >}}](https://www.linkedin.com/in/romain-ligneul-b63b46192/)
 
 Or leave me a message below (public, requires a Github account)
 

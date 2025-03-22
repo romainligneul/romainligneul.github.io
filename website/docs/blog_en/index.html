@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.1">
+<meta name="generator" content="quarto-1.4.489">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="Science &amp; society">
 
-<title>Blog – RL</title>
+<title>RL - Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,7 +65,6 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -128,44 +127,17 @@ background-size: cover;
 }
 </style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="RL  " href="index.xml" data-external="1"><meta property="og:title" content="Blog – RL">
+<link rel="alternate" type="application/rss+xml" title="RL  " href="index.xml" data-external="1"><meta property="og:title" content="RL - Blog">
 <meta property="og:description" content="Science &amp; society">
 <meta property="og:image" content="https://romainligneul.github.io/blog_en/banner_blog_card.png">
 <meta property="og:site_name" content="Romain Ligneul">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:height" content="418">
 <meta property="og:image:width" content="800">
-<meta name="twitter:title" content="Blog – RL">
+<meta name="twitter:title" content="RL - Blog">
 <meta name="twitter:description" content="Science &amp; society">
 <meta name="twitter:image" content="https://romainligneul.github.io/blog_en/banner_blog_card.png">
 <meta name="twitter:image-height" content="418">
@@ -176,7 +148,7 @@ window.Quarto = {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -185,7 +157,7 @@ window.Quarto = {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -206,19 +178,19 @@ window.Quarto = {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href=".././"> 
-<span class="menu-text"><iconify-icon inline="" icon="emojione:flag-for-us-outlying-islands" aria-label="Icon flag-for-us-outlying-islands from emojione Iconify.design set." title="Icon flag-for-us-outlying-islands from emojione Iconify.design set."></iconify-icon></span></a>
+<span class="menu-text"><iconify-icon role="img" inline="" icon="emojione:flag-for-us-outlying-islands" aria-label="Icon flag-for-us-outlying-islands from emojione Iconify.design set." title="Icon flag-for-us-outlying-islands from emojione Iconify.design set."></iconify-icon></span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href=".././fr"> 
-<span class="menu-text"><iconify-icon inline="" icon="emojione:flag-for-france" aria-label="Icon flag-for-france from emojione Iconify.design set." title="Icon flag-for-france from emojione Iconify.design set."></iconify-icon></span></a>
+<span class="menu-text"><iconify-icon role="img" inline="" icon="emojione:flag-for-france" aria-label="Icon flag-for-france from emojione Iconify.design set." title="Icon flag-for-france from emojione Iconify.design set."></iconify-icon></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools tools-wide">
+          <div class="quarto-navbar-tools tools-wide">
     <a href="https://github.com/romainligneul" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
     <div class="dropdown">
-      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-twitter"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-twitter"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
             <a class="dropdown-item quarto-navbar-tools-item" href="https://twitter.com/causalself">
             (EN, research)
@@ -279,10 +251,10 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="liberation,IA,economics,cognitive sciences" data-listing-date-sort="1596664800000" data-listing-file-modified-sort="1722185687638" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2687">
+<div class="quarto-post image-right" data-index="0" data-categories="liberation,IA,economics,cognitive sciences" data-listing-date-sort="1596664800000" data-listing-file-modified-sort="1742603503799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2687">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/privateAI/index.html" class="no-external"></a></p><a href="../blog_en/posts/privateAI/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/privateAI/coverIAprivee.jpg" class="thumbnail-image" alt="Wiki Commons @mikemacmarketing"></p>
+<p><img src="../blog_en/posts/privateAI/coverIAprivee.jpg" class="thumbnail-image" alt="Wiki Commons @mikemacmarketing"></p>
 </a><p><a href="../blog_en/posts/privateAI/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -321,10 +293,10 @@ RL, Libération
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="liberation,covid19,politics,media" data-listing-date-sort="1587506400000" data-listing-file-modified-sort="1722184810548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2743">
+<div class="quarto-post image-right" data-index="1" data-categories="liberation,covid19,politics,media" data-listing-date-sort="1587506400000" data-listing-file-modified-sort="1742603503814" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2743">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/uscovid/index.html" class="no-external"></a></p><a href="../blog_en/posts/uscovid/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/uscovid/covid19map.jpg" class="thumbnail-image" alt="Distribution of confirmed Covid-19 cases as of April 20, 2020. Source: Wikimedia Commons"></p>
+<p><img src="../blog_en/posts/uscovid/covid19map.jpg" class="thumbnail-image" alt="Distribution of confirmed Covid-19 cases as of April 20, 2020. Source: Wikimedia Commons"></p>
 </a><p><a href="../blog_en/posts/uscovid/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -363,10 +335,10 @@ RL, Libération
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="liberation,covid19,politics,media" data-listing-date-sort="1587074400000" data-listing-file-modified-sort="1722183815547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1392">
+<div class="quarto-post image-right" data-index="2" data-categories="liberation,covid19,politics,media" data-listing-date-sort="1587074400000" data-listing-file-modified-sort="1742603503795" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1392">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/originspandemic/index.html" class="no-external"></a></p><a href="../blog_en/posts/originspandemic/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/originspandemic/chauvesouris.jpg" class="thumbnail-image" alt="Photo NPS, Carlsbad Caverns National Park, New Mexico"></p>
+<p><img src="../blog_en/posts/originspandemic/chauvesouris.jpg" class="thumbnail-image" alt="Photo NPS, Carlsbad Caverns National Park, New Mexico"></p>
 </a><p><a href="../blog_en/posts/originspandemic/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -405,10 +377,10 @@ RL, Libération
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="liberation,covid19,research" data-listing-date-sort="1585350000000" data-listing-file-modified-sort="1722183954258" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1291">
+<div class="quarto-post image-right" data-index="3" data-categories="liberation,covid19,research" data-listing-date-sort="1585350000000" data-listing-file-modified-sort="1742603503802" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1291">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/raoultfraud/index.html" class="no-external"></a></p><a href="../blog_en/posts/raoultfraud/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/raoultfraud/dore_virus.jpg" class="thumbnail-image"></p>
+<p><img src="../blog_en/posts/raoultfraud/dore_virus.jpg" class="thumbnail-image"></p>
 </a><p><a href="../blog_en/posts/raoultfraud/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -444,10 +416,10 @@ RL, Libération
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="liberation,neuroscience,economics,research" data-listing-date-sort="1579734000000" data-listing-file-modified-sort="1722185748713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1693">
+<div class="quarto-post image-right" data-index="4" data-categories="liberation,neuroscience,economics,research" data-listing-date-sort="1579734000000" data-listing-file-modified-sort="1742603503731" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1693">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/autoevaluationresearch/index.html" class="no-external"></a></p><a href="../blog_en/posts/autoevaluationresearch/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/autoevaluationresearch/autoeval_banner.jpg" class="thumbnail-image"></p>
+<p><img src="../blog_en/posts/autoevaluationresearch/autoeval_banner.jpg" class="thumbnail-image"></p>
 </a><p><a href="../blog_en/posts/autoevaluationresearch/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -486,10 +458,10 @@ RL, Libération
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="liberation,neuroscience,neuromodulation,psychiatry" data-listing-date-sort="1539295200000" data-listing-file-modified-sort="1722185848289" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1194">
+<div class="quarto-post image-right" data-index="5" data-categories="liberation,neuroscience,neuromodulation,psychiatry" data-listing-date-sort="1539295200000" data-listing-file-modified-sort="1742603503748" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1194">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/brainweather/index.html" class="no-external"></a></p><a href="../blog_en/posts/brainweather/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/brainweather/meteocerveau.jpg" class="thumbnail-image"></p>
+<p><img src="../blog_en/posts/brainweather/meteocerveau.jpg" class="thumbnail-image"></p>
 </a><p><a href="../blog_en/posts/brainweather/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -528,10 +500,10 @@ RL, Libération
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="neuroscience,research,cuba" data-listing-date-sort="1509836400000" data-listing-file-modified-sort="1722185818574" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1336">
+<div class="quarto-post image-right" data-index="6" data-categories="neuroscience,research,cuba" data-listing-date-sort="1509836400000" data-listing-file-modified-sort="1742603503755" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1336">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/cubabrainfarm/index.html" class="no-external"></a></p><a href="../blog_en/posts/cubabrainfarm/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/cubabrainfarm/cover.png" class="thumbnail-image" alt="Tomás Munita. — The Capitol of Havana, 2012"></p>
+<p><img src="../blog_en/posts/cubabrainfarm/cover.png" class="thumbnail-image" alt="Tomás Munita. — The Capitol of Havana, 2012"></p>
 </a><p><a href="../blog_en/posts/cubabrainfarm/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -567,10 +539,10 @@ RL, Manières de voir
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="liberation,politics,citizen science,medias,social network" data-listing-date-sort="1491256800000" data-listing-file-modified-sort="1722185764903" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="20" data-listing-word-count-sort="3886">
+<div class="quarto-post image-right" data-index="7" data-categories="liberation,politics,citizen science,medias,social network" data-listing-date-sort="1491256800000" data-listing-file-modified-sort="1742603503778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="20" data-listing-word-count-sort="3886">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/filterbubbles/index.html" class="no-external"></a></p><a href="../blog_en/posts/filterbubbles/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/filterbubbles/bleu_blanc_rouge.jpg" class="thumbnail-image"></p>
+<p><img src="../blog_en/posts/filterbubbles/bleu_blanc_rouge.jpg" class="thumbnail-image"></p>
 </a><p><a href="../blog_en/posts/filterbubbles/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -612,10 +584,10 @@ RL, Libération
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="liberation,neuroscience,inequalities,politics,books" data-listing-date-sort="1486335600000" data-listing-file-modified-sort="1722183418789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2785">
+<div class="quarto-post image-right" data-index="8" data-categories="liberation,neuroscience,inequalities,politics,books" data-listing-date-sort="1486335600000" data-listing-file-modified-sort="1742603503783" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2785">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/laboritrebellion/index.html" class="no-external"></a></p><a href="../blog_en/posts/laboritrebellion/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/laboritrebellion/dore_laborit.jpg" class="thumbnail-image"></p>
+<p><img src="../blog_en/posts/laboritrebellion/dore_laborit.jpg" class="thumbnail-image"></p>
 </a><p><a href="../blog_en/posts/laboritrebellion/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -657,10 +629,10 @@ RL, Libération
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="neuro89,cognitive sciences,politics,inequalities" data-listing-date-sort="1478646000000" data-listing-file-modified-sort="1722184029017" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="697">
+<div class="quarto-post image-right" data-index="9" data-categories="neuro89,cognitive sciences,politics,inequalities" data-listing-date-sort="1478646000000" data-listing-file-modified-sort="1742603503809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="697">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/trump/index.html" class="no-external"></a></p><a href="../blog_en/posts/trump/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/trump/trump.jpg" class="thumbnail-image"></p>
+<p><img src="../blog_en/posts/trump/trump.jpg" class="thumbnail-image"></p>
 </a><p><a href="../blog_en/posts/trump/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -699,10 +671,10 @@ RL, Libération
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="liberation,neuroscience,genetics" data-listing-date-sort="1477432800000" data-listing-file-modified-sort="1722181692886" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="656">
+<div class="quarto-post image-right" data-index="10" data-categories="liberation,neuroscience,genetics" data-listing-date-sort="1477432800000" data-listing-file-modified-sort="1742603503742" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="656">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/biobank2022/index.html" class="no-external"></a></p><a href="../blog_en/posts/biobank2022/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/biobank2022/brainwarhol.jpg" class="thumbnail-image"></p>
+<p><img src="../blog_en/posts/biobank2022/brainwarhol.jpg" class="thumbnail-image"></p>
 </a><p><a href="../blog_en/posts/biobank2022/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -738,10 +710,10 @@ RL, Libération
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="politics,inequalities,psychiatry,cognitive sciences" data-listing-date-sort="1470866400000" data-listing-file-modified-sort="1722185803287" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2143">
+<div class="quarto-post image-right" data-index="11" data-categories="politics,inequalities,psychiatry,cognitive sciences" data-listing-date-sort="1470866400000" data-listing-file-modified-sort="1742603503809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2143">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/thosewhodontgiveaf/index.html" class="no-external"></a></p><a href="../blog_en/posts/thosewhodontgiveaf/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/thosewhodontgiveaf/dore_quisenfoutent.jpg" class="thumbnail-image" alt="Those Who Don&amp;#039;t Care. © Antoine Doré @ http://www.antoinedore.com/"></p>
+<p><img src="../blog_en/posts/thosewhodontgiveaf/dore_quisenfoutent.jpg" class="thumbnail-image" alt="Those Who Don&amp;#039;t Care. © Antoine Doré @ http://www.antoinedore.com/"></p>
 </a><p><a href="../blog_en/posts/thosewhodontgiveaf/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -780,10 +752,10 @@ RL, Mediapart
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="neuro89,psychedelics,neuroscience,psychiatry" data-listing-date-sort="1460412000000" data-listing-file-modified-sort="1722183584851" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1821">
+<div class="quarto-post image-right" data-index="12" data-categories="neuro89,psychedelics,neuroscience,psychiatry" data-listing-date-sort="1460412000000" data-listing-file-modified-sort="1742603503787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1821">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/lsdneuroimaging/index.html" class="no-external"></a></p><a href="../blog_en/posts/lsdneuroimaging/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/lsdneuroimaging/innergardens.jpg" class="thumbnail-image"></p>
+<p><img src="../blog_en/posts/lsdneuroimaging/innergardens.jpg" class="thumbnail-image"></p>
 </a><p><a href="../blog_en/posts/lsdneuroimaging/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -822,10 +794,10 @@ RL, Neuro89
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="neuro89,neuroscience,future,inequalities" data-listing-date-sort="1455577200000" data-listing-file-modified-sort="1722184949924" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2577">
+<div class="quarto-post image-right" data-index="13" data-categories="neuro89,neuroscience,future,inequalities" data-listing-date-sort="1455577200000" data-listing-file-modified-sort="1742603503770" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2577">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/eternallife/index.html" class="no-external"></a></p><a href="../blog_en/posts/eternallife/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/eternallife/evitement1.jpg" class="thumbnail-image"></p>
+<p><img src="../blog_en/posts/eternallife/evitement1.jpg" class="thumbnail-image"></p>
 </a><p><a href="../blog_en/posts/eternallife/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -864,10 +836,10 @@ RL, Neuro89
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="neuro89,terrorism,neuroscience,conspiracy theories,media" data-listing-date-sort="1452985200000" data-listing-file-modified-sort="1722185734869" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1589">
+<div class="quarto-post image-right" data-index="14" data-categories="neuro89,terrorism,neuroscience,conspiracy theories,media" data-listing-date-sort="1452985200000" data-listing-file-modified-sort="1742603503806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1589">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/terroristbrain/index.html" class="no-external"></a></p><a href="../blog_en/posts/terroristbrain/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/terroristbrain/dore_cerveau_attentats.jpg" class="thumbnail-image"></p>
+<p><img src="../blog_en/posts/terroristbrain/dore_cerveau_attentats.jpg" class="thumbnail-image"></p>
 </a><p><a href="../blog_en/posts/terroristbrain/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -909,10 +881,10 @@ RL, Neuro89
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="neuro89,terrorism,cognitive sciences,conspiracy theories" data-listing-date-sort="1451775600000" data-listing-file-modified-sort="1722185714808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1866">
+<div class="quarto-post image-right" data-index="15" data-categories="neuro89,terrorism,cognitive sciences,conspiracy theories" data-listing-date-sort="1451775600000" data-listing-file-modified-sort="1742603503744" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1866">
 <div class="thumbnail">
 <p><a href="../blog_en/posts/brainconspiracy/index.html" class="no-external"></a></p><a href="../blog_en/posts/brainconspiracy/index.html" class="no-external">
-<p><img loading="lazy" src="../blog_en/posts/brainconspiracy/arretetonchar.jpg" class="thumbnail-image"></p>
+<p><img src="../blog_en/posts/brainconspiracy/arretetonchar.jpg" class="thumbnail-image"></p>
 </a><p><a href="../blog_en/posts/brainconspiracy/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -991,7 +963,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const onCopySuccess = function(e) {
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -1023,47 +1006,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
   });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/romainligneul\.github\.io");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -1098,11 +1041,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -1117,28 +1056,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
+        typesetMath(container);
         return container.innerHTML
       } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
+        typesetMath(note);
         return note.innerHTML;
       }
     } else {
@@ -1147,15 +1096,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
+      typesetMath(note);
+      return note.innerHTML;
     }
   }
   for (var i=0; i<xrefs.length; i++) {

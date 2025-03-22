@@ -12,6 +12,7 @@ This page is under construction.
 
 [Part 2](codes_tutos/Tutorial_Cluster_Part2)
 
+[VScode in compute nodes](codes_tutos/VScode_on_Slurm)
 
 ### If you want to reuse this website
 

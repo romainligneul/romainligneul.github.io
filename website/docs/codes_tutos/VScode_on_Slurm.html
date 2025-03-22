@@ -6,11 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="RL, Libération">
-<meta name="dcterms.date" content="2018-10-12">
-<meta name="description" content="The French team is the world champion and Brigitte Macron is lounging by the pool waiting for the liberal ratatouille vintage 2018 to finish simmering in Parliament. In short, it’s mid-August and the sun is shining above our heads.">
+<meta name="author" content="Romain Ligneul">
 
-<title>RL - Brain Weather: How Our Emotions Fluctuate with the Seasons</title>
+<title>RL - Using VScode on SLURM clusters</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,24 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../favicon.ico" rel="icon">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -84,30 +82,15 @@ gtag('js', new Date());
   });
 gtag('config', 'G-CFSZ45W5CV', { 'anonymize_ip': true});
 </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner {
-        background-image: url(meteocerveau.jpg);
-background-size: cover;
-      }
-</style>
-<style>
-.quarto-title-block .quarto-title-banner {
-  background-position-y: center;
-  height: 400px;
-}
-</style>
 
 
-<meta property="og:title" content="RL - Brain Weather: How Our Emotions Fluctuate with the Seasons">
-<meta property="og:description" content="The French team is the world champion and Brigitte Macron is lounging by the pool waiting for the liberal ratatouille vintage 2018 to finish simmering in Parliament. In short, it’s mid-August and the sun is shining above our heads.">
-<meta property="og:image" content="https://romainligneul.github.io/blog_en/posts/brainweather/meteocerveau.jpg">
+<meta property="og:title" content="RL - Using VScode on SLURM clusters">
+<meta property="og:description" content="Romain Ligneul">
 <meta property="og:site_name" content="Romain Ligneul">
 <meta property="og:locale" content="en_US">
-<meta name="twitter:title" content="RL - Brain Weather: How Our Emotions Fluctuate with the Seasons">
-<meta name="twitter:description" content="The French team is the world champion and Brigitte Macron is lounging by the pool waiting for the liberal ratatouille vintage 2018 to finish simmering in Parliament. In short, it’s mid-August and the sun is shining above our heads.">
-<meta name="twitter:image" content="https://romainligneul.github.io/blog_en/posts/brainweather/meteocerveau.jpg">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="RL - Using VScode on SLURM clusters">
+<meta name="twitter:description" content="Romain Ligneul">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -117,7 +100,7 @@ background-size: cover;
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">RL</span>
     </a>
   </div>
@@ -128,25 +111,25 @@ background-size: cover;
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../blog_en/"> 
+    <a class="nav-link" href="../blog_en/"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../codes.html"> 
+    <a class="nav-link" href="../codes.html"> 
 <span class="menu-text">Code</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../.././"> 
+    <a class="nav-link" href=".././"> 
 <span class="menu-text"><iconify-icon role="img" inline="" icon="emojione:flag-for-us-outlying-islands" aria-label="Icon flag-for-us-outlying-islands from emojione Iconify.design set." title="Icon flag-for-us-outlying-islands from emojione Iconify.design set."></iconify-icon></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../.././fr"> 
+    <a class="nav-link" href=".././fr"> 
 <span class="menu-text"><iconify-icon role="img" inline="" icon="emojione:flag-for-france" aria-label="Icon flag-for-france from emojione Iconify.design set." title="Icon flag-for-france from emojione Iconify.design set."></iconify-icon></span></a>
   </li>  
 </ul>
@@ -175,46 +158,7 @@ background-size: cover;
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Brain Weather: How Our Emotions Fluctuate with the Seasons</h1>
-                  <div>
-        <div class="description">
-          The French team is the world champion and Brigitte Macron is lounging by the pool waiting for the liberal ratatouille vintage 2018 to finish simmering in Parliament. In short, it’s mid-August and the sun is shining above our heads.
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">liberation</div>
-                <div class="quarto-category">neuroscience</div>
-                <div class="quarto-category">neuromodulation</div>
-                <div class="quarto-category">psychiatry</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>RL, Libération </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">October 12, 2018</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -222,55 +166,100 @@ background-size: cover;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#serotonin-and-sunshine" id="toc-serotonin-and-sunshine" class="nav-link active" data-scroll-target="#serotonin-and-sunshine">Serotonin and Sunshine</a></li>
-  <li><a href="#a-summer-picture-not-so-rosy" id="toc-a-summer-picture-not-so-rosy" class="nav-link" data-scroll-target="#a-summer-picture-not-so-rosy">A Summer Picture Not So Rosy</a></li>
+  <li><a href="#extend-your-ssh-config-file" id="toc-extend-your-ssh-config-file" class="nav-link active" data-scroll-target="#extend-your-ssh-config-file">Extend your SSH config file</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-
-<p>For most of us, despite the political frustrations that afflict some, summer is synonymous with good mood. This trend directly affects web platforms like Twitter, where positively connoted words become more frequent (<a href="https://web.archive.org/web/20201205021208/http://science.sciencemag.org/content/sci/333/6051/1878.full.pdf?casa_token=00-l9mSMK0sAAAAA:rBMnpd-MAo7RUucQAz277KCsUVK0Lrw1tCM1HFd79ct_rlSSvdSy9sNPrXTLzXCc6q8BeelP7KTnoQ">Golder &amp; Maci, 2011</a>) while negatively connoted words decrease. The analysis of mood changes on the web (“<a href="https://web.archive.org/web/20201205021208/https://en.wikipedia.org/wiki/Sentiment_analysis">sentiment analysis</a>” in English) suggests that even our anxieties ease as Wikipedia searches related to various illnesses drop during the summer period.</p>
-<p>What happens in our brain that might explain why our vocabulary and moods warm up as our skins caramelize? To answer this question, we must delve into a scientific field as vast as it is fascinating: <a href="https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/Chronobiologie">chronobiology</a>, which, as its etymology indicates, studies how organisms adapt to the temporal cycles of Mother Nature.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="cycles.jpg" class="img-fluid figure-img" width="645"></p>
-<figcaption>The analysis of internet users’ behavior on Twitter and Wikipedia illustrates mood changes throughout the year. For example, searches related to various psychiatric disorders increase in winter and early spring, just as tweets containing keywords like “anger,” “sadness,” or “anxiety” rise in autumn (Dzogang et al., 2016, see also).</figcaption>
-</figure>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Using VScode on SLURM clusters</h1>
 </div>
-<p>While the structure of the human brain is remarkably stable compared to that of smaller mammals (like the squirrel, whose brain shrinks by <a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/?term=Profound+seasonal+changes+in+brain+size+and+architecture+in+the+common+shrew">10 to 25%</a> in winter!), most of our body systems still adapt, to varying degrees, to the differences in light, humidity, and temperature that characterize each season.</p>
-<p>But in terms of the “seasonality of emotions,” it is primarily the famous <a href="https://web.archive.org/web/20201205021208/http://lecerveau.mcgill.ca/flash/d/d_08/d_08_m/d_08_m_dep/d_08_m_dep.html">serotonin</a> that we should look at. Involved in mood regulation, learning, appetite, and impulsivity, a series of studies demonstrates the existence of a “circannual” rhythm in this complex <a href="https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/Neuromodulation">neuromodulator</a> which is also one of the most important therapeutic targets for contemporary psychiatry.</p>
-<section id="serotonin-and-sunshine" class="level3">
-<h3 class="anchored" data-anchor-id="serotonin-and-sunshine">Serotonin and Sunshine</h3>
-<p>Thus, the membrane transporter of serotonin, which helps clear the molecule after it has been released, decreases in concentration in summer and increases in winter (<a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/18762593">Praschak-Rieder et al., 2008</a>; <a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/20110086">Kalbitzer et al., 2010</a>). This annual variation is especially relevant as it appears absent in those who suffer from <a href="https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/D%C3%A9pression_saisonni%C3%A8re">seasonal depression</a> (seasonal affective disorder in English; <a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/26994750">McMahon et al., 2016</a>). It is striking to note that classical antidepressants mimic the effect of the sun, as they also act by <a href="https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/Inhibiteur_s%C3%A9lectif_de_la_recapture_de_la_s%C3%A9rotonine">reducing the effectiveness of the serotonin transporter</a>.</p>
-<p>Two other aspects of the system also fluctuate throughout the year: the activity of the serotonergic neurons themselves increases with day length (<a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/25959961">Green et al., 2015</a>) as does the density of certain receptors that bridge the “serotonin signal” and our behavior (<a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/25772667">the 5HT1A</a>, for purists). Not to mention the cycles observed in the synthesis and degradation pathways of the molecule (<a href="https://web.archive.org/web/20201205021208/https://jamanetwork.com/journals/jamapsychiatry/article-abstract/497278">Maes et al., 1995</a>; <a href="https://web.archive.org/web/20201205021208/https://www.sciencedirect.com/science/article/pii/S0140673602117375">Lambert et al., 2002</a>; <a href="https://web.archive.org/web/20201205021208/https://www.nature.com/articles/tp201384">Luykx et al., 2013</a>)… More signal at the base, less evacuation, and more receptors to receive it, all point in the same direction, making it quite natural to think that the serotonergic system as a whole significantly contributes to the fluctuation of our moods, and perhaps even some of our cognitive abilities (<a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/?term=A+Warm+Heart+and+a+Clear+Head">Keller et al., 2005</a>; <a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/26858432">Meyer et al., 2016</a>)!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="serosaison.jpg" class="img-fluid figure-img" width="860"></p>
-<figcaption>On the left, representation of the transporter responsible for serotonin reuptake after its release (excerpt from a detailed and interesting blog post on the sometimes exaggerated role of the serotonin transporter in popularizing psychiatric disorders). On the right, fluctuation of the transporter’s expression throughout the year, with its characteristic peak in mid-winter (Kalbitzer et al., 2010).</figcaption>
-</figure>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Romain Ligneul </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>There are several ways to use VScode on SLURM clusters.</p>
+<p>Some people will like to use the tunnel function of VScode, and I wrote some tutorial about them <a href="https://crnl-lab.github.io/cluster-guidelines/help_interactiveGPU.html">elsewhere</a>.</p>
+<p>However, tunnels have become quite unreliable (at least for my use cases), and a much better solution (including for your cluster security, something your IT admins tend to consider..) is to combine advanced SSH commands with SLURM commands so as to run VScode within <code>srun</code> or <code>salloc</code> sessions.</p>
+<p>This page provides information and some tools to make this approach much faster and smoother than what you can get by applying ChatGPT advices!</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<p>Should we then soak up the sun in summer to charge up on good mood for the entire year? Is the phenomenon related to excessive sunbathing or the intensive use of tanning beds observed in some? It’s hard to say, especially since we don’t yet know if light has a direct impact or if the observed effects are due to another factor, which could be related to dietary changes or increased physical activity in summer.</p>
-<p>It would therefore be reductive and even rash to hope to explain everything by serotonin, especially since other related chemical signals (like <a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/21048126">dopamine</a>) also vary with the seasons. Regarding exposure to solar or artificial UV, a recent study conducted on mice suggests that it is actually <a href="https://web.archive.org/web/20201205021208/https://fr.wikipedia.org/wiki/Endorphine">endorphins</a> that explain the development of true addictive behaviors (<a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/24949966">Fell et al., 2014</a>). The idea is quite simple: prolonged exposure to UV causes a series of micro-traumas to our skin, which reacts by releasing these natural painkillers known as endorphins. In turn, these endorphins induce a feeling of relaxation and well-being similar to what joggers feel after a long run. And like <a href="https://web.archive.org/web/20201205021208/https://www.sciencedirect.com/science/article/abs/pii/S0031938416300269">athletes</a>, a small proportion of individuals sensitive to this mechanism would develop a form of UV addiction that is increasingly concerning <a href="https://web.archive.org/web/20201205021208/https://www.ncbi.nlm.nih.gov/pubmed/28639816">in the United States</a>.</p>
-</section>
-<section id="a-summer-picture-not-so-rosy" class="level3">
-<h3 class="anchored" data-anchor-id="a-summer-picture-not-so-rosy">A Summer Picture Not So Rosy</h3>
-<p>Furthermore, as often in science, what seems obvious at first glance turns out to be more complex than it appears. For example, contrary to a deeply rooted popular belief, it is not during winter that the deepest psychological distresses manifest. The vast majority of available data indicates that suicide rates actually peak <a href="https://web.archive.org/web/20201205021208/https://www.theguardian.com/science/2005/may/12/mentalhealth.society">at the end of spring and early summer</a>.</p>
-<p>Conducted in the United States and Mexico, a study published on <a href="https://web.archive.org/web/20201205021208/https://www.nature.com/articles/s41558-018-0222-x">July 28</a> in the journal Nature Climate Change even shows a clear correlation between suicide rates and temperature variations from one year to the next. In other words, for a given month, suicide rates increase when temperatures are above usual values. And the effect sizes are so impressive that researchers estimate that global warming could have an impact similar to that of an economic crisis by 2050: for each additional degree, the suicide rate increases by 0.7% in the US and 2.1% in Mexico. To better understand the link between these two variables, researchers then analyzed 600 million tweets posted in these two regions. Unexpectedly but consistently with epidemiological observations, this second analysis reveals a positive correlation between monthly temperature and the number of “depressive connotation tweets.”</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="suicide_ete.jpg" class="img-fluid figure-img" width="637"></p>
-<figcaption>Map showing the effect of temperatures higher (in red) or lower (in blue) than seasonal normals on suicide rates in the United States and Mexico (excerpt from Burke et al., 2018).</figcaption>
-</figure>
+<div class="callout-title-container flex-fill">
+Warning
 </div>
-<p>So, while summer brings its share of joys (and serotonin?) to most of us, it also represents a difficult period for vulnerable and fragile people. If the authors of the American study support the idea that the increase in suicide rates rests on a biological mechanism, they do not specify which one. In any case, it is known that summer can exacerbate social isolation, especially among those who do not have the chance to go on vacation and among the elderly (about <a href="https://web.archive.org/web/20201205021208/https://www.inegalites.fr/Qui-va-partir-en-vacances">40% of the population</a> in France).</p>
-<p>Hence the usefulness of postcards!</p>
-<p><a href="http://hemisphere-gauche.blogs.liberation.fr/2017/10/14/neurosciences-contre-sciences-sociales-lerreur-de-frederic-lordon/"><strong>Original Article (Wayback Machine)</strong></a></p>
-<script src="https://giscus.app/client.js" data-repo="romainligneul/giscus-comments" data-repo-id="R_kgDOMSMTIw" data-category="CommentsBlogFR" data-category-id="DIC_kwDOMSMTI84CglZk" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="en" crossorigin="anonymous" async=""> </script>
+</div>
+<div class="callout-body-container callout-body">
+<p>The methods used here will <strong>not</strong> work if your IT admins have deactivated SSH connections to your compute nodes, as it can sometimes disrupt SLURM operations if used improperly by users. As long as you follow the guidance below, your IT should be fine though, so you might ask them to grant you SSH access to the compute nodes.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that you should be have created a SSH key pair on your local computer and have made the public part of the key known to your cluster. You may check the guidelines I wrote for this <a href="https://crnl-lab.github.io/cluster-guidelines/help_ssh.html">here</a>.</p>
+</div>
+</div>
+<section id="extend-your-ssh-config-file" class="level3">
+<h3 class="anchored" data-anchor-id="extend-your-ssh-config-file">Extend your SSH config file</h3>
+<p>In principle, you should already have a section like this one in your ssh config file, that allows you to SSH to the login node of your cluster:</p>
+<pre><code>Host ClusterLoginNode
+    HostName 10.69.168.93
+    User firstname.lastname
+    ForwardX11 yes
+    ForwardX11Trusted yes
+    IdentityFile "C:\PathToYourKey\id_rsa"</code></pre>
+<p>Now, opening this <code>ClusterLoginNode</code> from VScode and starting to run scripts, notebooks, etc. will be disruptive for your colleagues, because you might saturate the login node and prevent other people to connect, launch jobs, etc. If everyone does it, your IT will have to reboot the whole thing.</p>
+<p>So, to run VScode interactively on a SLURM cluster, you should really do it in interactive sessions.</p>
+<p>For example, you could add to your config file the following section:</p>
+<pre><code>Host cluster-single-cpujob
+    ForwardAgent yes
+    StrictHostKeyChecking no
+    UserKnownHostsFile=/dev/null
+    ProxyCommand ssh ClusterLoginNode "srun --pty --partition=CPU --cpus-per-task=4 --mem=8G --time=8:00:00 /bin/bash -c 'nc $SLURM_NODELIST 22'"
+    IdentityFile "C:\PathToYourKey\id_rsa"
+    User firstname.lastname</code></pre>
+<p>Of course, you should adjust the partition name to your cluster partition naming scheme. You can also of course add more arguments.</p>
+<p>If you open cluster-single-cpujob you’ll be able to run VScode interactively without annoying anyone.</p>
+<p>But you can do even better, you can open an interactive VScode session using salloc, and then, from this session, launch multiple jobs with <code>srun</code>.</p>
+<p>That’s pretty useful if you use tools like Jupyter and <a href="https://github.com/facebookincubator/submitit">submitit</a> for Python!</p>
+<p>For example, the following SSH config section that would allow you to run up to 40 jobs with 2 cpus per job and 4G per cpu:</p>
+<pre><code>Host hpc-multi-cpu
+    ForwardAgent yes
+    StrictHostKeyChecking no
+    UserKnownHostsFile=/dev/null
+    ProxyCommand ssh ClusterLoginNode "salloc --ntasks=40 --cpus-per-task=2 --mem-per-cpu=4G --time=6:00:00 /bin/bash -c 'firstnode=$(scontrol show hostname $SLURM_NODELIST | head -n 1); nc $firstnode 22'"
+    IdentityFile "C:\PathToYourKey\id_rsa"
+    User firstname.lastname</code></pre>
+<p>This one took me quite some time to figure out!</p>
 
 
 </section>
